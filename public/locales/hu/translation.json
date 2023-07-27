@@ -14,10 +14,10 @@
 	},
 	"header": {
 	  "features": "Jellemzők",
-	  "implementation": "Végrehajtás",
+	  "implementation": "Üzemeltetés",
 	  "invoicing": "Számlázás",
-	  "accounting": "Számvitel",
-	  "primary_button_text": "Kapcsolatfelvétel"
+	  "accounting": "Könyvelés",
+	  "primary_button_text": "Kapcsolat"
 	},
 	"features": {
 	  "learn_more": "További információk",
