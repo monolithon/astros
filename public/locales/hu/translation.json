@@ -1,4 +1,7 @@
 {
+	"logo":{
+		"title":"Monolithon - ERPNext magyarul"
+	},
 	"hero": {
 	  "title": "Erőteljes webfejlesztés!",
 	  "subtitle": "A web erejének felszabadítása: Az Astro, Tailwind CSS és Alpine.js kombinálása a webfejlesztési folyamat gyorsításához.",

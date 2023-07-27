@@ -1,4 +1,7 @@
 {
+	"logo":{
+		"title":"Monolithon - ERPNext solutions"
+	},
 	"hero": {
 		"title": "Supercharged web development!",
 		"subtitle": "Unleashing the Power of the Web: Combines Astro, Tailwind CSS and Alpine.js to Streamline Your Web Development Process.",
@@ -16,6 +19,13 @@
 		"accounting": "Accounting",
 		"primary_button_text": "Contact us"
 	},
+	"footer": {
+		"login": "Bejelentkezés",
+		"monolithon": "Monoliton",
+		"softwares": "Szoftverek",
+		"support": "Támogatás",
+		"legal": "Jogi nyilatkozat"
+	},	
 	"features": {
 		"learn_more": "Learn more",
 		"title": "Features",

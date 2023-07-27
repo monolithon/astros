@@ -3,8 +3,35 @@ import logo from "assets/logo.svg";
 import { localizePath } from "astro-i18next";
 import LanguageSelector from "@components/languageselector.astro";
 import ThemeSelector from "@components/themeselector.astro";
-import { menuitems } from "@components/navbar/navbar.astro";
 import { t } from "i18next";
+
+
+
+export const menuitems = [
+	{
+		title: "ERPNext ",
+
+	},
+	{
+		title: "footer.login",
+		path: "/pricing",
+	},	{
+		title: "footer.monolithon",
+		path: "/pricing",
+	},
+	{
+		title: "footer.softwares",
+		path: "/pricing",
+	},
+	{
+		title: "footer.support",
+		path: "/blog",
+	},
+	{
+		title: "footer.legal",
+		path: "/contact",
+	},
+];
 ---
 
 <footer class="pb-12 pt-28 dark:bg-stone-950">
@@ -17,9 +44,9 @@ import { t } from "i18next";
 			</span>
 		</a> -->
 		<ul role="list" class="flex flex-wrap items-center justify-center gap-4 py-4 text-gray-600 dark:text-white sm:gap-8">
-			<li role="listitem">
+			<!-- <li role="listitem">
 				<a href={localizePath("/")} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">Home</a>
-			</li>
+			</li> -->
 			{
 				menuitems.map(
 					(item) =>

@@ -6,6 +6,8 @@ import { localizePath } from "astro-i18next";
 import { t } from "i18next";
 import Languageselector from "@components/languageselector.astro";
 
+const logo = 'logo.title'
+
 export const menuitems = [
 	{
 		title: "ERPNext ",
@@ -33,7 +35,7 @@ export const menuitems = [
 		<a
 			href={localizePath("/")}
 			class="flex gap-3 items-center text-lg font-semibold tracking-widest text-gray-900 rounded-lg dark:text-white focus:outline-none focus:shadow-outline">
-			Monolithon - ERPNext solutions
+			{t(logo)}
 		</a>
 		<button class="md:hidden text-gray-500 w-10 h-10 relative focus:outline-none" @click="open = !open">
 			<span class="sr-only">Open main menu</span>
