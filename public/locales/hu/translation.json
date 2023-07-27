@@ -1,0 +1,50 @@
+{
+	"hero": {
+	  "title": "Erőteljes webfejlesztés!",
+	  "subtitle": "A web erejének felszabadítása: Az Astro, Tailwind CSS és Alpine.js kombinálása a webfejlesztési folyamat gyorsításához.",
+	  "globe_title": "Varázsoljon lenyűgözően gyors weboldalakat könnyedén",
+	  "main_button_text": "Letöltés a GitHub-ról",
+	  "secondary_button_text": "Ugrás az animált verzióra"
+	},
+	"hero_animated": {
+	  "secondary_button_text": "Ugrás az alap verzióra"
+	},
+	"header": {
+	  "features": "Jellemzők",
+	  "implementation": "Végrehajtás",
+	  "invoicing": "Számlázás",
+	  "accounting": "Számvitel",
+	  "primary_button_text": "Kapcsolatfelvétel"
+	},
+	"features": {
+	  "learn_more": "További információk",
+	  "title": "Jellemzők",
+	  "subtitle": "Minden szükséges eszköz",
+	  "description": "Az Astro egy nagy teljesítményű statikus weboldal generátor, amely tökéletesen integrálható a Tailwind CSS és az Alpine.js keretrendszerekkel. Lehetővé teszi a weboldalak könnyed és gyors kialakítását a teljesítmény rovására semmit sem engedve.",
+	  "astro": "Az Astro az egyetemes webkeretrendszer, amely a sebességre lett tervezve. Tartalmat bárhonnan húzhat be és mindenhol telepíthet, mindezt kedvenc UI összetevői és könyvtárai segítségével.",
+	  "alpine": "Az Alpine egy strapabíró, minimális eszköz a viselkedés közvetlenül a jelölőnyelvben történő megadásához. Képzelje el, mint a jQuery-t a modern webhez. Rakjon be egy scriptet és már indulhat is.",
+	  "tailwind": "Egy olyan segédeszközök-alapú CSS keretrendszer, amelynek osztályait összeállítva bármilyen design építhető közvetlenül a jelölőnyelvben.",
+	  "localization": "Az i18next astro integrációja és néhány segédösszetevő segít a weboldalak astro fordításában!",
+	  "light_dark_mode": "Világos/sötét mód tailwind osztályok alapján",
+	  "giscus": "Egy GitHub Discussions által támogatott kommentrendszer. Engedje meg a látogatóknak, hogy megjegyzéseket és reakciókat hagyjanak a weboldalán a GitHub segítségével!",
+	  "decapcms": "Nyílt forráskódú tartalomkezelő a Git munkafolyamatához",
+	  "rss": "RSS feed generálása az @astrojs/rss használatával",
+	  "articlegenerator": "Használja az AI-t cikkei bejegyzések generálásához"
+	},
+	"faq": {
+	  "title": "Gyakran Ismételt Kérdések"
+	},
+	"newsletter": {
+	  "title": "Iratkozzon fel hírlevelünkre",
+	  "subtitle": "Értesítést kap minden frissítésről",
+	  "input_placeholder": "Adja meg az e-mail címét",
+	  "button_text": "Feliratkozás",
+	  "privacy": "Fontosnak tartjuk az adatvédelmet. Olvassa el adatvédelmi szabályzatunkat.",
+	  "privacy_link": "Adatvédelmi Irányelvek."
+	},
+	"blog": {
+	  "prev": "Előző",
+	  "next": "Következő"
+	}
+  }
+  

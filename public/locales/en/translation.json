@@ -11,11 +11,10 @@
 	},
 	"header": {
 		"features": "Features",
-		"princing": "Pricing",
-		"blog": "Blog",
-		"contact": "Contacts",
-		"primary_button_text": "Download",
-		"secondary_button_text": "Login"
+		"inplementation": "inplementation",
+		"invoicing": "Invoicing",
+		"accounting": "Accounting",
+		"primary_button_text": "Contact us"
 	},
 	"features": {
 		"learn_more": "Learn more",
