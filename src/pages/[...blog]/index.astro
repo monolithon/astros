@@ -13,7 +13,7 @@ changeLanguage("en");
 export async function getStaticPaths() {changeLanguage('en')
     const blogEntries = await getCollection("blog");
     return blogEntries.map((entry) => {
-        let slug = entry.slug;
+        let slug = entry?.slug;
         if (i18next.language == "en" && slug.startsWith("en/")) {
             slug = slug.substring(3);
         }
@@ -23,27 +23,27 @@ export async function getStaticPaths() {changeLanguage('en')
         };
     });
 }
-// Get the entry directly from the prop on render
+// Get the entry? directly from the prop on render
 const { entry, lang } = Astro.props;
-const { Content } = await entry.render();
-const readTime = getArticleReadingTime(entry.body);
+const { Content } = await entry?.render()
+const readTime = getArticleReadingTime(entry?.body);
 ---
 
-<Layout title={entry.data.title} lang={lang}>
+<Layout title={entry?.data.title} lang={lang}>
 	<Container>
 		<div class="mx-auto prose prose-lg dark:prose-invert mt-14">
 			<a
-				href={localizePath(`/category/${entry.data.category?.toLowerCase()}`)}
+				href={localizePath(`/category/${entry?.data.category?.toLowerCase()}`)}
 				class="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium no-underline">
-				{entry.data.category}
+				{entry?.data.category}
 			</a>
 			<h1 class="text-4xl mb-3 lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight dark:text-white">
-				{entry.data.title}
+				{entry?.data.title}
 			</h1>
 			<div class="flex gap-2 items-center">
 				<div class="w-full md:w-auto flex flex-wrap gap-3">
 					{
-						entry.data.tags.map((tag) => (
+						entry?.data.tags.map((tag) => (
 							<a href={localizePath(`/tag/${tag}`)} class="text-sm text-gray-500 dark:text-stone-300">
 								#{tag}
 							</a>
@@ -53,15 +53,15 @@ const readTime = getArticleReadingTime(entry.body);
 			</div>
 			<div class="flex gap-2 mt-4 items-center flex-wrap md:flex-nowrap">
 				<span class="text-gray-400 dark:text-stone-400">
-					{entry.data.author}
+					{entry?.data.author}
 				</span>
 				<span class="text-gray-400 dark:text-stone-400">•</span>
 				<span class="text-gray-400 dark:text-stone-400">
 					{readTime} min
 				</span>
 				<span class="text-gray-400 dark:text-stone-400">•</span>
-				<time class="text-gray-400 dark:text-stone-400" datetime={entry.data.publishDate.toISOString()}>
-					{entry.data.publishDate.toDateString()}
+				<time class="text-gray-400 dark:text-stone-400" datetime={entry?.data.publishDate.toISOString()}>
+					{entry?.data.publishDate.toDateString()}
 				</time>
 			</div>
 		</div>
