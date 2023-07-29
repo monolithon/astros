@@ -32,7 +32,7 @@ export async function getStaticPaths({ paginate }) {changeLanguage('en')
 const { page, tag } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title="Blog" lang="en">
   <Container>
     <Sectionhead>
       <Fragment slot="title">#{tag}</Fragment>

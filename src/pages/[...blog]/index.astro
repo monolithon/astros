@@ -13,7 +13,7 @@ changeLanguage("en");
 export async function getStaticPaths() {changeLanguage('en')
     const blogEntries = await getCollection("blog");
     return blogEntries.map((entry) => {
-        let slug = entry?.slug;
+        let slug:any = entry?.slug;
         if (i18next.language == "en" && slug.startsWith("en/")) {
             slug = slug.substring(3);
         }

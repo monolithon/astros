@@ -1,7 +1,7 @@
 ---
 title: Az első blogbejegyzésem a monolithon.com-on az ERPNext-ról
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - Hír
   - monolithon

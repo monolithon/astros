@@ -60,7 +60,9 @@ const makeTitle = title ? title + " | " + "Astros" : "Astros - Starter Template 
 	<body class="dark:bg-stone-950">
 		<Navbar />
 		<hr/>
-		<slot />
+		<div class="lowercase">
+				<slot />
+		</div>
 		<Footer />
 		<style is:global>
 			/* Improve Page speed */
