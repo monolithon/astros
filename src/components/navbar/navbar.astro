@@ -1,7 +1,5 @@
 ---
 import Link from "@components/ui/link.astro";
-import Button from "@components/ui/button.astro";
-import { Icon } from "astro-icon";
 import { localizePath } from "astro-i18next";
 import { t } from "i18next";
 import Languageselector from "@components/languageselector.astro";
@@ -15,15 +13,15 @@ export const menuitems = [
 	},
 	{
 		title: "header.implementation",
-		path: "/pricing",
+		path: "path_header.implementation",
 	},
 	{
 		title: "header.invoicing",
-		path: "/blog",
+		path: "path_header.invoicing",
 	},
 	{
 		title: "header.accounting",
-		path: "/contact",
+		path: "path_header.accounting",
 	},
 ];
 ---
@@ -73,7 +71,7 @@ export const menuitems = [
 				menuitems.map((item) =>
 					 (
 						<Link
-							href={localizePath(item.path)}
+							href={localizePath(t(item.path))}
 							style="hover"
 							size="sm"
 							x-data="{ isActive: false }"

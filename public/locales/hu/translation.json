@@ -13,11 +13,18 @@
 	  "secondary_button_text": "Ugrás az alap verzióra"
 	},
 	"header": {
-	  "features": "Jellemzők",
+	  "erpnext": "Jellemzők",
 	  "implementation": "Üzemeltetés",
 	  "invoicing": "Számlázás",
 	  "accounting": "Könyvelés",
 	  "primary_button_text": "Kapcsolat"
+	},
+	"path_header":{
+		"erpnext": "/jellemzők",
+		"implementation": "/üzemeltetés",
+		"invoicing": "/számlázás",
+		"accounting": "/könyvelés",
+		"primary_button_text": "/kapcsolat"
 	},
 	"features": {
 	  "learn_more": "További információk",

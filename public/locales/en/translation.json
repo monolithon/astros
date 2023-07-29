@@ -19,6 +19,13 @@
 		"accounting": "Accounting",
 		"primary_button_text": "Contact us"
 	},
+	"path_header":{
+		"features": "/features",
+		"implementation": "/implementation",
+		"invoicing": "/invoicing",
+		"accounting": "/accounting",
+		"primary_button_text": "/Contactus"
+	},
 	"footer": {
 		"login": "login",
 		"monolithon": "monolithon",
@@ -28,6 +35,7 @@
 		"partners":"partners",
 		"legal": "legal"
 	},	
+
 	"features": {
 		"learn_more": "Learn more",
 		"title": "Features",
