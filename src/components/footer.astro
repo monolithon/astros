@@ -23,9 +23,18 @@ export const menuitems = [
 		title: "footer.softwares",
 		path: "/pricing",
 	},
+
 	{
 		title: "footer.support",
 		path: "/blog",
+	},
+	{
+		title: "footer.knowledge",
+		path: "/pricing",
+	},
+	{
+		title: "footer.partners",
+		path: "/pricing",
 	},
 	{
 		title: "footer.legal",
@@ -53,7 +62,7 @@ export const menuitems = [
 						item &&
 						item.path && (
 							<li role="listitem">
-								<a href={localizePath(item.path)} class="duration-300 hover:text-gray-900 dark:hover:text-gray-100">
+								<a href={localizePath(item.path)} class="duration-300 font-medium capitalize hover:text-gray-900 dark:hover:text-gray-100">
 									{t(item.title)}
 								</a>
 							</li>
@@ -87,8 +96,10 @@ export const menuitems = [
 		<div class="flex justify-center mt-12 gap-3">
 			<ThemeSelector />
 		</div> -->
-		<div class="mt-4 text-center">
-			<span class="text-sm tracking-wide text-gray-500 dark:text-white">Copyright © Your Company 2023 - Present. All rights reserved</span>
+		<div class="mt-4 text-center flex flex-col">
+			<span class="text-base tracking-wide text-gray-500 dark:text-white">© Monolithon - Monolith Online - ERPNext & Frappe support</span>
+			<span class="text-sm tracking-wide text-gray-400 dark:text-white">Public advertisements do not constitute an offer</span>
+
 		</div>
 	</div>
 </footer>

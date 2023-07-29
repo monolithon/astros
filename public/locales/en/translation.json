@@ -20,11 +20,13 @@
 		"primary_button_text": "Contact us"
 	},
 	"footer": {
-		"login": "Bejelentkezés",
-		"monolithon": "Monoliton",
-		"softwares": "Szoftverek",
-		"support": "Támogatás",
-		"legal": "Jogi nyilatkozat"
+		"login": "login",
+		"monolithon": "monolithon",
+		"softwares": "softwares",
+		"support": "support",
+		"knowledge":"knowledge",
+		"partners":"partners",
+		"legal": "legal"
 	},	
 	"features": {
 		"learn_more": "Learn more",
