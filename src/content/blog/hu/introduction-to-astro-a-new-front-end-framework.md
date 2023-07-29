@@ -1,7 +1,7 @@
 ---
 title: "Introduzione ad astro: Un nuovo framework forntend"
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - astro
   - frontend

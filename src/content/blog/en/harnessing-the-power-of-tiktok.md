@@ -1,7 +1,7 @@
 ---
 title: Harnessing the Power of TikTok Ads A Comprehensive Guide
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - TikTok
   - socialmedia

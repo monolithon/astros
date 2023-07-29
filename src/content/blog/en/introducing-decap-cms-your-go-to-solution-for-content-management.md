@@ -1,7 +1,7 @@
 ---
 title: "Introducing Decap CMS Your Goto Solution for Content Management"
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - decapcms
 image:

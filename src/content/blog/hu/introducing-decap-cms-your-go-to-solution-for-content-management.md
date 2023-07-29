@@ -1,7 +1,7 @@
 ---
 title: "Presentazione di Decap CMS La Tua Soluzione Ideale per la Gestione dei Contenuti"
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - decapcms
 image:

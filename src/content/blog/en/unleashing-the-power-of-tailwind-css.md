@@ -1,7 +1,7 @@
 ---
 title: Unleashing the Power of Tailwind CSS
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - tailwindcss
   - webdev

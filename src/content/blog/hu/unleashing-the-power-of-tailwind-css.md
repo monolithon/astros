@@ -1,7 +1,7 @@
 ---
 title: Sfruttare la Potenza di Tailwind CSS
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - tailwindcss
   - webdev

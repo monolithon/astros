@@ -1,7 +1,7 @@
 ---
 title: Simplifying Front-End Interactivity with Alpine.js
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - alpinejs
   - frontend

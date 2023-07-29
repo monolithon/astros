@@ -1,7 +1,7 @@
 ---
 title: Il potere e il potenziale di ChatGPT
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - ia
   - chatbot

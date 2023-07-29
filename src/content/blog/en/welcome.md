@@ -1,7 +1,7 @@
 ---
 title: My first blog post on monolithon.com about ERPNext
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - Blog
   - monolithon

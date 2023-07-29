@@ -1,7 +1,7 @@
 ---
 title: Sfruttare il Potere degli Annunci su TikTok Una Guida Completa
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - TikTok
   - socialmedia

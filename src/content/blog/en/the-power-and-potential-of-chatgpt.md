@@ -1,7 +1,7 @@
 ---
 title: The Power and Potential of ChatGPT
 draft: false
-author: Jon Doe
+author: Admin
 tags:
   - ai
   - chatbots
