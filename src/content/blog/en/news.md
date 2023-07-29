@@ -3,7 +3,7 @@ title: My first blog post on monolithon.com about ERPNext
 draft: false
 author: Jon Doe
 tags:
-  - Blog
+  - News
   - monolithon
   - ERPNext
 image:
@@ -11,7 +11,7 @@ image:
   alt: ERPNext
 snippet: I created this blog post during the installation of ERPNext, so I'm just modifying it to preserve it for posterity.
 publishDate: 2023-07-28 11:39
-category: Blog
+category: News
 ---
 
 
