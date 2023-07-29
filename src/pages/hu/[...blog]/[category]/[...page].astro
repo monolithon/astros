@@ -8,7 +8,6 @@ import Sectionhead from "@components/sectionhead.astro";
 import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("hu");
-
 export async function getStaticPaths({ paginate }) {changeLanguage('hu')
     // get post collections
     var posts = await getCollection("blog", ({ data }) => {
@@ -27,7 +26,8 @@ export async function getStaticPaths({ paginate }) {changeLanguage('hu')
         typeof post.data.category === "string" &&
             categories.add(post.data.category.toLowerCase());
     });
-    return Array.from(categories).map((category: string) => paginate(localizedPosts.filter((post) => typeof post.data.category === "string" &&
+    return Array.from(categories).map((category: string) => paginate(localizedPosts.filter((post) =>
+        typeof post.data.category === "string" &&    
         category === post.data.category.toLowerCase()), {
         params: { category: category, blog: "category" || undefined },
         pageSize: 5,
@@ -37,7 +37,7 @@ export async function getStaticPaths({ paginate }) {changeLanguage('hu')
 const { page, category } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title="Blog" lang="hu">
   <Container>
     <Sectionhead>
       <Fragment slot="title">{category}</Fragment>

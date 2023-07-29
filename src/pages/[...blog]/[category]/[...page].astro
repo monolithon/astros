@@ -7,7 +7,7 @@ import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Pagination from "@components/blog/pagination.astro";
 
-changeLanguage("en");
+changeLanguage("en")
 
 export async function getStaticPaths({ paginate }) {changeLanguage('en')
     // get post collections
@@ -27,7 +27,8 @@ export async function getStaticPaths({ paginate }) {changeLanguage('en')
         typeof post.data.category === "string" &&
             categories.add(post.data.category.toLowerCase());
     });
-    return Array.from(categories).map((category: string) => paginate(localizedPosts.filter((post) => typeof post.data.category === "string" &&
+    return Array.from(categories).map((category: string) => paginate(localizedPosts.filter((post) =>
+        typeof post.data.category === "string" &&
         category === post.data.category.toLowerCase()), {
         params: { category: category, blog: "category" || undefined },
         pageSize: 5,
@@ -37,7 +38,7 @@ export async function getStaticPaths({ paginate }) {changeLanguage('en')
 const { page, category } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title="Blog" lang="en">
   <Container>
     <Sectionhead>
       <Fragment slot="title">{category}</Fragment>
