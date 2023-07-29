@@ -7,9 +7,9 @@ import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Pagination from "@components/blog/pagination.astro";
 
-changeLanguage("it");
+changeLanguage("hu");
 
-export async function getStaticPaths({ paginate }) {changeLanguage('it')
+export async function getStaticPaths({ paginate }) {changeLanguage('hu')
     // get post collections
     var posts = await getCollection("blog", ({ data }) => {
         return !data.draft && data.publishDate < new Date();
