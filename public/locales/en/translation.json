@@ -27,14 +27,14 @@
 		"primary_button_text": "/Contactus"
 	},
 	"footer": {
-		"login": "login",
-		"monolithon": "monolithon",
-		"softwares": "softwares",
-		"support": "support",
-		"knowledge":"knowledge",
-		"partners":"partners",
-		"legal": "legal",
-		"details":"Public advertisements do not constitute an offer"
+		"login": "Login",
+		"monolithon": "Monolithon",
+		"softwares": "Softwares",
+		"support": "Support",
+		"knowledge":"Knowledge",
+		"partners":"Partners",
+		"legal": "Legal",
+		"details":"Disclaimer: Public advertisements do not constitute an offer."
 	},
 	"path_footer":{
 		"login": "/login",
