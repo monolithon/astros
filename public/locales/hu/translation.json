@@ -21,10 +21,10 @@
 	},
 
 	"path_header":{
-		"erpnext": "/jellemzők",
-		"implementation": "/üzemeltetés",
-		"invoicing": "/számlázás",
-		"accounting": "/könyvelés",
+		"erpnext": "/jellemzok",
+		"implementation": "/uzemeltetes",
+		"invoicing": "/szamlazas",
+		"accounting": "/konyveles",
 		"primary_button_text": "/kapcsolat"
 	},
 	"footer": {
