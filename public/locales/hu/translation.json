@@ -28,13 +28,13 @@
 		"primary_button_text": "/kapcsolat"
 	},
 	"footer": {
-		"login": "bejelentkezés",
-		"monolithon": "monolithon",
-		"softwares": "szoftverek",
-		"support": "ügyfélszolgálat ",
-		"knowledge": "tudásbázis",
-		"partners": "partnerek",
-		"legal": "jogok",
+		"login": "Bejelentkezés",
+		"monolithon": "Monolithon",
+		"softwares": "Szoftverek",
+		"support": "Ügyfélszolgálat ",
+		"knowledge": "Tudásbázis",
+		"partners": "Partnerek",
+		"legal": "Jogok",
 		"details":"Az oldalon található információk ajánlatnak nem minősülnek."
 
 
