@@ -6,7 +6,7 @@ import { HeadHrefLangs } from "astro-i18next/components";
 import i18next from "i18next";
 import { pwaInfo } from "virtual:pwa-info";
 import "@fontsource-variable/inter";
-
+import Cookie from "@components/cookie.astro";
 export interface Props {
 	title: string;
 	lang: string;
@@ -57,6 +57,7 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 		{pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
 		<script src="/src/pwa.ts"></script>
 	</head>
+	<Cookie/>
 	<body class="dark:bg-stone-950">
 		<Navbar />
 		<hr/>
@@ -71,5 +72,17 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 				content-visibility: auto;
 			}
 		</style>
+		<div id="exit-popup">
+			<div id="exit-pop-cross">X</div>
+			EXIT POPUP
+		  </div>
+		  
+		  <!-- Cookie Consent -->
+		  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+		  <script>
+		  window.cookieconsent.initialise({"palette":{"popup":{"background":"#111"},"button":{"background":"#06c"}},"theme":"block","position":"bottom-right","content":{"href":"/privacy-policy"}});
+		  </script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+		  <!-- End Cookie Consent -->
 	</body>
 </html>
