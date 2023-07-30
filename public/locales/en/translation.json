@@ -34,10 +34,10 @@
 		"knowledge":"Knowledge",
 		"partners":"Partners",
 		"legal": "Legal",
-		"details":"Disclaimer: Public advertisements do not constitute an offer."
+		"details":"© Monolithon - Monolith Online - ERPNext & Frappe support - Disclaimer: Public advertisements do not constitute an offer."
 	},
 	"path_footer":{
-		"login": "/login",
+		"login": "https://www.monolithon.com/login#login",
 		"monolithon": "/monolithon",
 		"softwares": "/softwares",
 		"support": "/support",

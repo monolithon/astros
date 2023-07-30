@@ -62,7 +62,7 @@ export const menuitems = [
 						item &&
 						item.path && (
 							<li role="listitem">
-								<a href={localizePath(t(item.path))} class="duration-300 font-medium hover:text-gray-900 dark:hover:text-gray-100">
+								<a href={t(item.path)} class="duration-300 font-medium hover:text-gray-900 dark:hover:text-gray-100">
 									{t(item.title)}
 								</a>
 							</li>
@@ -97,7 +97,7 @@ export const menuitems = [
 			<ThemeSelector />
 		</div> -->
 		<div class="mt-4 text-center flex flex-col">
-			<span class="text-base tracking-wide text-gray-500 dark:text-white">© Monolithon - Monolith Online - ERPNext & Frappe support - {t(footerDetails)}</span>
+			<span class="text-base tracking-wide text-gray-500 dark:text-white">{t(footerDetails)}</span>
 			<span class="text-sm tracking-wide text-gray-400 dark:text-white"></span>
 
 

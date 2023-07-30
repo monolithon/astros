@@ -35,12 +35,12 @@
 		"knowledge": "Tudásbázis",
 		"partners": "Partnerek",
 		"legal": "Jogok",
-		"details":"Az oldalon található információk ajánlatnak nem minősülnek."
+		"details":"© Monolithon - Monolith Online - ERPNext és Frappe magyarul Az oldalon található információk ajánlatnak nem minősülnek."
 
 
 	  },	
 	  "path_footer": {
-		"login": "/bejelentkezes",
+		"login": "https://www.monolithon.com/login#login",
 		"monolithon": "/monolithon",
 		"softwares": "/szoftverek",
 		"support": "/ugyfelszolgalat ",
