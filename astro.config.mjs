@@ -12,6 +12,7 @@ import AstroPWA from "@vite-pwa/astro";
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import sitemap from "@astrojs/sitemap";
 
+import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
@@ -164,8 +165,7 @@ export default defineConfig({
       }
     }
     // ...
-  })],
-
+  }), partytown()],
   markdown: {
     rehypePlugins: [rehypeSlug,
     // This adds links to headings
