@@ -10,6 +10,7 @@ import NetlifyCMS from "astro-netlify-cms";
 import astroI18next from "astro-i18next";
 import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
+import cookieconsent from "@jop-software/astro-cookieconsent";
 
 // https://astro.build/config
 export default defineConfig({
@@ -168,6 +169,23 @@ export default defineConfig({
 				navigateFallbackAllowlist: [/^\/404$/],
 			},
 		}),
+		cookieconsent({
+            // ...
+            gui_options: {
+                consent_modal: {
+                    layout: 'cloud',               // box/cloud/bar
+                    position: 'bottom right',     // bottom/middle/top + left/right/center
+                    transition: 'slide',           // zoom/slide
+                    swap_buttons: false            // enable to invert buttons
+                },
+                settings_modal: {
+                    layout: 'box',                 // box/bar
+                    // position: 'left',           // left/right
+                    transition: 'slide'            // zoom/slide
+                }
+            }
+            // ...
+        }),
 	],
 	markdown: {
 		rehypePlugins: [
