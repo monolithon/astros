@@ -40,10 +40,10 @@
 
 	  },	
 	  "path_footer": {
-		"login": "https://www.monolithon.com/login#login",
+		"login": "https://erp.monolithon.com/login#login",
 		"monolithon": "/monolithon",
 		"softwares": "/szoftverek",
-		"support": "/ugyfelszolgalat ",
+		"support": "https://support.monolithon.com/",
 		"knowledge": "/tudasbazis",
 		"partners": "/partnerek",
 		"legal": "/jogok"

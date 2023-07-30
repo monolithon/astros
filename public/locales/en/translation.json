@@ -37,10 +37,10 @@
 		"details":"© Monolithon - Monolith Online - ERPNext & Frappe support - Disclaimer: Public advertisements do not constitute an offer."
 	},
 	"path_footer":{
-		"login": "https://www.monolithon.com/login#login",
+		"login": "https://erp.monolithon.com/login#login",
 		"monolithon": "/monolithon",
 		"softwares": "/softwares",
-		"support": "/support",
+		"support": "https://support.monolithon.com/",
 		"knowledge": "/knowledge",
 		"partners": "/partners",
 		"legal": "/legal"
