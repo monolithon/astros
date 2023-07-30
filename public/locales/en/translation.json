@@ -35,7 +35,15 @@
 		"partners":"partners",
 		"legal": "legal"
 	},	
-
+	"path_footer":{
+		"login": "/login",
+		"monolithon": "/monolithon",
+		"softwares": "/softwares",
+		"support": "/support",
+		"knowledge": "/knowledge",
+		"partners": "/partners",
+		"legal": "/legal"
+	},
 	"features": {
 		"learn_more": "Learn more",
 		"title": "Features",

@@ -19,6 +19,7 @@
 	  "accounting": "Könyvelés",
 	  "primary_button_text": "Kapcsolat"
 	},
+
 	"path_header":{
 		"erpnext": "/jellemzők",
 		"implementation": "/üzemeltetés",
@@ -26,6 +27,24 @@
 		"accounting": "/könyvelés",
 		"primary_button_text": "/kapcsolat"
 	},
+	"footer": {
+		"login": "bejelentkezés",
+		"monolithon": "monolithon",
+		"softwares": "szoftverek",
+		"support": "ügyfélszolgálat ",
+		"knowledge": "tudásbázis",
+		"partners": "partnerek",
+		"legal": "jogok"
+	  },	
+	  "path_footer": {
+		"login": "/bejelentkezes",
+		"monolithon": "/monolithon",
+		"softwares": "/szoftverek",
+		"support": "/ugyfelszolgalat ",
+		"knowledge": "/tudasbazis",
+		"partners": "/partnerek",
+		"legal": "/jogok"
+	  },	  
 	"features": {
 	  "learn_more": "További információk",
 	  "title": "Jellemzők",
