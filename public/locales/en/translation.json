@@ -33,7 +33,8 @@
 		"support": "support",
 		"knowledge":"knowledge",
 		"partners":"partners",
-		"legal": "legal"
+		"legal": "legal",
+		"details":"Public advertisements do not constitute an offer"
 	},	
 	"path_footer":{
 		"login": "/login",

@@ -34,7 +34,9 @@
 		"support": "ügyfélszolgálat ",
 		"knowledge": "tudásbázis",
 		"partners": "partnerek",
-		"legal": "jogok"
+		"legal": "jogok",
+		"details":"Az oldalon található információk ajánlatnak nem minősülnek."
+
 	  },	
 	  "path_footer": {
 		"login": "/bejelentkezes",
