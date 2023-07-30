@@ -27,13 +27,13 @@
 		"primary_button_text": "/Contactus"
 	},
 	"footer": {
-		"login": "login",
-		"monolithon": "monolithon",
-		"softwares": "softwares",
-		"support": "support",
-		"knowledge":"knowledge",
-		"partners":"partners",
-		"legal": "legal"
+		"login": "Login",
+		"monolithon": "Monolithon",
+		"softwares": "Softwares",
+		"support": "Support",
+		"knowledge":"Knowledge",
+		"partners":"Partners",
+		"legal": "Legal"
 	},	
 	"path_footer":{
 		"login": "/login",
