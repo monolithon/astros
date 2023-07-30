@@ -20,7 +20,7 @@
 		"primary_button_text": "Contact us"
 	},
 	"path_header":{
-		"features": "/features",
+		"erpnext": "/erpnext",
 		"implementation": "/implementation",
 		"invoicing": "/invoicing",
 		"accounting": "/accounting",
