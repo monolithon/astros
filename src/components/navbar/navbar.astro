@@ -57,7 +57,7 @@ export const menuitems = [
 			</div>
 		</button>
 	</div>
-	<nav class="flex">
+	<nav class="flex" id="nav">
 		<div class="flex flex-col flex-grow  gap-4 md:justify-end md:items-center md:flex md:flex-row md:mx-auto">
 			{
 				menuitems.map((item) =>
@@ -98,4 +98,40 @@ export const menuitems = [
 			</Link>
 		</div>
 	</nav>
+	<style>
+		/* CSS */
+/* The 'show' class will be used to toggle visibility of the navigation */
+#nav {
+  display: none; /* Start with the navigation hidden */
+}
+
+#nav.show {
+  display: flex; /* Show the navigation when the 'show' class is applied */
+}
+
+	</style>
 </div>
+<script>
+// JavaScript
+const toggle = document.querySelector('#menuToggle');
+const nav = document.querySelector('#nav')!;
+
+toggle?.addEventListener('click', () => {
+  nav.classList.toggle('show'); // Add or remove the 'show' class to toggle visibility
+});
+
+// Add event listener to check window width on page load and window resize
+window.addEventListener('load', checkWindowSize);
+window.addEventListener('resize', checkWindowSize);
+
+function checkWindowSize() {
+  if (window.innerWidth > 790) {
+    nav.classList.add('show'); // Show the navigation if the width is greater than 800px
+  } else {
+    nav.classList.remove('show'); // Hide the navigation if the width is 800px or less
+  }
+}
+
+
+</script>
+
