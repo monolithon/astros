@@ -45,7 +45,13 @@ const { posts } = Astro.props;
 					</h3>
 
 					<h4 class="pt-3 text-xs font-medium text-gray-300 uppercase tracking-wider">
-						<a href={localizePath(`category/${blogPostEntry.data.category?.toLowerCase()}`)}>{blogPostEntry.data.category}</a>
+						{blogPostEntry.data.category.map((cat) => (
+							<a
+								href={localizePath(`/category/${cat?.toLowerCase()}`)}
+								class="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium no-underline">
+								{cat?.replace('-',' ')}
+							</a>
+						))}
 					</h4>
 				</article>
 			))

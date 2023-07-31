@@ -11,6 +11,79 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 	<LanguageSelector
 		showFlag={false}
 		languageMapping={languageMapping}
-		class="appearance-none  mx-1 cursor-pointer pl-3 pr-2 py-1.5 rounded-md dark:bg-stone-950 dark:text-white focus-visible:outline-none"
+		id="languageSelector"
+		class="appearance-none mx-1 cursor-pointer pl-3 pr-2 py-1.5 rounded-md dark:bg-stone-950 dark:text-white focus-visible:outline-none"
 	/>
 </div>
+<script>
+	const categories = {
+		hír: "news",
+		news: "hír",
+		"telepítés-és-beállításs":"how-to",
+		"how-to":"telepítés-és-beállításs"
+	};
+	const blog = {
+		hír: "news",
+		news: "hír",
+	};
+	const links = {
+		implementation: "uzemeltetes",
+		invoicing: "szamlazas",
+		accounting: "konyveles",
+		szamlazas:"invoicing",
+		uzemeltetes:"implementation",
+		konyveles:"accounting",
+		bejelentkezés: "login",
+		monolithon: "monolithon",
+		szoftverek: "softwares",
+		ügyfélszolgálat: "support",
+		tudasbazis: "knowledge",
+		partnerek: "partners",
+		jogok: "legal",
+		login: "bejelentkezés",
+		softwares: "szoftverek",
+		support: "ügyfélszolgálat",
+		knowledge: "tudasbazis",
+		partners: "partnerek",
+		legal: "jogok",
+	};
+	const languageSelector: any = document.getElementById("languageSelector");
+	languageSelector.addEventListener("change", function () {
+		if (window.location.pathname.startsWith("/hu/category")) {
+			const param = window.location.pathname.split("/hu/category")[1].substring(1);
+			console.log(param);
+			const prams = categories[decodeURIComponent(param)];
+			console.log(prams);
+			const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+			window.location.href = url;
+		} else if (window.location.pathname.startsWith("/category")) {
+			const param = window.location.pathname.split("/category")[1].substring(1);
+			const prams = categories[param];
+			const url = window.location.pathname.replace(param, prams);
+			window.location.href = `/hu${url}`;
+		} else if (window.location.pathname.startsWith("/hu")) {
+			const param = window.location.pathname.split("/hu")[1].substring(1);
+			const prams = blog[decodeURIComponent(param)];
+			if (!prams) {
+				const prams = links[decodeURIComponent(param)];
+				if (!prams) return;
+				const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+				return (window.location.href = url);
+			}
+			const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+			window.location.href = url;
+		} else if (window.location.pathname.startsWith("/")) {
+			const param = window.location.pathname.split("/")[1];
+			console.log(window.location.pathname.split("/")[1]);
+			const prams = blog[param];
+			if (!prams) {
+				const prams = links[param];
+				if (!prams) return;
+				const url = window.location.pathname.replace(param, prams);
+				return (window.location.href = `/hu${url}`);
+			}
+			const url = window.location.pathname.replace(param, prams);
+			window.location.href = `/hu${url}`;
+		}
+	});
+</script>

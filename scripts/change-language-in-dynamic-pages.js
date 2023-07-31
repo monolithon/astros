@@ -3,7 +3,7 @@ import path from "path";
 
 const locales = ["hu"];
 const defaultLocale = "en";
-const paths = ["[...blog]/[...page]", "[...blog]/[category]/[...page]", "[...blog]/[tag]/[...page]", "[...blog]/index"];
+const paths = ["[...blog]/[category]/[...page]", "[...blog]/[tag]/[...page]", "[...blog]/index"];
 
 async function main() {
 	const __dirname = path.resolve();

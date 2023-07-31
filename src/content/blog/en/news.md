@@ -11,7 +11,9 @@ image:
   alt: ERPNext
 snippet: I created this blog post during the installation of ERPNext, so I'm just modifying it to preserve it for posterity.
 publishDate: 2023-07-28 11:39
-category: News
+category:
+  - News
+  - How-to
 ---
 
 

@@ -32,11 +32,15 @@ const readTime = getArticleReadingTime(entry?.body);
 <Layout title={entry?.data.title} lang={lang}>
 	<Container>
 		<div class="mx-auto prose prose-lg dark:prose-invert mt-14">
-			<a
-				href={localizePath(`/category/${entry?.data.category?.toLowerCase()}`)}
+			{
+				entry?.data.category.map(cat=>(
+				<a
+				href={localizePath(`/category/${cat?.toLowerCase()}`)}
 				class="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium no-underline">
-				{entry?.data.category}
+				{cat}
 			</a>
+				))
+			}
 			<h1 class="text-4xl mb-3 lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight dark:text-white">
 				{entry?.data.title}
 			</h1>

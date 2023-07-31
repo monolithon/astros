@@ -62,7 +62,9 @@ export const menuitems = [
 						item &&
 						item.path && (
 							<li role="listitem">
-								<a href={t(item.path)} class="duration-300 font-medium hover:text-gray-900 dark:hover:text-gray-100">
+								<a href={
+									t(item.path).startsWith('https')?t(item.path):localizePath(t(item.path))
+								} class="duration-300 font-medium hover:text-gray-900 dark:hover:text-gray-100">
 									{t(item.title)}
 								</a>
 							</li>

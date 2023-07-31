@@ -23,16 +23,18 @@ export async function getStaticPaths({ paginate }) {changeLanguage('hu')
     });
     const categories = new Set();
     posts.map((post) => {
-        typeof post.data.category === "string" &&
-            categories.add(post.data.category.toLowerCase());
+         post.data.category.forEach(item=>{
+          typeof item === "string" &&
+            categories.add(item.toLowerCase());
+         })
     });
-    return Array.from(categories).map((category: string) => paginate(localizedPosts.filter((post) =>
-        typeof post.data.category === "string" &&    
-        category === post.data.category.toLowerCase()), {
+    return Array.from(categories).map((category: string) => paginate(localizedPosts.filter((post) =>post.data.category.map(item=>typeof item  === "string" && category === item.toLowerCase())),
+        {
         params: { category: category, blog: "category" || undefined },
         pageSize: 5,
         props: { category },
-    }));
+        }
+  ));
 }
 const { page, category } = Astro.props;
 ---
