@@ -7,7 +7,7 @@ tags:
   - monolithon
   - ERPNext
 image:
-  src: /images/krystal.jpg
+  src: ../../../../public/images/krystal.jpg
   alt: ERPNext
 snippet: Ezt a blogbejegyzést az ERPNext telepítése közben készítettem el, most pedig csak módosítom, hogy megőrizzem az utókor számára.
 publishDate: 2023-07-28 11:39

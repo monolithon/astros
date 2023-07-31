@@ -23,9 +23,14 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 		"telepítés-és-beállításs":"how-to",
 		"how-to":"telepítés-és-beállításs"
 	};
+	const tags = {
+		hír: "news",
+	};
 	const blog = {
 		hír: "news",
 		news: "hír",
+		"how-to-fix-incorrect-product-valuation-in-erpnext":"raktárkészlet-és-termékérték-javítása-erpnextben",
+		"raktárkészlet-és-termékérték-javítása-erpnextben":"how-to-fix-incorrect-product-valuation-in-erpnext"
 	};
 	const links = {
 		implementation: "uzemeltetes",
@@ -85,6 +90,18 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 			}
 			const url = window.location.pathname.replace(param, prams);
 			window.location.href = `/hu${url}`;
-		}
+		}else if (window.location.pathname.startsWith("/hu/tag")) {
+			const param = window.location.pathname.split("/hu/tag")[1].substring(1);
+			console.log(param);
+			const prams = tags[decodeURIComponent(param)];
+			console.log(prams);
+			const url = window.location.pathname.replace(param, prams).replace("/hu", "/tag");
+			window.location.href = url;
+		} else if (window.location.pathname.startsWith("/tag")) {
+			const param = window.location.pathname.split("/tag")[1].substring(1);
+			const prams = tags[param];
+			const url = window.location.pathname.replace(param, prams);
+			window.location.href = `/hu/tag${url}`;
+		} 
 	});
 </script>

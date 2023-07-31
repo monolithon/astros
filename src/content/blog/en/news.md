@@ -7,7 +7,7 @@ tags:
   - monolithon
   - ERPNext
 image:
-  src: /images/krystal.jpg
+  src: ../../../../public/images/krystal.jpg
   alt: ERPNext
 snippet: I created this blog post during the installation of ERPNext, so I'm just modifying it to preserve it for posterity.
 publishDate: 2023-07-28 11:39
