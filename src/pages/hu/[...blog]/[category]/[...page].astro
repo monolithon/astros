@@ -8,33 +8,26 @@ import Sectionhead from "@components/sectionhead.astro";
 import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("hu");
+
 export async function getStaticPaths({ paginate }) {changeLanguage('hu')
-    // get post collections
-    var posts = await getCollection("blog", ({ data }) => {
+    const posts = await getCollection("blog", ({ data }) => {
         return !data.draft && data.publishDate < new Date();
     });
     const localizedPosts = posts.filter((page) => {
         const [lang, ...slug] = page.slug.split("/");
         return lang === i18next.language;
     });
-    // Sort content entries by publication date
-    localizedPosts.sort(function (a, b) {
-        return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+    const tags = new Set();
+    localizedPosts.map((post) => {
+        Array.isArray(post.data.tags) &&
+            post.data.tags.map((category) => tags.add(category.toLowerCase()));
     });
-    const categories = new Set();
-    posts.map((post) => {
-         post.data.category.forEach(item=>{
-          typeof item === "string" &&
-            categories.add(item.toLowerCase());
-         })
-    });
-    return Array.from(categories).map((category: string) => paginate(localizedPosts.filter((post) =>post.data.category.map(item=>typeof item  === "string" && category === item.toLowerCase())),
-        {
+    return Array.from(tags).map((category: string) => paginate(localizedPosts.filter((post) => Array.isArray(post.data.tags) &&
+        post.data.tags.find((elem) => elem.toLowerCase() === category)), {
         params: { category: category, blog: "category" || undefined },
         pageSize: 5,
         props: { category },
-        }
-  ));
+    }));
 }
 const { page, category } = Astro.props;
 ---
@@ -42,7 +35,7 @@ const { page, category } = Astro.props;
 <Layout title="Blog" lang="hu">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">{category}</Fragment>
+      <Fragment slot="title">#{category}</Fragment>
       <Fragment slot="desc">
         We write about building startups and thoughts going on our mind.
       </Fragment>
