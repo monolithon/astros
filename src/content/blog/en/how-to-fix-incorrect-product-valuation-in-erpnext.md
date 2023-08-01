@@ -5,7 +5,7 @@ author: Admin
 tags:
   - how-to
   - monolithon
-  - ERPNext
+  - erpnext
 image:
   src: /krystal.jpg
   alt: ERPNext
