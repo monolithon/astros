@@ -17,7 +17,7 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.monolithon.com",
-  vite: {
+  vite: { 
     define: {
       __DATE__: `'${new Date().toISOString()}'`
     }

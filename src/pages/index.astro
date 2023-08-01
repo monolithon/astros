@@ -9,7 +9,7 @@ import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("en");
 
-const allPosts = async ()=>{
+const allPosts = async () => {
     var posts = await getCollection("blog", ({ data }) => {
         return !data.draft;
     });
@@ -32,18 +32,16 @@ const allPosts = async ()=>{
     localizedPosts.sort(function (a, b) {
         return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
     });
-
-    return localizedPosts
-}
-const localizedPosts = await allPosts()
-
-export async function getStaticPaths({ paginate }) {changeLanguage('en')
+    return localizedPosts;
+};
+const localizedPosts = await allPosts();
+export async function getStaticPaths({ paginate }) {
     return paginate(localizedPosts, {
         params: { blog: "blog" || undefined },
         pageSize: 4,
     });
 }
-const  page  = localizedPosts;
+const page = localizedPosts;
 ---
 
 <Layout title="Blog" lang="en">

@@ -5,10 +5,11 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("hu");
 
-const allPosts = async ()=>{
+const allPosts = async () => {
     var posts = await getCollection("blog", ({ data }) => {
         return !data.draft;
     });
@@ -31,25 +32,23 @@ const allPosts = async ()=>{
     localizedPosts.sort(function (a, b) {
         return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
     });
-
-    return localizedPosts
-}
-const localizedPosts = await allPosts()
-
-export async function getStaticPaths({ paginate }) {changeLanguage('hu')
+    return localizedPosts;
+};
+const localizedPosts = await allPosts();
+export async function getStaticPaths({ paginate }) {
     return paginate(localizedPosts, {
         params: { blog: "blog" || undefined },
         pageSize: 4,
     });
 }
-const  page  = localizedPosts;
+const page = localizedPosts;
 ---
 
-<Layout title="Blog" lang="hu">
+<Layout title="Blog" lang="en">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">ERPNext és frappe hírek</Fragment>
-			<Fragment slot="desc">ERPNext és a Frappe hírek magyarul.</Fragment>
+			<Fragment slot="title">ERPNext and frappe news</Fragment>
+			<Fragment slot="desc">ERPNext and Frappe news for beginners and advanced users.</Fragment>
 		</Sectionhead>
 		<Posts posts={page} />
 		<!-- <Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} /> -->

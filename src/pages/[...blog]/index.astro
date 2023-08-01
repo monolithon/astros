@@ -13,7 +13,7 @@ changeLanguage("en");
 export async function getStaticPaths() {changeLanguage('en')
     const blogEntries = await getCollection("blog");
     return blogEntries.map((entry) => {
-        let slug:any = entry?.slug;
+        let slug: any = entry?.slug;
         if (i18next.language == "en" && slug.startsWith("en/")) {
             slug = slug.substring(3);
         }
@@ -25,7 +25,7 @@ export async function getStaticPaths() {changeLanguage('en')
 }
 // Get the entry? directly from the prop on render
 const { entry, lang } = Astro.props;
-const { Content } = await entry?.render()
+const { Content } = await entry?.render();
 const readTime = getArticleReadingTime(entry?.body);
 ---
 
@@ -83,7 +83,7 @@ const readTime = getArticleReadingTime(entry?.body);
 		</div>
 		<div
 			class="mx-auto prose prose-lg dark:prose-invert mt-20"
-			x-data="{
+			x-data=`${{
 				initGiscus: function() {
 					let script = document.createElement('script');
 					script.src = 'https://giscus.app/client.js';
@@ -103,7 +103,7 @@ const readTime = getArticleReadingTime(entry?.body);
 					script.async = true;
 					this.$el.appendChild(script);
 				}
-			}"
+			}}`
 			x-init="initGiscus()">
 		</div>
 	</Container>
