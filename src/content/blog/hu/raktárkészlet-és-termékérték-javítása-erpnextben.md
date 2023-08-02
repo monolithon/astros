@@ -3,7 +3,7 @@ title: Raktárkészlet és termékérték javítása ERPNextben
 draft: false
 author: Admin
 tags:
-  - telepítés-beállítás
+  - telepítés-és-beállítás
   - monolithon
   - erpnext
 image:
@@ -12,7 +12,7 @@ image:
 snippet: Az ERPNext beveztésekor felvittünk egy idegen pénzneben lévő beszerzési megrendelést (nettó áron), majd később derült ki, hogy ezt mégsem kaptuk meg,
 publishDate: 2023-07-28 11:39
 category:
-  - telepítés-beállítás
+  - telepítés-és-beállítás
   
 ---
 
