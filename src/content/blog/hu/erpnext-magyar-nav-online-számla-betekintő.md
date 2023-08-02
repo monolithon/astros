@@ -18,5 +18,5 @@ category:
 
 <p>További részletek hamarosan :)</p><p>Addig is itt látható működés közben: </p><p><br></p><p style="text-align: center;"><img src="/jFrMpG9.gif"></p>
 
-<p><span style="color: rgb(187, 187, 187);">Az oldalon található információk ajánlatnak nem minősülnek. </span></p>
+
 
