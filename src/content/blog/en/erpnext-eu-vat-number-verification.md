@@ -17,4 +17,4 @@ category:
 
 <p>As I showed in the previous post about the functionality of the ERPNext Hungarian invoicing's connection to the Hungarian National Tax and Customs Administration (NAV), now I will show you how we can easily record and verify EU company data based on the EU VAT number using the VIES system. (Technically, this is an option, but legally, as suppliers, we are obliged to verify our customers). It's not perfect yet because not all member states, like Hungary, provide a separate postal code and city to the VIES system, but in some countries, this data is available, so we are still refining this part. However, similar to the ERPNext Hungarian invoicing's data retrieval from NAV, from now on, the data of EU partners can also be retrieved and verified, reducing the need for additional clicks or manual work and minimizing the possibility of errors.</p><p><br></p><p style="text-align: center;"><img src="/GaTn0ke.gif"></p>
 
-<p><span style="color: rgb(187, 187, 187);">The information on this page is not an offer.</span></p>
+

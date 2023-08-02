@@ -17,4 +17,5 @@ category:
 
 <p>More details coming soon :)</p><p>In the meantime, you can see it in action here:</p><p><br></p><p style="text-align: center;"><img src="/jFrMpG9.gif"></p>
 
-<p><span style="color: rgb(187, 187, 187);">The information on this page is not an offer.</span></p>
+
+
