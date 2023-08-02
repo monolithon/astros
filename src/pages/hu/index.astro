@@ -41,7 +41,7 @@ export async function getStaticPaths({ paginate }) {
         pageSize: 4,
     });
 }
-const page = localizedPosts;
+const page = localizedPosts.filter(post=>post.data.category.includes('hír'))
 ---
 
 <Layout title="Blog" lang="en">

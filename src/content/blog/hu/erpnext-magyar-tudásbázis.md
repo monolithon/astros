@@ -3,7 +3,7 @@ title: ERPNext magyar tudásbázis
 draft: false
 author: Admin
 tags:
-    - news
+    - hír
     - monolithon
     - erpnext
 image:
@@ -12,7 +12,7 @@ image:
 snippet: Elindult a magyar ERPNext tudásbázis. Folyamatosan új tartalmakkal.
 publishDate: 2023-07-17 11:39
 category:
-    - news
+    - hír
 ---
 
 <p><img src="/Screenshot (73).png"></p><p><br></p><p>Minden ami az ERPNext napi használatához vagy a kezdéshez szükséges. A tudásbázist folyamatosan frissítem. Stay tuned!</p><p><br></p><p><a href="https://www.monolithon.com/kb/erpnext-beállítások-magyarul" rel="noopener noreferrer">A tudásbázis itt érthető el &gt;&gt;</a></p>

@@ -3,7 +3,7 @@ title: Új nyomtatási nézet szerkesztő app a Frappe-től az ERPNext-hez
 draft: false
 author: Admin
 tags:
-    - news
+    - hír
     - monolithon
     - erpnext
 image:
@@ -12,7 +12,7 @@ image:
 snippet: Más rendszerekhez képest eddig is egyszerűbb volt a nyomtatandó vagy pdf dokumentumok elkészítése az ERPNext-tel, de mostantól tényleg bárkinek gyerekjáték.
 publishDate: 2023-07-17 11:39
 category:
-    - news
+    - hír
 ---
 
 A magyar ERPNext tudásbázisban, kézikönyvben adtunk néhány tippet a nyomtatandó vagy pdf dokumentumok elkészítéséhez, úgy látható volt, hogy egyszerűen gyorsan lehetett új dokumentumokat készíteni vagy meglévőket átalakítani, ezt emelte most a Frappe egy magasabb szintre. Itt már a korábban jelzett tippekre, trükköre sincs szükség.
