@@ -32,9 +32,44 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 	const blog = {
 		hír: "news",
 		news: "hír",
+		"new-print-designing-app-from-frappe-to-erpnext":"új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez",
+		"új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez":"new-print-designing-app-from-frappe-to-erpnext",
+		"odoo-és-erpnext-a-frappe-vel-együtt":"inventory-and-product-value-correction-in-erpnext",
+		"inventory-and-product-value-correction-in-erpnext":"odoo-és-erpnext-a-frappe-vel-együtt",
 		"how-to-fix-incorrect-product-valuation-in-erpnext": "raktárkészlet-és-termékérték-javítása-erpnextben",
 		"raktárkészlet-és-termékérték-javítása-erpnextben": "how-to-fix-incorrect-product-valuation-in-erpnext",
-	};
+		"frappe-insights-az-erpnext-csapattól":"frappe-insights-from-the-erpnext-team",
+		"frappe-insights-from-the-erpnext-team":"frappe-insights-az-erpnext-csapattól",
+		"new-workflow-builder-arriving-in-erpnext":"új-workflow-builder-érkezik-az-erpnext-be",
+		"új-workflow-builder-érkezik-az-erpnext-be":"new-workflow-builder-arriving-in-erpnext",
+		"accounting-in-erpnext-system":"könyvelés-erpnext-rendszerben",
+		"könyvelés-erpnext-rendszerben":"accounting-in-erpnext-system",
+		"chromebook-és-az-erpnext":"chromebook-and-erpnext",
+		"chromebook-and-erpnext":"chromebook-és-az-erpnext",
+		"vuestorefront-a-webáruházak-headless-svájcibicskája-fejlesztői-környezet-kialakítása":"vuestorefront-the-swiss-army-knife-of-headless-e-commerce-setting-up-a-developer-environment",
+		"vuestorefront-the-swiss-army-knife-of-headless-e-commerce-setting-up-a-developer-environment":"vuestorefront-a-webáruházak-headless-svájcibicskája-fejlesztői-környezet-kialakítása",
+		"erpnext-fejlesztés-és-ejlesztői-eszközök":"erpnext-development-and-developer-tools",
+		"erpnext-development-and-developer-tools":"erpnext-fejlesztés-és-ejlesztői-eszközök",
+		"erpnext-bi-és-üzleti-intelligencia-metabase":"erpnext-bi-and-business-intelligence-metabase",
+		"erpnext-bi-and-business-intelligence-metabase":"erpnext-bi-és-üzleti-intelligencia-metabase",
+		"hungarian-micro-enterprise-chart-of-accounts":"magyar-mikrogazdálkodói-számlatükör",
+		"magyar-mikrogazdálkodói-számlatükör":"hungarian-micro-enterprise-chart-of-accounts",
+		"mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk":"why-is-erpnext-database-growing-and-what-can-we-do-about-it",
+		"why-is-erpnext-database-growing-and-what-can-we-do-about-it":"mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk",
+		"hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be":"how-are-supplier-invoices-entered-into-erpnext",
+		"how-are-supplier-invoices-entered-into-erpnext":"hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be",
+		"erpnext-eu-adószám-ellenőrzés":"erpnext-eu-vat-number-verification",
+		"erpnext-eu-vat-number-verification":"erpnext-eu-adószám-ellenőrzés",
+		"erpnext-magyar-nav-online-invoice-preview":"erpnext-magyar-nav-online-számla-betekintő",
+		"erpnext-magyar-nav-online-számla-betekintő":"erpnext-magyar-nav-online-invoice-preview",
+		"erpnext-140-verzióra-frissítettük-a-monolithoncom-ot":"erpnext-140-version-upgraded-to-the-monolithoncom",
+		"erpnext-140-version-upgraded-to-the-monolithoncom":"erpnext-140-verzióra-frissítettük-a-monolithoncom-ot",
+		"erpnext-konferencia-2022-a-frappe-csapat-szervezésében":"erpnext-conference-2022-organized-by-the-frappe-team",
+		"erpnext-conference-2022-organized-by-the-frappe-team":"erpnext-konferencia-2022-a-frappe-csapat-szervezésében",
+		"erpnext-weboldal-google-indexelése":"indexing-the-erpnext-website-on-google",
+		"indexing-the-erpnext-website-on-google":"erpnext-weboldal-google-indexelése",
+
+	}
 	const links = {
 		implementation: "uzemeltetes",
 		invoicing: "szamlazas",
@@ -78,17 +113,6 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 			const prams = tag[param];
 			const url = window.location.pathname.replace(param, prams);
 			window.location.href = `/hu${url}`;
-		} else if (!window.location.pathname[1]) {
-			const param = window.location.pathname.split("/")[1];
-			const prams = blog[param];
-			if (!prams) {
-				const prams = links[param];
-				if (!prams) return;
-				const url = window.location.pathname.replace(param, prams);
-				return (window.location.href = `/hu${url}`);
-			}
-			const url = window.location.pathname.replace(param, prams);
-			window.location.href = `/hu${url}`;
 		} else if (window.location.pathname.startsWith("/hu")) {
 			const param = window.location.pathname.split("/hu")[1].substring(1);
 			const prams = blog[decodeURIComponent(param)];
@@ -100,6 +124,17 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 			}
 			const url = window.location.pathname.replace(param, prams).replace("/hu", "");
 			window.location.href = url;
+		} else if (window.location.pathname.startsWith("/")) {
+			const param = window.location.pathname.split("/")[1];
+			const prams = blog[param];
+			if (!prams) {
+				const prams = links[param];
+				if (!prams) return;
+				const url = window.location.pathname.replace(param, prams);
+				return (window.location.href = `/hu${url}`);
+			}
+			const url = window.location.pathname.replace(param, prams);
+			window.location.href = `/hu${url}`
 		}
-	});
+	})
 </script>

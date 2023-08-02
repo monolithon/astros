@@ -1,0 +1,21 @@
+---
+title: Frappe Insights az ERPNext csapattól
+draft: false
+author: Admin
+tags:
+    - news
+    - monolithon
+    - erpnext
+image:
+      src: /frappe-insights-az-erpnext-csapattól.png
+      alt: ERPNext
+snippet: Korábbi ERPNext, BI és üzleti intelligencia+Metabase című blogbejegyzésben direkt nem említettem, hogy a Frappe csapatnak is van hasonló megoldása, mert ezt a külön bejegyzést terveztem neki.
+publishDate: 2023-07-17 11:39
+category:
+    - news
+---
+
+<h2>Mi is az a Frappe Insights?</h2><p><br></p><p>A Frappe Insights GitHub tárolójában és a Frappe Marketplace-n az alábbi meghatározás található:</p><p>"Free and Open Source Data Analytics Tool for your Frappe Apps" - azaz ingyenes és nyílt forrású adatelemző eszköz a Frappe alkalmazásokhoz.</p><p><br></p><p>Oké, de mit is jelent ez pontosan? Aki ismeri az ERPNext-et, az bizonyára már találkozott a Frappe Framework-kel, amit néhány blogbejegyzésben már én is említettem. Ez a egy rugalmas keretrendszer, amin sokféle alkalmazást fel lehet építeni. Ilyen alkalmazás az ERPNext is. Gyakorlatilag az ERPNext is egy app, amit a Frappe Framework-re kell telepíteni, ha használni szeretnénk.</p><p><br></p><p>Ebből következik hogy ezt az Insigths appot is a Frappe Framework-re telepíthetjük és akár az ERPNextből, vagy vagy más Frappe-n futó alkalmazásunkból. (és akár más, külső adatforrásokból) is képes adatokat használni.</p><p><br></p><h2>Mire lehet használni a Frappe Insights-ot?</h2><p><br></p><p>A fő funkciók a következők:</p><ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Több adatforrás - Csatlakozz több adatforráshoz és kérdezd le azokat egy helyen.</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Komplex lekérdezések - Írj bonyolult lekérdezéseket és kapd meg az eredményeket táblázatos formátumban.</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Adatok megjelenítése - Jelenítsd meg az adataidat diagramok formájában. Irányítópultok -</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Hozz létre irányítópultokat az fontos mutatók automatikus nyomon követéséhez.</li></ol><p><br></p><p>Hogy mire lehet egy ilyen elemző eszközt használni most részletesen nem mennék bele, ezt a Metabase bejegyzésben már érintettük, nézzünk inkább további érdekességeket a Frappe Insights-ról a továbbiakban, de aki mégis gyakorlati tudásra szomjazik, annak ajánlom a Frappe konferencián elhangzott előadás videófelvételét, amely az alábbi témákból állt:</p><p><br></p><ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Telepítés</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Csatlakozás az adatbázishoz</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>ERPNext adatbázis</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Helyi SQLite adatbázis</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Távoli MySQL/MariaDB adatbázis</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Lekérdezések létrehozása</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Csatlakozások (JOIN)</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Szűrők</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Egyéni kifejezések</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Pivot transzformáció</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Diagramok készítése</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Áttekintőképernyők létrehozása</li></ol><p><br></p><p>Forrás: <a href="https://frappe.io/events/frappe-insights" rel="noopener noreferrer">https://frappe.io/events/frappe-insights</a></p><p><br></p><p>Akit a Frappe Insights születése is érdekel és szeretne néhány műhelytitkot is, annak ajánlom a fejelsztővel készült interjút:</p><p><a href="https://frappe.io/blog/product-stories/the-journey-to-insights" rel="noopener noreferrer">https://frappe.io/blog/product-stories/the-journey-to-insights</a> </p>
+
+<p><span style="color: rgb(187, 187, 187);">Az oldalon található információk ajánlatnak nem minősülnek. </span></p>
+
