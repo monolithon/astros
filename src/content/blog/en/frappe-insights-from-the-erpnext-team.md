@@ -57,4 +57,3 @@ category:
 <p>For those interested in the birth of Frappe Insights and wanting to learn some behind-the-scenes secrets, I recommend the interview with the developer:</p>
 <p><a href="https://frappe.io/blog/product-stories/the-journey-to-insights" rel="noopener noreferrer">https://frappe.io/blog/product-stories/the-journey-to-insights</a></p>
 
-<p><span style="color: rgb(187, 187, 187);">The information on the site is not to be considered an offer. </span></p>

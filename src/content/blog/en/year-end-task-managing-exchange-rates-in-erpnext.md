@@ -30,4 +30,3 @@ category:
 <p><br></p>
 <p>Details of the switch to exchangerate.host:</p>
 <p><a href="https://github.com/frappe/erpnext/pull/26237" rel="noopener noreferrer">https://github.com/frappe/erpnext/pull/26237</a></p>
-<p><span style="color: rgb(187, 187, 187);">The information on the page is not to be considered an offer.</span></p>

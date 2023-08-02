@@ -16,4 +16,3 @@ category:
 ---
 
 <p><img src="/Screenshot (73).png"></p><p><br></p><p>Everything you need for your daily ERPNext usage or getting started. The knowledge base is continuously updated. Stay tuned!</p><p><br></p><p><a href="https://www.monolithon.com/kb/erpnext-beállítások-magyarul" rel="noopener noreferrer">The knowledge base is accessible here &gt;&gt;</a></p>
-<p><span style="color: rgb(187, 187, 187);">The information on this site does not constitute an offer. </span></p>
