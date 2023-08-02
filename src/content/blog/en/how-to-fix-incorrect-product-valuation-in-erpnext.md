@@ -12,7 +12,7 @@ image:
 snippet: During the initial implementation of ERPNext, we entered a purchase order in a foreign currency (at a net price). Later, it turned out that we did not receive the goods, but they are still present in our warehouse. Additionally,
 publishDate: 2023-07-28 11:39
 category:
-  - How-to
+  - how-to
 ---
 
 
