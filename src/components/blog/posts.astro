@@ -49,7 +49,7 @@ const { posts } = Astro.props;
 							<a
 								href={localizePath(`/category/${cat?.toLowerCase()}`)}
 								class="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium no-underline">
-								{cat?.replace('-',' ')}
+								{cat?.replace(/-/g, " ")}
 							</a>
 						))}
 					</h4>

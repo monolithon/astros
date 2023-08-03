@@ -35,9 +35,9 @@ const { page, category } = Astro.props;
 <Layout title="Blog" lang="en">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">#{category}</Fragment>
+      <Fragment slot="title">#ERPNext and frappe {category.replace(/-/g, " ")}</Fragment>
       <Fragment slot="desc">
-        We write about building startups and thoughts going on our mind.
+        ERPNext and Frappe {category.replace(/-/g, " ")} for beginners and advanced users.
       </Fragment>
     </Sectionhead>
     <Posts posts={page.data} />
