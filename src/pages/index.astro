@@ -38,7 +38,7 @@ const localizedPosts = await allPosts();
 export async function getStaticPaths({ paginate }) {
     return paginate(localizedPosts, {
         params: { blog: "blog" || undefined },
-        pageSize: 4,
+        pageSize: 5,
     });
 }
 const page = localizedPosts.filter(post=>post.data.category.includes('news'))
@@ -52,6 +52,6 @@ const page = localizedPosts.filter(post=>post.data.category.includes('news'))
 			<Fragment slot="desc">ERPNext and Frappe news for beginners and advanced users.</Fragment>
 		</Sectionhead>
 		<Posts posts={page} />
-		<!-- <Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} /> -->
+		<Pagination class="mt-20" prevUrl={page?.url?.prev} nextUrl={page?.url?.next} />
 	</Container>
 </Layout>

@@ -122,7 +122,7 @@ export default defineConfig({
       short_name: "Astros",
       theme_color: "#ffffff",
       icons: [{
-        src: "pwa-192x192.png",
+        src: "monolithon-fav.png",
         sizes: "192x192",
         type: "image/png"
       }, {
