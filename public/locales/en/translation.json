@@ -33,6 +33,7 @@
 		"support": "Support",
 		"knowledge":"Knowledge",
 		"partners":"Partners",
+		"status":"Status ",
 		"legal": "Legal",
 		"details":"© Monolithon - Monolith Online - ERPNext & Frappe support - Disclaimer: Public advertisements do not constitute an offer."
 	},
@@ -42,8 +43,10 @@
 		"softwares": "/softwares",
 		"support": "https://support.monolithon.com/",
 		"knowledge": "/knowledge",
+		"status":"/status",
 		"partners": "/partners",
 		"legal": "/legal"
+
 	},
 	"features": {
 		"learn_more": "Learn more",

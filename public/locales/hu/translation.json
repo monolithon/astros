@@ -34,9 +34,9 @@
 		"support": "Ügyfélszolgálat ",
 		"knowledge": "Tudásbázis",
 		"partners": "Partnerek",
+		"status":"Státusz ",
 		"legal": "Jogok",
 		"details":"© Monolithon - Monolith Online - ERPNext és Frappe magyarul Az oldalon található információk ajánlatnak nem minősülnek."
-
 
 	  },	
 	  "path_footer": {
@@ -46,6 +46,7 @@
 		"support": "https://support.monolithon.com",
 		"knowledge": "/tudasbazis",
 		"partners": "/partnerek",
+		"status":"/statusz ",
 		"legal": "/jogok"
 	  },	  
 	"features": {
