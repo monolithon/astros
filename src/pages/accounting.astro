@@ -2,14 +2,129 @@
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
-
 changeLanguage("en");
 ---
 
-<Layout lang="en" title="ERPnext">
+<Layout lang="en" title="Accounting">
 	<Container>
-		<div class=" h-[60vh] flex items-center justify-center">
-			<h1 class=" text-3xl">Accounting</h1>
+		<div class="px-5 py-15">
+			<div class="md:flex justify-between items-center gap-10">
+				<div class="flex flex-col h-full justify-center flex-2">
+					<h1 class="text-[40px] md:text-[50px] leading-none font-semibold text-[#192734]">ERPNext Hungarian Accounting</h1>
+					<p class="text-gray-400 text-xl my-5">Solutions to Support Accounting</p>
+				</div>
+				<div class="flex-1 py-32">
+					<img class="w-full" src="../../../public/erpnextImage.png" alt="" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw]">
+					<h2 class="font-bold text-3xl mb-10 text-[#192734]">"You can do accounting on graph paper."</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5 text-[#192734]">
+						This is a saying from an unknown accountant. But despite that, almost everyone (usually) uses some kind of double-entry accounting or accounting program to handle financial events. However, this humorous remark points out the essential point that there are no specific requirements for accounting programs; one can only infer from various regulations related to accounting principles how accounting should be done.
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw]">
+					<h2 class="font-bold text-3xl mb-10 text-[#192734]">So why do accountants use accounting software?</h2>
+					<p class="list-disc text-[17px] leading-7 text-[#192734]">
+						Accounting programs automate and simplify many tasks, which is why accountants prefer using their own accounting software. They have to do less manual work, and thanks to automation, they can minimize inaccuracies that may arise during data entry.
+					</p>
+					<p class="list-disc text-[17px] leading-7 py-10 text-[#192734]">
+						Another important aspect is that accounting programs not only simplify the recording of financial events but also greatly facilitate the preparation of reports for the government authorities. It's no secret that most accounting programs can generate monthly VAT reports in the required format (ÁNYK) with just a few clicks. However, this process may require some adjustments and manual review to ensure that the reports are error-free, regardless of the software used.
+					</p>
+					<p class="list-disc text-[17px] leading-7 text-[#192734]">
+						Besides handling monthly reports, accounting programs can also be helpful in preparing annual financial statements. However, it's worth noting that this functionality might not be well-implemented in all accounting programs. Consequently, there are additional reporting solutions that some accountants use in conjunction with their accounting software.
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw]">
+					<h2 class="font-bold text-3xl mb-10 text-[#192734]">Why is this relevant to ERPNext?</h2>
+					<p class="list-disc text-[17px] leading-7 text-[#192734]">
+						From the above, it's evident that some accountants choose their own accounting program due to convenience, speed, and accuracy. They might not want or be able to adapt to other systems and may charge additional fees for using external software, even though it would reduce their workload, making it eligible for a discount.
+					</p>
+					<p class="list-disc text-[17px] leading-7 py-10 text-[#192734]">
+						However, there is another segment of the profession that doesn't mind which accounting program they use, as they possess a higher level of knowledge and perspective on accounting. They can further automate and configure processes without in-depth knowledge of the software.
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw]">
+					<h2 class="font-bold text-3xl mb-10 text-[#192734]">How can ERPNext be used for Hungarian accounting?</h2>
+					<p class="list-disc text-[17px] leading-7 pb-10 text-[#192734]">
+						Considering the above, there are several ways to use ERPNext for Hungarian accounting. When using ERP systems, the following solutions are common:
+					</p>
+					<ul class="list-decimal ml-10 space-y-5 text-[#192734]">
+						<li>
+							Double-entry accounting, but not in the traditional sense. This can be better described as parallel accounting. In this case, even if financial events are automatically recorded in the ERPNext system, e.g., by an administrator, the official accountant doesn't use the system. Instead, they might use their own system and might retrieve data from ERPNext if needed. However, this approach is counterproductive, especially considering that they might still need a third-party program to generate reports.
+						</li>
+						<li>
+							Another approach is for all transactions to be recorded in ERPNext, either automatically or manually, and the accountant checks and approves the entries made by others. The ERPNext system can then generate raw data for reports, and the accountant manually fills out the official forms for the tax authority.
+						</li>
+						<li>
+							The type of reports required depends on the size and type of the company and the relevant regulations. In some cases, ERPNext might be able to generate the necessary reports for the tax authority, although exporting them in the ÁNYK format likely requires custom development. Over time, it might become possible to generate all reports directly from ERPNext.
+						</li>
+						<li>
+							Given the above, the most optimal solution seems to be using ERPNext for accounting. Since there might still be a need for external software when accountants use their own system or perform parallel accounting, it is recommended to utilize external software that can process the export from ERPNext and generate reports accordingly.
+						</li>
+					</ul>
+				</section>
+
+				<section class="py-8 px-4 md:w-[45vw]">
+					<h2 class="font-bold text-3xl mb-10 text-[#192734]">What are the advantages of using ERPNext for accounting?</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5 text-[#192734]">
+						Single source of truth – everyone sees the same information from a single interface (with appropriate permissions). Only one interface needs to be learned, and ERPNext is quite intuitive. There is no duplicate work, as most tasks can be automated, such as automatic booking of outgoing invoices. Incoming invoices should primarily be handled by ERPNext to track payment status, possibly simplified with bank synchronization.
+					</p>
+				</section>
+
+				<section class="py-8 px-4 md:w-[45vw]">
+					<h2 class="font-bold text-3xl mb-10 text-[#192734]">Okay, but how are the reports prepared in ERPNext?</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5 text-[#192734]">
+						The Hungarian ERPNext and Frappe community is continuously working on localizing ERPNext, aiming to achieve the optimal solution mentioned in point 3. Until then, using external Excel-based reporting and financial statement software is the most suitable solution. These software tools receive data from ERPNext and produce the necessary documents for Hungarian accounting.
+					</p>
+				</section>
+			</div>
+			<section class="pb-10 pt-20 px-4">
+				<h2 class="font-bold text-3xl mb-10 text-[#192734]">Excel Software Supporting Hungarian Accounting in ERPNext</h2>
+				<div class="md:flex gap-10">
+					<a href="https://www.monolithon.com/szoftverlicenc/excel/komplett-%C3%A1fa-bevall%C3%A1s-2365-m-lapokkal-aeai9" class="w-[15vw] cursor-pointer">
+						<div>
+							<div>
+								<img src="/excel1.png" alt="" />
+							</div>
+							<div class="text-center text-sm py-3">
+								<h4>Complete VAT Declaration - 2365 M sheets</h4>
+								<span class="pt-2 inline-block text-gray-600">Excel</span>
+							</div>
+						</div>
+					</a>
+					<a href="https://www.monolithon.com/szoftverlicenc/excel/a60-k%C3%B6z%C3%B6ss%C3%A9gi-nyilatkozat-23a60-lem67" class="w-[15vw] cursor-pointer">
+						<div>
+							<div>
+								<img src="/excel2.png" alt="" />
+							</div>
+							<div class="text-center text-sm py-3">
+								<h4>A60 COMMUNITY DECLARATION - 23A60</h4>
+								<span class="pt-2 inline-block text-gray-600">Excel</span>
+							</div>
+						</div>
+					</a>
+					<a href="https://www.monolithon.com/szoftverlicenc/excel/komplett-besz%C3%A1mol%C3%B3-k%C3%A9sz%C3%ADt%C5%91-kieg%C3%A9sz%C3%ADt%C5%91-mell%C3%A9klettel-cfp8x" class="w-[15vw] cursor-pointer">
+						<div>
+							<div>
+								<img src="/excel3.png" alt="" />
+							</div>
+							<div class="text-center text-sm py-3">
+								<h4>Complete REPORT CREATOR with Supplement</h4>
+								<span class="pt-2 inline-block text-gray-600">Excel</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section class="py-8 items-center px-4 bg-[#EEF0F2] rounded-xl flex justify-between w-full">
+				<div>
+					<h2 class="my-3 text-[30px] text-[#192734] font-bold">Do you have more questions?</h2>
+					<span class="text-[#192734]">ERPNext Accounting in Hungarian</span>
+				</div>
+				<a href="/contact" class="cursor-pointer text-2xl font-semibold text-gray-700">Let's Talk! ></a>
+			</section>
 		</div>
 	</Container>
 </Layout>
