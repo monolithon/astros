@@ -43,7 +43,7 @@
 		"softwares": "/softwares",
 		"support": "https://support.monolithon.com/",
 		"knowledge": "/knowledge",
-		"status":"/status",
+		"status":"https://status.monolithon.com/",
 		"partners": "/partners",
 		"legal": "/legal"
 
