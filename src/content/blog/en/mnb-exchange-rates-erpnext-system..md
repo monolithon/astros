@@ -10,7 +10,7 @@ image:
       src: /mnb-árfolyamok-erpnext-rendszerben.png
       alt: ERPNext
 snippet: The use of ERPNext system in Hungarian and compliance with Hungarian regulations involve various localization tasks. One of these tasks is handling MNB exchange rates. Let's explore the solution!
-publishDate: 2023-09-4 11:39
+publishDate: 2022-09-4 11:39
 category:
     - news
 ---

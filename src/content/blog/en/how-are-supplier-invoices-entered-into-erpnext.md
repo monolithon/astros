@@ -10,7 +10,7 @@ image:
       src: /hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be.jpg
       alt: ERPNext
 snippet: There are several ways to do this. One of the simplest is to create a Purchase Invoice from a Purchase Order in the system.
-publishDate: 2023-10-16 11:39
+publishDate: 2022-10-16 11:39
 category:
     - news
 ---

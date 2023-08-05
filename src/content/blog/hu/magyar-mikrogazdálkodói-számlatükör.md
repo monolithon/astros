@@ -10,7 +10,7 @@ image:
       src: /magyar-mikrogazdálkodói-számlatükör.png
       alt: ERPNext
 snippet: Mivel az ERPNext alapja a számlatükör, ezért arra a következtetésre jutottunk, hogy célszerű lenne a számlatükröt, számlatükröket, illetve azok alapján az alapértelmezett számlákat beállítani
-publishDate: 2023-10-23 11:39
+publishDate: 2022-10-23 11:39
 category:
     - hír
 ---

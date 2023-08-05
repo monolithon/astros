@@ -10,7 +10,7 @@ image:
     src: /odoo-és-erpnext-a-frappe-vel-együtt.png
     alt: ERPNext
 snippet: The Odoo print view editor is not nearly as user-friendly as what Frappe offers for ERPNext, especially the revamped version showcased in the previous post.
-publishDate: 2023-06-30 11:39
+publishDate: 2022-06-30 11:39
 category:
     - news
 ---

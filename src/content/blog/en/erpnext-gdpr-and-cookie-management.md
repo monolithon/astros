@@ -10,7 +10,7 @@ image:
     src: /erpnext-gdrp-és-cookie-azaz-süti-kezelés.png
     alt: ERPNext
 snippet: Monolithon.com, the Hungarian ERPNext portal, also uses cookies, as most internet websites do, and according to EU directives, visitors need to be informed about this.
-publishDate: 2023-06-30 11:39
+publishDate: 2022-06-30 11:39
 category:
     - news
 ---

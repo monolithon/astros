@@ -10,7 +10,7 @@ image:
       src: /erpnext-konferencia-2022-a-frappe-csapat-szervezésében.jpg
       alt: ERPNext
 snippet: This year, the ERPNext conference organized by Frappe emphasized in-person presence, and there was no online broadcast. However, they recorded various high-quality presentations, which will be edited and published later. Once they become available, I will share more information. For now, we could get a glimpse of the presentations on Twitter, as the conference program covered various topics
-publishDate: 2023-09-26 11:39
+publishDate: 2022-09-26 11:39
 category:
     - news
 ---

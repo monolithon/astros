@@ -10,7 +10,7 @@ image:
       src: /erpnext-eu-adószám-ellenőrzés.png
       alt: ERPNext
 snippet: Az ERPNext magyar számlázásnak sok része van a téma komplexitásából adódóan. EU partner esetén az EU adószám ellenőrzése kulcskérdés.
-publishDate: 2023-10-11 11:39
+publishDate: 2022-10-11 11:39
 category:
     - hír
 ---

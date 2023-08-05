@@ -10,7 +10,7 @@ image:
       src: /zero-downtime.jpg
       alt: ERPNext
 snippet: Egy ERP, ügyviteli rendszer esetén kritikus, hogy mindig elérhető legyen és működjön, amikor szükség van rá. Hogy mikor van rá szükség az az üzlet sajátosságaitól függ.
-publishDate: 2023-09-10 11:39
+publishDate: 2022-09-10 11:39
 category:
     - hír
 ---

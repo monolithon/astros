@@ -10,7 +10,7 @@ image:
       src: /erpnext-140-verzióra-frissítettük-a-monolithoncom-ot.jpg
       alt: ERPNext
 snippet: A magyar ERPNext és Frappe portál már a rendszer 14-es verzióján fut.
-publishDate: 2023-09-28 11:39
+publishDate: 2022-09-28 11:39
 category:
     - hír
 ---

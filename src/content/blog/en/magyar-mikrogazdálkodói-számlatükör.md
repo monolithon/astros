@@ -10,7 +10,7 @@ image:
       src: /magyar-mikrogazdálkodói-számlatükör.png
       alt: ERPNext
 snippet: Since ERPNext's foundation is the chart of accounts, we concluded that it would be beneficial to set up the chart of accounts and default accounts based on the Hungarian localization.
-publishDate: 2023-10-23 11:39
+publishDate: 2022-10-23 11:39
 category:
     - news
 ---

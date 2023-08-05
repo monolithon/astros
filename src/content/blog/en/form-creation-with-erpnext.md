@@ -10,7 +10,7 @@ image:
       src: /form-building-with-erpnext.jpg
       alt: ERPNext
 snippet: Online and, let's face it, even offline businesses cannot operate without well-formulated questions. There are numerous options available for this purpose.
-publishDate: 2023-08-23 11:39
+publishDate: 2022-08-23 11:39
 category:
     - news
 ---

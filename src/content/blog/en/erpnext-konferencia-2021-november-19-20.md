@@ -10,7 +10,7 @@ image:
     src: /erpnext-konferencia-2021-november-19-20.png
     alt: ERPNext
 snippet: The ERPNext conference, which was canceled in 2020 due to COVID, is finally back and will be organized by the ERPNext developers at Frappe.
-publishDate: 2023-11-5 11:39
+publishDate: 2022-11-5 11:39
 category:
     - news
 ---

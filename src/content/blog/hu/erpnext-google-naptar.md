@@ -10,7 +10,7 @@ image:
       src: /erpnext-google-naptar.png
       alt: ERPNext
 snippet: Az ERPNext és a Google Naptár szinkronizáció már régóta megoldott az ERPNext-ben, de ennek ellenére lehet még javítani rajta. Mutatom hogyan!
-publishDate: 2023-08-24 11:39
+publishDate: 2022-08-24 11:39
 category:
     - hír
 ---

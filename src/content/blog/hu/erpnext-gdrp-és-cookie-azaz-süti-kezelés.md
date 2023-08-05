@@ -10,7 +10,7 @@ image:
       src: /erpnext-gdrp-és-cookie-azaz-süti-kezelés.png
       alt: ERPNext
 snippet: A monolithon.com, a magyar ERPNext portál is használ sütiket, ahogy a legtöbb internetes weboldal és az EU-s irányelvek alapján erről tájékoztatni is kell az oldal látogatóit.
-publishDate: 2023-06-30 11:39
+publishDate: 2022-06-30 11:39
 category:
     - hír
 ---

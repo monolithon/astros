@@ -10,7 +10,7 @@ image:
       src: /hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be.jpg
       alt: ERPNext
 snippet: Erre több megoldás is van. Az egyik legegyszerűbb ha van Purchase Order (Beszerzési megrendelés) a rendszerben, akkor abból tudunk generálni Szállítói számlát (Purchase Invoice).
-publishDate: 2023-10-16 11:39
+publishDate: 2022-10-16 11:39
 category:
     - hír
 ---
