@@ -10,7 +10,7 @@ image:
       src: /erpnext-weboldal-google-indexelése.png
       alt: ERPNext
 snippet: Oldalunkat ugyan eddig is indexelte a Google, mert az nem volt letiltva. De lehet ezt még jobban csinálni.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-09-26 11:39
 category:
     - hír
 ---

@@ -10,7 +10,7 @@ image:
   src: /krystal.jpg
   alt: ERPNext
 snippet: Az ERPNext beveztésekor felvittünk egy idegen pénzneben lévő beszerzési megrendelést (nettó áron), majd később derült ki, hogy ezt mégsem kaptuk meg,
-publishDate: 2023-07-28 11:39
+publishDate: 2023-06-30 11:39
 category:
   - telepítés-és-beállítás
   

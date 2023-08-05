@@ -11,7 +11,7 @@ image:
     src: /krystal.jpg
     alt: ERPNext
 snippet: In this example (for Delivery Note), you can use the following code to include a link to download the document in your email template
-publishDate: 2023-07-17 11:39
+publishDate: 2023-05-9 11:39
 category:
     - how-to
 ---

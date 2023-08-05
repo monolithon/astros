@@ -10,7 +10,7 @@ image:
       src: /erpnext-fejlesztés-és-ejlesztői-eszközök.png
       alt: ERPNext
 snippet: Az ERPNext fejlesztéséről érdemes tudni néhány dolgot. Az ERPNext könnyen testre szabható és bővíthető, így a felhasználók személyre szabhatják a rendszert a vállalkozásuk egyedi igényei szerint.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-18 11:39
 category:
     - hír
 ---

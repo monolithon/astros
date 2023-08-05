@@ -10,7 +10,7 @@ image:
       src: /frappe-insights-az-erpnext-csapattól.png
       alt: ERPNext
 snippet: In a previous blog post about ERPNext, BI, and Business Intelligence+Metabase, I intentionally didn't mention that the Frappe team also has a similar solution, which is why I planned this separate entry.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-05-9 11:39
 category:
     - news
 ---

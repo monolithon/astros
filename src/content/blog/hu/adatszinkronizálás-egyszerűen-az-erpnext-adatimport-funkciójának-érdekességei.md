@@ -10,7 +10,7 @@ image:
     src: /erpnext-és-az-új-shopify-ecommerce-integráció-webáruházakhoz.png
     alt: ERPNext
 snippet: A legtöbb ERP bevezetés azt a célt szolgálja, hogy minimalizálja az excelek használatát és a sok manuális munkát automatizálja. De adatimport funkció nélkül nincs (jó) ERP.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-08-23 11:39
 category:
     - hír
 ---

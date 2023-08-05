@@ -10,7 +10,7 @@ image:
     src: /wiki-szerű-oldalakat-szeretnék.png
     alt: ERPNext
 snippet: The demand for creating wiki-like pages has come up multiple times. While this was already possible, there is now an official solution for it.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-8 11:39
 category:
     - news
 ---

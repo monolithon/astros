@@ -10,7 +10,7 @@ image:
     src: /új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez.png
     alt: ERPNext
 snippet: Más rendszerekhez képest eddig is egyszerűbb volt a nyomtatandó vagy pdf dokumentumok elkészítése az ERPNext-tel, de mostantól tényleg bárkinek gyerekjáték.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-07-3 11:39
 category:
     - hír
 ---

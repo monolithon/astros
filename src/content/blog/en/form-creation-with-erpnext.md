@@ -1,5 +1,5 @@
 ---
-title: Űrlapkészítés ERPNexttel
+title: Form Building with ERPNext
 draft: false
 author: Admin
 tags:
@@ -7,25 +7,24 @@ tags:
     - monolithon
     - erpnext
 image:
-      src: /űrlapkészítés-erpnexttel.jpg
+      src: /form-building-with-erpnext.jpg
       alt: ERPNext
-snippet: Az online és lássuk be az offline üzlet sem működtethető jó kérdések megfogalmazása nélkül. Erre számtalan lehetőségünk van.
-publishDate: 2023-07-17 11:39
+snippet: Online and, let's face it, even offline businesses cannot operate without well-formulated questions. There are numerous options available for this purpose.
+publishDate: 2023-08-23 11:39
 category:
     - news
 ---
 
-<p>Az ERPNext segítségével készíthetünk űrlapokat, sőt gyakorlatilag az összes ERPNext-ben elérhető dokumentumhoz készíthetünk űrlapot, amit akár az ERPNext weboldalán is megjeleníthetjük. Ez nem túl bonyolult, de nem is olyan egyszerű, mint például egy Google űrlappal készített megoldás. Ha valakit az ERPNexttel történő űrlapkészítés részletei érdekelnek, azok minden fontos információt megtalálnak a dokumentációban a következő címen:</p>
+<p>With ERPNext, you can create forms, and in fact, you can create forms for almost all the documents available in ERPNext, which you can even display on the ERPNext website. This is not too complicated, but it's not as straightforward as creating a solution with Google Forms, for example. If you are interested in the details of form building with ERPNext, you can find all the important information in the documentation at the following link:</p>
 <p></p>
 <p>
 <a href="https://docs.erpnext.com/docs/v12/user/manual/en/website/web-form">https://docs.erpnext.com/docs/v12/user/manual/en/website/web-form</a>
 </p>
 <p></p>
-<p>Az ERPNext mellett a UX design iránt is érdeklődöm, és bár ebben is folyamatosan fejlődik az ERPNext, az a tapasztalatom, hogy egy mindenre jó eszköz sosem tud bizonyos részterületeken olyan jól teljesíteni, mint egy céleszköz. Így kerül képbe sokaknál a TypeFrom nevű űrlapkészítő online szoftver, amit rengetegen használnak, mert itt minden egyes részlet arra van optimalizálva, hogy a legtöbben töltsék ki a vele készített űrlapokat. Ezt a küldetést ügyesen megfogalmazza a szlogenjében, miszerint "számít, hogyan kérdezel". Ezzel nagyon tudok azonosulni, azonban a TypeForm nem olcsó, és az ingyenes megoldásával nagyon korlátok közé van szorítva a felhasználó. Ezért kerestem egy szintén mobilra és konverzióra (ami itt a kitöltés) optimalizált űrlapkészítő megoldást, amit szinte korlátozások nélkül használhatunk és a TypeFormhoz hasonló ügyfélélményt nyújt. Ez nem más, mint a</p>
+<p>Besides ERPNext, I am also interested in UX design, and although ERPNext is continuously improving in this area, my experience tells me that a one-size-fits-all tool can never perform as well in certain specific areas as a specialized tool. This is where TypeForm, an online form-building software, comes into play for many people. It is widely used because every detail is optimized to encourage people to fill out the forms created with it. Their mission is well-captured in their slogan "It matters how you ask." I can relate to this sentiment. However, TypeForm is not cheap, and its free version comes with significant limitations for users. Therefore, I searched for a form-building solution that is also optimized for mobile and conversion (which here refers to form completion) without such restrictions, providing a user experience similar to TypeForm. That's when I discovered the</p>
 <p></p>
-<p><a href="https://tally.so/?ref=monolithon">Tally.so űrlapkészítő</a>, amit ráadásul bármilyen weboldalba is beilleszthetsz, ahogy a lenti űrlapon láthatod.</p>
+<p><a href="https://tally.so/?ref=monolithon">Tally.so form builder</a>, which you can embed into any website, as shown in the form below.</p>
 <p></p>
-<p>Próbáljátok ki, ha egyik említett megoldást sem használtátok még űrlapkészítésre, de egyből rá fogtok jönni, hogy az ilyen típusú kérdőívet, űrlapot ti is szívesen töltitek ki, hiszen az opciók választása után nem kell tovább gombot nyomni, hanem minden megy gyorsan és flottul. Amiért ezt a témát hoztam, az a következő blogbejegyzés, mert abban már valóban egy ERPNext funkciót fogok bemutatni, és kitaláltátok, az akár az űrlapkészítéshez is kapcsolódhat. Zárójelben még egy érv a külső szoftverek mellett, hogy az ERPNext egy valóban biztos alap, amibe minden adatot, bármilyen forrásból betölthetünk és érdemes is megtenni, viszont ahány felhasználás, annyi felhasználó és nekik viszont nem biztos, hogy az ERPNext felülete a legtökéletesebb kapcsolódási pont. Ilyen lehet még egy headless webáruház, ami gyorsaságával és keresőoptimalizálásával kitűnik a versenytársak webáruházai közül, viszont azt az ERPNextre építve a teljes ügyviteli folyamat továbbra is egy kézben van, ahol a munkatársaiddal valójában az ERPNext-et használod, csak a headless webáruházat használó ügyfeled találkozik egy másik arcával gyakorlatilag ugyanazon adatok másik interpretációjával, de úgy, hogy az neki még jobb ügyfélélményt adjon, neked pedig több konverziót/bevételt/profitot. De erről majd máskor, most lássuk az űrlapkészítéshez is kapcsolódó ERPNext funkciót a következő bejegyzésben...</p>
+<p>Give it a try if you haven't used any of the mentioned form-building solutions before, and you will quickly realize that you also prefer to fill out questionnaires and forms of this type, as after selecting the options, you don't need to click any further buttons, everything happens quickly and smoothly. The reason I brought up this topic is that in the next blog post, I will actually introduce an ERPNext feature, and you guessed it, it might be related to form building. By the way, here's another argument for using external software: ERPNext is undoubtedly a secure foundation, where we can import all data from any source, and it's worth doing so. However, depending on the usage and the users, the ERPNext interface may not be the perfect connection point for everyone. Another example is a headless e-commerce platform, which stands out from its competitors with its speed and search engine optimization. When built on top of ERPNext, the entire business process remains in one place, where you and your employees actually use ERPNext. Only your customers using the headless e-commerce platform encounter a different face of the same data, but presented in a way that provides them with an even better customer experience and brings you more conversions/revenue/profit. But that's a topic for another time. For now, let's see the ERPNext feature related to form building in the next blog post...</p>
 
-<p><iframe src="https://tally.so/embed/nPAj5m?hideTitle=1" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="ERPNext kérdőív"></iframe></p>
-
+<p><iframe src="https://tally.so/embed/nPAj5m?hideTitle=1" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" title="ERPNext Questionnaire"></iframe></p>

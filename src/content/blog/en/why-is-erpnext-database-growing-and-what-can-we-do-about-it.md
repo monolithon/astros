@@ -10,7 +10,7 @@ image:
       src: /mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk.png
       alt: ERPNext
 snippet: Typical cloud systems, unlike ERPNext, where providers do not price based on the resources used but on other criteria, also utilize various resources...
-publishDate: 2023-07-17 11:39
+publishDate: 2023-11-17 11:39
 category:
     - news
 ---

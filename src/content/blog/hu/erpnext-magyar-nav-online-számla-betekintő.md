@@ -11,7 +11,7 @@ image:
       
       alt: ERPNext
 snippet: Így működik a vevők/szállítók gyors létrehozása az ERPNext-ben. Ehhez a NAV online számla rendszeréből adószám alapján kapjuk az adatot. Ez az ERPNext magyar NAV kompatibilis számlázás alapja.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-10-1 11:39
 category:
     - hír
 ---

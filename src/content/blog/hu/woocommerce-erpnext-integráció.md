@@ -10,7 +10,7 @@ image:
       src: /woocommerce-erpnext-integráció.png
       alt: ERPNext
 snippet: Talán azt tudjátok, hogy az ERPNext alapból egy Woocommerce integrációval érkezik. Ami nagyon jól hagzik, de az ördög itt is a részletekben rejlik.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-05-31 11:39
 category:
     - hír
 ---

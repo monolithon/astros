@@ -10,7 +10,7 @@ image:
       src: /erpnext-bi-és-üzleti-intelligencia-metabase.png
       alt: ERPNext
 snippet: We should consider ERPNext as a data warehouse and the central storage unit for all important business data.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-8 11:39
 category:
     - news
 ---

@@ -10,7 +10,7 @@ image:
       src: /erpnext-14-megjelenés.png
       alt: ERPNext
 snippet: Örömmel jelentem, hogy megjelent az ERPNext legújabb verziója, az ERPNext 14!
-publishDate: 2023-07-17 11:39
+publishDate: 2023-08-1 11:39
 category:
     - hír
 ---

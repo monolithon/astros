@@ -10,7 +10,7 @@ image:
       src: /könyvelés-erpnext-rendszerben.png
       alt: ERPNext
 snippet: Az ERPNext rendszerben történő könyveléssel kapcsolatban régóta tartoztam egy cikkel, amiben összeszedtem néhány talán másoknak is hasznos szempontot.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-04-07 11:39
 category:
     - hír
 ---

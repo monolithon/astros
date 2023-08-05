@@ -10,7 +10,7 @@ image:
       src: /Chromebook-ERPNext.jpg
       alt: ERPNext
 snippet: Régóta készülök egy Chromebook ajánlóval, de most jött el az ideje, mert egy ideje tényleg mindkettő nagyon jó választás a mindennapi személyes és üzleti életben is.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-03-17 11:39
 category:
     - hír
 ---

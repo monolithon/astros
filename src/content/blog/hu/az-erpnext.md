@@ -10,7 +10,7 @@ image:
     src: /az-erpnext.png
     alt: ERPNext
 snippet: Az ERPNext egy üzleti szoftver, azonban az azt létrehozó emberek egy új szervezeti kultúrát megvalósítva dolgoznak nap, mint nap, hogy egyre jobb legyen az ERPNext.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-12-15 11:39
 category:
     - hír
 ---

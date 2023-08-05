@@ -10,7 +10,7 @@ image:
       src: /erpnext-és-az-új-shopify-ecommerce-integráció-webáruházakhoz.png
       alt: ERPNext
 snippet: Az ERPNext saját webáruház megoldása mellett a Shopify integráció eddig is elérhető volt, de ez most új szintre lépett.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-11-3 11:39
 category:
     - hír
 ---

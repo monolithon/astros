@@ -10,7 +10,7 @@ image:
       src: /könyvelés-erpnext-rendszerben.png
       alt: ERPNext
 snippet: I have been owing an article about accounting in the ERPNext system for a long time, where I have compiled some aspects that may be useful to others as well.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-04-7 11:39
 category:
     - news
 ---

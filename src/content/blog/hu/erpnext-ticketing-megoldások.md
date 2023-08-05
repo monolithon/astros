@@ -10,7 +10,7 @@ image:
       src: /what-is-hd.png
       alt: ERPNext
 snippet: Ahol ügyfelek vannak, ott ügyfélkapcsolatok is. És ez a teljes ügyfélélmény része, így sem az ügyfélnek, sem az ügyféllel foglalkozó munkatársaknak nem mindegy, hogyan zajlik az ügyféltámogatás.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-07-23 11:39
 category:
     - hír
 ---

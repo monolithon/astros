@@ -10,7 +10,7 @@ image:
       src: /új-workflow-builder-érkezik-az-erpnext-be.jpg
       alt: ERPNext
 snippet: Türker TUNALI török kolléga szúrta ki a GitHub tárolóban az új Workflow Buildert.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-05-9 11:39
 category:
     - hír
 ---

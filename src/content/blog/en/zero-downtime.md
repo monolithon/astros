@@ -10,7 +10,7 @@ image:
       src: /zero-downtime.jpg
       alt: ERPNext
 snippet: For an ERP and business management system, it is critical to be always available and functional when needed. The need for this depends on the peculiarities of the business.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-09-10 11:39
 category:
     - news
 ---

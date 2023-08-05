@@ -10,7 +10,7 @@ image:
       src: /frappe-insights-az-erpnext-csapattól.png
       alt: ERPNext
 snippet: Korábbi ERPNext, BI és üzleti intelligencia+Metabase című blogbejegyzésben direkt nem említettem, hogy a Frappe csapatnak is van hasonló megoldása, mert ezt a külön bejegyzést terveztem neki.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-05-9 11:39
 category:
     - hír
 ---

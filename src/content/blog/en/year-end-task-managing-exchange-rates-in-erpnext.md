@@ -10,7 +10,7 @@ image:
     src: /év-eleji-teendő-árfolyamok-kezelése-az-erpnextben.jpg
     alt: ERPNext
 snippet: ERPNext was already capable of managing current exchange rates, but there's a small change in handling the current conversion rates that is worth considering for planning.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-9 11:39
 category:
     - news
 ---

@@ -10,7 +10,7 @@ image:
       src: /natív-android-ios-app-érkezik.jpg
       alt: ERPNext
 snippet: Az ERPNext eddig is jól állt a mobilos használat terén, Android és IOS rendszereken is, de most ebben teljesen új korszak kezdődik.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-24 11:39
 category:
     - hír
 ---

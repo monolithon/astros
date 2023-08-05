@@ -10,7 +10,7 @@ image:
       src: /erpnext-eu-adószám-ellenőrzés.png
       alt: ERPNext
 snippet: ERPNext Hungarian invoicing has many parts due to the complexity of the topic. When dealing with EU partners, EU VAT number verification is a crucial step.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-10-11 11:39
 category:
     - news
 ---

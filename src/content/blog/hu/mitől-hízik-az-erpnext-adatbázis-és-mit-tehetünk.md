@@ -10,7 +10,7 @@ image:
       src: /mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk.png
       alt: ERPNext
 snippet: A tipikus felhő rendszerek, ahol az ERPNext-tel ellentétben nem a felhasznált erőforrás alapján áraznak a szolgáltatók, hanem valami más alapján, valójában  szintén használnak mindenféle erőfforást...
-publishDate: 2023-07-17 11:39
+publishDate: 2023-11-17 11:39
 category:
     - hír
 ---

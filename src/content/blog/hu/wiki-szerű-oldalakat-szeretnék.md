@@ -10,7 +10,7 @@ image:
       src: /wiki-szerű-oldalakat-szeretnék.png
       alt: ERPNext
 snippet: Többször felmerül az igény valamilyen wiki szerű oldal létrehozására. Erre eddig is volt lehetőség, de mostantól erre is van hivatalos megoldás.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-8 11:39
 category:
     - hír
 ---

@@ -10,7 +10,7 @@ image:
       src: /erpnext-konferencia-2022-a-frappe-csapat-szervezésében.jpg
       alt: ERPNext
 snippet: Idén újra megrendezésre került a Frappe által szervezett ERPNext konferencia.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-09-26 11:39
 category:
     - hír
 ---

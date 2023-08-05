@@ -10,7 +10,7 @@ image:
       src: /űrlapkészítés-erpnexttel.jpg
       alt: ERPNext
 snippet: Az online és lássuk be az offline üzlet sem működtethető jó kérdések megfogalmazása nélkül. Erre számtalan lehetőségünk van.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-08-23 11:39
 category:
     - hír
 ---

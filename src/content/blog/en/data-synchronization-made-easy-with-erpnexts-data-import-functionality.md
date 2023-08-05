@@ -1,5 +1,5 @@
 ---
-title: Data Synchronization Made Easy with ERPNext's Data Import Functionality
+title: Data Synchronization Made Easy with ERPNext's Data Import c
 draft: false
 author: Admin
 tags:

@@ -10,7 +10,7 @@ image:
       src: /Chromebook-ERPNext.jpg
       alt: ERPNext
 snippet: I've been planning to write a Chromebook review for a while, and now is the right time because both Chromebook and ERPNext have become excellent choices for both personal and business use.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-03-17 11:39
 category:
     - news
 ---

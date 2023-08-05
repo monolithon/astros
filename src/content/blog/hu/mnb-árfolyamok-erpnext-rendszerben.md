@@ -10,7 +10,7 @@ image:
       src: /mnb-árfolyamok-erpnext-rendszerben.png
       alt: ERPNext
 snippet: ERPNext rendszer használata magyarul, a magyar szabályoknak való megfeleltetés sok lokalizációs feladatot jelent. Egyik ilyen az MNB árfolyamok kezelése. Most ennek a megoldását mutatom be!
-publishDate: 2023-07-17 11:39
+publishDate: 2023-09-4 11:39
 category:
     - hír
 ---

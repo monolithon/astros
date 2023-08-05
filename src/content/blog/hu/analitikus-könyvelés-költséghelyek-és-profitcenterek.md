@@ -12,7 +12,7 @@ image:
       src: /krystal.jpg
       alt: ERPNext
 snippet: ''
-publishDate: 2023-07-17 11:39
+publishDate: 2023-09-10 11:39
 category:
     - telepítés-és-beállítás
 ---

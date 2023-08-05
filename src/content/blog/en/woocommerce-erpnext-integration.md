@@ -10,7 +10,7 @@ image:
     src: /woocommerce-erpnext-integráció.png
     alt: ERPNext
 snippet: You might know that ERPNext comes with a built-in Woocommerce integration, which works well, but the devil is in the details.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-05-31 11:39
 category:
     - news
 ---

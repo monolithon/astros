@@ -10,7 +10,7 @@ image:
       src: /ERPNext_knowledge_base.png
       alt: ERPNext
 snippet: Elindult a magyar ERPNext tudásbázis. Folyamatosan új tartalmakkal.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-06-30 11:39
 category:
     - hír
 ---

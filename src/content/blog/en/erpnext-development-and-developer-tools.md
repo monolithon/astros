@@ -10,7 +10,7 @@ image:
       src: /erpnext-fejlesztés-és-ejlesztői-eszközök.png
       alt: ERPNext
 snippet: There are some important things to know about ERPNext development. ERPNext is easily customizable and extensible, allowing users to tailor the system to their unique business needs.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-18 11:39
 category:
     - news
 ---

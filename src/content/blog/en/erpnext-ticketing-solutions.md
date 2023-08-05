@@ -10,7 +10,7 @@ image:
       src: /what-is-hd.png
       alt: ERPNext
 snippet: Where there are customers, there are also customer relationships. And this is an integral part of the complete customer experience, making it essential for both customers and customer support staff to care about how customer support is handled.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-07-23 11:39
 category:
     - news
 ---

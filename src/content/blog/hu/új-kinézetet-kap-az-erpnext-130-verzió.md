@@ -10,7 +10,7 @@ image:
       src: /új-kinézetet-kap-az-erpnext-130-verzió.png
       alt: ERPNext
 snippet: Az ERPNext felülete eddig is letisztult volt, de a további egyszerűsítés mellett most már talán szépnek is mondható. Persze ez ízlés kérdése, de a képek alapján mindenki döntse el magának.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-23 11:39
 category:
     - hír
 ---

@@ -10,7 +10,7 @@ image:
       src: /erpnext-onlineszamla-nav-monolithon.png
       alt: ERPNext
 snippet: This is how creating customers/suppliers works in ERPNext. We retrieve data from the Hungarian NAV online invoice system based on the VAT number. This forms the foundation of ERPNext Hungarian NAV compliant invoicing.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-10-1 11:39
 category:
     - news
 ---

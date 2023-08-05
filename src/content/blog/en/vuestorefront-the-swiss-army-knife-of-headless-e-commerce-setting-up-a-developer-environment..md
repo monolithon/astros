@@ -10,7 +10,7 @@ image:
       src: /vuestorefront-a-headless-webáruház-svájcibicska-fejlesztői-környezet-kialakítása.png
       alt: ERPNext
 snippet: I have already showcased the flexibility and feature-richness of ERPNext, but I've also mentioned that it's beneficial to use it alongside other software. One such solution is VueStoreFront, a headless e-commerce platform.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-25 11:39
 category:
     - news
 ---

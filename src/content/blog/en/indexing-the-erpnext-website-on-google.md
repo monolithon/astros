@@ -10,7 +10,7 @@ image:
       src: /erpnext-weboldal-google-indexelése.png
       alt: ERPNext
 snippet: Our website has been indexed by Google so far, as it was not blocked. But there are ways to improve it further.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-09-26 11:39
 category:
     - news
 ---

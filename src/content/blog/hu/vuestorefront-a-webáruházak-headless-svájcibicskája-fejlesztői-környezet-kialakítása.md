@@ -10,7 +10,7 @@ image:
       src: /vuestorefront-a-headless-webáruház-svájcibicska-fejlesztői-környezet-kialakítása.png
       alt: ERPNext
 snippet: Az ERPNext rugalmasságát, funkciógazdagsát már bemutattam, de azt is többször megemlítettem hogy érdemes más szoftverekkel együtt használni. Ilyen a VueStoreFront headless webáruház megoldás is.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-02-25 11:39
 category:
     - hír
 ---
