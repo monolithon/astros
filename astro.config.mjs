@@ -17,6 +17,24 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  redirects: {
+    '/blog/hirek/új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez':'/hu/új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  },
   site: "https://www.monolithon.com",
   vite: {
     define: {
@@ -173,7 +191,8 @@ export default defineConfig({
     [rehypeAutolinkHeadings, autolinkConfig]]
   },
   experimental: {
-    assets: true
+    assets: true,
+    redirects:true,
   }
 });
 // astro.config.mjs

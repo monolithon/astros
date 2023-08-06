@@ -39,7 +39,7 @@ const localizedPosts = await allPosts();
 export async function getStaticPaths({ paginate }) {
     return paginate(localizedPosts, {
         params: { blog: "blog" || undefined },
-        pageSize: 5,
+        pageSize: 6,
     });
 }
 const page = localizedPosts.filter(post=>post.data.category.includes('news'))

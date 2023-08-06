@@ -25,7 +25,7 @@ export async function getStaticPaths({ paginate }) {changeLanguage('hu')
     return Array.from(tags).map((category: string) => paginate(localizedPosts.filter((post) => Array.isArray(post.data.tags) &&
         post.data.tags.find((elem) => elem.toLowerCase() === category)), {
         params: { category: category, blog: "category" || undefined },
-        pageSize: 5,
+        pageSize: 6,
         props: { category },
     }));
 }

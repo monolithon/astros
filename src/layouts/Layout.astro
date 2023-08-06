@@ -74,10 +74,3 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 		</style>
 	</body>
 </html>
-
-<script>
-	if (window.location.pathname.startsWith("/blog/hirek/")) {
-	  const newLink = decodeURIComponent(window.location.pathname.split("/").filter(Boolean).pop());
-	  window.location.href = '/hu/'+newLink;
-	}
-  </script>
