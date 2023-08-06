@@ -10,7 +10,7 @@ image:
       src: /erpnext-konferencia-2021-november-19-20.png
       alt: ERPNext
 snippet: A 2020-ban COVID miatt elmaradt ERPNext konferencia idén végre visszatér és újra megrendezésre kerül az ERPNext fejlesztői, a Frappe által.
-publishDate: 2023-07-17 11:39
+publishDate: 2023-11-05 11:39
 category:
     - news
 ---

@@ -10,8 +10,8 @@ image:
   src: /krystal.jpg
   alt: ERPNext
 snippet: Ezt a blogbejegyzést az ERPNext telepítése közben készítettem el, most pedig csak módosítom, hogy megőrizzem az utókor számára.
-publishDate: 2023-07-28 11:39
-category: 
+publishDate: 2020-04-19 11:39
+category:
   - hír
 ---
 

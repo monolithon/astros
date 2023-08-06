@@ -10,7 +10,7 @@ image:
     src: /megjelent-az-erpnext-13.png
     alt: ERPNext
 snippet: Néhány napja megjelent az ERPNext 13 hivatalos kiadása. Nem aludtam át, csak mi már használjuk egy ideje.
-publishDate: 2023-04-9 11:39
+publishDate: 2021-04-9 11:39
 category:
     - hír
 ---

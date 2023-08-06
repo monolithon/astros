@@ -10,7 +10,7 @@ image:
       src: /év-eleji-teendő-árfolyamok-kezelése-az-erpnextben.jpg
       alt: ERPNext
 snippet: Az ERPNext korábban is képes volt az aktuális árfolyamokat kezelni, azonban az aktuális átváltási árfolyamok kezelésében történ egy kis változás, amivel érdemes tervezni.
-publishDate: 2023-01-9 11:39
+publishDate: 2022-01-9 11:39
 category:
     - hír
 ---
