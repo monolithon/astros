@@ -10,7 +10,7 @@ image:
       src: /a-14-es-verzió-első-új-funkicója.png
       alt: ERPNext
 snippet: A github-on követhető, hogy milyen új funkciók és javítások kerülnek az új verziókba. Most a kanban kártyák limitációját szüntettékmeg.
-publishDate: 2022-09-28 11:39
+publishDate: 2022-04-12 11:39
 category:
     - hír
 ---
