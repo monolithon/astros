@@ -6,6 +6,7 @@ import Container from "@components/container.astro";
 import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Pagination from "@components/blog/pagination.astro";
+import MainPosts from "@components/MainPosts";
 
 changeLanguage("hu");
 
@@ -50,7 +51,7 @@ const page = localizedPosts.filter(post=>post.data.category.includes('hír'))
 			<Fragment slot="title">ERPNext and frappe hírek</Fragment>
 			<Fragment slot="desc">ERPNext és Frappe hírek mindenkinek.</Fragment>
 		</Sectionhead>
-		<Posts posts={page} />
-		<!-- <Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} /> -->
+		<MainPosts next="Következő" prev="Előző" posts={page} client:load  />
+
 	</Container>
 </Layout>

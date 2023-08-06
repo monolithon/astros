@@ -11,13 +11,14 @@ import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
 import cookieconsent from "@jop-software/astro-cookieconsent";
 import sitemap from "@astrojs/sitemap";
-
 import partytown from "@astrojs/partytown";
+
+import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.monolithon.com",
-  vite: { 
+  vite: {
     define: {
       __DATE__: `'${new Date().toISOString()}'`
     }
@@ -165,7 +166,7 @@ export default defineConfig({
       }
     }
     // ...
-  }), partytown()],
+  }), partytown(), react()],
   markdown: {
     rehypePlugins: [rehypeSlug,
     // This adds links to headings

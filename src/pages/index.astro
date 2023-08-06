@@ -6,6 +6,7 @@ import Container from "@components/container.astro";
 import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Pagination from "@components/blog/pagination.astro";
+import MainPosts from "@components/MainPosts";
 
 changeLanguage("en");
 
@@ -51,7 +52,6 @@ const page = localizedPosts.filter(post=>post.data.category.includes('news'))
 			<Fragment slot="title">ERPNext and frappe news</Fragment>
 			<Fragment slot="desc">ERPNext and Frappe news for beginners and advanced users.</Fragment>
 		</Sectionhead>
-		<Posts posts={page} />
-		<Pagination class="mt-20" prevUrl={page?.url?.prev} nextUrl={page?.url?.next} />
+		<MainPosts next="next" prev="prev" posts={page} client:load  />
 	</Container>
 </Layout>
