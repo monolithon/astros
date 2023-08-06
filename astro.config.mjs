@@ -33,7 +33,6 @@ export default defineConfig({
 
 
 
-
   },
   site: "https://www.monolithon.com",
   vite: {

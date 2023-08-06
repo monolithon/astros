@@ -3,6 +3,9 @@
 	align-items: baseline;
 	gap: 6px;
 }
+a {
+  word-wrap: break-word;
+}
 @media (min-width: 50em) {
 	.heading-wrapper {
 		flex-direction: row-reverse;
