@@ -10,7 +10,7 @@ image:
       src: /erpnext-chat-megoldások.png
       alt: ERPNext
 snippet: Ahogy az egész ERPNext és IT egy folyamatos változási folyamat, úgy az ERPNext chat alkalmazása is egy ilyen evolúciós fejlődésen ment át.
-publishDate: 2023-07-22 11:39
+publishDate: 2022-07-22 11:39
 category:
     - hír
 ---
