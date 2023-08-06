@@ -1,5 +1,5 @@
 ---
-title: Az első blogbejegyzésem a monolithon.com-on az ERPNext-ról
+title: Az első blogbejegyzésem a monolithon.com-on az ERPNext-ről
 draft: false
 author: Admin
 tags:
