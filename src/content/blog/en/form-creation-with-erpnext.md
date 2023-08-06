@@ -7,7 +7,7 @@ tags:
     - monolithon
     - erpnext
 image:
-      src: /form-building-with-erpnext.jpg
+      src: /űrlapkészítés-erpnexttel.jpg
       alt: ERPNext
 snippet: Online and, let's face it, even offline businesses cannot operate without well-formulated questions. There are numerous options available for this purpose.
 publishDate: 2022-08-23 11:39

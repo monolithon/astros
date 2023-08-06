@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function MainPosts({ posts, next,prev }) {
+function MainPosts({ posts, next, prev }) {
   const postsPerPage = 6; // Number of posts to show per page
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -77,25 +77,27 @@ function MainPosts({ posts, next,prev }) {
 
 
         <div className="flex flex-row mx-auto container justify-center gap-8">
-          <button
-            onClick={handlePreviousPage}
-            disabled={currentPage === 1}
-            className="flex flex-row align-middle items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12"><g transform="rotate(180 6 6)"><path fill="#50A6F2" d="M4.7 10c-.2 0-.4-.1-.5-.2c-.3-.3-.3-.8 0-1.1L6.9 6L4.2 3.3c-.3-.3-.3-.8 0-1.1c.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" /></g></svg>
-            <p className="ml-2 text-[#50A6F2]">{prev}</p>
-          </button>
-          <button
-            onClick={handleNextPage}
-            disabled={currentPage === totalPages}
-            className="flex flex-row align-middle items-center">
-            <span className="mr-2 text-[#50A6F2]">{next}</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
-              <path
-                fill="#50A6F2"
-                d="M4.7 10c-.2 0-.4-.1-.5-.2c-.3-.3-.3-.8 0-1.1L6.9 6L4.2 3.3c-.3-.3-.3-.8 0-1.1c.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z"
-              />
-            </svg>
-          </button>
+          {
+            currentPage !== 1 && <button
+              onClick={handlePreviousPage}
+              className="flex flex-row align-middle items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12"><g transform="rotate(180 6 6)"><path fill="#50A6F2" d="M4.7 10c-.2 0-.4-.1-.5-.2c-.3-.3-.3-.8 0-1.1L6.9 6L4.2 3.3c-.3-.3-.3-.8 0-1.1c.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" /></g></svg>
+              <p className="ml-2 text-[#50A6F2] capitalize">{prev}</p>
+            </button>
+          }
+          {
+            currentPage !== totalPages && <button
+              onClick={handleNextPage}
+              className="flex flex-row align-middle items-center">
+              <span className="mr-2 text-[#50A6F2] capitalize">{next}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
+                <path
+                  fill="#50A6F2"
+                  d="M4.7 10c-.2 0-.4-.1-.5-.2c-.3-.3-.3-.8 0-1.1L6.9 6L4.2 3.3c-.3-.3-.3-.8 0-1.1c.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z"
+                />
+              </svg>
+            </button>
+          }
         </div>
 
 
