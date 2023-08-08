@@ -3,21 +3,13 @@ import React, { useState } from 'react';
 function MainPosts({ posts, next, prev }) {
   const postsPerPage = 4; // Number of posts to show per page
   const [currentPage, setCurrentPage] = useState(1);
-
-  // Calculate the total number of pages
   const totalPages = Math.ceil(posts.length / postsPerPage);
-
-  // Function to handle next page
   const handleNextPage = () => {
     setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
   };
-
-  // Function to handle previous page
   const handlePreviousPage = () => {
     setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
   };
-
-  // Calculate the index of the first and last post of the current page
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
@@ -30,8 +22,7 @@ function MainPosts({ posts, next, prev }) {
             key={index}
             className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-stone-950 px-8 pb-8 pt-32 sm:pt-64 lg:pt-30"
           >
-            {/* Rest of your existing article JSX */}
-            <img
+                        <img
               src={blogPostEntry.data.image.src}
               alt={blogPostEntry.data.image.alt}
               className="absolute inset-0 -z-10 h-full w-full object-cover"
@@ -48,7 +39,8 @@ function MainPosts({ posts, next, prev }) {
                   <circle cx="1" cy="1" r="1" />
                 </svg>
                 <div className="flex gap-x-2.5">
-                  {/* <Icon name="carbon:user-avatar-filled-alt" width="20" /> */}
+
+
                   {blogPostEntry.data.author}
                 </div>
               </div>
@@ -99,9 +91,6 @@ function MainPosts({ posts, next, prev }) {
             </button>
           }
         </div>
-
-
-
       </div>
     </section>
   );
