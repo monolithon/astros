@@ -30,7 +30,7 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="icon" type="image/png" href="/monolithon-fav.png" />
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#ffffff" />
 		<HeadHrefLangs />
 
 		<!-- Global CSS -->
@@ -56,12 +56,12 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 		<!-- {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />} -->
 		<!-- <script defer src="/src/pwa.ts"></script> -->
 	</head>
-	<Cookie/>
+	<Cookie />
 	<body class="dark:bg-stone-950">
 		<Navbar />
-		<hr/>
+		<hr />
 		<div>
-				<slot />
+			<slot />
 		</div>
 		<Footer />
 		<style is:global>
@@ -71,5 +71,6 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 				content-visibility: auto;
 			}
 		</style>
+
 	</body>
 </html>
