@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function MainPosts({ posts, next, prev }) {
-  const postsPerPage = 6; // Number of posts to show per page
+  const postsPerPage = 4; // Number of posts to show per page
   const [currentPage, setCurrentPage] = useState(1);
 
   // Calculate the total number of pages

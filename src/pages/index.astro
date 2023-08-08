@@ -3,9 +3,7 @@ import i18next, { changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Pagination from "@components/blog/pagination.astro";
 import MainPosts from "@components/MainPosts";
 
 changeLanguage("en");
@@ -39,7 +37,6 @@ const localizedPosts = await allPosts();
 export async function getStaticPaths({ paginate }) {
     return paginate(localizedPosts, {
         params: { blog: "blog" || undefined },
-        pageSize: 6,
     });
 }
 const page = localizedPosts.filter(post=>post.data.category.includes('news'))

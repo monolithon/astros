@@ -111,13 +111,14 @@ export const menuitems = [
 
 	</style>
 </div>
+
 <script>
-// JavaScript
+	// JavaScript
 const toggle = document.querySelector('#menuToggle');
-const nav = document.querySelector('#nav')!;
+const nav = document.querySelector('#nav');
 
 toggle?.addEventListener('click', () => {
-  nav.classList.toggle('show'); // Add or remove the 'show' class to toggle visibility
+  nav.classList.toggle('show');
 });
 
 // Add event listener to check window width on page load and window resize
@@ -126,12 +127,11 @@ window.addEventListener('resize', checkWindowSize);
 
 function checkWindowSize() {
   if (window.innerWidth > 790) {
-    nav.classList.add('show'); // Show the navigation if the width is greater than 800px
+    nav.classList.add('show');
   } else {
-    nav.classList.remove('show'); // Hide the navigation if the width is 800px or less
+    nav.classList.remove('show');
   }
 }
-
 
 </script>
 
