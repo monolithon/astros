@@ -71,6 +71,25 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 				content-visibility: auto;
 			}
 		</style>
-
+		<script type="text/javascript">
+			/** This section is only needed once per page if manually copying **/
+			if (typeof MauticSDKLoaded == "undefined") {
+				var MauticSDKLoaded = true;
+				var head = document.getElementsByTagName("head")[0];
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				script.src = "https://asset.monolithon.com/media/js/mautic-form.js?vea43f1e4";
+				script.onload = function () {
+					MauticSDK.onLoad();
+				};
+				head.appendChild(script);
+				var MauticDomain = "https://asset.monolithon.com";
+				var MauticLang = {
+					submittingMessage: "Please wait...",
+				};
+			} else if (typeof MauticSDK != "undefined") {
+				MauticSDK.onLoad();
+			}
+		</script>
 	</body>
 </html>
