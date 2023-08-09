@@ -16,6 +16,18 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  redirects:{
+    "/statusz":"/hu/statusz",
+		"/uzemeltetes": "/hu/uzemeltetes",
+		"/szamlazas": "/hu/szamlazas",
+		"/konyveles": "/hu/konyveles",
+		"/monolithon": "/hu/monolithon",
+		"/bejelentkezes": "/hu/bejelentkezes",
+		"/szoftverek": "/hu/szoftverek",
+		"/tudasbazis": "/hu/tudasbazis",
+		"/partnerek": "partnerek",
+		"/jogok": "/hu/jogok",
+  },
   site: "https://www.monolithon.com",
   vite: {
     define: {
