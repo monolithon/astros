@@ -7,11 +7,11 @@ import Sectionhead from "@components/sectionhead.astro";
 changeLanguage("hu");
 ---
 
-<Layout title="Contact" lang="hu">
+<Layout title="Kapcsolat" lang="hu">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Contact</Fragment>
-			<Fragment slot="desc">Get in Touch.</Fragment>
+			<Fragment slot="title">Kapcsolat</Fragment>
+			<Fragment slot="desc">Vegye fel a kapcsolatot.</Fragment>
 		</Sectionhead>
 		<style type="text/css" scoped>
 			.mauticform_wrapper {
@@ -153,7 +153,7 @@ changeLanguage("hu");
 								id="mauticform_label_contactform_first_name"
 								for="mauticform_input_contactform_first_name"
 								class="mauticform-label">
-								First Name
+								Vezetéknév
 							</label>
 							<input
 								id="mauticform_input_contactform_first_name"
@@ -162,7 +162,7 @@ changeLanguage("hu");
 								class="mauticform-input"
 								type="text"
 							/>
-							<span class="mauticform-errormsg" style="display: none;">Mandotory</span>
+							<span class="mauticform-errormsg" style="display: none;">Kötelező</span>
 						</div>
 
 						<div
@@ -171,7 +171,7 @@ changeLanguage("hu");
 							data-validation-type="text"
 							class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
 							<label id="mauticform_label_contactform_last_name" for="mauticform_input_contactform_last_name" class="mauticform-label">
-								Last Name
+								Keresztnév
 							</label>
 							<input
 								id="mauticform_input_contactform_last_name"
@@ -180,7 +180,7 @@ changeLanguage("hu");
 								class="mauticform-input"
 								type="text"
 							/>
-							<span class="mauticform-errormsg" style="display: none;">Mandotory</span>
+							<span class="mauticform-errormsg" style="display: none;">Kötelező</span>
 						</div>
 
 						<div
@@ -192,7 +192,7 @@ changeLanguage("hu");
 								id="mauticform_label_contactform_email_address"
 								for="mauticform_input_contactform_email_address"
 								class="mauticform-label">
-								Email address
+								Email cím
 							</label>
 							<input
 								id="mauticform_input_contactform_email_address"
@@ -201,7 +201,7 @@ changeLanguage("hu");
 								class="mauticform-input"
 								type="email"
 							/>
-							<span class="mauticform-errormsg" style="display: none;">Mandotory</span>
+							<span class="mauticform-errormsg" style="display: none;">Kötelező</span>
 						</div>
 
 						<div
@@ -210,15 +210,15 @@ changeLanguage("hu");
 							data-validation-type="text"
 							class="mauticform-row mauticform-text mauticform-field-4 mauticform-required">
 							<label id="mauticform_label_contactform_mobile" for="mauticform_input_contactform_mobile" class="mauticform-label">
-								Mobile
+								Mobil
 							</label>
 							<input id="mauticform_input_contactform_mobile" name="mauticform[mobile]" value="" class="mauticform-input" type="text" />
-							<span class="mauticform-errormsg" style="display: none;">Mandotory</span>
+							<span class="mauticform-errormsg" style="display: none;">Kötelező</span>
 						</div>
 
 						<div id="mauticform_contactform_f_message" class="mauticform-row mauticform-text mauticform-field-5">
 							<label id="mauticform_label_contactform_f_message" for="mauticform_input_contactform_f_message" class="mauticform-label">
-								Message
+								Üzenet
 							</label>
 							<textarea id="mauticform_input_contactform_f_message" name="mauticform[f_message]" class="mauticform-textarea"></textarea>
 							<span class="mauticform-errormsg" style="display: none;"></span>
@@ -231,7 +231,7 @@ changeLanguage("hu");
 								id="mauticform_input_contactform_submit"
 								value=""
 								class="mauticform-button btn btn-default">
-								Submit
+								Küldés
 							</button>
 						</div>
 					</div>
@@ -255,7 +255,7 @@ changeLanguage("hu");
 				head.appendChild(script);
 				var MauticDomain = "http://asset.monolithon.com";
 				var MauticLang = {
-					submittingMessage: "Please wait...",
+					submittingMessage: "Kérjük várjon...",
 				};
 			} else if (typeof MauticSDK != "undefined") {
 				MauticSDK.onLoad();

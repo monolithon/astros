@@ -93,7 +93,9 @@ export const menuitems = [
 			languageMapping={{ en: "English", hu: "Magyar " }}
 			class="appearance-none py-1 px-2 rounded bg-slate-100 dark:bg-stone-950"
 		/>
-			<Link href="/contact" class="md:px-3 md:py-2 leading-6">
+			<Link 
+			href={localizePath(t('path_header.primary_button_text'))}
+			class="md:px-3 md:py-2 leading-6">
 				{t("header.primary_button_text")}
 			</Link>
 		</div>
