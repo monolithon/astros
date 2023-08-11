@@ -2,17 +2,18 @@
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
+import LetsTalk from "@components/LetsTalk.astro";
 
 changeLanguage("en");
 ---
 
 <Layout lang="en" title="ERPnext">
 	<Container>
-		<div class="px-5">
+		<div class="px-5 dark:bg-stone-900">
 			<div class="flex justify-between items-center h-[70vh]">
 				<div class="flex flex-col h-full justify-center">
-					<h1 class="text-[60px] leading-none font-semibold text-[#192734]">Monolithon is the solid foundation.</h1>
-					<h2 class="text-xl text-gray-500 my-4">ERPNext and Frappe in English.</h2>
+					<h1 class="text-[60px] leading-none font-semibold text-[#192734] dark:text-white">Monolithon is the solid foundation.</h1>
+					<h2 class="text-xl text-gray-500 my-4 dark:text-white">ERPNext and Frappe in English.</h2>
 					<a href="/contact">
 						<button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-28 h-12 text-xl">Let's talk!</button>
 					</a>
@@ -22,10 +23,10 @@ changeLanguage("en");
 				</div>
 			</div>
 		</div>
-		<div class="flex flex-col items-center">
+		<div class="flex flex-col items-center dark:bg-stone-900">
 			<section class="py-8 px-4 md:w-[45vw]">
-				<h2 class="font-bold text-3xl mb-10 text-[#192734]">ERPNext is the only truly free and open source, complete ERP</h2>
-				<ul class="list-disc md:ml-10 space-y-5 text-[#192734]">
+				<h2 class="font-bold text-3xl mb-10 text-[#192734] dark:text-white">ERPNext is the only truly free and open source, complete ERP</h2>
+				<ul class="list-disc md:ml-10 space-y-5 dark:text-white text-[#192734]">
 					<li>
 						If you are looking for ERP, then you are in the right place, because on these pages we will soon introduce you to ERPNext
 						in detail.
@@ -42,8 +43,8 @@ changeLanguage("en");
 			</section>
 		
 			<section class="py-8 px-4 w-[45vw]">
-				<h2 class="font-bold text-3xl mb-10 text-[#192734]">ERPNext is the only truly free and open source, complete ERP</h2>
-				<p class="list-disc text-[17px] leading-7 space-y-5 text-[#192734]">
+				<h2 class="font-bold text-3xl mb-10 text-[#192734] dark:text-white">ERPNext is the only truly free and open source, complete ERP</h2>
+				<p class="list-disc text-[17px] leading-7 space-y-5 dark:text-white text-[#192734]">
 					ERPNext is basically a business software that makes the everyday life of a business easier and transparent. But - just to
 					highlight one function - it can even be used to manage several companies at once, where the company can even be a person.
 					Thus, transactions between different structures can be easily tracked using the system. For example, executive wages are
@@ -58,12 +59,6 @@ changeLanguage("en");
 		
 		
 		</div>
-		<section class="py-8 items-center px-4 bg-[#EEF0F2] rounded-xl flex justify-between w-full">
-			<div>
-				<h2 class="my-3 text-[30px] text-[#192734] font-bold">You don't need more business management software.</h2>
-				<span class="text-[#192734]">ERPNext is the solid foundation.</span>
-			</div>
-			<a href="/contact" class=" cursor-pointer text-2xl font-semibold text-gray-700" >Let's talk! > </a>
-		</section>
+<LetsTalk/>
 	</Container>
 </Layout>

@@ -3,6 +3,7 @@ import Link from "@components/ui/link.astro";
 import { localizePath } from "astro-i18next";
 import { t } from "i18next";
 import Languageselector from "@components/languageselector.astro";
+import Themeselector from "@components/themeselector.astro";
 
 const logo = 'logo.title'
 
@@ -29,7 +30,7 @@ export const menuitems = [
 
 <div
 	x-data="{open: window.innerWidth < 768 ? false : true}"
-	class="flex flex-col max-w-screen-xl py-2 px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-2 lg:px-0 z-10 md:pt-2 relative">
+	class="flex flex-col max-w-screen-xl py-2 px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-2 lg:px-0 z-10 md:pt-2 relative dark:bg-stone-900">
 	<div class="p-4 flex flex-row items-center justify-between">
 		<a
 			href={localizePath("/")}
@@ -88,10 +89,11 @@ export const menuitems = [
 			}
 		</div>
 		<div class="mt-4 md:mt-0 flex flex-col md:flex-row gap-8">
+			<Themeselector />
 			<Languageselector
 			showFlag={false}
 			languageMapping={{ en: "English", hu: "Magyar " }}
-			class="appearance-none py-1 px-2 rounded bg-slate-100 dark:bg-stone-950"
+			class="appearance-none py-1 px-2 rounded bg-slate-100 dark:bg-stone-900"
 		/>
 			<Link 
 			href={localizePath(t('path_header.primary_button_text'))}
