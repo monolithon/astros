@@ -12,10 +12,12 @@ export const menuitems = [
 	{
 		title: "ERP",
 		children: [
-			{ title: "ERPNext", path: "#" },
+			{ title: "ERPNext", path: "path_header.erpnext" },
 			{ title: "header.implementation", path: "path_header.implementation" },
 			{ title: "header.invoicing", path: "path_header.invoicing" },
 			{ title: "header.accounting", path: "path_header.accounting" },
+			{ title: "header.accounting", path: "path_header.accounting" },
+			{ title: "header.odoo", path: "path_header.odoo" },
 		],
 	},
 	{
@@ -27,16 +29,16 @@ export const menuitems = [
 			{ title: "Hugo", path: "Hugo" },
 		],
 	},
-	// 	Queue Management System
-	// Integration (n8n - like Zapier or Make (Integromat), Mautic)
-	// Contact us
 	{
 		title: "Queue Management System",
 		path: "#",
 	},
 	{
 		title: "Integration",
-		path: "#",
+		children:[
+			{ title: "n8n - like Zapier or Make (Integromat)", path: "#" },
+			{ title: "Mautic", path: "#" },
+	]
 	},
 ];
 ---

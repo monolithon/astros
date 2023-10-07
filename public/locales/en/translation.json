@@ -1,6 +1,6 @@
 {
-	"logo":{
-		"title":"Monolithon - ERPNext solutions"
+	"logo": {
+		"title": "Monolithon - ERPNext solutions"
 	},
 	"hero": {
 		"title": "Supercharged web development!",
@@ -17,9 +17,10 @@
 		"implementation": "Implementation",
 		"invoicing": "Invoicing",
 		"accounting": "Accounting",
-		"primary_button_text": "Contact us"
+		"primary_button_text": "Contact us",
+		"odoo": "Odoo"
 	},
-	"path_header":{
+	"path_header": {
 		"erpnext": "/erpnext",
 		"implementation": "/implementation",
 		"invoicing": "/invoicing",
@@ -31,22 +32,21 @@
 		"monolithon": "Monolithon",
 		"softwares": "Softwares",
 		"support": "Support",
-		"knowledge":"Knowledge",
-		"partners":"Partners",
-		"status":"Status ",
+		"knowledge": "Knowledge",
+		"partners": "Partners",
+		"status": "Status ",
 		"legal": "Legal",
-		"details":"© Monolithon - Monolith Online - ERPNext & Frappe support - Disclaimer: Public advertisements do not constitute an offer."
+		"details": "© Monolithon - Monolith Online - ERPNext & Frappe support - Disclaimer: Public advertisements do not constitute an offer."
 	},
-	"path_footer":{
+	"path_footer": {
 		"login": "https://erp.monolithon.com/login#login",
 		"monolithon": "/monolithon",
 		"softwares": "/softwares",
 		"support": "https://support.monolithon.com/",
 		"knowledge": "/knowledge",
-		"status":"https://status.monolithon.com/",
+		"status": "https://status.monolithon.com/",
 		"partners": "/partners",
 		"legal": "/legal"
-
 	},
 	"features": {
 		"learn_more": "Learn more",
