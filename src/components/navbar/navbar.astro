@@ -108,7 +108,7 @@ export const menuitems = [
 											href={localizePath(t(subitem.path))}
 											style="hover"
 											size="sm"
-											class="block"
+											class="block dark:text-white"
 											x-data="{ isActive: false }"
 											x-init={`() => {
 												const path = $el.getAttribute('data-path');
@@ -121,7 +121,7 @@ export const menuitems = [
 												checkPath();
 												window.addEventListener('popstate', checkPath);
 											}`}
-											:class="{ 'bg-gray-200 dark:bg-gray-600': isActive }"
+											:class="{ 'bg-gray-200 dark:bg-gray-600 ': isActive }"
 										>
 											{t(subitem.title)}
 										</Link>
@@ -134,6 +134,7 @@ export const menuitems = [
 							href={localizePath(t(item.path))}
 							style="hover"
 							size="sm"
+							class="dark:text-white"
 							x-data="{ isActive: false }"
 							x-init={`() => {
 								const path = $el.getAttribute('data-path');
