@@ -43,11 +43,6 @@ const page = localizedPosts.filter((post) => post.data.category.includes("news")
 
 <Layout title="Blog" lang="en">
   <Container>
-    <!-- <Sectionhead>
-			<Fragment slot="title">ERPNext and frappe news</Fragment>
-			<Fragment slot="desc">ERPNext and Frappe news for beginners and advanced users.</Fragment>
-		</Sectionhead> -->
-    <!-- <MainPosts next="next" prev="prev" posts={page} client:load  /> -->
     <LandingBody page={page} />
   </Container>
 </Layout>

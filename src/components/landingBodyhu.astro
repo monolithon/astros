@@ -1,0 +1,94 @@
+---
+import Sectionhead from "@components/sectionhead.astro";
+import MainPosts from "@components/MainPosts";
+import NewsLetter from "@components/newsLetter.astro";
+const { page } = Astro.props;
+---
+
+<div class="mx-auto w-full max-w-3xl space-y-4 pt-10">
+  <div class="flex justify-start">
+    <div class="flex w-11/12">
+      <img class="w-10 h-10 rounded-full border-gray-300 border mr-2 shadow" src="monolithon-fav.png" alt="monolithon icon" />
+      <div class="relative max-w-2xl rounded-xl rounded-tl-none bg-gray-200 px-4 py-2">
+        <span class="text-sm font-medium text-heading">
+          I fly often for business. Yesterday, I had three bags to check. I said,<br />"I'd like this bag to go to New Orleans, this one to Seattle,
+          and the third to Chicago."<br /> The gate agent rolled her eyes and said:
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-end">
+    <div class="flex w-11/12 flex-row-reverse">
+      <div class="relative max-w-xl rounded-xl rounded-tr-none bg-[#CCE7FF] px-4 py-2">
+        <span class="text-sm font-medium text-black">We can't do that!</span>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-start">
+    <div class="flex w-11/12">
+      <img class="w-10 h-10 rounded-full border-gray-300 border mr-2 shadow" src="../../public/monolithon-fav.png" alt="monolithon icon" />
+      <div class="relative max-w-xl rounded-xl rounded-tl-none bg-gray-200 px-4 py-2">
+        <span class="text-sm font-medium text-heading">I immediately replied:<br /> "Why? You did it last week." 😀</span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- next we can do it section -->
+<section id="action" class="mx-auto w-full dark:text-gray-200 max-w-3xl my-4">
+  <h3 class="sm:block lg:inline xl:block text-lg sm:text-lg text-center w-full wordBreak">
+    <b>We can do it</b> - and it’s not a joke, because as <u>independent professionals</u>
+    we specialize in supporting complex business operations, like yours.
+  </h3>
+</section>
+<section id="contact-form">
+  <NewsLetter />
+</section>
+<section id="description">
+  <article class="mx-auto prose prose-lg dark:prose-invert mt-6 dark:text-gray-200 prose-ul:py-2 max-w-3xl text-black">
+    <p>
+      We are certain that <b>software offers the fastest route to learning and implementing best practices</b> in your business (and your personal life
+      as well).
+    </p>
+
+    <p>Say goodbye to <b>chaos, knowledge gaps, and resource constraints!</b></p>
+    <p>If you are suffering from <b>stress, overwhelm, and wasted time,</b> it's time to <b>focus on meaningful things!</b></p>
+    <p>
+      System makes your life automated and organized because you do not just get the software, <b>
+        you get tons of proven methods based on many professional experiences
+      </b> without paying hefty paychecks (and taxes!) every month for
+    </p>
+    <ul class="list-disc list-inside">
+      <li>Organization development,</li>
+      <li>Sales,</li>
+      <li>Project management,</li>
+      <li>IT and security,</li>
+      <li>Marketing,</li>
+      <li>Accountant,</li>
+      <li>HR,</li>
+      <li>Customer Success aka Support,</li>
+      <li>Logistics,</li>
+      <li>Marketing, and</li>
+      <li>many other specialists.</li>
+    </ul>
+
+    <p>
+      There is no perfect solution or software, but <b>our tools have saved millions.</b> We can customize the solution to suit your specific needs, although
+      its effectiveness is often undermined by the inefficiencies of your existing traditional practices.
+    </p>
+    <p>
+      You do not have to reinvent the wheel. We use and support many extraordinary, modern, <b>free, and open-source software</b>. Not to mention AI.
+    </p>
+    <p>Efficient digital solutions are no longer exclusive to multinational giants.</p>
+  </article>
+</section>
+<section id="contact-form-2">
+  <NewsLetter />
+</section>
+<section id="action" class="mx-auto w-full dark:text-gray-200 max-w-3xl my-4">
+  <h3 class="sm:block lg:inline xl:block text-lg sm:text-lg text-center w-full wordBreak">
+    Our latest blog post on <b>ERPNext, Frappe</b> and more
+  </h3>
+</section>
+<section id="blog">
+  <MainPosts next="next" prev="prev" posts={page} client:load />
+</section>
