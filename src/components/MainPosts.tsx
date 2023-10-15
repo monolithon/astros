@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function MainPosts({ posts, next, prev }) {
+function MainPosts({ posts, next, prev }: { posts: any; next: string; prev: string }) {
   const postsPerPage = 2; // Number of posts to show per page
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(posts.length / postsPerPage);
