@@ -71,7 +71,8 @@
     "input_placeholder": "Enter your email",
     "button_text": "Subscribe",
     "privacy": "We care about the protection of your data. Read our",
-    "privacy_link": "Privacy Policy."
+    "privacy_link": "Privacy Policy.",
+    "label_text": "Email Address"
   },
   "blog": {
     "prev": "Prev",
