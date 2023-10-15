@@ -69,8 +69,8 @@
   "newsletter": {
     "title": "Iratkozzon fel hírlevelünkre",
     "subtitle": "Értesítést kap minden frissítésről",
-    "input_placeholder": "Adja meg az e-mail címét",
-    "button_text": "Feliratkozás",
+    "input_placeholder": "Melyik a legjobb email címed?",
+    "button_text": "Küldés",
     "privacy": "Fontosnak tartjuk az adatvédelmet. Olvassa el adatvédelmi szabályzatunkat.",
     "privacy_link": "Adatvédelmi Irányelvek.",
     "label_text": "Email cím"
