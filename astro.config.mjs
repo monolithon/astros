@@ -38,7 +38,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     robots({
-      sitemap: "https://www.monolithon.com/sitemap.xml",
+      sitemap: "https://www.monolithon.com/sitemap-0.xml",
       policy: [
         {
           userAgent: ["*"],
