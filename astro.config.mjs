@@ -9,7 +9,10 @@ import rehypeSlug from "rehype-slug";
 import astroI18next from "astro-i18next";
 import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
+import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
+
+import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
@@ -37,6 +40,7 @@ export default defineConfig({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
     mdx(),
+    sitemap(),
     astroI18next(),
     alpinejs(),
     AstroPWA({
@@ -79,7 +83,6 @@ export default defineConfig({
     }),
     partytown(),
     react(),
-    robots(),
   ],
   markdown: {
     rehypePlugins: [
