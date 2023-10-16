@@ -9,7 +9,6 @@ import rehypeSlug from "rehype-slug";
 import astroI18next from "astro-i18next";
 import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
-import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import react from "@astrojs/react";
 
@@ -28,13 +27,13 @@ export default defineConfig({
     "/tudasbazis": "/hu/tudasbazis",
     "/partnerek": "partnerek",
     "/jogok": "/hu/jogok",
-    site: "https://www.monolithon.com",
-    vite: {
-      define: {
-        __DATE__: `'${new Date().toISOString()}'`,
-      },
+  },
+  site: "https://www.monolithon.com",
+  vite: {
+    define: {
       __DATE__: `'${new Date().toISOString()}'`,
     },
+    __DATE__: `'${new Date().toISOString()}'`,
   },
   integrations: [
     tailwind(),
