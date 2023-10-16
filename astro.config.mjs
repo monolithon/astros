@@ -28,20 +28,21 @@ export default defineConfig({
     "/tudasbazis": "/hu/tudasbazis",
     "/partnerek": "partnerek",
     "/jogok": "/hu/jogok",
-  },
-  site: "https://www.monolithon.com",
-  vite: {
-    define: {
+    site: "https://www.monolithon.com",
+    vite: {
+      define: {
+        __DATE__: `'${new Date().toISOString()}'`,
+      },
       __DATE__: `'${new Date().toISOString()}'`,
     },
   },
   integrations: [
     tailwind(),
+    robots(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
     mdx(),
-    robots(),
     astroI18next(),
     alpinejs(),
     AstroPWA({
