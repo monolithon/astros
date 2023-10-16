@@ -11,8 +11,6 @@ import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
 import partytown from "@astrojs/partytown";
 
-import react from "@astrojs/react";
-
 // https://astro.build/config
 export default defineConfig({
   redirects: {
@@ -35,7 +33,6 @@ export default defineConfig({
   },
   integrations: [
     tailwind(),
-    robots(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
