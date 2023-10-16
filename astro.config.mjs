@@ -37,7 +37,16 @@ export default defineConfig({
   },
   integrations: [
     tailwind(),
-    robots(),
+    robots({
+      sitemap: "https://www.monolithon.com/sitemap.xml",
+      policy: [
+        {
+          userAgent: ["*"],
+          allow: ["/"],
+          disallow: ["/titok", "/hu/titok", "/secret", "/hu/secret"],
+        },
+      ],
+    }),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
