@@ -11,6 +11,7 @@ import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
 import partytown from "@astrojs/partytown";
 import react from "@astrojs/react";
+import sitemap from "@astrojs/sitemap";
 
 import robots from "astro-robots";
 
@@ -46,6 +47,9 @@ export default defineConfig({
           disallow: ["/titok", "/hu/titok", "/secret", "/hu/secret"],
         },
       ],
+    }),
+    sitemap({
+      filter: (page) => page !== "https://www.monolithon.com/hu/titok/" && page !== "https://www.monolithon.com/secret/",
     }),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
