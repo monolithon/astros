@@ -9,10 +9,10 @@ import rehypeSlug from "rehype-slug";
 import astroI18next from "astro-i18next";
 import alpinejs from "@astrojs/alpinejs";
 import AstroPWA from "@vite-pwa/astro";
-import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
-
 import react from "@astrojs/react";
+
+import robots from "astro-robots";
 
 // https://astro.build/config
 export default defineConfig({
@@ -33,14 +33,24 @@ export default defineConfig({
     define: {
       __DATE__: `'${new Date().toISOString()}'`,
     },
+    __DATE__: `'${new Date().toISOString()}'`,
   },
   integrations: [
     tailwind(),
+    robots({
+      sitemap: "https://www.monolithon.com/sitemap-0.xml",
+      policy: [
+        {
+          userAgent: ["*"],
+          allow: ["/"],
+          disallow: ["/titok", "/hu/titok", "/secret", "/hu/secret"],
+        },
+      ],
+    }),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
     mdx(),
-    sitemap(),
     astroI18next(),
     alpinejs(),
     AstroPWA({
@@ -96,4 +106,3 @@ export default defineConfig({
     redirects: true,
   },
 });
-// astro.config.mjs
