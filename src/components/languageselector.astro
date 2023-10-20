@@ -206,7 +206,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
         const prams = categories[decodeURIComponent(param)];
         const url = window.location.pathname.replace(param, prams);
         englishSelector.value = window.location.pathname;
-        hungarySelector.value = `/hu${url}/`;
+        hungarySelector.value = `/hu${url}`;
       }
 
       if (window.location.pathname.startsWith("/tag")) {
