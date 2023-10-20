@@ -183,7 +183,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
         englishSelector.value = url;
         hungarySelector.value = decodeURIComponent(window.location.pathname);
       }
-      const param = window.location.pathname.split("/hu")[1].substring(1);
+      const param = window.location.pathname.split("/hu")[1].replaceAll("/", "");
       const prams = blog[decodeURIComponent(param.replaceAll("/", ""))];
       if (!prams) {
         const prams = links[decodeURIComponent(param)];
@@ -191,10 +191,11 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
         const url = window.location.pathname.replace(param, prams).replace("/hu", "");
         englishSelector.value = url;
         hungarySelector.value = window.location.pathname;
+      } else {
+        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+        englishSelector.value = url;
+        hungarySelector.value = decodeURIComponent(window.location.pathname);
       }
-      const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-      englishSelector.value = url;
-      hungarySelector.value = decodeURIComponent(window.location.pathname);
     } else if (window.location.pathname.startsWith("/")) {
       hungarySelector.selected = false;
       englishSelector.selected = true;
@@ -212,7 +213,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
         const prams = tag[decodeURIComponent(param)];
         const url = window.location.pathname.replace(param, prams);
         englishSelector.value = window.location.pathname;
-        hungarySelector.value = `/hu${url}/`;
+        hungarySelector.value = `/hu${url}`;
       }
       const param = window.location.pathname.split("/")[1];
       const prams = blog[param.replace("/", "")];
@@ -220,12 +221,14 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
         const prams = links[param];
         if (!prams) return;
         const url = window.location.pathname.replace(param, prams);
-        hungarySelector.value = `/hu${url}/`;
+        hungarySelector.value = `/hu${url}`;
+        englishSelector.value = window.location.pathname;
+      } else {
+        const url = window.location.pathname.replace(param, prams);
+        console.log("===> ~ file: languageselector.astro:230 ~ url:", url);
+        hungarySelector.value = `/hu${url}`;
         englishSelector.value = window.location.pathname;
       }
-      const url = window.location.pathname.replace(param, prams);
-      hungarySelector.value = `/hu${url}/`;
-      englishSelector.value = window.location.pathname;
     }
   };
 </script>
