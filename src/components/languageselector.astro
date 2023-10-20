@@ -160,76 +160,66 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
     partners: "partnerek",
     legal: "jogok",
   };
-  const languageSelector: astroHTML.JSX.SelectHTMLAttributes = document.getElementById("languageSelector");
-  console.log("===> ~ file: languageselector.astro:163 ~ languageSelector:", languageSelector);
-  console.log("pathname", decodeURIComponent(window.location.pathname));
-  console.log("pathname", window.location.pathname.startsWith("/"));
   const englishSelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("english");
   const hungarySelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("hungary");
 
-  // languageSelector.onchange = function () {
-  //   console.log("===> ~ file: languageselector.astro:163 ~ languageSelector:", languageSelector.value);
-  // };
-  // languageSelector.addEventListener("change", function () {
   window.onload = function () {
-    console.log(window.location.pathname);
-    // if (window.location.pathname.startsWith("/hu/category")) {
-    //   console.log("1st");
-    //   const param = window.location.pathname.split("/hu/category")[1].substring(1);
-    //   const prams = categories[decodeURIComponent(param)];
-    //   const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-    //   window.location.href = url;
-    // } else if (window.location.pathname.startsWith("/category")) {
-    //   console.log("1st");
-    //   const param = window.location.pathname.split("/category")[1].substring(1);
-    //   const prams = categories[param];
-    //   const url = window.location.pathname.replace(param, prams);
-    //   window.location.href = `/hu${url}`;
-    // } else if (window.location.pathname.startsWith("/hu/tag")) {
-    //   console.log("1st");
-    //   const param = window.location.pathname.split("/hu/tag")[1].substring(1);
-    //   const prams = tag[decodeURIComponent(param)];
-    //   const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-    //   window.location.href = url;
-    // } else if (window.location.pathname.startsWith("/tag")) {
-    //   console.log("1st");
-    //   const param = window.location.pathname.split("/tag")[1].substring(1);
-    //   const prams = tag[param];
-    //   const url = window.location.pathname.replace(param, prams);
-    //   window.location.href = `/hu${url}`;
-    // } else
     if (window.location.pathname.startsWith("/hu")) {
       hungarySelector.selected = true;
       englishSelector.selected = false;
-      console.log("1st");
+      if (window.location.pathname.startsWith("/hu/category")) {
+        console.log("1st");
+        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
+        const prams = categories[decodeURIComponent(param)];
+        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+        englishSelector.value = url;
+        hungarySelector.value = decodeURIComponent(window.location.pathname);
+      }
+
+      if (window.location.pathname.startsWith("/hu/tag")) {
+        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
+        const prams = tag[decodeURIComponent(param)];
+        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+        englishSelector.value = url;
+        hungarySelector.value = decodeURIComponent(window.location.pathname);
+      }
       const param = window.location.pathname.split("/hu")[1].substring(1);
-      // console.log("===> ~ file: languageselector.astro:208 ~ param:", decodeURIComponent(param));
       const prams = blog[decodeURIComponent(param.replaceAll("/", ""))];
-      // console.log("===> ~ file: languageselector.astro:210 ~ prams:", prams);
       if (!prams) {
         const prams = links[decodeURIComponent(param)];
         if (!prams) return;
         const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        // console.log("===> ~ file: languageselector.astro:215 ~ url:", url);
         englishSelector.value = url;
         hungarySelector.value = window.location.pathname;
       }
       const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-      // console.log("===> ~ file: languageselector.astro:220 ~ url:", url);
       englishSelector.value = url;
       hungarySelector.value = decodeURIComponent(window.location.pathname);
     } else if (window.location.pathname.startsWith("/")) {
       hungarySelector.selected = false;
       englishSelector.selected = true;
+
+      if (window.location.pathname.startsWith("/category")) {
+        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
+        const prams = categories[decodeURIComponent(param)];
+        const url = window.location.pathname.replace(param, prams);
+        englishSelector.value = window.location.pathname;
+        hungarySelector.value = `/hu${url}/`;
+      }
+
+      if (window.location.pathname.startsWith("/tag")) {
+        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
+        const prams = tag[decodeURIComponent(param)];
+        const url = window.location.pathname.replace(param, prams);
+        englishSelector.value = window.location.pathname;
+        hungarySelector.value = `/hu${url}/`;
+      }
       const param = window.location.pathname.split("/")[1];
-      // console.log("===> ~ file: languageselector.astro:190 ~ param:", param);
       const prams = blog[param.replace("/", "")];
-      // console.log("===> ~ file: languageselector.astro:192 ~ prams:", prams);
       if (!prams) {
         const prams = links[param];
         if (!prams) return;
         const url = window.location.pathname.replace(param, prams);
-        // console.log("===> ~ file: languageselector.astro:197 ~ url:", url);
         hungarySelector.value = `/hu${url}/`;
         englishSelector.value = window.location.pathname;
       }
