@@ -1,0 +1,105 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Pricing from "@components/pricing.astro";
+import LetsTalk from "@components/LetsTalkhu.astro";
+
+changeLanguage("hu");
+
+const pricingData = [
+    {
+        name: "Simple",
+        price: "€299",
+        popular: false,
+        features: ["Havidíj", "Korlátlan felhasználó", "Korlátlan vendég", "Korlátlan kiosk", "Korlátlan kijelző", "Korlátlan forgalom*"],
+        button: {
+            text: "Beszéljünk!",
+            link: "/hu/kapcsolat",
+        },
+    },
+    {
+        name: "Standard",
+        price: {
+            monthly: "€499",
+            annual: "$16",
+            discount: "10%",
+            original: "$24",
+        },
+        popular: true,
+        features: [
+            "Minden a Simple csomagból, plusz:",
+            "API hozzáférés integrációkhoz",
+            "Leküldött értesítés (Push notification)",
+        ],
+        button: {
+            text: "Beszéljünk!",
+            link: "/hu/kapcsolat",
+        },
+    },
+    {
+        name: "Premium",
+        price: "Egyedi",
+        popular: false,
+        features: ["Minden a Standard csomagból, plusz:", "Extra erőforrás", "Egyedi igények megvalósítása", "Extra támogatás"],
+        button: {
+            text: "Beszéljünk!",
+            link: "/hu/kapcsolat",
+        },
+    },
+];
+---
+
+<Layout title="Ügyfélhívó, vendéghívó, sorszámosztó kiosk, ügyfélirányító rendszer">
+	<Container>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">Ügyfélhívó, sorszámosztó kiosk renszer.</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">Hostelek és hotelek részére.</h2>
+					<a href="#">
+						<button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-32 h-12 text-xl">Csomagok</button>
+					</a>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/qms.jpg" alt="" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Nincs többé felesleges sorbanállás</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+							x
+				</section>
+
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Ügyfélélmény emelése egyszerűen</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						y
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Nem csak költséget csökkent, plusz bevételt is termel</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						z
+					</p>
+				</section>
+			</div>
+		</div>
+		<Sectionhead>
+			<Fragment slot="title">Csomagok</Fragment>
+			<Fragment slot="desc">Egyszerű, átlátható és fair árazás.</Fragment>
+		</Sectionhead>
+			</div>
+		</div>
+		<div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20">
+			{pricingData.map((item) => <Pricing plan={item} />)}
+		</div>
+	<section>
+		*A felhasználók száma nem korlátozott, de az optimalizált erőforrás limitált.
+	</section>
+		<!-- <Logos /> -->
+		<LetsTalk/>
+	</Container>
+</Layout>
