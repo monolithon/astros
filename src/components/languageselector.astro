@@ -136,6 +136,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
     "correcting-warehouse-stock-and-product-valuation-in-erpnext": "raktárkészlet-és-termékérték-javítása",
     "raktárkészlet-és-termékérték-javítása": "correcting-warehouse-stock-and-product-valuation-in-erpnext",
     "magyar-mikrogazdálkodói-számlatükör": "hungarian-micro-enterprise-chart-of-accounts",
+    "hungarian-micro-enterprise-chart-of-accounts": "magyar-mikrogazdálkodói-számlatükör",
   };
 
   const links = {
@@ -165,7 +166,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
   const hungarySelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("hungary");
 
   window.onload = function () {
-    if (window.location.pathname.startsWith("/hu")) {
+    if (window.location.pathname.startsWith("/hu/")) {
       hungarySelector.selected = true;
       englishSelector.selected = false;
       if (window.location.pathname.startsWith("/hu/category")) {
