@@ -3,6 +3,9 @@
   align-items: baseline;
   gap: 6px;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   word-wrap: break-word;
 }
