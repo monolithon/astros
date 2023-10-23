@@ -3,8 +3,6 @@ title: Év eleji teendő - árfolyamok kezelése az ERPNextben
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /év-eleji-teendő-árfolyamok-kezelése-az-erpnextben.jpg

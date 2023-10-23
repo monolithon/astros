@@ -3,8 +3,6 @@ title: Wiki szerű oldalakat szeretnék
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /wiki-szerű-oldalakat-szeretnék.png

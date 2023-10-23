@@ -3,8 +3,6 @@ title: Az első blogbejegyzésem a monolithon.com-on az ERPNext-ről
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg

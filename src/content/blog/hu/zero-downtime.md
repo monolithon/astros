@@ -3,8 +3,6 @@ title: Új ERPNext funkció Üzemeltetés nulla leállással - zero downtime*
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /zero-downtime.jpg

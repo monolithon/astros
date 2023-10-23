@@ -4,8 +4,6 @@ title: Letölthető dokumentum használata ERPNext email sablonban
 draft: false
 author: By Tibor Gede
 tags:
-  - how-to
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg

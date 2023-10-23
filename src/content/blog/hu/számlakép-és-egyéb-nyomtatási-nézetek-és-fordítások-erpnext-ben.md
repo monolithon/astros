@@ -4,8 +4,6 @@ title: Számlakép és egyéb nyomtatási nézetek és fordítások ERPNext-ben
 draft: false
 author: Admin
 tags:
-  - how-to
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg

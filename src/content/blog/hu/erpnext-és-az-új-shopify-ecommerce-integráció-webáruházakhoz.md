@@ -3,8 +3,6 @@ title: ERPNext és az új Shopify eCommerce integráció webáruházakhoz
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-és-az-új-shopify-ecommerce-integráció-webáruházakhoz.png

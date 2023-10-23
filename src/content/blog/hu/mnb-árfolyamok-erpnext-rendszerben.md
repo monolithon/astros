@@ -3,8 +3,6 @@ title: MNB árfolyamok ERPNext rendszerben
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /mnb-árfolyamok-erpnext-rendszerben.png

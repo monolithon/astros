@@ -3,8 +3,6 @@ title: Új kinézetet kap az ERPNext 13.0 verzió
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /új-kinézetet-kap-az-erpnext-130-verzió.png

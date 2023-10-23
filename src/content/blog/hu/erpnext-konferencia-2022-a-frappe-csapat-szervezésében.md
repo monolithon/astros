@@ -3,8 +3,6 @@ title: ERPNext konferencia 2022 a Frappe csapat szervezésében
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-konferencia-2022-a-frappe-csapat-szervezésében.jpg

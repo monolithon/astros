@@ -3,8 +3,6 @@ title: ERPNext ticketing megoldások
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /what-is-hd.png

@@ -3,8 +3,6 @@ title: Hogyan kerülnek be a szállítói számlák az ERPNext-be?
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be.jpg

@@ -3,8 +3,6 @@ title: VueStoreFront a webáruházak headless svájcibicskája - fejlesztői kö
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /vuestorefront-a-headless-webáruház-svájcibicska-fejlesztői-környezet-kialakítása.png

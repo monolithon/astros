@@ -3,8 +3,6 @@ title: Az ERPNext 14-es verzió első új funkicója
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /a-14-es-verzió-első-új-funkicója.png

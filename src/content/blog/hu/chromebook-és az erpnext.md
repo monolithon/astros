@@ -3,8 +3,6 @@ title: Chromebook és az ERPNext
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /Chromebook-ERPNext.jpg

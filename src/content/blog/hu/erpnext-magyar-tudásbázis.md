@@ -3,8 +3,6 @@ title: ERPNext magyar tudásbázis
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /ERPNext_knowledge_base.png

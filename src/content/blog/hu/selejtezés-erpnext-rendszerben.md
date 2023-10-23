@@ -4,8 +4,6 @@ title: Selejtezés ERPNext rendszerben
 draft: false
 author: Admin
 tags:
-  - how-to
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg

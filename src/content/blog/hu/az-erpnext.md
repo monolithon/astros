@@ -3,8 +3,6 @@ title: Betekintés az ERPNext és Frappe szellemiségébe
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /az-erpnext.png

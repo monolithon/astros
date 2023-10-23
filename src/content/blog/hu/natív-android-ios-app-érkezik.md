@@ -3,8 +3,6 @@ title: Natív Android/IOS app érkezik az ERPNext 13.0-hoz
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /natív-android-ios-app-érkezik.jpg

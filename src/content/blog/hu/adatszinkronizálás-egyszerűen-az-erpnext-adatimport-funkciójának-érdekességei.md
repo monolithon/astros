@@ -3,8 +3,6 @@ title: Adatszinkronizálás egyszerűen az ERPNext adatimport funkciójának ér
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-és-az-új-shopify-ecommerce-integráció-webáruházakhoz.png

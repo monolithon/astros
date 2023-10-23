@@ -3,8 +3,6 @@ title: ERPNext 14.0 verzióra frissítettük a monolithon.com-ot
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-140-verzióra-frissítettük-a-monolithoncom-ot.jpg

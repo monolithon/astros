@@ -3,8 +3,6 @@ title: ERPNext GDPR és cookie, azaz süti kezelés
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-gdrp-és-cookie-azaz-süti-kezelés.png

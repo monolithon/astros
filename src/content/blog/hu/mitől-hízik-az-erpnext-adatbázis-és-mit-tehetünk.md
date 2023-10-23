@@ -3,8 +3,6 @@ title: Mitől hízik az ERPNext adatbázis és mit tehetünk?
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk.png

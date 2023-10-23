@@ -3,8 +3,6 @@ title: monolithon.com - Odoo és ERPNext a Frappe-vel együtt
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /odoo-és-erpnext-a-frappe-vel-együtt.png

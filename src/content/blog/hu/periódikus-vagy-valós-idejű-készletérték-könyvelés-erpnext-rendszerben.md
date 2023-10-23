@@ -4,8 +4,6 @@ title: Periódikus vagy valós idejű készletérték könyvelés ERPNext rendsz
 draft: false
 author: Admin
 tags:
-  - how-to
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg

@@ -3,8 +3,6 @@ title: Woocommerce ERPNext integráció
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /woocommerce-erpnext-integráció.png

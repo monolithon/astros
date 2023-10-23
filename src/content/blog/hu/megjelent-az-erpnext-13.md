@@ -3,8 +3,6 @@ title: Megjelent az ERPNext 13!
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /megjelent-az-erpnext-13.png

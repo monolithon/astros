@@ -3,8 +3,6 @@ title: Új nyomtatási nézet szerkesztő app a Frappe-től az ERPNext-hez
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez.png

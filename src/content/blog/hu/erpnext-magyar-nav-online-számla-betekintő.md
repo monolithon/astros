@@ -3,8 +3,6 @@ title: ERPNext magyar NAV online számla betekintő
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-onlineszamla-nav-monolithon.png

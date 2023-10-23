@@ -3,8 +3,6 @@ title: Könyvelés ERPNext rendszerben
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /könyvelés-erpnext-rendszerben.png

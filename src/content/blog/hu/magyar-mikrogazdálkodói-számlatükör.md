@@ -3,8 +3,6 @@ title: Magyar mikrogazdálkodói számlatükör
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /magyar-mikrogazdálkodói-számlatükör.png

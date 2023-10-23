@@ -3,8 +3,6 @@ title: ERPNext fejlesztés és fejlesztői eszközök
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-fejlesztés-és-ejlesztői-eszközök.png

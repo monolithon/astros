@@ -3,8 +3,6 @@ title: ERPNext EU adószám ellenőrzés
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /erpnext-eu-adószám-ellenőrzés.png

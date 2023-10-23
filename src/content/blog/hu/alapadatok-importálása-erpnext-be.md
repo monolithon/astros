@@ -4,8 +4,6 @@ title: Alapadatok importálása ERPNext-be
 draft: false
 author: Admin
 tags:
-  - how-to
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg
