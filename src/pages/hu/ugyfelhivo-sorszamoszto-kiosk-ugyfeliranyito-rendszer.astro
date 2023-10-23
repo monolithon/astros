@@ -108,11 +108,11 @@ const pricingData = [
         <Fragment slot="desc">Egyszerű, átlátható és fair árazás.</Fragment>
       </Sectionhead>
     </div>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing">
+      {pricingData.map((item) => <Pricing plan={item} />)}
+    </div>
+    <section>*A felhasználók száma nem korlátozott, de az optimalizált erőforrás limitált.</section>
+    <!-- <Logos /> -->
+    <LetsTalk />
   </Container>
-  <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing">
-    {pricingData.map((item) => <Pricing plan={item} />)}
-  </div>
-  <section>*A felhasználók száma nem korlátozott, de az optimalizált erőforrás limitált.</section>
-  <!-- <Logos /> -->
-  <LetsTalk />
 </Layout>
