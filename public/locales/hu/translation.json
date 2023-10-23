@@ -1,6 +1,6 @@
 {
   "logo": {
-    "title": "Monolithon - ERPNext magyarul"
+    "title": "Monolithon - ERPNext, Odoo +"
   },
   "hero": {
     "title": "Erőteljes webfejlesztés!",
@@ -13,20 +13,24 @@
     "secondary_button_text": "Ugrás az alap verzióra"
   },
   "header": {
-		"erpnext": "Jellemzők",
-		"implementation": "Üzemeltetés",
-		"invoicing": "Számlázás",
-		"accounting": "Könyvelés",
-		"primary_button_text": "Kapcsolat",
-		"odoo": "Odoo"
-	},
+    "erpnext": "Jellemzők",
+    "implementation": "Üzemeltetés",
+    "invoicing": "Számlázás",
+    "accounting": "Könyvelés",
+    "primary_button_text": "Kapcsolat",
+    "odoo": "Odoo"
+  },
 
   "path_header": {
     "erpnext": "/erpnext",
     "implementation": "/uzemeltetes",
     "invoicing": "/szamlazas",
     "accounting": "/konyveles",
-    "primary_button_text": "/kapcsolat"
+    "primary_button_text": "/kapcsolat",
+    "odoo": "/odoo-magyarul",
+    "qms": "/ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
+    "vue-storefront": "/vuestorefront-headless-ecommerce",
+    "n8n": "/n8n-zapier-make-integromat"
   },
   "footer": {
     "login": "Bejelentkezés",
