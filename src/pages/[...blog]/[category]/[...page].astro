@@ -9,25 +9,29 @@ import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("en");
 
-export async function getStaticPaths({ paginate }) {changeLanguage('en')
-    const posts = await getCollection("blog", ({ data }) => {
-        return !data.draft && data.publishDate < new Date();
-    });
-    const localizedPosts = posts.filter((page) => {
-        const [lang, ...slug] = page.slug.split("/");
-        return lang === i18next.language;
-    });
-    const tags = new Set();
-    localizedPosts.map((post) => {
-        Array.isArray(post.data.tags) &&
-            post.data.tags.map((category) => tags.add(category.toLowerCase()));
-    });
-    return Array.from(tags).map((category: string) => paginate(localizedPosts.filter((post) => Array.isArray(post.data.tags) &&
-        post.data.tags.find((elem) => elem.toLowerCase() === category)), {
+export async function getStaticPaths({ paginate }) {
+  changeLanguage("en");
+  const posts = await getCollection("blog", ({ data }) => {
+    return !data.draft && data.publishDate < new Date();
+  });
+  const localizedPosts = posts.filter((page) => {
+    const [lang, ...slug] = page.slug.split("/");
+    return lang === i18next.language;
+  });
+  const categorySet = new Set();
+  localizedPosts.map((post) => {
+    Array.isArray(post.data.category) && post.data.category.map((category) => categorySet.add(category.toLowerCase()));
+  });
+  return Array.from(categorySet).map((category: string) =>
+    paginate(
+      localizedPosts.filter((post) => Array.isArray(post.data.category) && post.data.category.find((elem) => elem.toLowerCase() === category)),
+      {
         params: { category: category, blog: "category" || undefined },
         pageSize: 6,
         props: { category },
-    }));
+      }
+    )
+  );
 }
 const { page, category } = Astro.props;
 ---
