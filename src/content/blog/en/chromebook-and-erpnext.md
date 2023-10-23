@@ -3,8 +3,6 @@ title: Chromebook and ERPNext
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /Chromebook-ERPNext.jpg

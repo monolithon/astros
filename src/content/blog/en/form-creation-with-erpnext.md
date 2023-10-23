@@ -3,8 +3,6 @@ title: Form Building with ERPNext
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /űrlapkészítés-erpnexttel.jpg

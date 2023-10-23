@@ -3,8 +3,6 @@ title: Insight into the Spirit of ERPNext and Frappe
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /az-erpnext.png

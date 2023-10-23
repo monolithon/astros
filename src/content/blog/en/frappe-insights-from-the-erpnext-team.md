@@ -3,8 +3,6 @@ title: Frappe Insights from the ERPNext Team
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithic
     - erpnext
 image:
       src: /frappe-insights-az-erpnext-csapattól.png

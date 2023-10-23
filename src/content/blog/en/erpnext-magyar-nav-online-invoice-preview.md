@@ -3,8 +3,6 @@ title: ERPNext Hungarian National Tax and Customs Administration (NAV) Online In
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-onlineszamla-nav-monolithon.png

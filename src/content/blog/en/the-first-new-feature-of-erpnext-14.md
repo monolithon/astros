@@ -3,8 +3,6 @@ title: The First New Feature of ERPNext 14
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /a-14-es-verzió-első-új-funkicója.png

@@ -3,8 +3,6 @@ title: ERPNext Google Calendar Synchronization
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-google-naptar.png

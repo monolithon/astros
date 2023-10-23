@@ -3,8 +3,6 @@ title: How to fix incorrect product valuation in ERPNext
 draft: false
 author: Admin
 tags:
-  - how-to
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg

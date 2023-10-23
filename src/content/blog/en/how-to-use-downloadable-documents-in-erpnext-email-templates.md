@@ -4,8 +4,6 @@ title: How to Use Downloadable Documents in ERPNext Email Templates
 draft: false
 author: Tibor Gede
 tags:
-    - how-to
-    - monolithon
     - erpnext
 image:
     src: /krystal.jpg

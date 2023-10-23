@@ -3,8 +3,6 @@ title: ERPNext EU VAT Number Verification
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-eu-adószám-ellenőrzés.png

@@ -3,8 +3,6 @@ title: My first blog post on monolithon.com about ERPNext
 draft: false
 author: Admin
 tags:
-  - news
-  - monolithon
   - erpnext
 image:
   src: /krystal.jpg

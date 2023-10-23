@@ -3,8 +3,6 @@ title: ERPNext 14 Release
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-14-megjelenés.png

@@ -4,8 +4,6 @@ title: Correcting Warehouse Stock and Product Valuation in ERPNext
 draft: false
 author: Admin
 tags:
-    - how-to
-    - monolithon
     - erpnext
 image:
     src: /krystal.jpg

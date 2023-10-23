@@ -3,8 +3,6 @@ title: Why is ERPNext Database Growing and What Can We Do About It?
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk.png

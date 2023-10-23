@@ -3,8 +3,6 @@ title: New ERPNext Feature Zero Downtime Operations
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /zero-downtime.jpg

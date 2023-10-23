@@ -3,8 +3,6 @@ title: How are Supplier Invoices Entered into ERPNext?
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be.jpg

@@ -3,8 +3,6 @@ title: VueStoreFront - the Swiss Army Knife of Headless E-commerce - Setting Up 
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /vuestorefront-a-headless-webáruház-svájcibicska-fejlesztői-környezet-kialakítása.png
