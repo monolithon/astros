@@ -178,8 +178,8 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 
       if (window.location.pathname.startsWith("/hu/tag")) {
         const param = window.location.pathname;
-        englishSelector.value = param;
-        hungarySelector.value = `/hu${param}`;
+        englishSelector.value = param.replace("/hu", "");
+        hungarySelector.value = param;
       }
 
       const param = window.location.pathname.split("/hu")[1].replaceAll("/", "");
