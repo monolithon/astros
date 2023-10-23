@@ -162,6 +162,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
     knowledge: "tudasbazis",
     partners: "partnerek",
     legal: "jogok",
+    erpnext: "erpnext",
     "odoo-erp": "odoo-magyarul",
     "odoo-magyarul": "odoo-erp",
     "vuestorefront-headless-ecommerce": "vuestorefront-headless-ecommerce",
@@ -220,9 +221,12 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
       }
 
       const param = window.location.pathname.split("/")[1];
+      console.log("===> ~ file: languageselector.astro:223 ~ param:", param);
       const prams = blog[param.replace("/", "")];
+      console.log("===> ~ file: languageselector.astro:225 ~ prams:", prams);
       if (!prams) {
         const prams = links[param];
+        console.log("===> ~ file: languageselector.astro:228 ~ prams:", prams);
         if (!prams) return;
         const url = window.location.pathname.replace(param, prams);
         hungarySelector.value = `/hu${url}`;
