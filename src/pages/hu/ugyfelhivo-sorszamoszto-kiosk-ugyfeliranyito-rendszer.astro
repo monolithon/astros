@@ -1,0 +1,118 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Pricing from "@components/pricing.astro";
+import LetsTalk from "@components/LetsTalkhu.astro";
+import Button from "@components/ui/button.astro";
+
+changeLanguage("hu");
+
+const pricingData = [
+  {
+    name: "Simple",
+    price: "€299",
+    popular: false,
+    features: ["Havidíj/lokáció", "Korlátlan felhasználó", "Korlátlan vendég", "Korlátlan kiosk", "Korlátlan kijelző", "Korlátlan forgalom*"],
+    button: {
+      text: "Beszéljünk!",
+      link: "/hu/kapcsolat",
+    },
+  },
+  {
+    name: "Standard",
+    price: "€599",
+    popular: true,
+    features: ["Minden a Simple csomagból, plusz:", "API hozzáférés integrációkhoz", "Leküldött értesítés (Push notification)"],
+    button: {
+      text: "Beszéljünk!",
+      link: "/hu/kapcsolat",
+    },
+  },
+  {
+    name: "Premium",
+    price: "Egyedi",
+    popular: false,
+    features: ["Minden a Standard csomagból, plusz:", "Extra erőforrás", "Egyedi igények megvalósítása", "Extra támogatás"],
+    button: {
+      text: "Beszéljünk!",
+      link: "/hu/kapcsolat",
+    },
+  },
+];
+---
+
+<Layout title="Ügyfélhívó, vendéghívó, sorszámosztó kiosk, ügyfélirányító rendszer">
+  <Container>
+    <div class="px-5">
+      <div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+        <div class="flex flex-col h-full justify-center">
+          <h1 class="text-[60px] leading-none font-semibold">Ügyfélhívó, sorszámosztó kiosk renszer.</h1>
+          <h2 class="text-xl text-[#192734] dark:text-white my-4">Hostelek és hotelek részére.</h2>
+          <a href="#pricing">
+            <Button class="md:px-3 md:py-2 leading-6" style="primary">Packages</Button>
+          </a>
+        </div>
+        <div>
+          <img class="w-[40vw]" src="/qms.jpg" alt="" />
+        </div>
+      </div>
+      <div class="flex flex-col items-center">
+        <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">Nincs többé felesleges sorbanállás</h2>
+          <p class="list-disc text-[17px] leading-7 space-y-5]">
+            Senki sem szeret sorbanállni. Főleg, egy hosszú út után. És egy hotelbe vagy hostelbe érkező vendég általában hosszú utat tett meg, mire
+            eljut a check-in deskhez. Átvitt, digitális és valós értelemben is, hiszen a "digital journey" már jóval a foglalás előtt elkezdődött, nem
+            csupán helyszínre érkezésekor. És tovább tart, mint a szállás elhagyása, hiszen a közös célunk, hogy visszatérő vevővé váljon, amit a
+            visszajezés, ajánlás, értékelés gyűjtésével és további ajánlatokkal tudunk elősegíteni, természetesen a minőségi szolgáltatás nyújtása
+            mellett.
+          </p>
+
+          <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+            <h2 class="font-bold text-3xl mb-10">Ügyfélélmény emelése egyszerűen</h2>
+            <p class="list-disc text-[17px] leading-7 space-y-5]">
+              Ügyfélhívó és sorszámosztó rendszerünkkel nem csupán a recepció előtti sort lehet felszámolni, hanem az előbb említett digitális user
+              journey-be is beépíthető, és a sorbanállás nélküli bejelentkezés hirdetésével megkülönböztetheti magát a versenytársaktól amivel
+              növelheti a foglalási konverziót is.
+              <br /><br />
+              Az álldogálás, toporgás és várakozás helyett leültethetjük vendégeinket, és hellyel kínálni a vendégünket ebben az iparágban, pláne egy hosszú
+              út után, kiemelten fontos. A limitált recepciós kapacitás miatt a várakozás teljesen nem számolható fel, de nem mindegy, hogy az milyen körülmények
+              között telik. Főleg, hogy ez az első személyes élménye a márkánkkal. Minden helyzetben a tájékoztatás a kulcs. Az ügyfélhívó és sorszámosztó
+              kiosk-nak köszönhetően nem bizonytalanságban és kényelmetlenségben tölti az első perceket hostelünkben, szállodánkban, hanem már előre tudta,
+              hogyan fog gyorsan zajlani a bejelentkezés és azt is látja, hogy várhatóan mikor kerül sorra. Ezt a kényelemben töltött időt pedig a számára
+              megfelelő dolgokkal töltheti. Mindezt játékossággal kiegészítve új szintre emeljük az ügyfélkiszolgálást.
+            </p>
+          </section>
+          <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+            <h2 class="font-bold text-3xl mb-10">Nem csak költséget csökkent, plusz bevételt is termel</h2>
+            <p class="list-disc text-[17px] leading-7 space-y-5]">
+              Kényelmet, időt adunk ezzel vendégeinknek, de az ügyfélélmény tovább fokozható, ami ráadásul az elégedett, visszatérő vendégen túl,
+              további bevételt jelent számunkra. A várakozás alatt akár - kedvezményesen - fogyaszthat, vagy további szolgáltatásokat vehet igénybe
+              tőlünk. Mindezen akciókat akár a rendszeren keresztül is közvetíthetjük számára (ügyfélkijelzőn vagy üzenetben). Az emberek túlterheltek
+              üzenetek által, de a mobil értesítések megnyitása nagyon magas számú. A bejelentkezés (az ügyfélkijelzőn) történő behívás mellett
+              mobilra küldöt üzenettel is megvalósulhat, ezzel megnyitjuk az utat, hogy amíg a helyszínen tartózkodik a vendég, vagy akár még utána
+              is, további üzenetekt küldjünk számára.
+              <br /><br />
+              Számításank szerint a renszer bevezetése ilyen extra bevételek nélkül is gyorsan megtérül, például a pontos statisztiáknak köszönhetően akár
+              a recepciósok teljesítménye, vagy kapacitás tervezése is lehetővé válik.
+              <br /><br />
+              Az informatika gyors fejlődésének és az árcsökkennésének köszönhetően ma már komolyabb beruházás nélkül lehet egy ügyfélhívó rendszert bevezetni
+              és használni a különböző területeken.
+            </p>
+          </section>
+        </section>
+      </div>
+      <Sectionhead>
+        <Fragment slot="title">Csomagok</Fragment>
+        <Fragment slot="desc">Egyszerű, átlátható és fair árazás.</Fragment>
+      </Sectionhead>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing">
+      {pricingData.map((item) => <Pricing plan={item} />)}
+    </div>
+    <section>*A felhasználók száma nem korlátozott, de az optimalizált erőforrás limitált.</section>
+    <!-- <Logos /> -->
+    <LetsTalk />
+  </Container>
+</Layout>

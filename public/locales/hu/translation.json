@@ -13,12 +13,13 @@
     "secondary_button_text": "Ugrás az alap verzióra"
   },
   "header": {
-    "erpnext": "Jellemzők",
-    "implementation": "Üzemeltetés",
-    "invoicing": "Számlázás",
-    "accounting": "Könyvelés",
-    "primary_button_text": "Kapcsolat"
-  },
+		"erpnext": "Jellemzők",
+		"implementation": "Üzemeltetés",
+		"invoicing": "Számlázás",
+		"accounting": "Könyvelés",
+		"primary_button_text": "Kapcsolat",
+		"odoo": "Odoo"
+	},
 
   "path_header": {
     "erpnext": "/erpnext",

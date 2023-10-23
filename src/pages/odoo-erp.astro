@@ -1,0 +1,79 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/newsLetter.astro";
+changeLanguage("en");
+---
+
+<Layout lang="en" title="Odoo more than an ERP">
+	<Container>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">Odoo more than an ERP.</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">Simplify Business Processes.</h2>
+					<a href="/contact">
+						<button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-32 h-12 text-xl">Let's Talk!</button>
+					</a>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/odoo-magyarul.jpg" alt="" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">From TinyERP to OpenERP to Odoo</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						Odoo is a software that offers business applications and has come a long way since its inception. We have been following, using, and supporting this system since its days as TinyERP and then as OpenERP. But why is this important?
+				<br/><br/>
+				From its development, several key takeaways include:
+				<br/><br/>
+				<li>
+					It has been in the business software market since 2005, making it highly unlikely to disappear.
+				</li>
+				<li>
+					It has continuously evolved since its first release, bringing not only improvements but also new features.
+				</li>
+				<li>
+					Over time, not only the software but also the community and the company behind it have grown, providing a strong foundation for the software.
+				</li>
+				<li>
+					Success is not just attributed to the Odoo company itself. Many Odoo service providers and partners support the software's development and assist customers with implementation and usage, including Monolithon.
+				</li>
+				<li>
+					In addition to the above, it's important to note that over the years there have been price increases (which have had minimal impact on existing customers or gradual increases) and price decreases, which may occur in the future. However, it is possible to mitigate these changes by defining specific terms and minimizing the impact, which is worth considering in long-term planning.
+				</li>
+				</section>
+
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Odoo in Hungary or in foreign country</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						Odoo is becoming increasingly known and widespread in Hungary, thanks to Hungarian Odoo Partners. Like most ERP systems, invoicing is a fundamental aspect, and thanks to Hungarian Odoo partners, the Odoo system can now be extended with Hungarian invoicing capabilities.
+					<br><br>
+						We possess a deep understanding of European and global international business dynamics, extending our expertise beyond solely assisting Hungarian companies with their Odoo ERP needs. In fact, we have realized that for many businesses, expanding into Hungary can be a strategic move due to advantages such as the low company tax rates or the potential benefits of a holding structure. Whether you are a Hungarian-based company looking to optimize your operations with Odoo or an international firm seeking to establish a presence in Hungary, our experience as an Odoo support Partner makes us the ideal choice. We provide the guidance and solutions needed to navigate the intricacies of international business while harnessing the power of Odoo for your success.
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Beyond Invoicing, What Else Can Odoo Be Used For?</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						You may have already seen the giant Odoo billboards alongside highways or the airport road. If you are looking for an open-source ERP software or a solution that covers various areas of business software, such as <br><br>
+						CRM, Sales, HR, Warehouse, Cash Register/POS, Restaurant Management, Rentals, Project Management, Manufacturing, Service, etc., you have probably come across Odoo. <br><br>
+						If you've encountered it, you've likely grown to appreciate it, as it's not only easy to use but also logical, making learning and teaching it easier. Its integration capabilities are also noteworthy, with two levels of integration. First, you can handle nearly everything within Odoo without the need to purchase, learn, and use multiple software products, which benefits both your budget and productivity. Second, it can easily integrate with other software because, despite covering many areas, integration may still be necessary, such as NAV-compliant Hungarian invoicing.
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Odoo for Everyone Who...</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						As with most business software, Odoo is very complex because businesses themselves can be very complex. Complexity arises from the fact that every business is unique, yet the software must support each of them to some extent. It's evident that Odoo, like any software, is not suitable for everyone. It can be an excellent choice for those who are willing to develop their own business processes, draw from how Odoo can support their business without customization, or those who opt for Odoo precisely because of its customizability, understanding that meeting unique requirements incurs significant costs but can result in increased profit and/or cost savings, such as human resource costs. Therefore, as Odoo and Odoo supporting partners, we do not follow traditional ERP implementation methodology but deliver business value-creating features based on needs.
+					<br/><br/>
+					Odoo now helps over 7 million users every day, thanks to the highlighted apps as well as more than 10,000 ready-made apps from various business areas.
+				</p>
+			</section>
+			<section id="contact-form-2">
+				<NewsLetter />
+			</section>
+		</div>
+	</Container>
+</Layout>
+
