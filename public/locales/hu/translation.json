@@ -26,7 +26,11 @@
     "implementation": "/uzemeltetes",
     "invoicing": "/szamlazas",
     "accounting": "/konyveles",
-    "primary_button_text": "/kapcsolat"
+    "primary_button_text": "/kapcsolat",
+    "odoo": "/odoo-magyarul",
+    "qms": "/ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
+    "vue-storefront": "/vuestorefront-headless-ecommerce",
+    "n8n": "/n8n-zapier-make-integromat"
   },
   "footer": {
     "login": "Bejelentkezés",

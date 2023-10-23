@@ -24,7 +24,11 @@
     "implementation": "/implementation",
     "invoicing": "/invoicing",
     "accounting": "/accounting",
-    "primary_button_text": "/contact"
+    "primary_button_text": "/contact",
+    "odoo": "/odoo-erp",
+    "qms": "/queue-management-system",
+    "vue-storefront": "/vuestorefront-headless-ecommerce",
+    "n8n": "/n8n-zapier-make-integromat"
   },
   "footer": {
     "login": "Login",
