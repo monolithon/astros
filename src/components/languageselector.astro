@@ -1,6 +1,4 @@
 ---
-import { LanguageSelector } from "astro-i18next/components";
-
 const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest } = Astro.props;
 ---
 
@@ -12,12 +10,14 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
       class="fill-black dark:fill-white">
     </path>
   </svg>
-  <LanguageSelector
-    showFlag={false}
-    languageMapping={languageMapping}
+  <select
+    onchange="location = this.value;"
     id="languageSelector"
-    class="appearance-none mx-1 cursor-pointer pl-3 pr-2 py-1.5 rounded-md dark:bg-stone-900 dark:text-white focus-visible:outline-none"
-  />
+    class="appearance-none mx-1 cursor-pointer pl-3 pr-2 py-1.5 rounded-md dark:bg-stone-900 dark:text-white focus-visible:outline-none">
+    <option value="/" id="english">English</option>
+
+    <option value="/hu" id="hungary">Magyar</option>
+  </select>
 </div>
 
 <script>
@@ -134,6 +134,8 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
     "készletértékelésről-röviden-az-erpnext-rendszerben": "inventory-valuation-in-erpnext-system",
     "correcting-warehouse-stock-and-product-valuation-in-erpnext": "raktárkészlet-és-termékérték-javítása",
     "raktárkészlet-és-termékérték-javítása": "correcting-warehouse-stock-and-product-valuation-in-erpnext",
+    "magyar-mikrogazdálkodói-számlatükör": "hungarian-micro-enterprise-chart-of-accounts",
+    "hungarian-micro-enterprise-chart-of-accounts": "magyar-mikrogazdálkodói-számlatükör",
     "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer": "queue-management-system.astro",
     "queue-management-system.astro": "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
   };
@@ -161,50 +163,71 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
     partners: "partnerek",
     legal: "jogok",
   };
-  const languageSelector: any = document.getElementById("languageSelector");
-  languageSelector.addEventListener("change", function () {
-    if (window.location.pathname.startsWith("/hu/category")) {
-      const param = window.location.pathname.split("/hu/category")[1].substring(1);
-      const prams = categories[decodeURIComponent(param)];
-      const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-      window.location.href = url;
-    } else if (window.location.pathname.startsWith("/category")) {
-      const param = window.location.pathname.split("/category")[1].substring(1);
-      const prams = categories[param];
-      const url = window.location.pathname.replace(param, prams);
-      window.location.href = `/hu${url}`;
-    } else if (window.location.pathname.startsWith("/hu/tag")) {
-      const param = window.location.pathname.split("/hu/tag")[1].substring(1);
-      const prams = tag[decodeURIComponent(param)];
-      const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-      window.location.href = url;
-    } else if (window.location.pathname.startsWith("/tag")) {
-      const param = window.location.pathname.split("/tag")[1].substring(1);
-      const prams = tag[param];
-      const url = window.location.pathname.replace(param, prams);
-      window.location.href = `/hu${url}`;
-    } else if (window.location.pathname.startsWith("/hu")) {
-      const param = window.location.pathname.split("/hu")[1].substring(1);
-      const prams = blog[decodeURIComponent(param)];
+  const englishSelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("english");
+  const hungarySelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("hungary");
+
+  window.onload = function () {
+    if (window.location.pathname.startsWith("/hu/")) {
+      hungarySelector.selected = true;
+      englishSelector.selected = false;
+      if (window.location.pathname.startsWith("/hu/category")) {
+        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
+        const prams = categories[decodeURIComponent(param)];
+        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+        englishSelector.value = url;
+        hungarySelector.value = decodeURIComponent(window.location.pathname);
+      }
+
+      if (window.location.pathname.startsWith("/hu/tag")) {
+        const param = window.location.pathname;
+        englishSelector.value = param.replace("/hu", "");
+        hungarySelector.value = param;
+      }
+
+      const param = window.location.pathname.split("/hu")[1].replaceAll("/", "");
+      const prams = blog[decodeURIComponent(param.replaceAll("/", ""))];
       if (!prams) {
         const prams = links[decodeURIComponent(param)];
         if (!prams) return;
         const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        return (window.location.href = url);
+        englishSelector.value = url;
+        hungarySelector.value = window.location.pathname;
+      } else {
+        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+        englishSelector.value = url;
+        hungarySelector.value = decodeURIComponent(window.location.pathname);
       }
-      const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-      window.location.href = url;
     } else if (window.location.pathname.startsWith("/")) {
+      hungarySelector.selected = false;
+      englishSelector.selected = true;
+
+      if (window.location.pathname.startsWith("/category")) {
+        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
+        const prams = categories[decodeURIComponent(param)];
+        const url = window.location.pathname.replace(param, prams);
+        englishSelector.value = window.location.pathname;
+        hungarySelector.value = `/hu${url}`;
+      }
+
+      if (window.location.pathname.startsWith("/tag")) {
+        const param = window.location.pathname;
+        englishSelector.value = param;
+        hungarySelector.value = `/hu${param}`;
+      }
+
       const param = window.location.pathname.split("/")[1];
-      const prams = blog[param];
+      const prams = blog[param.replace("/", "")];
       if (!prams) {
         const prams = links[param];
         if (!prams) return;
         const url = window.location.pathname.replace(param, prams);
-        return (window.location.href = `/hu${url}`);
+        hungarySelector.value = `/hu${url}`;
+        englishSelector.value = window.location.pathname;
+      } else {
+        const url = window.location.pathname.replace(param, prams);
+        hungarySelector.value = `/hu${url}`;
+        englishSelector.value = window.location.pathname;
       }
-      const url = window.location.pathname.replace(param, prams);
-      window.location.href = `/hu${url}`;
     }
-  });
+  };
 </script>

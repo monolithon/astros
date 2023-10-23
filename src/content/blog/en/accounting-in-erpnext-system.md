@@ -3,8 +3,6 @@ title: Accounting in ERPNext System
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithic
     - erpnext
 image:
       src: /könyvelés-erpnext-rendszerben.png

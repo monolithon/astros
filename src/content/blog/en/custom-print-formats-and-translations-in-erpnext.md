@@ -4,8 +4,6 @@ title: Custom Print Formats and Translations in ERPNext
 draft: false
 author: Admin
 tags:
-    - how-to
-    - monolithon
     - erpnext
 image:
     src: /krystal.jpg

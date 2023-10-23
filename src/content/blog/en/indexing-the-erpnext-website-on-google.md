@@ -3,8 +3,6 @@ title: Indexing the ERPNext Website on Google
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-weboldal-google-indexelése.png

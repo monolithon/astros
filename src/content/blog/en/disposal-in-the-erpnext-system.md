@@ -5,8 +5,6 @@ title: Disposal in the ERPNext system
 draft: false
 author: Admin
 tags:
-     - how-to
-     - on a monolith
      - erpnext
 image:
      src: /krystal.jpg

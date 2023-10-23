@@ -4,8 +4,6 @@ title: Closing a Manufacturing Order with Less Quantity Produced in ERPNext
 draft: false
 author: Admin
 tags:
-    - how-to
-    - monolithon
     - erpnext
 image:
     src: /krystal.jpg

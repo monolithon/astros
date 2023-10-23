@@ -3,8 +3,6 @@ title: ERPNext, BI, and Business Intelligence+Metabase
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-bi-és-üzleti-intelligencia-metabase.png

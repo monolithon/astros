@@ -3,8 +3,6 @@ title: ERPNext GDPR and Cookie Management
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /erpnext-gdrp-és-cookie-azaz-süti-kezelés.png

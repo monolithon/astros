@@ -4,8 +4,6 @@ title: Inventory Valuation in ERPNext System
 draft: false
 author: Admin
 tags:
-    - how-to
-    - monolithon
     - erpnext
 image:
     src: /krystal.jpg

@@ -3,8 +3,6 @@ title: ERPNext konferencia 2021. november 19-20.
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-konferencia-2021-november-19-20.png

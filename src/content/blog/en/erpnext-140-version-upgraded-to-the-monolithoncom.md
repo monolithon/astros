@@ -3,8 +3,6 @@ title: Upgraded monolithon.com to ERPNext 14.0 Version
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-140-verzióra-frissítettük-a-monolithoncom-ot.jpg

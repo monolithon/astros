@@ -3,8 +3,6 @@ title: ERPNext Chat Solutions
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /erpnext-chat-megoldások.png

@@ -3,8 +3,6 @@ title: Year-End Task - Managing Exchange Rates in ERPNext
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /év-eleji-teendő-árfolyamok-kezelése-az-erpnextben.jpg

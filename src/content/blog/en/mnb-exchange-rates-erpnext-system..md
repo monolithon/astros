@@ -3,8 +3,6 @@ title: MNB Exchange Rates in ERPNext System
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
       src: /mnb-árfolyamok-erpnext-rendszerben.png

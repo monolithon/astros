@@ -3,8 +3,6 @@ title: Odoo and ERPNext together with Frappe
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /odoo-és-erpnext-a-frappe-vel-együtt.png

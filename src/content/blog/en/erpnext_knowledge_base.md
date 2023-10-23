@@ -3,8 +3,6 @@ title: ERPNext Hungarian Knowledge Base
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /ERPNext_knowledge_base.png

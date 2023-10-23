@@ -4,8 +4,6 @@ title: Periodic or Real-Time Inventory Valuation in ERPNext
 draft: false
 author: Admin
 tags:
-    - how-to
-    - monolithon
     - erpnext
 image:
     src: /krystal.jpg

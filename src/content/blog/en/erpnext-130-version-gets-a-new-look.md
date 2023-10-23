@@ -3,8 +3,6 @@ title: ERPNext 13.0 Version Gets a New Look
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /új-kinézetet-kap-az-erpnext-130-verzió.png

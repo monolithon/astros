@@ -3,8 +3,6 @@ title: Data Synchronization Made Easy with ERPNext's Data Import c
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /adatszinkronizálás-egyszerűen-az-erpnext-adatimport-funkciójának-érdekességei.png

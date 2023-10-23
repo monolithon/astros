@@ -3,8 +3,6 @@ title: ERPNext 13 has been released!
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithon
     - erpnext
 image:
     src: /megjelent-az-erpnext-13.png

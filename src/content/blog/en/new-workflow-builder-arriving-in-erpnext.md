@@ -3,8 +3,6 @@ title: New Workflow Builder Arriving in ERPNext
 draft: false
 author: Admin
 tags:
-    - news
-    - monolithic
     - erpnext
 image:
       src: /új-workflow-builder-érkezik-az-erpnext-be.jpg
