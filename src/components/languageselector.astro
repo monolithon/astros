@@ -177,11 +177,9 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
       }
 
       if (window.location.pathname.startsWith("/hu/tag")) {
-        const param = window.location.pathname.split("tag")[1].replaceAll("/", "");
-        const prams = tag[decodeURIComponent(param)];
-        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        englishSelector.value = url;
-        hungarySelector.value = decodeURIComponent(window.location.pathname);
+        const param = window.location.pathname;
+        englishSelector.value = param;
+        hungarySelector.value = `/hu${param}`;
       }
 
       const param = window.location.pathname.split("/hu")[1].replaceAll("/", "");
@@ -210,11 +208,9 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
       }
 
       if (window.location.pathname.startsWith("/tag")) {
-        const param = window.location.pathname.split("tag")[1].replaceAll("/", "");
-        const prams = tag[decodeURIComponent(param)];
-        const url = window.location.pathname.replace(param, prams);
-        englishSelector.value = window.location.pathname;
-        hungarySelector.value = `/hu${url}`;
+        const param = window.location.pathname;
+        englishSelector.value = param;
+        hungarySelector.value = `/hu${param}`;
       }
 
       const param = window.location.pathname.split("/")[1];
