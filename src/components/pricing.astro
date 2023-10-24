@@ -1,6 +1,7 @@
 ---
 import Link from "@components/ui/link.astro";
 import Button from "./ui/button.astro";
+import { t } from "i18next";
 
 const { plan } = Astro.props;
 ---
@@ -33,7 +34,7 @@ const { plan } = Astro.props;
     </ul>
   </div>
 
-  <Link href="#" aria-describedby="tier-enterprise" class="block w-full mt-6">
+  <Link href={t(plan.button.link)} aria-describedby="tier-enterprise" class="block w-full mt-6">
     {plan.button.text || "Get Started"}
   </Link>
   <!-- <Button /> -->
