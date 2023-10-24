@@ -18,7 +18,10 @@
     "invoicing": "Számlázás",
     "accounting": "Könyvelés",
     "primary_button_text": "Kapcsolat",
-    "odoo": "Odoo"
+    "odoo": "Odoo",
+    "cms_eCommerce": "Weboldal és Webáruház",
+    "qms_nav": "Ügyfélhívó rendszer",
+    "integration_nav": "Integráció és Automatizáció"
   },
 
   "path_header": {
