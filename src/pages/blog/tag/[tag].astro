@@ -35,11 +35,11 @@ export async function getStaticPaths() {changeLanguage('en')
 const { posts, tag, lang } = Astro.props;
 ---
 
-<Layout title="Tags" lang="en">
+<Layout title={`Tags - ${tag}`} lang="en">
 	<Container>
 		<Sectionhead>
 			<Fragment slot="title">#{tag}</Fragment>
-			<Fragment slot="desc">We write about building startups and thoughts going on our mind.</Fragment>
+			<Fragment slot="desc">ERPNext and Frappe news for beginners and advanced users.</Fragment>
 		</Sectionhead>
 		<Posts posts={posts} />
 	</Container>
