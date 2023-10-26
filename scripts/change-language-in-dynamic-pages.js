@@ -1,7 +1,7 @@
 import fsp from "fs/promises";
 import path from "path";
 
-const locales = ["it"];
+const locales = ["hu"];
 const defaultLocale = "en";
 const paths = ["blog/[...page]", "blog/category/[category]", "blog/tag/[tag]", "blog/[slug]"];
 

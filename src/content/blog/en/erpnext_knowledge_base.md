@@ -13,4 +13,4 @@ category:
     - news
 ---
 
-<p><img src="/Screenshot (73).png"></p><p><br></p><p>Everything you need for your daily ERPNext usage or getting started. The knowledge base is continuously updated. Stay tuned!</p><p><br></p><p><a href="https://www.monolithon.com/kb/erpnext-beállítások-magyarul" rel="noopener noreferrer">The knowledge base is accessible here &gt;&gt;</a></p>
+<p><img src="/images/Screenshot (73).png"></p><p><br></p><p>Everything you need for your daily ERPNext usage or getting started. The knowledge base is continuously updated. Stay tuned!</p><p><br></p><p><a href="https://www.monolithon.com/kb/erpnext-beállítások-magyarul" rel="noopener noreferrer">The knowledge base is accessible here &gt;&gt;</a></p>

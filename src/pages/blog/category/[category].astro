@@ -19,7 +19,7 @@ export async function getStaticPaths() {changeLanguage('en')
     });
     const categories = new Set();
     localizedPosts.map((post) => {
-        typeof post.data.category === "string" && categories.add(post.data.category);
+            typeof post.data.category === "string" && categories.add(post.data.category)
     });
     return Array.from(categories).map((category) => {
         return {
@@ -36,7 +36,7 @@ export async function getStaticPaths() {changeLanguage('en')
 const { posts, category, lang } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title="Blog" lang="en">
 	<Container>
 		<Sectionhead>
 			<Fragment slot="title">#{category}</Fragment>

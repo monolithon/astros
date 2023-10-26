@@ -6,6 +6,7 @@ import Container from "@components/container.astro";
 import { Icon } from "astro-icon";
 import { localizePath } from "astro-i18next";
 import { getArticleReadingTime } from "@utils/blog";
+import Newsletter from "@components/newsletter.astro";
 
 changeLanguage("en");
 
@@ -15,6 +16,7 @@ export async function getStaticPaths() {changeLanguage('en')
     var localizedBlogEntries = blogEntries.filter((entry) => entry.slug.startsWith(i18next.language));
     return localizedBlogEntries.map((post) => {
         let slug = post.slug;
+				//@ts-expect-error
         slug = slug.substring(3).replaceAll("blog/", "");
         return {
             params: { slug: slug },
@@ -33,7 +35,7 @@ const readTime = getArticleReadingTime(post.body);
 	<Container>
 		<div class="mx-auto prose prose-lg dark:prose-invert mt-14">
 			<a
-				href={localizePath(`/blog/category/${post.data.category?.toLowerCase()}`)}
+				href={localizePath(`/blog/category/${post.data.category}`)}
 				class="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium no-underline">
 				{post.data.category}
 			</a>
@@ -66,9 +68,11 @@ const readTime = getArticleReadingTime(post.body);
 			</div>
 		</div>
 
+		<Newsletter/>
 		<div class="mx-auto prose prose-lg dark:prose-invert mt-6 dark:text-gray-200">
 			<Content />
 		</div>
+		<Newsletter/>
 		<div class="mx-auto mt-20">
 			<a href={localizePath("/blog")}>
 				<div class="flex flex-row align-middle justify-center dark:text-stone-200">
@@ -77,30 +81,6 @@ const readTime = getArticleReadingTime(post.body);
 				</div>
 			</a>
 		</div>
-		<div
-			class="mx-auto prose prose-lg dark:prose-invert mt-20"
-			x-data="{
-				initGiscus: function() {
-					let script = document.createElement('script');
-					script.src = 'https://giscus.app/client.js';
-					script.dataset.repo = 'zankhq/astros';
-					script.dataset.repoId = 'R_kgDOGa6DOg';
-					script.dataset.category = 'Blog';
-					script.dataset.categoryId = 'DIC_kwDOGa6DOs4CXazF';
-					script.dataset.mapping = 'pathname';
-					script.dataset.strict = '0';
-					script.dataset.reactionsEnabled = '1';
-					script.dataset.emitMetadata = '0';
-					script.dataset.inputPosition = 'top';
-					script.dataset.theme = localStorage.theme == 'dark' ? 'dark' : localStorage.theme == 'light' ? 'light' : 'preferred_color_scheme';
-					script.dataset.lang = 'en';
-					script.dataset.loading = 'lazy';
-					script.crossOrigin = 'anonymous';
-					script.async = true;
-					this.$el.appendChild(script);
-				}
-			}"
-			x-init="initGiscus()">
-		</div>
+
 	</Container>
 </Layout>
