@@ -19,13 +19,13 @@ export async function getStaticPaths() {changeLanguage('en')
     });
     const categories = new Set();
     localizedPosts.map((post) => {
-            typeof post.data.category === "string" && categories.add(post.data.category)
+        Array.isArray(post.data.category) && post.data.category.map((category) => categories.add(category.toLowerCase()));
     });
     return Array.from(categories).map((category) => {
         return {
             params: { category: category },
             props: {
-                posts: localizedPosts.filter((post) => typeof post.data.category === "string"),
+                posts: localizedPosts.filter((post) => Array.isArray(post.data.category) && post.data.category.find((elem) => elem.toLowerCase() === category)),
                 category: category,
                 lang: i18next.language,
             },
@@ -36,10 +36,10 @@ export async function getStaticPaths() {changeLanguage('en')
 const { posts, category, lang } = Astro.props;
 ---
 
-<Layout title="Blog" lang="en">
+<Layout title={`Category - ${category}`} lang="en">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">#{category}</Fragment>
+			<Fragment slot="title">{category}</Fragment>
 			<Fragment slot="desc">We write about building startups and thoughts going on our mind.</Fragment>
 		</Sectionhead>
 		<Posts posts={posts} />
