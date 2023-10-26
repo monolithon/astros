@@ -55,7 +55,7 @@ async function generateImage(prompt, imageName) {
     size: "1024x1024",
   });
 
-  const file = fs.createWriteStream(`/${imageName}.png`);
+  const file = fs.createWriteStream(`./public/images/${imageName}.png`);
 
   const request = await http.get(openAiResponse.data.data[0].url, function (response) {
     response.pipe(file);

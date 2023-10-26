@@ -6,7 +6,8 @@ import { HeadHrefLangs } from "astro-i18next/components";
 import i18next from "i18next";
 import { pwaInfo } from "virtual:pwa-info";
 import "@fontsource-variable/inter";
-import Cookie from "@components/cookie.astro";
+import { ViewTransitions } from "astro:transitions";
+
 export interface Props {
 	title: string;
 	lang: string;
@@ -15,8 +16,6 @@ export interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const resolvedImageWithDomain = new URL("/meta/opengraph.png", Astro.site).toString();
-
-// replaced dynamically
 
 const { title, lang = null } = Astro.props;
 
@@ -28,10 +27,12 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="images/monolithon-fav.png" />
 		<meta name="generator" content={Astro.generator} />
-		<link rel="icon" type="image/png" href="/monolithon-fav.png" />
 		<meta name="theme-color" content="#ffffff" />
 		<HeadHrefLangs />
+
+		<ViewTransitions />
 
 		<!-- Global CSS -->
 		<link rel="stylesheet" href="/index.css" />
@@ -53,39 +54,41 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 			}}
 		/>
 
-		<!-- {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />} -->
-		<!-- <script defer src="/src/pwa.ts"></script> -->
+		{pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
+		<script src="/src/pwa.ts"></script>
 	</head>
-	<Cookie />
-	<body class="dark:bg-stone-95">
-		<!-- Google Tag Manager (noscript) -->
-		<noscript>
-			<iframe src="https://service.monolithon.com/ns.html?id=GTM-P4LTKG3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-		</noscript>
-		<!-- End Google Tag Manager (noscript) -->
-		<script>
-			(function (w, d, t, u, n, a, m) {
-				w["MauticTrackingObject"] = n;
-				(w[n] =
-					w[n] ||
-					function () {
-						(w[n].q = w[n].q || []).push(arguments);
-					}),
-					(a = d.createElement(t)),
-					(m = d.getElementsByTagName(t)[0]);
-				a.async = 1;
-				a.src = u;
-				m.parentNode.insertBefore(a, m);
-			})(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
+	<body class="dark:bg-stone-950">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://service.monolithon.com/ns.html?id=GTM-P4LTKG3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<script>
+		(function (w, d, t, u, n, a, m) {
+			w["MauticTrackingObject"] = n;
+			(w[n] =
+				w[n] ||
+				function () {
+					(w[n].q = w[n].q || []).push(arguments);
+				}),
+				//@ts-expect-error
+				(a = d.createElement(t)),
+				//@ts-expect-error
+				(m = d.getElementsByTagName(t)[0]);
+				//@ts-expect-error
+			a.async = 1;
+				//@ts-expect-error
+			a.src = u;
+				//@ts-expect-error
+			m.parentNode.insertBefore(a, m);
+		})(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
 
-			mt("send", "pageview");
-		</script>
+		//@ts-expect-error
+		mt("send", "pageview");
+	</script>
 
 		<Navbar />
-		<hr />
-		<div>
-			<slot />
-		</div>
+		<slot />
 		<Footer />
 		<style is:global>
 			/* Improve Page speed */
