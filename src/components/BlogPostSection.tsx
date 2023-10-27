@@ -41,7 +41,7 @@ export function BlogPostSection({ posts, next, prev }: { posts: any; next: strin
 							</div>
 						</div>
 						<h3 className="mt-3 text-lg font-semibold leading-6 text-white">
-							<a href={`/${blogPostEntry.slug.replace("en/", "")}`}>
+							<a href={`${blogPostEntry.slug.replace("en/", "").replace("hu/", "")}`}>
 								<span className="absolute inset-0" />
 								{blogPostEntry.data.title}
 							</a>
@@ -50,7 +50,7 @@ export function BlogPostSection({ posts, next, prev }: { posts: any; next: strin
 							{blogPostEntry.data.category.map((cat) => (
 								<a
 									key={cat}
-									href={`/category/${cat?.toLowerCase()}`}
+									href={`/blog/category/${cat?.toLowerCase()}`}
 									className="text-blue-400 dark:text-stone-400 uppercase tracking-wider text-sm font-medium no-underline">
 									{cat?.replace(/-/g, " ")}
 								</a>

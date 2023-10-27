@@ -112,7 +112,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
     "megjelent-az-erpnext-13": "published-by-erpnext-13",
     "native-android-ios-app-coming": "natív-android-ios-app-érkezik",
     "natív-android-ios-app-érkezik": "native-android-ios-app-coming",
-    "erpnext-130-version-gets-a-new-look": "új-kinézetet-kap-az-erpnext-130-verzió.png",
+    "erpnext-130-version-gets-a-new-look": "új-kinézetet-kap-az-erpnext-130-verzió",
     "új-kinézetet-kap-az-erpnext-130-verzió.png": "erpnext-130-version-gets-a-new-look",
     "how-to-use-downloadable-documents-in-erpnext-email-templates": "letölthető-dokumentum-használata-erpnext-email-sablonban",
     "letölthető-dokumentum-használata-erpnext-email-sablonban": "how-to-use-downloadable-documents-in-erpnext-email-templates",
@@ -175,28 +175,35 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
 	//@ts-expect-error
   const hungarySelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("hungary");
 
-  window.onload = function () {
+  document.addEventListener('astro:page-load', () => {
     if (window.location.pathname.startsWith("/hu/")) {
       hungarySelector.selected = true;
       englishSelector.selected = false;
-      if (window.location.pathname.startsWith("/hu/blog/category")) {
+      if (window.location.pathname.startsWith("/hu/blog/category/")) {
         const param = window.location.pathname.split("category")[1].replaceAll("/", "");
         const prams = categories[decodeURIComponent(param)];
         const url = window.location.pathname.replace(param, prams).replace("/hu", "");
         englishSelector.value = url;
         hungarySelector.value = decodeURIComponent(window.location.pathname);
+        return
       }
 
-      if (window.location.pathname.startsWith("/hu/blog/tag")) {
+      if (window.location.pathname.startsWith("/hu/blog/tag/")) {
         const param = window.location.pathname;
         englishSelector.value = param.replace("/hu", "");
         hungarySelector.value = param;
+        return
       }
 
       if (window.location.pathname.startsWith("/hu/blog")) {
-        const param = window.location.pathname.split("/hu/blog/")[1].replaceAll("/", "");
+        const param = window.location.pathname.split("/hu/blog")[1].replaceAll("/", "");
         const prams = blog[decodeURIComponent(param.replaceAll("/", ""))];
-        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+        if(!prams) {
+          hungarySelector.value = window.location.pathname;
+          englishSelector.value = "/blog/";
+          return;
+        };
+        const url = window.location.pathname.replace(param, prams).replace("hu/", "");
         englishSelector.value = url;
         hungarySelector.value = decodeURIComponent(window.location.pathname);
       }
@@ -212,23 +219,30 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
       hungarySelector.selected = false;
       englishSelector.selected = true;
 
-      if (window.location.pathname.startsWith("/blog/category")) {
+      if (window.location.pathname.startsWith("/blog/category/")) {
         const param = window.location.pathname.split("category")[1].replaceAll("/", "");
         const prams = categories[decodeURIComponent(param)];
         const url = window.location.pathname.replace(param, prams);
         englishSelector.value = window.location.pathname;
         hungarySelector.value = `/hu${url}`;
+        return
       }
 
-      if (window.location.pathname.startsWith("/blog/tag")) {
+      if (window.location.pathname.startsWith("/blog/tag/")) {
         const param = window.location.pathname;
         englishSelector.value = param;
         hungarySelector.value = `/hu${param}`;
+        return
       }
 
-      if (window.location.pathname.startsWith("/blog/")) {
+      if (window.location.pathname.startsWith("/blog")) {
         const param = window.location.pathname.split("/blog/")[1];
         const prams = blog[param.replace("/", "")];
+        if(!prams) {
+          hungarySelector.value = `/hu/blog/`;
+          englishSelector.value = window.location.pathname;
+          return;
+        };
         const url = window.location.pathname.replace(param, prams);
         hungarySelector.value = `/hu${url}`;
         englishSelector.value = window.location.pathname;
@@ -241,5 +255,5 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
       hungarySelector.value = `/hu${url}`;
       englishSelector.value = window.location.pathname;
     }
-  };
+  }, {capture: true, once: true});
 </script>

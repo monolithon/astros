@@ -21,7 +21,7 @@ const allPosts = async () => {
     }
     return {
       ...post,
-      slug: slug.join("/"),
+      slug: slug.join("/blog/"),
       lang: lang,
     };
   });
