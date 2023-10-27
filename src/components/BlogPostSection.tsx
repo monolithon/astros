@@ -22,7 +22,7 @@ export function BlogPostSection({ posts, next, prev }: { posts: any; next: strin
 						key={index}
 						className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-stone-950 px-8 pb-8 pt-32 sm:pt-64 lg:pt-30">
 						<img
-							src={blogPostEntry.data.image.src}
+							src={`/images/${blogPostEntry.data.image.src}`}
 							alt={blogPostEntry.data.image.alt}
 							className="absolute inset-0 -z-10 h-full w-full object-cover"
 						/>
