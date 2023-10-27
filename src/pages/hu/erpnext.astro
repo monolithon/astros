@@ -1,0 +1,51 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import LetsTalk from "@components/LetsTalk.astro";
+changeLanguage("hu");
+---
+
+<Layout lang="hu" title="ERPnext">
+	<Container>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">Monolithon a biztos alap.</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">ERPNext és Frappe angolul.</h2>
+					<a href="/contact">
+						<button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-32 h-12 text-xl">Beszéljünk!</button>
+					</a>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/erpnextImage.png" alt="" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Az ERPNext az egyetlen igazán ingyenes és nyílt forráskódú teljes körű vállalatirányítási rendszer</h2>
+					<ul class="list-disc ml-10 space-y-5">
+						<li>
+							Ha vállalatirányítási rendszert keresel, akkor jó helyen jársz, mert ezeken az oldalakon hamarosan részletesen bemutatjuk neked az ERPNext-et.
+						</li>
+						<li>
+							Ha hidegen ráz a gondolattól, hogy régi vállalatirányítási rendszerekre emlékeztető szoftvert kell használnod, akkor szerencsés vagy, mert az ERPNext modern szoftver, ami nem idézi fel a múlt kellemetlen emlékeit.
+						</li>
+						<li>
+							Ha nem tudod, hogy mi az az ERP, az ERPNext a következő pontra utal, ami azt sugallja, hogy az egyik legmodernebb üzleti szoftver.
+						</li>
+					</ul>
+				</section>
+
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Az ERPNext az egyetlen igazán ingyenes és nyílt forráskódú teljes körű vállalatirányítási rendszer</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						Az ERPNext alapvetően egy vállalatirányítási rendszer, ami megkönnyíti és átláthatóbbá teszi a vállalkozás mindennapjait. De - csak egy funkciót említve - akár több vállalat egyidejű kezelésére is használható, ahol a vállalat akár egy személy is lehet. Így könnyen követhetők az eltérő struktúrák közötti tranzakciók a rendszer segítségével. Például a vezetői bér költséget jelenthet egyénnek, de bevételt a vállalat számára. Így átláthatóvá válnak a személyes és vállalati pénzügyek és azok összekapcsolódása. De egy másik jó példa a személyes felhasználásra a napi, alkalmi, visszatérő projektfeladatok és tevékenységek követése és kezelése (amelyeknek szintén lehetnek bevétel vagy kiadási oldala). A vállalati felhasználás mellett az ERPNext a személyes használathoz is nélkülözhetetlen, amikor a pénzügyekkel vagy feladatokkal kapcsolatos dokumentumok kezeléséről van szó, amit az ERPNext rendszerben könnyedén meg lehet tenni. Néhány problémára pedig egyszerű megoldást kínál az ERPNext az élet minden területén. Az egyéb ERPNext által lefedett területek és működésük folyamatosan megjelennek a magyar ERPNext weboldalon, itt a monolithon.com-on.
+					</p>
+				</section>
+
+				<LetsTalk/>
+			</div>
+		</div>
+	</Container>
+</Layout>
