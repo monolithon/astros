@@ -41,12 +41,8 @@ export async function getStaticPaths({ paginate }) {
 const page = localizedPosts.filter((post) => post.data.category.includes("news"));
 ---
 
-<Layout>
+<Layout title="ERPNext, Frappe, Odoo and more" lang="en">
 	<Container>
-		<!-- <Hero />
-		<Features />
-		<Faq />
-		<Newsletter /> -->
 		<LandingBody page={page}/>
 	</Container>
 </Layout>
