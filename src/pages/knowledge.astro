@@ -5,11 +5,10 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Pagination from "@components/blog/pagination.astro";
 
-changeLanguage("hu");
+changeLanguage("en");
 
-export async function getStaticPaths({ paginate }) {changeLanguage('hu')
+const allPosts = async () => {
     var posts = await getCollection("blog", ({ data }) => {
         return !data.draft;
     });
@@ -32,21 +31,26 @@ export async function getStaticPaths({ paginate }) {changeLanguage('hu')
     localizedPosts.sort(function (a, b) {
         return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
     });
+    return localizedPosts;
+};
+
+const localizedPosts = await allPosts();
+export async function getStaticPaths({ paginate }) {
     return paginate(localizedPosts, {
         params: { blog: "blog" || undefined },
         pageSize: 4,
     });
 }
-const { page } = Astro.props;
+const page = localizedPosts.filter(post=>post.data.category.includes('how-to'))
 ---
 
-<Layout title="Blog" lang="hu">
+
+<Layout title="Knowledge" lang="en">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">ERPNext and Frappe Knowledgebase</Fragment>
+			<Fragment slot="desc">ERPNext and Frappe how-to from beginners to advance users.</Fragment>
 		</Sectionhead>
-		<Posts posts={page.data} />
-		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />
+		<Posts posts={page} />
 	</Container>
 </Layout>

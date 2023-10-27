@@ -9,7 +9,7 @@ import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("hu");
 
-export async function getStaticPaths() {changeLanguage('it')
+export async function getStaticPaths() {changeLanguage('hu')
     const posts = await getCollection("blog", ({ data }) => {
         return !data.draft && data.publishDate < new Date();
     });
@@ -19,13 +19,13 @@ export async function getStaticPaths() {changeLanguage('it')
     });
     const categories = new Set();
     localizedPosts.map((post) => {
-        typeof post.data.category === "string" && categories.add(post.data.category.toLowerCase());
+        Array.isArray(post.data.category) && post.data.category.map((category) => categories.add(category.toLowerCase()));
     });
     return Array.from(categories).map((category) => {
         return {
             params: { category: category },
             props: {
-                posts: localizedPosts.filter((post) => typeof post.data.category === "string"),
+                posts: localizedPosts.filter((post) => Array.isArray(post.data.category) && post.data.category.find((elem) => elem.toLowerCase() === category)),
                 category: category,
                 lang: i18next.language,
             },
@@ -36,11 +36,13 @@ export async function getStaticPaths() {changeLanguage('it')
 const { posts, category, lang } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title={`Category - ${category}`} lang="hu">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">#{category}</Fragment>
-			<Fragment slot="desc">We write about building startups and thoughts going on our mind.</Fragment>
+            <Fragment slot="title">#ERPNext és Frappe {category.replace(/-/g, " ")}</Fragment>
+            <Fragment slot="desc">
+              ERPNext és Frappe {category.replace(/-/g, " ")} mindenkinek.
+            </Fragment>
 		</Sectionhead>
 		<Posts posts={posts} />
 	</Container>

@@ -5,11 +5,10 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Posts from "@components/blog/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("hu");
 
-export async function getStaticPaths() {changeLanguage('it')
+export async function getStaticPaths() {changeLanguage('hu')
     const posts = await getCollection("blog", ({ data }) => {
         return !data.draft && data.publishDate < new Date();
     });
@@ -36,11 +35,13 @@ export async function getStaticPaths() {changeLanguage('it')
 const { posts, tag, lang } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title={`Tags - ${tag}`} lang="hu">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">#{tag}</Fragment>
-			<Fragment slot="desc">We write about building startups and thoughts going on our mind.</Fragment>
+            <Fragment slot="title">#ERPNext és Frappe {tag.replace(/-/g, " ")}</Fragment>
+            <Fragment slot="desc">
+              ERPNext és Frappe {tag.replace(/-/g, " ")} mindenkinek.
+            </Fragment>
 		</Sectionhead>
 		<Posts posts={posts} />
 	</Container>

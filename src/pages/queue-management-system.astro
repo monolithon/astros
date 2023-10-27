@@ -1,0 +1,113 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Pricing from "@components/pricing.astro";
+import LetsTalk from "@components/LetsTalk.astro";
+import Button from "@components/ui/button.astro";
+
+changeLanguage("en");
+const pricingData = [
+  {
+    name: "Simple",
+    price: "€299",
+    popular: false,
+    features: ["Monthly fee/location", "Unlimited user", "Unlimited guest", "Unlimited kiosk", "Unlimited display", "Unlimited traffic*"],
+    button: {
+      text: "Let's talk!",
+      link: "path_header.primary_button_text",
+    },
+  },
+  {
+    name: "Standard",
+    price: "€599",
+    popular: true,
+    features: ["Simple features plus:", "API access to integrate", "Push notification"],
+    button: {
+      text: "Let's talk!",
+      link: "path_header.primary_button_text",
+    },
+  },
+  {
+    name: "Premium",
+    price: "Egyedi",
+    popular: false,
+    features: ["Standard features plus:", "Extra resources", "Customization", "Priority support", "Local installation & offline access"],
+    button: {
+      text: "Let's talk!",
+      link: "path_header.primary_button_text",
+    },
+  },
+];
+---
+
+<Layout title="Customer Call, Guest Call, Queue Management Kiosk, Customer Management System" lang="en">
+  <Container>
+    <div class="px-5">
+      <div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+        <div class="flex flex-col h-full justify-center">
+          <h1 class="text-[60px] leading-none font-semibold">Customer Call, Queue Management Kiosk System.</h1>
+          <h2 class="text-xl text-[#192734] dark:text-white my-4">For Hostels and Hotels.</h2>
+          <a href="#pricing">
+            <Button class="md:px-3 md:py-2 leading-6" style="primary">Plans</Button>
+          </a>
+        </div>
+        <div>
+          <img class="w-[40vw]" src="/images/qms.jpg" alt="" />
+        </div>
+      </div>
+      <div class="flex flex-col items-center">
+        <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">No More Unnecessary Waiting in Line</h2>
+          <p class="list-disc text-[17px] leading-7 space-y-5]">
+            Nobody likes to wait in line, especially after a long journey. And a guest arriving at a hotel or hostel has usually traveled a long way
+            to get to the check-in desk. In both the digital and physical sense, as the "digital journey" begins well before the reservation and
+            continues even after checking out. Our common goal is to turn them into returning customers, which we can achieve by gathering feedback,
+            recommendations, and reviews, along with offering additional services while ensuring quality service.
+          </p>
+        </section>
+
+        <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">Enhancing Customer Experience Made Easy</h2>
+          <p class="list-disc text-[17px] leading-7 space-y-5]">
+            With our customer call and queue management system, you can eliminate the line not only in front of the reception but also incorporate it
+            into the aforementioned digital user journey, differentiating yourself from competitors by offering queue-free check-ins and potentially
+            increasing booking conversions. Instead of standing in line, we can seat our guests, which is crucial in this industry, especially after a
+            long journey. Waiting time cannot be completely eliminated due to limited reception capacity, but the conditions in which guests wait make
+            a significant difference. This is their first personal experience with our brand, and communication is key in every situation. Thanks to
+            the customer call and queue management kiosk, guests don't have to spend their initial moments in our hostel or hotel in uncertainty and
+            discomfort. They already know how the check-in process will proceed and when they can expect their turn. They can use this waiting time to
+            their liking, making the customer service more interactive and engaging.
+          </p>
+        </section>
+        <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">Not Just Cost Savings, But Also Additional Revenue</h2>
+          <p class="list-disc text-[17px] leading-7 space-y-5]">
+            We provide convenience and time to our guests, but we can further enhance the customer experience, which not only satisfies and retains
+            customers but also generates additional revenue for us. Guests can enjoy discounts on consumption or avail additional services while
+            waiting. All of these actions can be conveyed through the system (on the customer display or via messages). People may be overwhelmed by
+            messages, but the open rate for mobile notifications is very high. In addition to calling guests to the check-in counter (on the customer
+            display), it can also be done through mobile messages, opening up the opportunity to send further messages while the guest is on-site or
+            even after they leave. According to our calculations, the system can quickly pay for itself even without these extra revenues, thanks to
+            precise statistics that enable us to evaluate the performance of receptionists and plan capacity. Due to the rapid advancement of
+            technology and cost reduction, it's now possible to introduce a customer call system in various areas without a significant investment.
+          </p>
+        </section>
+      </div>
+    </div>
+    <Sectionhead>
+      <Fragment slot="title">Packages</Fragment>
+      <Fragment slot="desc">Simple, transparent, and fair pricing.</Fragment>
+    </Sectionhead>
+
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing">
+      {pricingData.map((item) => <Pricing plan={item} />)}
+    </div>
+
+    <section>
+      <span class="dark:text-white text-black">*The number of users is not limited, but the optimized resources are limited.</span>
+    </section>
+    <LetsTalk />
+  </Container>
+</Layout>

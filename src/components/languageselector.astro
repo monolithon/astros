@@ -177,7 +177,7 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
     if (window.location.pathname.startsWith("/hu/")) {
       hungarySelector.selected = true;
       englishSelector.selected = false;
-      if (window.location.pathname.startsWith("/hu/category")) {
+      if (window.location.pathname.startsWith("/hu/blog/category")) {
         const param = window.location.pathname.split("category")[1].replaceAll("/", "");
         const prams = categories[decodeURIComponent(param)];
         const url = window.location.pathname.replace(param, prams).replace("/hu", "");
@@ -185,30 +185,35 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
         hungarySelector.value = decodeURIComponent(window.location.pathname);
       }
 
-      if (window.location.pathname.startsWith("/hu/tag")) {
+      if (window.location.pathname.startsWith("/hu/blog/tag")) {
         const param = window.location.pathname;
         englishSelector.value = param.replace("/hu", "");
         hungarySelector.value = param;
       }
 
-      const param = window.location.pathname.split("/hu")[1].replaceAll("/", "");
-      const prams = blog[decodeURIComponent(param.replaceAll("/", ""))];
-      if (!prams) {
-        const prams = links[decodeURIComponent(param)];
-        if (!prams) return;
-        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        englishSelector.value = url;
-        hungarySelector.value = window.location.pathname;
-      } else {
-        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        englishSelector.value = url;
-        hungarySelector.value = decodeURIComponent(window.location.pathname);
+      if (window.location.pathname.startsWith("/hu/blog")) {
+        const param = window.location.pathname.split("/hu/blog/")[1].replaceAll("/", "");
+        const prams = blog[decodeURIComponent(param.replaceAll("/", ""))];
+        if (!prams) {
+          const prams = links[decodeURIComponent(param)];
+          const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+          englishSelector.value = url;
+          hungarySelector.value = decodeURIComponent(window.location.pathname);
+        }
       }
+
+      const param = window.location.pathname.split("/")[1].replaceAll("/", "");
+      const prams = links[decodeURIComponent(param)];
+      if (!prams) return;
+      const url = window.location.pathname.replace(param, prams).replace("/hu", "");
+      englishSelector.value = url;
+      hungarySelector.value = window.location.pathname;
+
     } else if (window.location.pathname.startsWith("/")) {
       hungarySelector.selected = false;
       englishSelector.selected = true;
 
-      if (window.location.pathname.startsWith("/category")) {
+      if (window.location.pathname.startsWith("/blog/category")) {
         const param = window.location.pathname.split("category")[1].replaceAll("/", "");
         const prams = categories[decodeURIComponent(param)];
         const url = window.location.pathname.replace(param, prams);
@@ -216,25 +221,26 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
         hungarySelector.value = `/hu${url}`;
       }
 
-      if (window.location.pathname.startsWith("/tag")) {
+      if (window.location.pathname.startsWith("/blog/tag")) {
         const param = window.location.pathname;
         englishSelector.value = param;
         hungarySelector.value = `/hu${param}`;
       }
 
-      const param = window.location.pathname.split("/")[1];
-      const prams = blog[param.replace("/", "")];
-      if (!prams) {
-        const prams = links[param];
-        if (!prams) return;
+      if (window.location.pathname.startsWith("/blog/")) {
+        const param = window.location.pathname.split("/blog/")[1];
+        const prams = blog[param.replace("/", "")];
         const url = window.location.pathname.replace(param, prams);
-        hungarySelector.value = `/hu${url}`;
-        englishSelector.value = window.location.pathname;
-      } else {
-        const url = window.location.pathname.replace(param, prams);
-        hungarySelector.value = `/hu${url}`;
-        englishSelector.value = window.location.pathname;
+          hungarySelector.value = `/hu${url}`;
+          englishSelector.value = window.location.pathname;
       }
+
+      const param = window.location.pathname.split("/")[1];
+      const prams = links[param];
+      if (!prams) return;
+      const url = window.location.pathname.replace(param, prams);
+      hungarySelector.value = `/hu${url}`;
+      englishSelector.value = window.location.pathname;
     }
   };
 </script>
