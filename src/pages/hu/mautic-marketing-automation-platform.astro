@@ -1,0 +1,62 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/newsLetterhu.astro";
+changeLanguage("hu");
+---
+
+<Layout lang="hu" title="Mautic Marketing Platform">
+	<Container>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">Mautic marketing platform.</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">Marketing automatizáció és hírlevél.</h2>
+					<a href="/hu/kapcsolat">
+						<button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-32 h-12 text-xl">Beszéljünk!</button>
+					</a>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/mautic-marketing-automation-platform.jpg" alt="" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Mautic - érdeklődőből vásárló</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+							A Mautic marketing automatizációs platform hasonló szolgáltatásokat nyújt, mint az ismert CRM szoftverek, a Salesforce-tól a Hubspotig. CRM-ként is használható, de sokkal inkább a CRM automatizálási képességeit érdemes kihasználni, hiszen a weboldal látogatóinak követésétől, azok viselkedésének elemzésén keresztül a megfelelő tartalmak eljuttatására is használhatjuk a Mautic-ot. 
+				</section>
+
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Mautic landing - érkező, értékesítési oldalak</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						A Mautic-kal könnyedén építhetünk kódolás nélkül landing oldalakat, akár többnyelvű weboldalként, menürendszerrel együtt. Ebben az esetben a mérés és a feliratkozás, ami az első számú konverzió Mautic esetén automatikusan használható. A Mautic nagy előnye e mellet a gyorsan használható landing oldal építési funkció mellett azonban az, hogy látogatók "követésére", az érdeklődők gyűjtésére és az ő adatainak nyilvántartására könnyedén alkalmazható például az űrlapok, feliratkozások kezelésével. Komplex kampányok kezelésével lehetőségünk van az érdeklődők látogatók hírlevéllel való kiszolgálására is. 
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Mautic ingyenes hírlevél küldő szoftver</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+					A Mautic másik nagy előnye, hogy könynedén készíthetünk vele hírleveleket és küldhetjük azokat az általunk kezelt és karbantartott listákra. Betartva szükséges és szokásos szabályokat a fel és leiratkozások kezelésétől, az adatok frissíthetőségén át a mobil és asztali responsive hírelvele könnyű elkészítéstől egészen azok kiküldéséig. <br><br>
+					Az ingyenes hírlevél kiküldéshez azonban szükségünk lesz még egy levélküldési szolgáltatásra, ami lehet SMTP, vagy ami mégjobb valamilyen API megoldáson keresztül is küldhetünk levelet a Mautic rendszeréből. 
+				</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Mautic konverzió</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+							A Mautic azzal, hogy a mérőkódja bármilyen weboldalba illeszthető -  ha például nem használnánk a beépített landing oldal megoldását - lehetővé teszi, hogy megnézzük melyik látogató mely tartalmainkat oldalainkat nézte meg, mely linkekre kattintott, mely hírleveleinket olvasta és ezen viselkedések alapján további automatikus feladatokat is el tud látni, mint például új ajánlatot küldeni az érdeklődőnek. Vagy az integrációknak és a lead scoringnak hála, azaz amikor a különböző tevékenységek és tulajdonságok alapján pontokat társítunk egy érdeklődőhöz, dönthetünk úgy például, hogy az érdeklődőt átadjuk az értékesítési csapatnak kapcsoaltfelvétel céljából. 
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Mautic integráció</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+							Az értékesítőink használhatják a Mautic-ot is, mint hagymományos CRM, de egy komplexebb üzletnél célszerű lehet, a Mautic automatziáció következő lépéseként az elkészítet érdeklődőket a CRM rendszerünkbe beküldeni, hogy az értékesítési csapatunk a saját folyamatában kezelhesse őket. Például az <a href="/hu/erpnext/" style="text-decoration: underline;">ERPNext</a> vagy az <a href="/hu/odoo-magyarul/" style="text-decoration: underline;">Odoo</a> ERP rendszerek CRM rendszerébe - Mautic modullal vagy külső gyors kényelmes integrációt biztosító <a href="/hu/n8n-zapier-make-integromat" style="text-decoration: underline;">n8n</a> szoftverrel is megtehetjük, hiszen abban alapból elérhető az említett szofteverek teljes API rendszere. 
+					</p>
+				</section>
+				<section id="contact-form-2">
+					<NewsLetter />
+				  </section>
+			</div>
+		</div>
+	</Container>
+</Layout>
