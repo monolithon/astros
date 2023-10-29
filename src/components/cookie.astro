@@ -1,8 +1,7 @@
 <body class="dark:bg-stone-900">
   <link rel="stylesheet" href="/cookieconsent.css" />
-  <script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.x.x/dist/cookieconsent.js"></script>
-  <script is:inline>
-    window.addEventListener("load", () => {
+  <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.x.x/dist/cookieconsent.js" is:inline></script>
+  <script>
       const cc = initCookieConsent();
 
       cc.run({
@@ -65,7 +64,6 @@
           },
         },
       });
-    });
 
     function initializeTracking() {
       (function (w, d, t, u, n, a, m) {
