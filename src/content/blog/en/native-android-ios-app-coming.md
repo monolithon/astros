@@ -8,7 +8,7 @@ image:
     src: /natív-android-ios-app-érkezik.jpg
     alt: ERPNext
 snippet: ERPNext has been doing well in terms of mobile usage on both Android and iOS systems, but now a completely new era begins.
-publishDate: 2023-02-24 11:39
+publishDate: 2021-02-24 11:39
 category:
     - news
 ---

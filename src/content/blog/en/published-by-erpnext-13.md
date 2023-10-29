@@ -8,7 +8,7 @@ image:
     src: /megjelent-az-erpnext-13.png
     alt: ERPNext
 snippet: ERPNext 13 was officially released a few days ago. We didn't sleep on it, as we have been using it for a while now.
-publishDate: 2023-04-9 11:39
+publishDate: 2021-04-9 11:39
 category:
     - news
 ---

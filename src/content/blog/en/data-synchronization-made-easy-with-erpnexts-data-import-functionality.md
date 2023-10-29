@@ -8,7 +8,7 @@ image:
     src: /adatszinkronizálás-egyszerűen-az-erpnext-adatimport-funkciójának-érdekességei.png
     alt: ERPNext
 snippet: Most ERP implementations aim to minimize the use of Excel and automate manual work. But without a (good) data import feature, there is no ERP.
-publishDate: 2023-07-17 11:39
+publishDate: 2021-08-23 11:39
 category:
     - news
 ---
