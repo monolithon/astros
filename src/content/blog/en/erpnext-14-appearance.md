@@ -8,7 +8,7 @@ image:
     src: /erpnext-14-megjelenés.png
     alt: ERPNext
 snippet: I am delighted to announce that the latest version of ERPNext, ERPNext 14, has been released!
-publishDate: 2023-07-17 11:39
+publishDate: 2022-08-1 11:39
 category:
     - news
 ---

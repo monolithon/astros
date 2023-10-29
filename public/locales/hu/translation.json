@@ -33,7 +33,9 @@
     "odoo": "/odoo-magyarul",
     "qms": "/ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
     "vue-storefront": "/vuestorefront-headless-ecommerce",
-    "n8n": "/n8n-zapier-make-integromat"
+    "n8n": "/n8n-zapier-make-integromat",
+    "shopify": "/shopify-webaruhaz",
+    "mautic": "/mautic-marketing-automation-platform"
   },
   "footer": {
     "login": "Bejelentkezés",

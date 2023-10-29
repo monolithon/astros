@@ -8,7 +8,7 @@ image:
   src: /erpnext-bi-és-üzleti-intelligencia-metabase.png
   alt: ERPNext
 snippet: Az ERPNext-re érdemes úgy tekintenünk, mint egy adattárházra és minden fontos üzleti adat központi tárolóegységére.
-publishDate: 2023-05-9 11:39
+publishDate: 2023-02-9 11:39
 category:
   - hír
 ---

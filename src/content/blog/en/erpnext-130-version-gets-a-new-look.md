@@ -8,7 +8,7 @@ image:
     src: /új-kinézetet-kap-az-erpnext-130-verzió.png
     alt: ERPNext
 snippet: The ERPNext interface has always been streamlined, but with further simplification, it can now be considered beautiful as well. Of course, beauty is subjective, but everyone can decide for themselves based on the images.
-publishDate: 2023-07-17 11:39
+publishDate: 2021-02-23 11:39
 category:
     - news
 ---

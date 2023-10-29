@@ -8,7 +8,7 @@ image:
     src: /a-14-es-verzió-első-új-funkicója.png
     alt: ERPNext
 snippet: You can track on GitHub the new features and improvements that are included in the new versions. Now, the limitation of kanban cards has been removed.
-publishDate: 2023-04-12 11:39
+publishDate: 2022-04-12 11:39
 category:
     - news
 ---

@@ -8,7 +8,7 @@ image:
     src: /az-erpnext.png
     alt: ERPNext
 snippet: ERPNext is a business software, but the people behind it work every day to create a new organizational culture that makes ERPNext better and better.
-publishDate: 2022-12-15 11:39
+publishDate: 2021-12-15 11:39
 category:
     - news
 ---

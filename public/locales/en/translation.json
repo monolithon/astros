@@ -31,7 +31,9 @@
     "odoo": "/odoo-erp",
     "qms": "/queue-management-system",
     "vue-storefront": "/vuestorefront-headless-ecommerce",
-    "n8n": "/n8n-zapier-make-integromat"
+    "n8n": "/n8n-zapier-make-integromat",
+    "shopify": "/shopify-ecommerce",
+    "mautic": "/mautic-marketing-automation-platform"
   },
   "footer": {
     "login": "Login",
