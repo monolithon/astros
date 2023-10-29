@@ -5,6 +5,7 @@ import Navbar from "@components/navbar/navbar.astro";
 import { HeadHrefLangs } from "astro-i18next/components";
 import i18next from "i18next";
 import "@fontsource-variable/inter";
+import Cookie from "@components/cookie.astro";
 import { ViewTransitions } from "astro:transitions";
 
 export interface Props {
@@ -54,6 +55,7 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 		/>
 
 	</head>
+	<Cookie />
 	<body class="dark:bg-stone-950">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
