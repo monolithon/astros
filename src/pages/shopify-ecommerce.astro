@@ -1,0 +1,74 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/newsLetter.astro";
+changeLanguage("en");
+---
+
+<Layout lang="hu" title="Shopify webáruház magyarul">
+    <Container>
+        <div class="px-5">
+            <div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+                <div class="flex flex-col h-full justify-center">
+                    <h1 class="text-[60px] leading-none font-semibold">Shopify webshop.</h1>
+                    <h2 class="text-xl text-[#192734] dark:text-white my-4">The international industry standard.</h2>
+                    <a href="/hu/kapcsolat">
+                        <button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-32 h-12 text-xl">Let's talk!</button>
+                    </a>
+                </div>
+                <div>
+                    <img class="w-[40vw]" src="/shopify-ecommerce.jpg" alt="" />
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+                    <h2 class="font-bold text-3xl mb-10">Shopify - Marketers' Favorite Webshop</h2>
+                    <p class="list-disc text-[17px] leading-7 space-y-5">
+                        Shopify doesn't need much of an introduction. Even those who don't use it probably know about it. Like many software solutions, it has its advantages and disadvantages, but it has become one of the most widespread solutions globally for a reason.
+                        
+                        There are other similarly popular solutions, but Shopify isn't free, yet it managed to stay ahead.
+                        
+                        In our view, this is one of the keys to its success. In a rapidly changing market like the e-commerce industry, the Canadian company behind Shopify needed a continuous revenue stream to keep improving the product.
+                        
+                        Of course, there are many subscription-based, rentable e-commerce platforms on the market, some with a wide range of features. This is why reliability was crucial for Shopify's success.
+                    </p>
+                </section>
+
+                <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+                    <h2 class="font-bold text-3xl mb-10">Shopify Integration</h2>
+                    <p class="list-disc text-[17px] leading-7 space-y-5">
+                        Despite the continuous expansion of Shopify's features, it stands out for the wide range of extra apps available through the Shopify App Store. These apps include various integrations made possible by the Shopify API.
+                    </p>
+                </section>
+                <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+                    <h2 class "font-bold text-3xl mb-10">Independently or Integrated</h2>
+                    <p class="list-disc text-[17px] leading-7 space-y-5">
+                        We've discussed the advantages and disadvantages of stand-alone and integrated systems before. Despite the continuous growth and expansion mentioned earlier, integration sets Shopify apart. Some other software solutions treat Shopify as a "webshop" and provide connectivity options for it.
+                        
+                        Just as Shopify can't function as an enterprise resource planning (ERP) software, most integrated solutions, even if they offer e-commerce capabilities, can't be as exceptional as purpose-built software. This is where an ambivalent approach is important. While we favor integrated systems for their advantages and accept their potential limitations, we consider e-commerce and webshop management alongside our integrated system.
+                        
+                        In our opinion, this is the best way to handle the Odoo ERP enterprise resource planning system. It's advisable to connect it to a webshop, and based on our experience, Shopify is one of the best choices due to its ease of integration and operation.
+                        
+                        We also mention the ERPNext system, which has a similar situation, with the main difference being that Shopify is the most supported option, offering the most features and maintenance. However, these solutions are only for integration and may be suitable for a certain stage of business growth. Larger players may need something different.
+                    </p>
+                </section>
+                <section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+                    <h2 class="font-bold text-3xl mb-10">Headless Shopify?</h2>
+                    <p class="list-disc text-[17px] leading-7 space-y-5">
+                        Those who have been in the e-commerce business for a while and encounter difficulties with their webshops often end up with Shopify. However, the truly lucky ones start with Shopify as their first webshop. But growth should never stop, and Shopify understands this. No matter how good their system is, businesses in a growth phase need even faster and better solutions.
+                        
+                        Shopify recognized this when they launched Shopify Premium Headless. However, with a starting monthly fee of $2000, it's not for everyone, even though most businesses would like to have such a system.
+                        
+                        That's why we recommend the VueStoreFront solution, which was originally designed as a Headless technology. The saying holds true here as well: use the right tool for the job, whether it's an ERP or an e-commerce webshop solution.
+                        
+                        These solutions excel in speed, which is a crucial factor today, and, as mentioned earlier, they truly deliver most "basic" functions at a high level of quality. Therefore, besides identifying your needs, it's important to decide on the e-commerce system you plan to implement.
+                    </p>
+                </section>
+			<section id="contact-form-2">
+				<NewsLetter />
+			</section>
+		</div>
+	</Container>
+</Layout>
+
