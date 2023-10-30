@@ -3,7 +3,7 @@ import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 import NewsLetter from "@components/EmailForm.astro";
-import Button from "@components/ui/button.astro";
+import Link from "@components/ui/link.astro";
 changeLanguage("en");
 ---
 
@@ -14,9 +14,11 @@ changeLanguage("en");
 				<div class="flex flex-col h-full justify-center">
 					<h1 class="text-[60px] leading-none font-semibold">n8n the missing piece.</h1>
 					<h2 class="text-xl text-[#192734] dark:text-white my-4">Be up to date on everything.</h2>
-					<a href="/contact">
-						<Button style="primary">Let's talk!</Button>
-					</a>
+				<div>
+					<Link href="/contact/">
+						Lets Talk!
+					</Link>
+				</div>
 				</div>
 				<div>
 					<img class="w-[40vw]" src="/images/n8n-zapier-make-integromat.jpg" alt="" />
