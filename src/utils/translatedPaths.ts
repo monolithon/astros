@@ -118,6 +118,8 @@ export const blog = {
 };
 
 export const links = {
+	kapcsolat: "contact",
+	contact: "kapcsolat",
 	statusz: "status",
 	status: "statusz",
 	implementation: "uzemeltetes",
@@ -146,4 +148,6 @@ export const links = {
 	"n8n-zapier-make-integromat": "n8n-zapier-make-integromat",
 	"ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer": "queue-management-system",
 	"queue-management-system": "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
+	"shopify-ecommerce": "shopify-webaruhaz",
+	"shopify-webaruhaz": "shopify-ecommerce",
 };
