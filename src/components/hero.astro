@@ -8,7 +8,7 @@ import { t } from "i18next";
 const { dynamic = false } = Astro.props;
 ---
 
-<div class="relative isolate pt-14 dark:bg-stone-900">
+<div class="relative isolate pt-14 dark:bg-stone-950">
 	<div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
 		<svg
 			class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem] animate-slide"
@@ -40,19 +40,19 @@ const { dynamic = false } = Astro.props;
 					{t("hero.subtitle")}
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-2 md:gap-x-6">
-					<Link class='bg-[#2490EF]' href="https://github.com/warpsi/astros">{t("hero.main_button_text")}</Link>
+					<Link href="https://github.com/zankhq/astros">{t("hero.main_button_text")}</Link>
 					{
 						dynamic ? (
-							<Link href="/" style="muted" class="bg-[#2490EF]">
+							<Link href="/" style="muted" class="bg-primaryBlue">
 								{t("hero_animated.secondary_button_text")}
-								<span aria-hidden="true" class="pl-1 text-[#2490EF] dark:text-white">
+								<span aria-hidden="true" class="pl-1  dark:text-white text-primaryBlue">
 									→
 								</span>
 							</Link>
 						) : (
-							<Link href="/animated" style="muted" class='text-[#2490EF]'>
+							<Link href="/animated" style="muted" class="text-primaryBlue">
 								{t("hero.secondary_button_text")}
-								<span aria-hidden="true" class="pl-1 text-[#2490EF] dark:text-white">
+								<span aria-hidden="true" class="pl-1 text-primaryBlue dark:text-white">
 									→
 								</span>
 							</Link>

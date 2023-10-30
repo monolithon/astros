@@ -21,7 +21,7 @@ const allPosts = async () => {
     }
     return {
       ...post,
-      slug: slug.join("/"),
+      slug: slug.join("/blog/"),
       lang: lang,
     };
   });
@@ -42,7 +42,7 @@ const page = localizedPosts.filter((post) => post.data.category.includes("news")
 ---
 
 <Layout title="ERPNext, Frappe, Odoo and more" lang="en">
-  <Container>
-    <LandingBody page={page} />
-  </Container>
+	<Container>
+		<LandingBody page={page}/>
+	</Container>
 </Layout>

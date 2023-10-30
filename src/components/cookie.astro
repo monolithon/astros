@@ -1,8 +1,8 @@
 <body class="dark:bg-stone-900">
   <link rel="stylesheet" href="/cookieconsent.css" />
-  <script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.x.x/dist/cookieconsent.js"></script>
-  <script>
-    window.addEventListener("load", () => {
+  <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.x.x/dist/cookieconsent.js" is:inline></script>
+  <script is:inline>
+    window.onload = function (){
       const cc = initCookieConsent();
 
       cc.run({
@@ -65,36 +65,46 @@
           },
         },
       });
-    });
-
-    function initializeTracking() {
-      (function (w, d, t, u, n, a, m) {
-        w["MauticTrackingObject"] = n;
-        (w[n] =
-          w[n] ||
-          function () {
-            (w[n].q = w[n].q || []).push(arguments);
-          }),
-          (a = d.createElement(t)),
-          (m = d.getElementsByTagName(t)[0]);
-        a.async = 1;
-        a.src = u;
-        m.parentNode.insertBefore(a, m);
-      })(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
-
-      mt("send", "pageview");
     }
-    function GTMAnalytics() {
+  </script>
+  <script>
+    document.addEventListener("astro:page-load", onLoadFunction);
+    function onLoadFunction() {
+
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
           dl = l != "dataLayer" ? "&l=" + l : "";
+      //@ts-expect-error
         j.async = true;
+      //@ts-expect-error
         j.src = "https://service.monolithon.com/tyynmnmx.js?id=" + i + dl;
+      //@ts-expect-error
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-P4LTKG3");
+
+
+				(function (w, d, t, u, n, a, m) {
+					w["MauticTrackingObject"] = n;
+					(w[n] =
+						w[n] ||
+						function () {
+							(w[n].q = w[n].q || []).push(arguments);
+						}),
+				//@ts-expect-error
+						(a = d.createElement(t)),
+				//@ts-expect-error
+						(m = d.getElementsByTagName(t)[0]);
+				//@ts-expect-error
+					a.async = 1;
+				//@ts-expect-error
+					a.src = u;
+				//@ts-expect-error
+					m.parentNode.insertBefore(a, m);
+				})(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
+
     }
   </script>
 </body>

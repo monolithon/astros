@@ -2,7 +2,8 @@
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
-import NewsLetter from "@components/newsLetterhu.astro";
+import NewsLetter from "@components/EmailFormhu.astro";
+import Link from "@components/ui/link.astro";
 changeLanguage("hu");
 ---
 
@@ -13,12 +14,14 @@ changeLanguage("hu");
 				<div class="flex flex-col h-full justify-center">
 					<h1 class="text-[60px] leading-none font-semibold">VueStoreFront Headless webáruház</h1>
 					<h2 class="text-xl text-[#192734] dark:text-white my-4">A sebességért és a függetlenségért.</h2>
-					<a href="/hu/kapcsolat">
-						<button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-32 h-12 text-xl">Beszéljünk!</button>
-					</a>
+					<div>
+						<Link href="/hu/kapcsolat">
+							Beszéljünk!
+						</Link>
+					</div>
 				</div>
 				<div>
-					<img class="w-[40vw]" src="/vuestorefront-headless-ecommerce.jpg" alt="" />
+					<img class="w-[40vw]" src="/images/vuestorefront-headless-ecommerce.jpg" alt="" />
 				</div>
 			</div>
 			<div class="flex flex-col items-center">

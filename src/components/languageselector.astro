@@ -1,5 +1,8 @@
 ---
+import {getTranslatedUrl} from "../utils/i18n-utils"
 const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest } = Astro.props;
+const value = getTranslatedUrl(Astro.url);
+const whichLanguage: "hu" | "en" = Astro.url.pathname.startsWith("/hu/") ? "hu" : "en";
 ---
 
 <div
@@ -10,232 +13,65 @@ const { icon = "", languageMapping = { en: "English", hu: "Magyar " }, ...rest }
       class="fill-black dark:fill-white">
     </path>
   </svg>
-  <select
-    onchange="location = this.value;"
-    id="languageSelector"
-    class="appearance-none mx-1 cursor-pointer pl-3 pr-2 py-1.5 rounded-md dark:bg-stone-900 dark:text-white focus-visible:outline-none">
-    <option value="/" id="english">English</option>
 
-    <option value="/hu/" id="hungary">Magyar</option>
-  </select>
+  <div class="flex justify-center">
+    <div
+        x-data=`{
+            open: false,
+            toggle() {
+                if (this.open) {
+                    return this.close()
+                }
+
+                this.$refs.button.focus()
+
+                this.open = true
+            },
+            close(focusAfter) {
+                if (! this.open) return
+
+                this.open = false
+
+                focusAfter && focusAfter.focus()
+            }
+        }`
+        x-on:keydown.escape.prevent.stop="close($refs.button)"
+        x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+        x-id="['dropdown-button']"
+        class="relative"
+    >
+        <!-- Button -->
+        <button
+            x-ref="button"
+            x-on:click="toggle()"
+            :aria-expanded="open"
+            :aria-controls="$id('dropdown-button')"
+            type="button"
+            class="flex items-center gap-2 px-5 py-2.5 rounded-md shadow cursor-pointer dark:bg-stone-900 dark:text-white focus-visible:outline-none"
+        >
+            {whichLanguage === "hu" ? "Magyar" : "English"}
+        </button>
+
+        <!-- Panel -->
+        <div
+            x-ref="panel"
+            x-show="open"
+            x-transition.origin.top.left
+            x-on:click.outside="close($refs.button)"
+            :id="$id('dropdown-button')"
+            style="display: none;"
+            class="absolute left-0 mt-2 w-40 rounded-md bg-white shadow-md dark:bg-gray-800 dark:text-white"
+        >
+            <a href=`${value?.englishHref}` class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-2.5 text-left text-sm hover:bg-gray-50 disabled:text-gray-500 dark:hover:bg-gray-600">
+                English
+            </a>
+
+            <a href=`${value?.hungaryHref}` class="flex items-center gap-2 w-full first-of-type:rounded-t-md last-of-type:rounded-b-md px-4 py-2.5 text-left text-sm hover:bg-gray-50 disabled:text-gray-500 dark:hover:bg-gray-600">
+                Magyar
+            </a>
+      </div>
+    </div>
 </div>
 
-<script>
-  const categories = {
-    hír: "news",
-    news: "hír",
-    "telepítés-és-beállítás": "how-to",
-    "how-to": "telepítés-és-beállítás",
-  };
-  const tag = {
-    hír: "news",
-    news: "hír",
-    "telepítés-és-beállítás": "how-to",
-    "how-to": "telepítés-és-beállítás",
-  };
-  const blog = {
-    kapcsolat: "contact",
-    contact: "kapcsolat",
-    hír: "news",
-    news: "hír",
-    "new-print-designing-app-from-frappe-to-erpnext": "új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez",
-    "új-nyomtatási-nézet-szerkesztő-app-a-frappe-től-az-erpnext-hez": "new-print-designing-app-from-frappe-to-erpnext",
-    "odoo-és-erpnext-a-frappe-vel-együtt": "inventory-and-product-value-correction-in-erpnext",
-    "inventory-and-product-value-correction-in-erpnext": "odoo-és-erpnext-a-frappe-vel-együtt",
-    "frappe-insights-az-erpnext-csapattól": "frappe-insights-from-the-erpnext-team",
-    "frappe-insights-from-the-erpnext-team": "frappe-insights-az-erpnext-csapattól",
-    "new-workflow-builder-arriving-in-erpnext": "új-workflow-builder-érkezik-az-erpnext-be",
-    "új-workflow-builder-érkezik-az-erpnext-be": "new-workflow-builder-arriving-in-erpnext",
-    "accounting-in-erpnext-system": "könyvelés-erpnext-rendszerben",
-    "könyvelés-erpnext-rendszerben": "accounting-in-erpnext-system",
-    "chromebook-és-az-erpnext": "chromebook-and-erpnext",
-    "chromebook-and-erpnext": "chromebook-és-az-erpnext",
-    "vuestorefront-a-webáruházak-headless-svájcibicskája-fejlesztői-környezet-kialakítása":
-      "vuestorefront-the-swiss-army-knife-of-headless-e-commerce-setting-up-a-developer-environment",
-    "vuestorefront-the-swiss-army-knife-of-headless-e-commerce-setting-up-a-developer-environment":
-      "vuestorefront-a-webáruházak-headless-svájcibicskája-fejlesztői-környezet-kialakítása",
-    "erpnext-fejlesztés-és-ejlesztői-eszközök": "erpnext-development-and-developer-tools",
-    "erpnext-development-and-developer-tools": "erpnext-fejlesztés-és-ejlesztői-eszközök",
-    "erpnext-bi-és-üzleti-intelligencia-metabase": "erpnext-bi-and-business-intelligence-metabase",
-    "erpnext-bi-and-business-intelligence-metabase": "erpnext-bi-és-üzleti-intelligencia-metabase",
-    "how-to-fix-incorrect-product-valuation-in-erpnext": "raktárkészlet-és-termékérték-javítása-erpnextben",
-    "raktárkészlet-és-termékérték-javítása-erpnextben": "how-to-fix-incorrect-product-valuation-in-erpnext",
-    "mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk": "why-is-erpnext-database-growing-and-what-can-we-do-about-it",
-    "why-is-erpnext-database-growing-and-what-can-we-do-about-it": "mitől-hízik-az-erpnext-adatbázis-és-mit-tehetünk",
-    "hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be": "how-are-supplier-invoices-entered-into-erpnext",
-    "how-are-supplier-invoices-entered-into-erpnext": "hogyan-kerülnek-be-a-szállítói-számlák-az-erpnext-be",
-    "erpnext-eu-adószám-ellenőrzés": "erpnext-eu-vat-number-verification",
-    "erpnext-eu-vat-number-verification": "erpnext-eu-adószám-ellenőrzés",
-    "erpnext-magyar-nav-online-invoice-preview": "erpnext-magyar-nav-online-számla-betekintő",
-    "erpnext-magyar-nav-online-számla-betekintő": "erpnext-magyar-nav-online-invoice-preview",
-    "erpnext-140-verzióra-frissítettük-a-monolithoncom-ot": "erpnext-140-version-upgraded-to-the-monolithoncom",
-    "erpnext-140-version-upgraded-to-the-monolithoncom": "erpnext-140-verzióra-frissítettük-a-monolithoncom-ot",
-    "erpnext-konferencia-2022-a-frappe-csapat-szervezésében": "erpnext-conference-2022-organized-by-the-frappe-team",
-    "erpnext-conference-2022-organized-by-the-frappe-team": "erpnext-konferencia-2022-a-frappe-csapat-szervezésében",
-    "erpnext-weboldal-google-indexelése": "indexing-the-erpnext-website-on-google",
-    "indexing-the-erpnext-website-on-google": "erpnext-weboldal-google-indexelése",
-    "mnb-árfolyamok-erpnext-rendszerben": "mnb-exchange-rates-erpnext-system",
-    "mnb-exchange-rates-erpnext-system": "mnb-árfolyamok-erpnext-rendszerben",
-    "erpnext-google-calendar": "erpnext-google-naptar",
-    "erpnext-google-naptar": "erpnext-google-calendar",
-    "erpnext-14-megjelenés": "erpnext-14-appearance",
-    "erpnext-14-appearance": "erpnext-14-megjelenés",
-    "erpnext-ticketing-megoldások": "erpnext-ticketing-solutions",
-    "erpnext-ticketing-solutions": "erpnext-ticketing-megoldások",
-    "erpnext-chat-megoldások": "erpnext-chat-solutions",
-    "erpnext-chat-solutions": "erpnext-chat-megoldások",
-    "erpnext-gdrp-és-cookie-azaz-süti-kezelés": "erpnext-gdpr-and-cookie-management",
-    "erpnext-gdpr-and-cookie-management": "erpnext-gdrp-és-cookie-azaz-süti-kezelés",
-    "erpnext-magyar-tudásbázis": "erpnext_knowledge_base",
-    erpnext_knowledge_base: "erpnext-magyar-tudásbázis",
-    "a-14-es-verzió-első-új-funkicója": "the-first-new-feature-of-erpnext-14",
-    "the-first-new-feature-of-erpnext-14": "a-14-es-verzió-első-új-funkicója",
-    "year-end-task-managing-exchange-rates-in-erpnext": "év-eleji-teendő-árfolyamok-kezelése-az-erpnextben",
-    "év-eleji-teendő-árfolyamok-kezelése-az-erpnextben": "year-end-task-managing-exchange-rates-in-erpnext",
-    "wiki-like-pages-wanted": "wiki-szerű-oldalakat-szeretnék",
-    "wiki-szerű-oldalakat-szeretnék": "wiki-like-pages-wanted",
-    "az-erpnext": "the-erpnext",
-    "the-erpnext": "az-erpnext",
-    "erpnext-conference-2021-november-19-20": "erpnext-konferencia-2021-november-19-20",
-    "erpnext-konferencia-2021-november-19-20": "erpnext-conference-2021-november-19-20",
-    "erpnext-és-az-új-shopify-ecommerce-integráció-webáruházakhoz": "erpnext-and-the-new-shopify-ecommerce-integration-for-webshops",
-    "erpnext-and-the-new-shopify-ecommerce-integration-for-webshops": "erpnext-és-az-új-shopify-ecommerce-integráció-webáruházakhoz",
-    "data-synchronization-made-easy-with-erpnexts-data-import-functionality":
-      "adatszinkronizálás-egyszerűen-az-erpnext-adatimport-funkciójának-érdekességei",
-    "adatszinkronizálás-egyszerűen-az-erpnext-adatimport-funkciójának-érdekességei":
-      "data-synchronization-made-easy-with-erpnexts-data-import-functionality",
-    "form-creation-with-erpnext": "űrlapkészítés-erpnexttel",
-    "űrlapkészítés-erpnexttel": "form-creation-with-erpnext",
-    "woocommerce-erpnext-integration": "woocommerce-erpnext-integráció",
-    "woocommerce-erpnext-integráció": "woocommerce-erpnext-integration",
-    "published-by-erpnext-13": "megjelent-az-erpnext-13",
-    "megjelent-az-erpnext-13": "published-by-erpnext-13",
-    "native-android-ios-app-coming": "natív-android-ios-app-érkezik",
-    "natív-android-ios-app-érkezik": "native-android-ios-app-coming",
-    "erpnext-130-version-gets-a-new-look": "új-kinézetet-kap-az-erpnext-130-verzió.png",
-    "új-kinézetet-kap-az-erpnext-130-verzió.png": "erpnext-130-version-gets-a-new-look",
-    "how-to-use-downloadable-documents-in-erpnext-email-templates": "letölthető-dokumentum-használata-erpnext-email-sablonban",
-    "letölthető-dokumentum-használata-erpnext-email-sablonban": "how-to-use-downloadable-documents-in-erpnext-email-templates",
-    "custom-print-formats-and-translations-in-erpnext": "számlakép-és-egyéb-nyomtatási-nézetek-és-fordítások-erpnext-ben",
-    "számlakép-és-egyéb-nyomtatási-nézetek-és-fordítások-erpnext-ben": "custom-print-formats-and-translations-in-erpnext",
-    "analytical-accounting-cost-centers-and-profit-centers-in-erpnext": "analitikus-könyvelés-költséghelyek-és-profitcenterek",
-    "analitikus-könyvelés-költséghelyek-és-profitcenterek": "analytical-accounting-cost-centers-and-profit-centers-in-erpnext",
-    "disposal-in-the-erpnext-system": "selejtezés-erpnext-rendszerben",
-    "selejtezés-erpnext-rendszerben": "disposal-in-the-erpnext-system",
-    "importing-master-data-into-erpnext": "alapadatok-importálása-erpnext-be",
-    "alapadatok-importálása-erpnext-be": "importing-master-data-into-erpnext",
-    "periodic-or-real-time-inventory-valuation-in-erpnext": "periódikus-vagy-valós-idejű-készletérték-könyvelés-erpnext-rendszerben",
-    "periódikus-vagy-valós-idejű-készletérték-könyvelés-erpnext-rendszerben": "periodic-or-real-time-inventory-valuation-in-erpnext",
-    "closing-a-manufacturing-order-with-less-quantity-produced-in-erpnext": "rendeltnél-kevesebb-gyártás-lezárása-erpnext-rendszerben",
-    "rendeltnél-kevesebb-gyártás-lezárása-erpnext-rendszerben": "closing-a-manufacturing-order-with-less-quantity-produced-in-erpnext",
-    "manufacturing-more-products-than-planned-in-erpnext": "rendeltnél-több-termék-gyártása-erpnext-rendszerben",
-    "rendeltnél-több-termék-gyártása-erpnext-rendszerben": "manufacturing-more-products-than-planned-in-erpnext",
-    "inventory-valuation-in-erpnext-system": "készletértékelésről-röviden-az-erpnext-rendszerben",
-    "készletértékelésről-röviden-az-erpnext-rendszerben": "inventory-valuation-in-erpnext-system",
-    "correcting-warehouse-stock-and-product-valuation-in-erpnext": "raktárkészlet-és-termékérték-javítása",
-    "raktárkészlet-és-termékérték-javítása": "correcting-warehouse-stock-and-product-valuation-in-erpnext",
-    "magyar-mikrogazdálkodói-számlatükör": "hungarian-micro-enterprise-chart-of-accounts",
-    "hungarian-micro-enterprise-chart-of-accounts": "magyar-mikrogazdálkodói-számlatükör",
-    "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer": "queue-management-system",
-    "queue-management-system": "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
-    "mautic-marketing-automation-platform": "mautic-marketing-automation-platform",
-  };
+</div>
 
-  const links = {
-    statusz: "status",
-    status: "statusz",
-    implementation: "uzemeltetes",
-    invoicing: "szamlazas",
-    accounting: "konyveles",
-    szamlazas: "invoicing",
-    uzemeltetes: "implementation",
-    konyveles: "accounting",
-    bejelentkezés: "login",
-    monolithon: "monolithon",
-    szoftverek: "softwares",
-    ügyfélszolgálat: "support",
-    tudasbazis: "knowledge",
-    partnerek: "partners",
-    jogok: "legal",
-    login: "bejelentkezés",
-    softwares: "szoftverek",
-    support: "ügyfélszolgálat",
-    knowledge: "tudasbazis",
-    partners: "partnerek",
-    legal: "jogok",
-    erpnext: "erpnext",
-    "odoo-erp": "odoo-magyarul",
-    "odoo-magyarul": "odoo-erp",
-    "vuestorefront-headless-ecommerce": "vuestorefront-headless-ecommerce",
-    "n8n-zapier-make-integromat": "n8n-zapier-make-integromat",
-    "shopify-ecommerce": "shopify-webaruhaz",
-    "shopify-webaruhaz": "shopify-ecommerce",
-  };
-  const englishSelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("english");
-  const hungarySelector: astroHTML.JSX.OptionHTMLAttributes = document.getElementById("hungary");
-
-  window.onload = function () {
-    if (window.location.pathname.startsWith("/hu/")) {
-      hungarySelector.selected = true;
-      englishSelector.selected = false;
-      if (window.location.pathname.startsWith("/hu/category")) {
-        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
-        const prams = categories[decodeURIComponent(param)];
-        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        englishSelector.value = url;
-        hungarySelector.value = decodeURIComponent(window.location.pathname);
-      }
-
-      if (window.location.pathname.startsWith("/hu/tag")) {
-        const param = window.location.pathname;
-        englishSelector.value = param.replace("/hu", "");
-        hungarySelector.value = param;
-      }
-
-      const param = window.location.pathname.split("/hu")[1].replaceAll("/", "");
-      const prams = blog[decodeURIComponent(param.replaceAll("/", ""))];
-      if (!prams) {
-        const prams = links[decodeURIComponent(param)];
-        if (!prams) return;
-        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        englishSelector.value = url;
-        hungarySelector.value = window.location.pathname;
-      } else {
-        const url = window.location.pathname.replace(param, prams).replace("/hu", "");
-        englishSelector.value = url;
-        hungarySelector.value = decodeURIComponent(window.location.pathname);
-      }
-    } else if (window.location.pathname.startsWith("/")) {
-      hungarySelector.selected = false;
-      englishSelector.selected = true;
-
-      if (window.location.pathname.startsWith("/category")) {
-        const param = window.location.pathname.split("category")[1].replaceAll("/", "");
-        const prams = categories[decodeURIComponent(param)];
-        const url = window.location.pathname.replace(param, prams);
-        englishSelector.value = window.location.pathname;
-        hungarySelector.value = `/hu${url}`;
-      }
-
-      if (window.location.pathname.startsWith("/tag")) {
-        const param = window.location.pathname;
-        englishSelector.value = param;
-        hungarySelector.value = `/hu${param}`;
-      }
-
-      const param = window.location.pathname.split("/")[1];
-      const prams = blog[param.replace("/", "")];
-      if (!prams) {
-        const prams = links[param];
-        if (!prams) return;
-        const url = window.location.pathname.replace(param, prams);
-        hungarySelector.value = `/hu${url}`;
-        englishSelector.value = window.location.pathname;
-      } else {
-        const url = window.location.pathname.replace(param, prams);
-        hungarySelector.value = `/hu${url}`;
-        englishSelector.value = window.location.pathname;
-      }
-    }
-  };
-</script>

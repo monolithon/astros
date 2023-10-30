@@ -3,6 +3,8 @@ import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 import LetsTalk from "@components/LetsTalk.astro";
+import Button from "@components/ui/button.astro";
+import Link from "@components/ui/link.astro";
 changeLanguage("hu");
 ---
 
@@ -13,12 +15,12 @@ changeLanguage("hu");
 				<div class="flex flex-col h-full justify-center">
 					<h1 class="text-[60px] leading-none font-semibold">Monolithon a biztos alap.</h1>
 					<h2 class="text-xl text-[#192734] dark:text-white my-4">ERPNext és Frappe angolul.</h2>
-					<a href="/contact">
-						<button class="md:px-3 md:py-2 leading-6 bg-[#2490EF] rounded-lg text-white w-32 h-12 text-xl">Beszéljünk!</button>
-					</a>
+				<div>
+						<Link href="/contact/" style="primary">Beszéljünk!</Link>
+				</div>
 				</div>
 				<div>
-					<img class="w-[40vw]" src="/erpnextImage.png" alt="" />
+					<img class="w-[40vw]" src="/images/erpnextImage.png" alt="" />
 				</div>
 			</div>
 			<div class="flex flex-col items-center">

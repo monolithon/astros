@@ -1,9 +1,9 @@
 ---
-import i18next, { changeLanguage } from "i18next";
-import { getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
+import i18next,{ changeLanguage } from "i18next";
 import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
 import LandingBody from "@components/landingBodyhu.astro";
+import { getCollection } from "astro:content";
 
 changeLanguage("hu");
 
@@ -21,7 +21,7 @@ const allPosts = async () => {
     }
     return {
       ...post,
-      slug: slug.join("/"),
+      slug: slug.join("/blog/"),
       lang: lang,
     };
   });
@@ -36,14 +36,14 @@ const localizedPosts = await allPosts();
 export async function getStaticPaths({ paginate }) {
   return paginate(localizedPosts, {
     params: { blog: "blog" || undefined },
-    pageSize: 4,
   });
 }
+
 const page = localizedPosts.filter((post) => post.data.category.includes("hír"));
 ---
 
-<Layout title="ERPNext, Frappe, Odoo plusz..." lang="en">
-  <Container>
-    <LandingBody page={page} />
-  </Container>
+<Layout title="ERPNext, Frappe, Odoo plusz..." lang="hu">
+	<Container>
+		<LandingBody page={page}/>
+	</Container>
 </Layout>

@@ -1,8 +1,8 @@
-<a href="https://astros.warps.it">
+<a href="https://astros.zank.studio">
   <img src=".github/images/astros.gif" />
 </a>
 
-# [Astros](https://astros.warps.it)
+# [Astros](https://astros.zank.studio)
 
 <a href="https://astro.build/">![Astro](.github/images/astro-icon.png)</a>
 <a href="https://tailwindcss.com/">![Tailwind](.github/images/tailwind-icon.png)</a>
@@ -13,14 +13,14 @@ Astros is a template made with [Astro](https://astro.build), [Tailwind](https://
 This project is strongly inspired by [Astroship](https://github.com/surjithctly/astroship), [Flowbite](https://flowbite.com/blocks/) and [Tailwind UI](https://tailwindui.com/components) components, make sure to check them out as well!
 
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/warpsio/astros)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/zankhq/astros)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/warpsio/astros)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zankhq/astros)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/warpsio/astros)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zankhq/astros)
 
 
-### [🧪 Site preview →](https://astros.warps.it)
+### [🧪 Site preview →](https://astros.zank.studio)
 
 ### [🧑‍🚀 Astro website →](https://astro.build/)
 
@@ -41,7 +41,7 @@ On the folder run
 1. `npm i`  <small>(or `yarn` or `pnpm i`)</small>
 2. `npm run dev`  <small>(or `yarn dev` or `pnpm dev`)</small>
 
-(if it's not working report an [issue](https://github.com/warpsio/astros/issues))
+(if it's not working report an [issue](https://github.com/zankhq/astros/issues))
 
 ## 🚀 Deploy
 
@@ -82,7 +82,7 @@ You can check the deploy documentation at https://docs.astro.build/en/guides/dep
 
 ## ✍️ Admin dashboard
 
-You can access the admin dashboard for editing blog post at `/admin` (https://astros.warps.it/admin)
+You can access the admin dashboard for editing blog post at `/admin` (https://astros.zank.studio/admin)
 
 For more information follow Decap CMS documentation at https://decapcms.org/docs/
 
@@ -90,7 +90,12 @@ In order to access the admin dashboard to change blog articles content you need 
 
 If you use cloudflare pages you can follow this guide https://github.com/i40west/netlify-cms-cloudflare-pages.
 
+In this case your environment variable should look like this
+
+![Cloudflare environment variable image](.github/images/cloudflare-env-var.png)
+
 If you use netlify it's actually easier, you will need to change in the file `astro.config.mjs` NetlifyCMS config `config.backend.name` to git-gateway. (See https://decapcms.org/docs/git-gateway-backend/#git-gateway-with-netlify for more info)
+
 
 ## 🧞 Dependencies
 
@@ -98,7 +103,6 @@ Astros depends on the following packages:
 
 | Dependency                                                                             | Version        |
 | -------------------------------------------------------------------------------------- | -------------- |
-| [@astrojs/image](https://www.npmjs.com/package/@astrojs/image)                         | ^0.17.0        |
 | [@astrojs/mdx](https://www.npmjs.com/package/@astrojs/mdx)                             | ^0.19.7        |
 | [@astrojs/rss](https://www.npmjs.com/package/@astrojs/rss)                             | ^2.4.3         |
 | [@astrojs/sitemap](https://www.npmjs.com/package/@astrojs/sitemap)                     | ^1.3.3         |
@@ -120,7 +124,6 @@ Astros depends on the following packages:
 ## Known issues
 
 - Localization is not detected automatically
-- Localization has problems on article detail page
 
 ## FAQ
 
@@ -155,6 +158,14 @@ Astros depends on the following packages:
   <summary>Can I remove also tailwidcss?</summary>
 <br/>
   I mean, you can, but you'll have to basically rewrite all the template, so I don't recommend it
+</details>
+<br/>
+
+<details>
+  <summary>I don't need client routing, how can I remove it?</summary>
+<br/>
+  From astro 2.9 you can opt-in for client routing (https://astro.build/blog/astro-290) by activating the experimental flag viewTransitions <br/>
+  You can remove client routing by removing <code>viewTransitions: true</code> from <code>astro.config.mjs</code> And the <code>ViewTransitions</code> component from Layout.astro
 </details>
 <br/>
 
@@ -203,6 +214,8 @@ Astros depends on the following packages:
   To configure decap CMS with netlify do the followings:
   <ul style="list-style: inside;">
     <li>Change NetlifyCMS config <code>config.backend.name</code> to git-gateway</li>
+    <li>Remove <code>disableIdentityWidgetInjection: true</code> from the NetlifyCMS configuration on <code>astro.config.mjs</code></li>
+    <li>Remove <code>auth_endpoint: "/api/auth"</code> from the NetlifyCMS backend configuration on <code>astro.config.mjs</code></li>
     <li>Use integrated NetlifyCMS auth <a href="https://decapcms.org/docs/git-gateway-backend/#git-gateway-with-netlify" target="_blank">https://decapcms.org/docs/git-gateway-backend/#git-gateway-with-netlify</a></li>
   </ul>
 </details>
@@ -244,4 +257,4 @@ npm link
 
 ---
 
-<p align="right"><a href="https://warps.it/" target="_blank">warps.it</p>
+<p align="right"><a href="https://zank.studio/" target="_blank">zank.studio</p>
