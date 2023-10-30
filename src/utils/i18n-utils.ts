@@ -106,7 +106,7 @@ export const getTranslatedUrl = (
 
 		if (currentUrl.startsWith("/blog")) {
 			const param = currentUrl.split("/blog")[1];
-			const prams = blog[param.replace("/", "")];
+			const prams = blog[param.replaceAll("/", "")];
 			if (!prams) {
 				hungaryHref = `/hu/blog/`;
 				englishHref = currentUrl;
