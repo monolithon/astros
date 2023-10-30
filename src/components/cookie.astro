@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="/cookieconsent.css" />
   <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.x.x/dist/cookieconsent.js" is:inline></script>
   <script is:inline>
-    window.onload = function () {
+    window.onload = function (){
       const cc = initCookieConsent();
 
       cc.run({
@@ -65,8 +65,16 @@
           },
         },
       });
+    }
+  </script>
+  <script>
+    document.addEventListener("astro:page-load", onLoadFunction);
+    // document.addEventListener("astro:after-swap", onLoadFunction);
 
-    function initializeTracking() {
+     function onLoadFunction() {
+      console.log("here");
+
+
       (function (w, d, t, u, n, a, m) {
         w["MauticTrackingObject"] = n;
         (w[n] =
@@ -74,26 +82,35 @@
           function () {
             (w[n].q = w[n].q || []).push(arguments);
           }),
+      //@ts-expect-error
           (a = d.createElement(t)),
+      //@ts-expect-error
           (m = d.getElementsByTagName(t)[0]);
+      //@ts-expect-error
         a.async = 1;
+      //@ts-expect-error
         a.src = u;
+      //@ts-expect-error
         m.parentNode.insertBefore(a, m);
       })(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
 
+      //@ts-expect-error
       mt("send", "pageview");
-    }
-    function GTMAnalytics() {
+
+
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
           dl = l != "dataLayer" ? "&l=" + l : "";
+      //@ts-expect-error
         j.async = true;
+      //@ts-expect-error
         j.src = "https://service.monolithon.com/tyynmnmx.js?id=" + i + dl;
+      //@ts-expect-error
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-P4LTKG3");
-    }}
+  }
   </script>
 </body>
