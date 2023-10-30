@@ -69,34 +69,7 @@
   </script>
   <script>
     document.addEventListener("astro:page-load", onLoadFunction);
-    // document.addEventListener("astro:after-swap", onLoadFunction);
-
-     function onLoadFunction() {
-      console.log("here");
-
-
-      (function (w, d, t, u, n, a, m) {
-        w["MauticTrackingObject"] = n;
-        (w[n] =
-          w[n] ||
-          function () {
-            (w[n].q = w[n].q || []).push(arguments);
-          }),
-      //@ts-expect-error
-          (a = d.createElement(t)),
-      //@ts-expect-error
-          (m = d.getElementsByTagName(t)[0]);
-      //@ts-expect-error
-        a.async = 1;
-      //@ts-expect-error
-        a.src = u;
-      //@ts-expect-error
-        m.parentNode.insertBefore(a, m);
-      })(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
-
-      //@ts-expect-error
-      mt("send", "pageview");
-
+    function onLoadFunction() {
 
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -111,6 +84,27 @@
       //@ts-expect-error
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-P4LTKG3");
-  }
+
+
+				(function (w, d, t, u, n, a, m) {
+					w["MauticTrackingObject"] = n;
+					(w[n] =
+						w[n] ||
+						function () {
+							(w[n].q = w[n].q || []).push(arguments);
+						}),
+				//@ts-expect-error
+						(a = d.createElement(t)),
+				//@ts-expect-error
+						(m = d.getElementsByTagName(t)[0]);
+				//@ts-expect-error
+					a.async = 1;
+				//@ts-expect-error
+					a.src = u;
+				//@ts-expect-error
+					m.parentNode.insertBefore(a, m);
+				})(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
+
+    }
   </script>
 </body>

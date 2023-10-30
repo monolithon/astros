@@ -61,30 +61,6 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 		<iframe src="https://service.monolithon.com/ns.html?id=GTM-P4LTKG3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	<script>
-		(function (w, d, t, u, n, a, m) {
-			w["MauticTrackingObject"] = n;
-			(w[n] =
-				w[n] ||
-				function () {
-					(w[n].q = w[n].q || []).push(arguments);
-				}),
-				//@ts-expect-error
-				(a = d.createElement(t)),
-				//@ts-expect-error
-				(m = d.getElementsByTagName(t)[0]);
-				//@ts-expect-error
-			a.async = 1;
-				//@ts-expect-error
-			a.src = u;
-				//@ts-expect-error
-			m.parentNode.insertBefore(a, m);
-		})(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
-
-		//@ts-expect-error
-		mt("send", "pageview");
-	</script>
-
 		<Navbar />
 		<slot />
 		<Footer />
@@ -95,25 +71,48 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 				content-visibility: auto;
 			}
 		</style>
-		<script type="text/javascript" is:inline>
+
+		<script is:inline>
 			/** This section is only needed once per page if manually copying **/
-			if (typeof MauticSDKLoaded == "undefined") {
-				var MauticSDKLoaded = true;
-				var head = document.getElementsByTagName("head")[0];
-				var script = document.createElement("script");
-				script.type = "text/javascript";
-				script.src = "https://asset.monolithon.com/media/js/mautic-form.js?vea43f1e4";
-				script.onload = function () {
-					MauticSDK.onLoad();
-				};
-				head.appendChild(script);
-				var MauticDomain = "https://asset.monolithon.com";
-				var MauticLang = {
-					submittingMessage: "Please wait...",
-				};
-			} else if (typeof MauticSDK != "undefined") {
-				MauticSDK.onLoad();
-			}
+				if (typeof MauticSDKLoaded == "undefined") {
+					var MauticSDKLoaded = true;
+					var head = document.getElementsByTagName("head")[0];
+					var script = document.createElement("script");
+					script.type = "text/javascript";
+					script.src = "https://asset.monolithon.com/media/js/mautic-form.js?vea43f1e4";
+					script.onload = function () {
+						MauticSDK.onLoad();
+					};
+					head.appendChild(script);
+					var MauticDomain = "https://asset.monolithon.com";
+					var MauticLang = {
+						submittingMessage: "Please wait...",
+					};
+					} else if (typeof MauticSDK != "undefined") {
+						MauticSDK.onLoad();
+					}
+		</script>
+		<script>
+			(function (w, d, t, u, n, a, m) {
+				w["MauticTrackingObject"] = n;
+				(w[n] =
+					w[n] ||
+					function () {
+						(w[n].q = w[n].q || []).push(arguments);
+					}),
+			//@ts-expect-error
+					(a = d.createElement(t)),
+			//@ts-expect-error
+					(m = d.getElementsByTagName(t)[0]);
+			//@ts-expect-error
+				a.async = 1;
+			//@ts-expect-error
+				a.src = u;
+			//@ts-expect-error
+				m.parentNode.insertBefore(a, m);
+			})(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
+			//@ts-expect-error
+			mt("send", "pageview");
 		</script>
 	</body>
 </html>
