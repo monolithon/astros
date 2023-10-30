@@ -150,4 +150,5 @@ export const links = {
 	"queue-management-system": "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
 	"shopify-ecommerce": "shopify-webaruhaz",
 	"shopify-webaruhaz": "shopify-ecommerce",
+	"mautic-marketing-automation-platform": "mautic-marketing-automation-platform",
 };
