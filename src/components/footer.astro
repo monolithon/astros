@@ -6,12 +6,13 @@ const footerDetails = 'footer.details'
 export const menuitems = [
 	{
 		title: "ERPNext ",
-
+		path: "/"
 	},
 	{
 		title: "footer.login",
 		path: "path_footer.login",
-	},	{
+	},
+	{
 		title: "footer.monolithon",
 		path: "path_footer.monolithon",
 	},
@@ -40,11 +41,10 @@ export const menuitems = [
 			{
 				menuitems.map(
 					(item) =>
-						item &&
-						item.path && (
+						item && (
 							<li role="listitem">
 								<a href={
-									t(item.path).startsWith('https')?t(item.path):localizePath(t(item.path))
+									t(item.path).startsWith('https') ? t(item.path) : localizePath(t(item.path))
 								} class="duration-300 font-medium hover:text-gray-900 dark:hover:text-gray-100">
 									{t(item.title)}
 								</a>
@@ -54,7 +54,7 @@ export const menuitems = [
 			}
 		</ul>
 		<div class="flex justify-center mt-12 gap-3">
-		</div> 
+		</div>
 		<div class="mt-4 text-center flex flex-col">
 			<span class="text-base tracking-wide text-gray-500 dark:text-white">{t(footerDetails)}</span>
 			<span class="text-sm tracking-wide text-gray-400 dark:text-white"></span>
