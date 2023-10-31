@@ -28,30 +28,40 @@ changeLanguage("hu");
 				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Jamstack - a gyors weboldal kulcsa a rendszer egyszerűsítése - szétválasztással</h2>
 					<p class="list-disc text-[17px] leading-7 space-y-5]">
-						Jamstack
+						A Jamstack egy merőben új megközelítés, amit leegyszerűsítve úgy foglalhatunk össze, hogy visszatérünk a gyökerekhez, amikor egy weboldal nem akar több lenni, mint egy weboldal. Azaz lehet több, de a korábbi komplex rendszerekkel ellentétben nem mindent a weblap alkalmazásban kell megoldanunk. Ezt úgy mondhatjuk, hogy weboldal felszabadul, mert az mostantól szinte bármilyen lehet és nem kell a komplex rendszerből adódó limitációk miatt aggódnunk. Korábban, ha egy például php-s oldalra gondolunk, mint a Wordpress, akkor ott ahhoz, hogy egy weboldalt felépítsünk a Wordpress korlátai behatárolták a lehetőségeinket. Most, ahogyan a hivatalos meghatározás szól: Jamstack eltörli a megközelítést, hogy az üzleti logika (weboldal funkciók) határozza meg a weboldal kinézetét, működését, együttesen élményt. <br><br>
+						A vissza az alapakhoz azt jelenti, hogy - ugyan a legmodernebb technológiák mellett- az egyszerű, html, segítségével építhetünk gyors weboldalt. De az előbb említett üzleti logikára, funkciókra szükség lehet, és nem kell azokról lemondanunk, de azokat rábízhatjuk egy háttérrendszerre, ami ezek kezelésében sokkal jobb, mint például az ERPNext, vagy az Odoo vállalatirányítási rendszer, de említetjük a Mautic Marketing és hírlevél szoftvert is, amelyekkel API-n keresztül köthetünk össze. <br><br>
+						Ilyen háttérrendszerre azonban nem is minden esetben van szükség, sőt a legtöbb esetben a Jamstack csupán egyetlen jóval testreszabhatóbb és sokkal gyorsabb statikus weboldal komponensből, azaz ténylegesen weboldalakból áll. 
 				</section>
 				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Statikus oldalak használata</h2>
 					<p class="list-disc text-[17px] leading-7 space-y-5]">
-					statikus weboldal
+					A korábban használt rendszerek, mint például a sokak által kedvelt Wordpress, vagy Drupal CMS rendszerek is hasonló megoldáshoz folyamodtak amikor más módszerekkel már nem tudták gyorsítani a weboldalaikat, vagy akkor forgalmat kellett kiszolgálni amit másképp már nem lehetett. <br><br>
+					Ez pedig nem más, mint, hogy már nem dinamikusan generáljuk a weboldalakat amikor azt épp valaki meg akarja tekinteni, hanem előre elkészítjük és mintegy gyorsítótárból mutatjuk meg a látogatónak. <br><br>
+					A Static Site Generator megoldás pontosan ezt csinálja, csak ahogy fenntebb írtam egy lassú, elavult rétegtől függetlenül. (Az igazsághoz hozzátartozik, hogy már a Wordpresshez is elérhető Jamstack megoldás, de itt akkor megkérdőjelezhető, hogy mi szükség van a Wordpressre!?)<br><br>
+					A lentebb felsorolt megoldások, amelyekkel komplex webalkalmazásokat is építhetünk a Jamstack "architechtúrának" köszönhetően, vagy önállóan gyors weblapként használhatjuk, mert mind statikus oldalakat generálnak. Ezek az oldalak nagyon gyorsak a felhasználók, valamint a Google számára is, igen a mobil változat is, (ahogyan a https://www.monolithon.com is erre a technológiára épül). <br><br>
+					Ugyan a weboldal tulajdonos nem mindig veszi figyelembe, hogy a fejlesztők szeretnek-e az adott technológiával dolgozni, de érdemes kiemelni, hogy itt erről van szó, ami végül gazdaságosabb fejlesztést tesz lehetővé, hiszen több hozzáértőt találhatunk ilyen projektre, mint a fejlsztők áltla nem kedvelt megoldásokhoz. <br><br>
+					Nem csak a fejlesztés, hanem az üzemeltetés is gazdaságosabb, hiszen a statikus oldalakat több olyan platformon is hosztolhatjuk amik a hagyományos hosztingoknál sokkal olcsóbbak, vagy akár ingyenesek. Kis forgalmú oldalnál jól jöhet, hogy nem kell rá havonta vagyont költeni, nagy forgalmú oldalnál pedig azért szuper, mert a skálázáshoz nem kell nagyobb teljesítmény, így a nagyforgalmú oldalak üzemeltetése is olcsó vagy ingyenes. <br><br>
+					A plusz egy ami a fentieken kívül nagyon szuper a statis site generátorokban, ami közvetlenül kapcsolódik a gazdaságossághoz és skálázhatósághoz, hogy akár ingyenes CDN rendszerrel együtt is használhahtó, azaz az oldalt látogató személy számára mindig a hozzá legközelebb eső "szerverről" fog az oldal betöltődni, ami gyorsabb megjelenést tesz lehetővé, de közben mégsem kell a világon mindenhol szervereket fenntartanunk és fizetnünk. 
 					</p>
 				</section>
 				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Astro.build</h2>
 					<p class="list-disc text-[17px] leading-7 space-y-5]">
-					astro.build
+					Szerencsére ma már rengeteg Statis Site Generator megoldásból választhatunk. Az egyik első, legelterjedtebb a lenti bekezdésben említett HUGO volt, amely a mai napik nagyon kedvelt és jó megoldás, ezért is támogatjuk, de egy fontos részét a lassú weboldal problémájának nem kezelte. Ez pedig a különbő, az egyszerűség kedvéért nevezzük, interaktív elemek megvalósításával kapcsolatos. <br><br>
+					És itt jön a képbe az Astro.build. Mert A legtöbb másik SSG szintén használja a HTML mellett, amiből a szöveges tartalom felépül, az úgynevezett javascriptet. És ami a legrosszabb, hogy sok javascriptet egyszerre. Még egy-egy ilyen megoldás is nagy erőforrást igényel a látogató eszközétől, de ha ezek számolatlanul futnak, akkor nagyon lelassítják az oldalt. <br><br>
+					Az Astro.build erre kínál megoldást, amiből csak lehetséges HTML statikus kódot generál, és nincs az oldal teletűzdelve pazarló kódokkal. Ez teszi lehetővé, hogy mobilon is villámgyors legyen az Astro.build alapon felépített weboldal, mint a https://www.monolithon.com oldalunk is. 
 					</p>
 				</section>
 				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">HUGO</h2>
 					<p class="list-disc text-[17px] leading-7 space-y-5]">
-						HUGO
+						A HUGO volt egyike az első fecskéknek, de azóta is folyamatosan fejlődik és rengetegen használják, mert a fentebb leírtak közül szinten minden elmondható róla, ami nagyon előnyössé teszi a használatát. Static Site Generator, Jamstack renszerbe integrálható és többnyelvű oldalak építését és kezelését teszi lehetővé. Viszont a javascripteket nem kezeli annyira ügyesen, mint az Astro.Build. 
 					</p>
 				</section>
 				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Nuxt.js</h2>
 					<p class="list-disc text-[17px] leading-7 space-y-5]">
-							Nuxt.js
+							A Nuxt.js-t csak azért szeretjük megemlíteni, mert ugyan rendelkezik a fenti szuper tulajdonságokkal, azonban annak ellenére, hogy önnálló oldalhoz nem használjuk, azoknak, akik nem csak weboldalt szerentének, legyen az statikus oldal, vagy Jamstack alapú, hanem értékesíteni is szeretnének és ehhez is villámgyorsa rendszert használnának, akkor a Headless VueStoreFront rendszerét ajánljuk, ami viszont a Nuxt.js-re épül. 
 					</p>
 				</section>
 				<section id="contact-form-2">
