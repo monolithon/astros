@@ -2,11 +2,13 @@
 import { changeLanguage } from "i18next";
 import Layout from "@layouts/Layout.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import Container from "@components/container.astro";
 
 changeLanguage("en");
 ---
 
 <Layout title="Contact" lang="en">
+	<Container>
 	<Sectionhead>
 		<Fragment slot="title">Contact</Fragment>
 		<Fragment slot="desc">Get in Touch.</Fragment>
@@ -276,4 +278,24 @@ changeLanguage("en");
 
 		</div>
 	</div>
+		<script>
+			if (typeof MauticSDKLoaded == "undefined") {
+				var MauticSDKLoaded = true;
+				var head = document.getElementsByTagName("head")[0];
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				script.src = "https://asset.monolithon.com/media/js/mautic-form.js?vea43f1e4";
+				script.onload = function () {
+					MauticSDK.onLoad();
+				};
+				head.appendChild(script);
+				var MauticDomain = "https://asset.monolithon.com";
+				var MauticLang = {
+					submittingMessage: "Kérjük várjon...",
+				};
+			} else if (typeof MauticSDK != "undefined") {
+				MauticSDK.onLoad();
+			}
+		</script>
+	</Container>
 </Layout>
