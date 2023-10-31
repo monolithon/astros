@@ -1,0 +1,63 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/EmailFormhu.astro";
+import Link from "@components/ui/link.astro";
+changeLanguage("hu");
+---
+
+<Layout lang="hu" title="Gyors weboldal ">
+	<Container>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">Gyors weboldal.</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">A látogatóknak és a Google-nek.</h2>
+				<div>
+					<Link href="/hu/kapcsolat">
+						Beszéljünk!
+					</Link>
+				</div>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/images/jamstack-astro-hugo.jpg" alt="" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Jamstack - a gyors weboldal kulcsa a rendszer egyszerűsítése - szétválasztással</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						Jamstack
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Statikus oldalak használata</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+					statikus weboldal
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Astro.build</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+					astro.build
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">HUGO</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						HUGO
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Nuxt.js</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+							Nuxt.js
+					</p>
+				</section>
+				<section id="contact-form-2">
+					<NewsLetter />
+				  </section>
+			</div>
+		</div>
+	</Container>
+</Layout>
