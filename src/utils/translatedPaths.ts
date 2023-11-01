@@ -151,4 +151,5 @@ export const links = {
 	"shopify-ecommerce": "shopify-webaruhaz",
 	"shopify-webaruhaz": "shopify-ecommerce",
 	"mautic-marketing-automation-platform": "mautic-marketing-automation-platform",
+	"static-site-generator": "static-site-generator",
 };

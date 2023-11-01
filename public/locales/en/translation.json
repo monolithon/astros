@@ -33,7 +33,8 @@
     "vue-storefront": "/vuestorefront-headless-ecommerce",
     "n8n": "/n8n-zapier-make-integromat",
     "shopify": "/shopify-ecommerce",
-    "mautic": "/mautic-marketing-automation-platform"
+    "mautic": "/mautic-marketing-automation-platform",
+    "astro": "/static-site-generator"
   },
   "footer": {
     "login": "Login",
