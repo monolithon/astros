@@ -36,7 +36,7 @@
     "n8n": "/n8n-zapier-make-integromat",
     "shopify": "/shopify-webaruhaz",
     "mautic": "/mautic-marketing-automation-platform",
-    "astro": "/weboldal"
+    "astro": "/static-site-generator"
   },
   "footer": {
     "login": "Bejelentkezés",
