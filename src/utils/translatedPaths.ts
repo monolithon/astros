@@ -152,4 +152,6 @@ export const links = {
 	"shopify-webaruhaz": "shopify-ecommerce",
 	"mautic-marketing-automation-platform": "mautic-marketing-automation-platform",
 	"static-site-generator": "static-site-generator",
+	"secret": "titok",
+	"titok": "secret",
 };
