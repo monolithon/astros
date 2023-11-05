@@ -34,7 +34,8 @@
     "n8n": "/n8n-zapier-make-integromat",
     "shopify": "/shopify-ecommerce",
     "mautic": "/mautic-marketing-automation-platform",
-    "astro": "/static-site-generator"
+    "astro": "/static-site-generator",
+    "frappe": "/frappe-framework"
   },
   "footer": {
     "login": "Login",

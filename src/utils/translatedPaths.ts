@@ -154,4 +154,5 @@ export const links = {
 	"static-site-generator": "static-site-generator",
 	"secret": "titok",
 	"titok": "secret",
+	"frappe-framework": "frappe-framework",
 };
