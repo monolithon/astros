@@ -119,6 +119,8 @@ export const blog = {
 	"villamgyors-statikus-webolda-astro-build-alapokon": "switch-to-astro-build-static-site-generator",
 	"erpnext-15-megjelenes":"erpnext-15-release",
 	"erpnext-15-release":"erpnext-15-megjelenes",
+	"odoo-17-release": "odoo-17-megjelenes",
+	"odoo-17-megjelenes": "odoo-17-release",
 };
 
 export const links = {
