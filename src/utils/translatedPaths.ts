@@ -115,6 +115,8 @@ export const blog = {
 	"hungarian-micro-enterprise-chart-of-accounts": "magyar-mikrogazdálkodói-számlatükör",
 	"ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer": "queue-management-system",
 	"queue-management-system": "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
+	"switch-to-astro-build-static-site-generator": "villamgyors-statikus-webolda-astro-build-alapokon",
+	"villamgyors-statikus-webolda-astro-build-alapokon": "switch-to-astro-build-static-site-generator",
 };
 
 export const links = {
