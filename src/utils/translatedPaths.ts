@@ -117,6 +117,8 @@ export const blog = {
 	"queue-management-system": "ugyfelhivo-sorszamoszto-kiosk-ugyfeliranyito-rendszer",
 	"switch-to-astro-build-static-site-generator": "villamgyors-statikus-webolda-astro-build-alapokon",
 	"villamgyors-statikus-webolda-astro-build-alapokon": "switch-to-astro-build-static-site-generator",
+	"erpnext-15-megjelenes":"erpnext-15-release",
+	"erpnext-15-release":"erpnext-15-megjelenes",
 };
 
 export const links = {
