@@ -22,6 +22,7 @@ Ezzel lehetővé vált, hogy a lehető legtöbb - hozzájárulás vagy jogalap s
 Az astro.build beváltotta a hozzáfűzött reményeket</p></p>
 A fejlesztés gyorsan ment és az eredmények is szuperek, ezt a látogató is érzékelheti a gyors böngészés közepette. Az első <a href="https://www.monolithon.com/hu/blog">magyar ERPNext blogként</a> elért Google helyezéseket sikerült tovább javítanunk, mert az oldalstruktúrát és link szerkezetet több lépésben emeltük át és csak kisebb módosításokat csináltunk, megtámogatva ezt egy megfelelő oldaltérképpel. De a másik célunk is teljesült, hogy az immár angol nyelvű tartalmaink is széles közönséghez juthassanak el. </p></p>
 Meg kell elmlítenem, hogy az astro.build is folyamatosan és nagyon gyorsan fejlődik, így a már a kész astro.build oldalunkat második lépésben a legújabb verzióra frissítettük, ami szintén egyszerűen és gyorsan ment. </p></p>A tartalmak angol nyelvre való fordítása és az új menü és tartalomstruktúrákhoz való tartalomkészítés elsőbbséget élvezett, de ahogy a bevezetőben írtam mostantól visszatérnek a blogbejegyzések és hírek az ERPNext, Odoo és egyéb szoftverek világából.</p></p>
+Szeretnél hasonlóan gyors weboldalt? <a href="https://www.monolithon.com/hu/kapcsolat">Beszéljünk!</a></p></p>
 
 
 <p><span style="color: rgb(187, 187, 187);">. </span></p>
