@@ -34,7 +34,7 @@ export default defineConfig({
 		react(),
 		tailwind(),
 		sitemap({
-			filter: (page) => page !== "https://www.monolithon.com/hu/titok/" && page !== "https://www.monolithon.com/secret/",
+			filter: (page) => page !== "https://www.monolithon.com/hu/titok/" && page !== "https://www.monolithon.com/secret/" && page !== "https://www.monolithon.com/legal/" && page !== "https://www.monolithon.com/hu/jogok/",
 		}),
 		robots({
 			sitemap: "https://www.monolithon.com/sitemap-0.xml",
@@ -42,7 +42,7 @@ export default defineConfig({
 				{
 					userAgent: ["*"],
 					allow: ["/"],
-					disallow: ["/titok", "/hu/titok", "/secret", "/hu/secret"],
+					disallow: ["/titok", "/hu/titok", "/secret", "/hu/secret", "/hu/jogok", "/legal"],
 				},
 			],
 		}),
