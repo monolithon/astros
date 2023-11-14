@@ -114,8 +114,8 @@ export const menuitems = [
 									{ item.children.map((subitem) =>
 										<Link
 											href={localizePath(t(subitem.path))}
-											style="hover"
 											size="sm"
+											style="nav"
 											class="block"
 											x-data="{ isActive: false }"
 											x-init={`() => {
@@ -140,8 +140,8 @@ export const menuitems = [
 					) : (
 						<Link
 							href={localizePath(t(item.path))}
-							style="hover"
 							size="sm"
+							style="nav"
 							x-data="{ isActive: false }"
 							x-init={`() => {
 								const path = $el.getAttribute('data-path');
