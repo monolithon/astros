@@ -8,13 +8,15 @@ import { Icon } from "astro-icon";
 	<Icon name="fluent:dark-theme-20-filled" class="w-5 dark:text-white" />
 	<label for="theme-selector" class="sr-only">Choose a theme</label>
 	<select
-		x-data="{
+		x-data=`{
 				theme: localStorage.theme || 'system',
 				updateDocumentClassTheme: function() {
 					if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
 						document.documentElement.classList.add('dark');
+						document.documentElement.classList.add('c_darkmode');
 					} else {
 						document.documentElement.classList.remove('dark');
+						document.documentElement.classList.remove('c_darkmode');
 					}
 				},
 				switchTheme: function (newValue) {
@@ -27,7 +29,7 @@ import { Icon } from "astro-icon";
 					}
 					this.updateDocumentClassTheme();
 				},
-			}"
+			}`
 		name="theme-selector"
 		id="theme-selector"
 		class="appearance-none cursor-pointer rounded-md pl-3 pr-2 py-1.5 dark:bg-stone-950 dark:text-white focus-visible:outline-none"
