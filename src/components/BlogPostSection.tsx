@@ -66,20 +66,20 @@ export function BlogPostSection({ posts, next, prev }: { posts: any; next: strin
 							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
 								<g transform="rotate(180 6 6)">
 									<path
-										fill="#fff"
+										className="fill-[#50A6F2] dark:fill-white"
 										d="M4.7 10c-.2 0-.4-.1-.5-.2c-.3-.3-.3-.8 0-1.1L6.9 6L4.2 3.3c-.3-.3-.3-.8 0-1.1c.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z"
 									/>
 								</g>
 							</svg>
-							<p className="ml-2 text-white capitalize">{prev}</p>
+							<p className="ml-2 text-[#50A6F2] dark:text-white capitalize">{prev}</p>
 						</button>
 					)}
 					{currentPage !== totalPages && (
 						<button onClick={handleNextPage} className="flex flex-row align-middle items-center">
-							<span className="mr-2 text-white capitalize">{next}</span>
+							<span className="mr-2 text-[#50A6F2] dark:text-white capitalize">{next}</span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
 								<path
-									fill="#fff"
+									className="fill-[#50A6F2] dark:fill-white"
 									d="M4.7 10c-.2 0-.4-.1-.5-.2c-.3-.3-.3-.8 0-1.1L6.9 6L4.2 3.3c-.3-.3-.3-.8 0-1.1c.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z"
 								/>
 							</svg>
