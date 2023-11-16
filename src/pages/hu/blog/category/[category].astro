@@ -39,9 +39,8 @@ const { posts, category, lang } = Astro.props;
 <Layout title={`Category - ${category}`} lang="hu">
 	<Container>
 		<Sectionhead>
-            <Fragment slot="title">#ERPNext és Frappe {category.replace(/-/g, " ")}</Fragment>
-            <Fragment slot="desc">
-              ERPNext és Frappe {category.replace(/-/g, " ")} mindenkinek.
+            <Fragment slot="title">#{category.replace(/-/g, " ")}</Fragment>
+            <Fragment slot="desc">ERPNext, Frappe és Odoo hírek mindenkinek.
             </Fragment>
 		</Sectionhead>
 		<Posts posts={posts} />

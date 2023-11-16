@@ -38,9 +38,8 @@ const { posts, tag, lang } = Astro.props;
 <Layout title={`Tags - ${tag}`} lang="hu">
 	<Container>
 		<Sectionhead>
-            <Fragment slot="title">#ERPNext és Frappe {tag.replace(/-/g, " ")}</Fragment>
-            <Fragment slot="desc">
-              ERPNext és Frappe {tag.replace(/-/g, " ")} mindenkinek.
+            <Fragment slot="title">#{tag.replace(/-/g, " ")}</Fragment>
+            <Fragment slot="desc">ERPNext, Frappe és Odoo hírek mindenkinek.
             </Fragment>
 		</Sectionhead>
 		<Posts posts={posts} />
