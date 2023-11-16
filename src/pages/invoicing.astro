@@ -2,6 +2,7 @@
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/EmailForm.astro";
 
 changeLanguage("en");
 ---
@@ -10,7 +11,7 @@ changeLanguage("en");
 	<Container>
 		<div class="py-20 px-10 md:px-0 ">
 			<h1 class="md:text-[60px] mb-10 text-4xl dark:text-white font-semibold text-[#1F2634]">Invoicing</h1>
-			<p class="md:text-[40px] text-2xl font-semibold dark:text-white text-[#1F2634]">Hungarian Invoicing with ERPNext - Coming Soon in 2023 Q3</p>
+			<p class="md:text-[40px] text-2xl font-semibold dark:text-white text-[#1F2634]">Hungarian Invoicing with ERPNext - Coming Soon in 2024 Q1</p>
 			<div>
 				<p class="text-xl py-10 dark:text-white text-[#1F2634]">We will soon make available the issuance of invoices compliant with Hungarian regulations from the ERPNext system.</p>
 				<img src="/images/IyzD8FB.png" alt="" />
@@ -19,6 +20,9 @@ changeLanguage("en");
 				<p class="text-xl py-10 dark:text-white text-[#1F2634]">Moreover, ERPNext will not only function as a traditional invoicing tool but also as a cash register.</p>
 				<img src="/S1Fzpjh.png" alt="" />
 			</div>
+			<section id="contact-form-2">
+				<NewsLetter />
+			</section>
 		</div>
 	</Container>
 </Layout>

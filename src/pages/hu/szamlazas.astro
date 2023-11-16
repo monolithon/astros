@@ -2,6 +2,7 @@
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/EmailFormhu.astro";
 
 changeLanguage("hu");
 ---
@@ -10,7 +11,7 @@ changeLanguage("hu");
 	<Container>
 		<div class="py-20 px-10 md:px-0 text-[#192734] dark:text-white">
 			<h1 class="md:text-[60px] mb-10 text-4xl font-semibold">Számlázás</h1>
-			<p class="md:text-[40px] text-2xl font-semibold">ERPNext magyar számlázás hamarosan - 2023 Q3</p>
+			<p class="md:text-[40px] text-2xl font-semibold">ERPNext magyar számlázás hamarosan - 2024 Q1</p>
 			<div>
 				<p class=" text-xl py-10">A magyar szabályoknak megfelelő számla kiállítását az ERPNext rendszerből hamarosan elérhetővé tesszük.			</p>
 				<img src="/images/IyzD8FB.png" alt="" />
@@ -19,6 +20,9 @@ changeLanguage("hu");
 				<p class=" text-xl py-10">Ráadásul nem csak hagyományos számlázóként, hanem pénztárgépként is használható lesz az ERPNext.				</p>
 				<img src="/images/S1Fzpjh.png" alt="" />
 			</div>
+			<section id="contact-form-2">
+				<NewsLetter />
+			  </section>
 		</div>
 	</Container>
 </Layout>

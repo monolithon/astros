@@ -2,7 +2,7 @@
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
-import LetsTalk from "@components/LetsTalkhu.astro";
+import NewsLetter from "@components/EmailFormhu.astro";
 changeLanguage("hu");
 ---
 
@@ -123,7 +123,9 @@ changeLanguage("hu");
 					</p>
 				</section>
 			</div>
-			<LetsTalk/>
+			<section id="contact-form-2">
+				<NewsLetter />
+			</section>
 		</div>
 	</Container>
 </Layout>

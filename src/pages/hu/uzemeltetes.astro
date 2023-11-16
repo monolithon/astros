@@ -2,32 +2,44 @@
 import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
-
+import NewsLetter from "@components/EmailFormhu.astro";
+import Link from "@components/ui/link.astro";
 changeLanguage("hu");
 ---
 
-<Layout lang="en" title="ERPNext tárhely és üzemeltetés">
+<Layout lang="hu" title="ERPNext tárhely és üzemeltetés ">
 	<Container>
-		<div class="py-20 text-[#192734] dark:text-white">
-			<div>
-				<h1 class="md:text-[60px] mb-10 text-4xl font-semibold">Üzemeltetés</h1>
-				<p class="md:text-[40px] text-2xl font-semibold mb-10">ERPNext tárhely a felhőben</p>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">ERPNext tárhely és üzemeltetés</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">ERPNext tárhely a felhőben.</h2>
 				<div>
-					<img src="/images/frappecloud-banner.jpg" alt="" />
+					<Link href="/hu/kapcsolat">
+						Beszéljünk!
+					</Link>
+				</div>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/images/ERPNext-hosting.jpg" alt="" />
 				</div>
 			</div>
-			<div class="text-[#192734] dark:text-white">
-				<p class="text-lg mt-20">
-					Az ERPNext üzemeltetése szakértelem mellett speciális technikai feltételeket is megkíván. Több éves ERPNext használat alatt sok
-					partnerrel való együttműködés után megtaláltuk azt az ERPNext partnert, akit szívesen ajánlunk. Az ERPNext osztott tárhelyen nem
-					üzemeltethető, a menedzselt VPS és szerver szolgáltatások pedig jellemzően magasabb árkategóriába tartoznak. Ezért örömmel
-					mutatjuk be az ERPNext felhőszolgáltatót, amelyen a monolithon.com, a magyar ERPNext népszerűsítő oldal is fut.
-					<span class=" inline-block  py-10">
-						Az ERPNext fejlesztői által fejlesztett, üzemeltetett és optimalizált platform a Frappe Cloud szerintünk a legjobb ERPNext
-						hoszting szolgáltató, ezért ajánljuk és használjuk:
-					</span>
-					Részletek és regisztráció: <a href="https://frappecloud.com/" target="_blank" class=" text-[#50A6F2]">https://frappecloud.com</a>
-				</p>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Kényelmes és egyszerű ERPNext tárhely és üzemeltetési támogatás</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						Az ERPNext üzemeltetése szakértelem mellett speciális technikai feltételeket is megkíván. Több éves ERPNext használat alatt sok
+						partnerrel való együttműködés után megtaláltuk azt az ERPNext partnert, akit szívesen ajánlunk. Az ERPNext osztott tárhelyen nem
+						üzemeltethető, a menedzselt VPS és szerver szolgáltatások pedig jellemzően magasabb árkategóriába tartoznak. Ezért örömmel
+						mutatjuk be az ERPNext felhőszolgáltatót, amelyen a monolithon.com, a magyar ERPNext népszerűsítő oldal is fut.
+						<br><br>
+						Az ERPNext fejlesztői által fejlesztett, üzemeltetett és optimalizált platform a Frappe Cloud szerintünk a legjobb ERPNext hoszting szolgáltató, ezért ajánljuk és használjuk. 	
+				</section>
+
+			
+				<section id="contact-form-2">
+					<NewsLetter />
+				  </section>
 			</div>
 		</div>
 	</Container>
