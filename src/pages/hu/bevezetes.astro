@@ -1,0 +1,41 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/EmailFormhu.astro";
+import Link from "@components/ui/link.astro";
+changeLanguage("hu");
+---
+
+<Layout lang="hu" title="ERPNext bevezetés és támogatás">
+	<Container>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">ERPNext bevezetés</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">Lépésről lépésre, oktatással és dokumentációval.</h2>
+				<div>
+					<Link href="/hu/kapcsolat">
+						Beszéljünk!
+					</Link>
+				</div>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/images/ERPNext-implementation.jpg" alt="ERPNext bevezetés" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">ERPNext ERP bevezetése a gyakorlatban</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+							
+				</section>
+
+			
+				<section id="contact-form-2">
+					<NewsLetter />
+				  </section>
+			</div>
+		</div>
+	</Container>
+</Layout>
