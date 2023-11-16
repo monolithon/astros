@@ -37,7 +37,6 @@ category:
 <p>While CRM still exists within ERPNext, alongside many other apps, they announced Frappe CRM, which integrates VOIP phone calls and call recording.</p>
 <p><img src="/images/Frappe-CRM.png"></p>
 <p>And there are many more new features, which I'll report on in more detail later.</p>
-<p>Do you have questions about ERPNext? <a href="https://www.monolithon.com/contact">Let's talk!</a></p>
 
 
 

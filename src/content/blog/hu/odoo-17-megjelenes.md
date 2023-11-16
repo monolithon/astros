@@ -49,8 +49,5 @@ Korábban ugyan a Community változatot javasoltuk ügyfeleinknek, de az Odoo 16
 Így mostantól még határozottabban gondoljuk hogy valójában Odoo esetén nincs választás, csak Enterprise használható manapság és a Community változat egyre inkább csak a kirakatba való, hogy elmondhassák az Odoo open source, nyílt forrású szoftver. 
 </p></p>
 <p>Ha azonban az Odoo Enterprise még a csökkentett licensz díjakkal is túl drága és a fentiek alapján a Community nem megfelelő, akkor célszerű lehet más, ingyenes, nyílt forráskódú ERP szoftvereket is megvizsgálni, mint például az <a href="https://www.monolithon.com/hu/erpnext">ERPNext.</a></p></p>
-
-Kérdéseid vannak az Odoo-val kapcsolatban? <a href="https://www.monolithon.com/hu/kapcsolat">Beszéljünk!</a></p></p>
-
-
+</p></p>
 <p><span style="color: rgb(187, 187, 187);">. </span></p>

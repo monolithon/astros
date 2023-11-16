@@ -35,7 +35,6 @@ category:
 <a href="https://twitter.com/niyasraphy/status/1714155461857964431">https://twitter.com/niyasraphy/status/1714155461857964431</a></p>
 <p>So, now more firmly than ever, we believe that in the case of Odoo, there is no choice; only Enterprise is usable nowadays, and the Community version is increasingly becoming more of a display to allow Odoo to be called open source, open-source software.</p>
 <p>However, if Odoo Enterprise is still too expensive even with the reduced license fees, and based on the above, Community is not suitable, it might be worth examining other free, open-source ERP software, such as <a href="https://www.monolithon.com/erpnext">ERPNext.</a></p>
-<p>Do you have any questions about Odoo? <a href="https://www.monolithon.com/contact">Let's talk!</a></p>
 
 
 

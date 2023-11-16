@@ -25,7 +25,7 @@ category:
 <p>The development was fast, and the results are great, something visitors can feel during quick browsing. We managed to further improve the Google rankings for the first <a href="https://www.monolithon.com/blog">Hungarian ERPNext blog</a>, transferring the page structure and link structure in several steps, making only minor modifications and supporting this with an appropriate sitemap. Our other goal was also achieved, as our English content now reaches a wider audience.</p>
 <p>I must mention that astro.build is continuously and rapidly evolving, so in the second step, we updated our already finished astro.build page to the latest version, which also happened smoothly and quickly.</p>
 <p>The translation of content into English and the creation of new menu and content structures took priority, but as I mentioned in the introduction, from now on, blog posts and news from the world of ERPNext, Odoo, and other software are back.</p>
-Would you like a similarly fast website? <a href="https://www.monolithon.com/contact">Let's talk!</a></p></p>
+</p></p>
 
 
 <p><span style="color: rgb(187, 187, 187);">. </span></p>

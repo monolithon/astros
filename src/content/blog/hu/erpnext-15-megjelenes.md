@@ -42,7 +42,7 @@ category:
 
 És még rengeteg újdonság, amikről részletesebben is beszámolok majd. </p></p>
 
-Kérdéseid vannak az ERPNext-tel kapcsolatban? <a href="https://www.monolithon.com/hu/kapcsolat">Beszéljünk!</a></p></p>
+</p></p>
 
 
 <p><span style="color: rgb(187, 187, 187);">. </span></p>
