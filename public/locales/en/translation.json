@@ -18,7 +18,7 @@
     "implementation": "Implementation",
     "invoicing": "Invoicing",
     "accounting": "Accounting",
-    "gocardless": "Gocardless Integration",
+    "gocardless": "GoCardless Integration",
     "primary_button_text": "Contact us",
     "cms_eCommerce": "CMS & eCommerce",
     "qms_nav": "Queue Management",
