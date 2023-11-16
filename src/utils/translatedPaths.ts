@@ -162,4 +162,5 @@ export const links = {
 	"secret": "titok",
 	"titok": "secret",
 	"frappe-framework": "frappe-framework",
+	"gocardless": "gocardless",
 };
