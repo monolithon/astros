@@ -19,8 +19,8 @@
     "accounting": "Accounting",
     "primary_button_text": "Contact us",
     "cms_eCommerce": "CMS & eCommerce",
-    "qms_nav": "Queue Management System",
-    "integration_nav": "Integration & Automation"
+    "qms_nav": "Queue Management",
+    "integration_nav": "Automation"
   },
   "path_header": {
     "erpnext": "/erpnext",

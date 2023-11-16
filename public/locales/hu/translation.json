@@ -21,7 +21,7 @@
     "odoo": "Odoo",
     "cms_eCommerce": "Weboldal és Webáruház",
     "qms_nav": "Ügyfélhívó rendszer",
-    "integration_nav": "Integráció és Automatizáció"
+    "integration_nav": "Automatizáció"
   },
 
   "path_header": {
