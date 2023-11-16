@@ -3,26 +3,42 @@ import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
 import Layout from "@layouts/Layout.astro";
 import NewsLetter from "@components/EmailForm.astro";
-
-changeLanguage("en");
+import Link from "@components/ui/link.astro";
+changeLanguage("hu");
 ---
 
-<Layout lang="en" title="Invoicing">
+<Layout lang="hu" title="ERPNext bevezetés és támogatás">
 	<Container>
-		<div class="py-20 px-10 md:px-0 ">
-			<h1 class="md:text-[60px] mb-10 text-4xl dark:text-white font-semibold text-[#1F2634]">Invoicing</h1>
-			<p class="md:text-[40px] text-2xl font-semibold dark:text-white text-[#1F2634]">Hungarian Invoicing with ERPNext - Coming Soon in 2024 Q1</p>
-			<div>
-				<p class="text-xl py-10 dark:text-white text-[#1F2634]">We will soon make available the issuance of invoices compliant with Hungarian regulations from the ERPNext system.</p>
-				<img src="/images/IyzD8FB.png" alt="" />
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">ERPNext invoicing</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">Hungarian Invoicing with ERPNext - Coming Soon in 2024 Q1</h2>
+				<div>
+					<Link href="/hu/kapcsolat">
+						Beszéljünk!
+					</Link>
+				</div>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/images/ERPNext-magyar-szamlazas.jpg" alt="ERPNext bevezetés" />
+				</div>
 			</div>
-			<div>
-				<p class="text-xl py-10 dark:text-white text-[#1F2634]">Moreover, ERPNext will not only function as a traditional invoicing tool but also as a cash register.</p>
-				<img src="/S1Fzpjh.png" alt="" />
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">ERPNext hungarian invoicing</h2>
+					<p class="text-xl py-10 dark:text-white text-[#1F2634]">We will soon make available the issuance of invoices compliant with Hungarian regulations from the ERPNext system.</p>
+					<img src="/images/IyzD8FB.png" alt="" />
+					<p class="text-xl py-10 dark:text-white text-[#1F2634]">Moreover, ERPNext will not only function as a traditional invoicing tool but also as a cash register.</p>
+					<img src="/S1Fzpjh.png" alt="" />
+				</section>
+
+			
+				<section id="contact-form-2">
+					<NewsLetter />
+				  </section>
 			</div>
-			<section id="contact-form-2">
-				<NewsLetter />
-			</section>
 		</div>
 	</Container>
 </Layout>
+
