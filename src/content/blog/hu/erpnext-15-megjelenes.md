@@ -41,8 +41,3 @@ category:
 <p><img src="/images/Frappe-CRM.png"></p></p>
 
 És még rengeteg újdonság, amikről részletesebben is beszámolok majd. </p></p>
-
-</p></p>
-
-
-<p><span style="color: rgb(187, 187, 187);">. </span></p>

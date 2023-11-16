@@ -26,6 +26,3 @@ category:
 <p>I must mention that astro.build is continuously and rapidly evolving, so in the second step, we updated our already finished astro.build page to the latest version, which also happened smoothly and quickly.</p>
 <p>The translation of content into English and the creation of new menu and content structures took priority, but as I mentioned in the introduction, from now on, blog posts and news from the world of ERPNext, Odoo, and other software are back.</p>
 </p></p>
-
-
-<p><span style="color: rgb(187, 187, 187);">. </span></p>
