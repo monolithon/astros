@@ -13,10 +13,12 @@
     "secondary_button_text": "Go to base version"
   },
   "header": {
-    "features": "Features",
+    "erpnext": "Features",
+    "hosting": "Hosting",
     "implementation": "Implementation",
     "invoicing": "Invoicing",
     "accounting": "Accounting",
+    "gocardless": "Gocardless Integration",
     "primary_button_text": "Contact us",
     "cms_eCommerce": "CMS & eCommerce",
     "qms_nav": "Queue Management",
@@ -24,6 +26,7 @@
   },
   "path_header": {
     "erpnext": "/erpnext",
+    "hosting": "/erpnext-hosting",
     "implementation": "/implementation",
     "invoicing": "/invoicing",
     "accounting": "/accounting",

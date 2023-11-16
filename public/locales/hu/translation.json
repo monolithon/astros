@@ -14,9 +14,11 @@
   },
   "header": {
     "erpnext": "Jellemzők",
-    "implementation": "Üzemeltetés",
+    "hosting": "Tárhely",
+    "implementation": "Bevezetés",
     "invoicing": "Számlázás",
     "accounting": "Könyvelés",
+    "gocardless": "Bankszámla szinkronizálás",
     "primary_button_text": "Kapcsolat",
     "odoo": "Odoo",
     "cms_eCommerce": "Weboldal és Webáruház",
@@ -26,7 +28,8 @@
 
   "path_header": {
     "erpnext": "/erpnext",
-    "implementation": "/uzemeltetes",
+    "hosting": "/uzemeltetes",
+    "implementation": "/bevezetes",
     "invoicing": "/szamlazas",
     "accounting": "/konyveles",
     "primary_button_text": "/kapcsolat",
@@ -37,7 +40,8 @@
     "shopify": "/shopify-webaruhaz",
     "mautic": "/mautic-marketing-automation-platform",
     "astro": "/static-site-generator",
-    "frappe": "/frappe-framework"
+    "frappe": "/frappe-framework",
+    "gocardless": "/gocardless"
   },
   "footer": {
     "login": "Bejelentkezés",
