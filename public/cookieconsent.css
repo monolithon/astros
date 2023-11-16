@@ -6,9 +6,9 @@
 	--cc-z-index: 2147483647;
 	--cc-text: #2d4156;
 	--cc-border-radius: 0.45rem;
-	--cc-btn-primary-bg: #2d4156;
+	--cc-btn-primary-bg: #2490ef;
 	--cc-btn-primary-text: var(--cc-bg);
-	--cc-btn-primary-hover-bg: #1d2e38;
+	--cc-btn-primary-hover-bg: rgb(36 144 239 / 0.8);
 	--cc-btn-primary-hover-text: var(--cc-btn-primary-text);
 	--cc-btn-secondary-bg: #eaeff2;
 	--cc-btn-secondary-text: var(--cc-text);
