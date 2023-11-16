@@ -1,0 +1,63 @@
+---
+import { changeLanguage } from "i18next";
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+import NewsLetter from "@components/EmailFormhu.astro";
+import Link from "@components/ui/link.astro";
+changeLanguage("hu");
+---
+
+<Layout lang="en" title="Implementation and Support for ERPNext">
+	<Container>
+		<div class="px-5">
+			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
+				<div class="flex flex-col h-full justify-center">
+					<h1 class="text-[60px] leading-none font-semibold">ERPNext Implementation</h1>
+					<h2 class="text-xl text-[#192734] dark:text-white my-4">Step by step, with training and documentation.</h2>
+					<div>
+						<Link href="/contact">
+							Let's talk!
+						</Link>
+					</div>
+				</div>
+				<div>
+					<img class="w-[40vw]" src="/images/ERPNext-implementation.jpg" alt="ERPNext Introduction" />
+				</div>
+			</div>
+			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Implementing ERPNext in Practice</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						Every business is unique, at least in the sense that they play this game for profit. While there are differences between countries, industries, and enterprises, the fundamental processes are generally very similar. That's why it's advisable to review our own processes when implementing ERP, as they may not be optimal. Moreover, from different ERP systems like ERPNext, we can learn and apply best practices that have worked elsewhere.
+						<br><br>
+						If we can align with existing frameworks, it makes our job much easier. However, customizing ERPNext further allows us to better support the daily operations of businesses.
+						<br><br>
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">How We Work</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						The Monolithon team follows industry rules and best practices not only during development but also in the support process for implementation. To get the full picture, we examine how the business currently operates for those who want to use the ERPNext system. We also coordinate how they want to work in the future because this is an opportunity to refine their operations, not just digitize existing ones.
+						<br><br>
+						Based on this, it becomes apparent whether ERPNext is the right software for the organization. If not, we explore which other supported software might be suitable or one that we can provide support for. Once these decisions are made, we create a specific demo with the jointly selected potential dealbreaker functionality to see how it will work in practice, addressing any potential system-specific or challenging issues. This is not the full implementation, just a way to reduce both of our risks and determine if handling potential system-specific/difficult problems is possible.
+						<br><br>
+						Usually, the demonstrated solution is suitable, and we aim to allow the business to start using the software as quickly as possible, not with the complete implementation. This typically involves importing basic data and making basic settings, while parallelly configuring parameters, possible development, and training/documentation. After basic data, we focus on specific areas, often separate apps within ERPNext, such as project management, procurement, sales, CRM, etc. We usually deliver a new feature every week, making the system useful for the business quickly and getting closer to the final solution. This also allows us to make changes together along the way, as it is often necessary.
+						<br><br>
+						This implies that we don't prepare a complete specification in advance and don't price it because there are too many invisible factors better handled together flexibly. The risks are also financially managed by the monthly fee structure we provide, as there is no large upfront investment, but there is continuous progress. The agreed-upon hours are typically spent more in the first implementation phase, and then in the operational phase, if it's balanced, we reduce the hours, with daily and monthly reports. If the client needs more support, we can collectively adjust the hours upward, making it predictable for everyone. It doesn't get lost and can be used for a later upgrade, typically needed annually.
+					</p>
+				</section>
+				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Guarantees</h2>
+					<p class="list-disc text-[17px] leading-7 space-y-5]">
+						Regarding ERPNext, it's worth mentioning that besides being free and open-source, professional partners can assist in the introduction, and there are product guarantees available. Furthermore, Monolithon collaborates with several partners for the acquisition of existing solutions, avoiding the need to develop them from scratch. Additionally, we use this network for providing extra development capacity and quality assurance, both for our benefit and our clients.
+						<br><br>
+					</p>
+				</section>
+				<section id="contact-form-2">
+					<NewsLetter />
+				</section>
+			</div>
+		</div>
+	</Container>
+</Layout>
+
