@@ -111,10 +111,12 @@ const pricingData = [
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing">
       {pricingData.map((item) => <Pricing plan={item} />)}
     </div>
+   
     <section>
-      <span class="dark:text-white text-black">*A felhasználók száma nem korlátozott, de az optimalizált erőforrás limitált.</span>
+      <div class="px-5 py-5">
+      <span class="dark:text-white text-black ">*A felhasználók száma nem korlátozott, de az optimalizált erőforrás limitált.</span>
+    </div>
     </section>
-    <!-- <Logos /> -->
     <LetsTalk />
   </Container>
 </Layout>
