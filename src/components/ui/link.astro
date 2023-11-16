@@ -5,7 +5,7 @@ interface Props {
 	href: string;
 	size?: "xs" | "sm" | "md" | "lg";
 	block?: boolean;
-	style?: "outline" | "primary" | "hover" | "muted" | "nav";
+	style?: "outline" | "primary" | "hover" | "muted" | "nav" | "underline";
 	class?: string;
 	[x: string]: any;
 }
@@ -28,6 +28,7 @@ const styles = {
 	nav: "text-center text-stone-950 outline-2 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 border-transparent active:outline",
 
 	hover: "text-center text-stone-950 hover:text-primaryBlue focus:text-primaryBlue focus:bg-gray-200 focus:outline-none focus:shadow-outline hover:bg-gray-200 dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-primaryBlue dark:text-primaryBlue",
+	underline: "text-center dark:text-white hover:opacity-70 focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 dark:text-black border-none active:outline font-bold underline",
 };
 ---
 
