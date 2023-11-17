@@ -74,6 +74,7 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 
 		<script>
 			/** This section is only needed once per page if manually copying **/
+				//@ts-expect-error
 				if (typeof MauticSDKLoaded == "undefined") {
 					var MauticSDKLoaded = true;
 					var head = document.getElementsByTagName("head")[0];
@@ -81,6 +82,7 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 					script.type = "text/javascript";
 					script.src = "https://asset.monolithon.com/media/js/mautic-form.js?vea43f1e4";
 					script.onload = function () {
+						//@ts-expect-error
 						MauticSDK.onLoad();
 					};
 					head.appendChild(script);
@@ -88,7 +90,9 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 					var MauticLang = {
 						submittingMessage: "Please wait...",
 					};
+				//@ts-expect-error
 					} else if (typeof MauticSDK != "undefined") {
+				//@ts-expect-error
 						MauticSDK.onLoad();
 					}
 		</script>
