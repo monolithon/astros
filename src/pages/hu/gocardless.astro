@@ -9,10 +9,10 @@ changeLanguage("hu");
 
 <Layout lang="hu" title="ERPNext GoCardless Bank Integráció ">
 	<Container>
-		<div class="px-5">
-			<div class="flex justify-between items-center text-[#192734] dark:text-white h-[70vh]">
-				<div class="flex flex-col h-full justify-center">
-					<h1 class="text-[60px] leading-none font-semibold">ERPNext GoCardless bank integráció</h1>
+		<div class="px-5 pt-10">
+      <div class="flex justify-between items-center text-[#192734] dark:text-white h-auto md:flex-row flex-col pb-12 md:pb-1">
+				<div class="flex flex-col h-full justify-center basis-3/5">
+					<h1 class="text-4xl md:text-5xl leading-none font-semibold">ERPNext GoCardless bank integráció</h1>
 					<h2 class="text-xl text-[#192734] dark:text-white my-4">Bankszámlatranzakciók szinkronizációja automatikusan.</h2>
 				<div>
 					<Link href="/hu/kapcsolat">
@@ -20,37 +20,37 @@ changeLanguage("hu");
 					</Link>
 				</div>
 				</div>
-				<div>
-					<img class="w-[40vw]" src="/images/Bucket-1-Illo-1.png" alt="ERPNext GoCardless bank integráció és szinkronizáció" />
+        <div class="mt-10 md:mt-0 basis-1/2 overflow-hidden">
+					<img class="w-full" src="/images/Bucket-1-Illo-1.png" alt="ERPNext GoCardless bank integráció és szinkronizáció" />
 				</div>
 			</div>
 			<div class="flex flex-col items-center">
-				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Spórolj az automatikus banktranzakciók szinkronizálásával!</h2>
-					<p class="list-disc text-[17px] leading-7 space-y-5]">
+					<p class="list-disc text-lg leading-7 space-y-5]">
 					Az ERPNext-be lehetőség van kézzel feltölteni a bankszámlakivonatot, amennyiben a bankunk azt valamilyen táblázatos formában rendelkezésünkre bocsátja. <br><br>
 					Ekkor két dolgot tehetünk. Vagy az ERPNext felületén állítjuk be jól az importot, vagy a bankból kapott táblázatot az ERPNext számára átformázzuk. <br><br>
 					Ezzel máris importálhatjuk a bankszámlakivonatot és megkezdődhet az úgynevezett összepontozás, azaz a rendszerbe kézzel rögzített fizetési bejegyzések és a bankszámlán lévő pénzmozgások összepárosítása. 	
 				</section>
-				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Automatizálással kevesebb manuális, unalmas teendő</h2>
-					<p class="list-disc text-[17px] leading-7 space-y-5]">
+					<p class="list-disc text-lg leading-7 space-y-5]">
 					Az európai open banking direktívának köszönhetően a bankoknak iparági sztenderdek szerint hozzáférést kell biztosítaniuk az banki adatokhoz, természetesen a megfelelő jogosultság mellett. <br> <br>
 					Az ilyen jellegű banki adatok "cseréjére" különböző szolgáltatások épültek, amelyek a megfelelő jogosultságok mellett lehetővé teszik bank adatokhoz való egyzerű hozzáférést. <br><br>
 					Több ilyen szolgáltató is található a piacon, ilyen például a Plaid is, ami alapból megtalálható az ERPNext-ben, viszont magyar bankok adatai ezen a szolgáltatón keresztül nem érhetőek el. (Kisebb trükközéssel és ki tudja meddig, a Wise és a Revolut azonban igen.)<br><br>
 					Aki viszont egy biztosabb megoldást szeretne és nem órákat dolgozni az összepontozással az használhatja a Monolithon által fejlesztett GoCcardless (Bank Account Data) korábban Nordigen szinkronizációs megoldását. <br><br>
 					Ahogy az fejlesztéseinknél már megszokott, itt is követtük az sztenderdeket, így nem csak, hogy az ERPNext Bank transaction doctype-ját használtuk fel a fejlesztéshez, így a beépített összepárosító megoldással használható az appunk, hanem a továbfejlesztett egyéb banki összepárosító app-pal is tökéletesen működik. Ez  utóbbi azért is érdekes, mert azzal szinte teljesen automatizálni lehet a folyamatot, legalábbis bizonyosan sokkal gyorsabbá tenni. 
 				</section>
-				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Limitációk nélkül</h2>
-					<p class="list-disc text-[17px] leading-7 space-y-5]">
+					<p class="list-disc text-lg leading-7 space-y-5]">
 					Számold ki, hogy mennyibe kerül az a munkaidő, ha több órán keresztül kell a banktranzakciókat importáni és összepárosítani. Ezzel szemben az általunk elkészített megoldással korlátlan számú trazakciót kérhetsz le, szinte bármelyik bankban bevezetett saját bankszámláról. <br><br>
 					(A hozzáférést ugyan 90 naponta meg kell újítani, és azonos bankhoz tartozó bankszámla egy lekérésnek számít, de a cégenkénti! havi 50 authentikációval akár 50 banktól és az adott bankhoz tartozó korlátlan számú bankszámla korlátlan számú tranzakcióját lehet lekérni.)<br><br>
 				</section>
 
-				<section class="py-8 px-4 md:w-[45vw] text-[#192734] dark:text-white">
+				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Csak havi 49 EUR/szerver/hónap - korlátlan cégre </h2>
-					<p class="list-disc text-[17px] leading-7 space-y-5]">
+					<p class="list-disc text-lg leading-7 space-y-5]">
 						Megoldásunk jelenleg az ERPNext 14-es verziójához érhető el önkiszolgáló módon, amely ugyan támogatja a multicompany beállítást, de jelenleg még nincs cégenkénti hozzáférés. A hamarosan megjelenő 15-ös verzióban azonban ezt is továbbfejlesztjük. <br><br>
 						A lenti megrendelést követően automatikusan elindítunk a Frapp Cloud rendszerén egy egyedi kódot is futtatni képes ERPNext példányt, amelynek az adminisztrátori hozzáférést átadva azonnal használható a rendszer és beállítható a bankszinkron is. <br><br>
 						Ezzel a megoldással tudjuk biztosítani, hogy amíg az előfizetés él, addig az ERPNext GoCardless app elérhető az adott ERPNext gépen és használható a bankszinkronizáció, de a forráskódhoz nem biztosítunk hozzáférést és a tranzakciók nem is a mennek keresztül a mi szervereinken. <br><br>
