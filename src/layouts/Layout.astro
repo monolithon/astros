@@ -56,6 +56,17 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 	</head>
 	<Cookie />
 	<body class="dark:bg-stone-950">
+		<script is:inline>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+				if (!user) {
+					window.netlifyIdentity.on("login", () => {
+						document.location.href = "/admin/";
+					});
+				}
+			});
+		}
+	</script>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://service.monolithon.com/ns.html?id=GTM-P4LTKG3" height="0" width="0" style="display:none;visibility:hidden"></iframe>

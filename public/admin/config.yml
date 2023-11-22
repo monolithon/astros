@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
     name: git-gateway
     branch: main
@@ -7,34 +9,33 @@ media_folder: public/images
 public_folder: /images
 site_url: "https://www.monolithon.com/" # your site name
 
+i18n:
+    structure: multiple_folders
+    locales: [en, hu]
+    default_locale: en
+
 collections:
-    - name: english-post
-      label: "English Posts"
-      folder: src/content/blog/en
+    - name: post
+      label: Posts
+      folder: src/content/blog/
       create: true
       format: frontmatter
-      preview_path: post/{{slug}}
+      i18n: true
+      preview_path: "{{locale}}/{{slug}}"
       fields:
-          - { name: title, label: Title }
-          - { label: "Draft", name: "isDraft", widget: "boolean", default: false }
-          - { name: author, label: Author }
-          - { name: tags, label: Tags, widget: array }
-          - { name: snippet, label: Snippet, widget: string }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { name: category, label: Category, widget: array }
-          - { name: body, label: Body, widget: markdown }
-    - name: hu-post
-      label: "Hungary Posts"
-      folder: src/content/blog/hu
-      create: true
-      format: frontmatter
-      preview_path: post/{{slug}}
-      fields:
-          - { name: title, label: Title }
-          - { label: "Draft", name: "isDraft", widget: "boolean", default: false }
-          - { name: author, label: Author }
-          - { name: tags, label: Tags, widget: array }
-          - { name: snippet, label: Snippet, widget: string }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { name: category, label: Category, widget: array }
-          - { name: body, label: Body, widget: markdown }
+          - { name: title, label: Title, i18n: true }
+          - { label: "Draft", name: "draft", widget: "boolean", required: false, i18n: true }
+          - { name: author, label: Author, i18n: true }
+          - { name: tags, label: Tags, widget: list, label_singular: "Add Tag", i18n: true }
+          - name: "image"
+            label: "Image"
+            widget: "object"
+            collapsed: true
+            i18n: true
+            fields:
+                - { label: "Image", name: "src", widget: "image", i18n: duplicate }
+                - { label: "Image Alt", name: "alt", widget: "string", i18n: duplicate }
+          - { name: snippet, label: Snippet, widget: string, i18n: true }
+          - { label: "Publish Date", name: "publishDate", widget: "datetime", i18n: duplicate, date_format: "YYYY-MM-DD" }
+          - { name: category, label: Category, widget: list, label_singular: "Add category", i18n: true }
+          - { name: body, label: Body, widget: "markdown", i18n: true }
