@@ -18,6 +18,8 @@ const pricingData = [
       text: "Let's talk!",
       link: "path_header.primary_button_text",
     },
+    paddlePriceId: "pro_01hg12gak6ha3dhyzzjat6rcdm",
+    quantity: 1,
   },
   {
     name: "Standard",
@@ -28,6 +30,8 @@ const pricingData = [
       text: "Let's talk!",
       link: "path_header.primary_button_text",
     },
+    paddlePriceId: "pro_01hg12gak6ha3dhyzzjat6rcdm",
+    quantity: 1,
   },
   {
     name: "Premium",
@@ -38,6 +42,8 @@ const pricingData = [
       text: "Let's talk!",
       link: "path_header.primary_button_text",
     },
+    paddlePriceId: "pro_01hg12gak6ha3dhyzzjat6rcdm",
+    quantity: 1,
   },
 ];
 ---
@@ -101,8 +107,13 @@ const pricingData = [
       <Fragment slot="desc">Simple, transparent, and fair pricing.</Fragment>
     </Sectionhead>
 
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing">
-      {pricingData.map((item) => <Pricing plan={item} />)}
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing" >
+      {pricingData.map((item, index) => (
+        <Pricing
+          key={index}
+          plan={item}
+        />
+      ))}
     </div>
 
     <section>
@@ -111,5 +122,6 @@ const pricingData = [
     </div>
     </section>
     <LetsTalk />
+
   </Container>
 </Layout>
