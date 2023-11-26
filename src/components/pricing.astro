@@ -6,21 +6,37 @@ import Button from "./ui/button.astro";
 const { plan } = Astro.props;
 ---
 
-<div class="rounded-md p-8 xl:p-10 ring-1 ring-gray-200 dark:bg-stone-900 dark:ring-gray-700 flex flex-col justify-between" x-data="{handleCheckoutButton: function(event) {
-			const paddlePriceId = event.target.dataset.paddlePriceId;
+<div class="rounded-md p-8 xl:p-10 ring-1 ring-gray-200 dark:bg-stone-900 dark:ring-gray-700 flex flex-col justify-between" x-data=`{handleCheckoutButton: function() {
 				Paddle.Checkout.open({
-					priceId: paddlePriceId,
-					quantity: 1
+					items: [{
+							priceId: "${plan.paddlePriceId}",
+							quantity: 1
+						}],
 				});
-}}">
+}}`>
 <div>
 	<div class="flex items-center justify-between gap-x-4">
 		<h3 id="tier-enterprise" class="text-lg font-semibold leading-8 text-gray-900 dark:text-white">{plan.name}</h3>
 	</div>
-	<p class="mt-6 flex items-baseline gap-x-1">
-		<span class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
-			{plan.price && typeof plan.price === "object" ? plan.price.monthly : plan.price}
-		</span>
+	<p class="mt-6 flex items-baseline gap-x-1" x-data=`{ isLoading: true, price: null, getPricing: async function() {
+    try {
+        const result = await Paddle.PricePreview({
+            items: [{
+                priceId: "${plan.paddlePriceId}",
+                quantity: 1
+            }]
+        });
+
+        const totalPrice = result.data.details.lineItems[0].totals.total;
+				this.price = "€" + (totalPrice/100).toFixed(2);
+    } catch (error) {
+        this.price = "Err";
+    } finally {
+        this.isLoading = false;
+    }
+}}`  x-init="getPricing()">
+    <span x-show="isLoading" class="text-4xl font-bold tracking-tight text-gray-500 dark:text-gray-400">Loading...</span>
+    <span x-show="!isLoading" class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white" x-text="price"></span>
 	</p>
 	<ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-600 dark:text-gray-300 xl:mt-10">
 		{
@@ -44,8 +60,7 @@ const { plan } = Astro.props;
 	id="paddle-button"
 	aria-describedby="tier-enterprise"
 	class="block w-full mt-6"
-	data-paddle-priceId={plan.paddlePriceId}
-	@click='handleCheckoutButton($event)'
+	@click='handleCheckoutButton'
 >
 	{plan.button.text || "Get Started"}
 </Button>
