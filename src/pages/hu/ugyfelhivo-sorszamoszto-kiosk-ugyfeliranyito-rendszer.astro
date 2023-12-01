@@ -9,46 +9,6 @@ import Button from "@components/ui/button.astro";
 
 changeLanguage("hu");
 
-const productId = "pro_01hg12gak6ha3dhyzzjat6rcdm";
-interface PaddleProduct {
-    "id": string,
-    "product_id":string,
-    "description": string,
-    "name": string,
-    "billing_cycle": {
-      "interval": string,
-      "frequency": number,
-    },
-    "trial_period": null | any,
-    "tax_mode": string,
-    "unit_price": {
-      "amount": string,
-      "currency_code": string,
-    },
-    "unit_price_overrides": any[],
-    "custom_data": null | any,
-    "status": string,
-    "quantity": {
-      "minimum": number,
-      "maximum": number,
-    },
-    "import_meta": null | any
-}
-
-const headersList = {
- "Accept": "*/*",
- "Authorization": "Bearer df292b82363ffc09d5df591e6d0ed824ce3b2bf4d6626b8b6a"
-}
-
-const response = await fetch("https://sandbox-api.paddle.com/prices", {
-  method: "GET",
-  headers: headersList
-});
-
-const responseFromPaddle = await response.text();
-
-const data = JSON.parse(responseFromPaddle).data.filter((item: PaddleProduct) => item.status === "active" && item.product_id === productId) as PaddleProduct[];
-
 const pricingData = [
   {
     name: "Simple",
@@ -59,8 +19,6 @@ const pricingData = [
       text: "Beszéljünk!",
       link: "/hu/kapcsolat",
     },
-    paddlePriceId: data[0].id,
-    quantity: 1,
   },
   {
     name: "Standard",
@@ -71,8 +29,6 @@ const pricingData = [
       text: "Beszéljünk!",
       link: "/hu/kapcsolat",
     },
-    paddlePriceId: data[0].id,
-    quantity: 1,
   },
   {
     name: "Premium",
@@ -83,8 +39,6 @@ const pricingData = [
       text: "Beszéljünk!",
       link: "/hu/kapcsolat",
     },
-    paddlePriceId: data[0].id,
-    quantity: 1,
   },
 ];
 ---
