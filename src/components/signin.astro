@@ -57,10 +57,11 @@ import Link from "@components/ui/link.astro";
 							if (regex.test(emailValue)) {
 									const response = await fetch(`https://mon8n.fly.dev/webhook/d6e2e60d-c32d-42ab-95c5-9e93ffa71cb1?email=${emailValue}`);
 									const data = await response.json();
-									if(data?.auth === true){
+									if(data?.email === emailValue){
 											window.location.href = `/dashboard?email=${emailValue}`;
 											localStorage.setItem('email', emailValue);
 											document.cookie = `email=${emailValue}; expires= ${addDaysToDate(new Date(), 7)}; path=/`;
+											document.cookie = `cust_id=${data.id}; expires= ${addDaysToDate(new Date(), 7)}; path=/`;
 									} else {
 											window.alert('Email not found');
 									}
