@@ -133,6 +133,8 @@ const email = Astro.url.searchParams.get('email')! || '';
         button.disabled = true;
       } else {
         window.alert('Something went wrong');
+        //@ts-expect-error
+        button.disabled = false;
       }
     } else {
       //@ts-expect-error
