@@ -71,7 +71,7 @@ import Link from "@components/ui/link.astro";
 							const emailValue = email.value;
 							//@ts-expect-error
 							const passwordValue = password.value;
-							var regex = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
+							var regex = /^[+\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
 							if (regex.test(emailValue)) {
 								const formData = new FormData();
 								formData.append('usr', emailValue);
