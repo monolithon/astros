@@ -55,7 +55,7 @@ const email = Astro.url.searchParams.get('email')! || '';
 						placeholder="Enter subdomain for ERPNext cloud"
 					/>
 			</div>
-    <Button class="mt-4" variant="primary" id="fcloud-creation">Create ERPNext Website</Button>
+    <Button class="mt-4 disabled:bg-gray-400 dark:disabled:bg-gray-400" variant="primary" id="fcloud-creation">Create ERPNext Website</Button>
   </section>
   <section>
     <Button class="mt-4" style="link">View Subcription</Button>
@@ -67,18 +67,43 @@ const email = Astro.url.searchParams.get('email')! || '';
 <script>
 
 	const button = document.getElementById('fcloud-creation');
-  const getEmailCookie = document.cookie.split('; ').find(row => row.startsWith('email='));
-  const getCustId = document.cookie.split('; ').find(row => row.startsWith('cust_id='));
+
+	document.addEventListener('astro:page-load', () => {
+		const getSiteId = localStorage.getItem('site_id');
+    if(button){
+      if(getSiteId){
+          //@ts-expect-error
+          button.disabled = true
+          button.textContent = "Site already created"
+      }
+		}
+	});
+
+  const getLocalEmail = localStorage.getItem('email');
+
 	if(button){
 			button.addEventListener('click', async () => {
+
+        const getSiteId = localStorage.getItem('site_id');
+
+          if(getSiteId){
+            //@ts-expect-error
+            button.disabled = true
+            button.textContent = "Site already created"
+            return
+          }
+
 					const subdomain = document.getElementById('subdomain');
 					if(subdomain){
 							//@ts-expect-error
 							const subdomainValue = subdomain.value;
 							var regex = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
-              const response = await fetch(`https://mon8n.fly.dev/webhook/6bb9f522-a78b-420d-9c2b-63d180b41fad?subdomain=${subdomainValue}&email=${getEmailCookie?.split('=')[1]}&cust_id=${getCustId?.split('=')[1]}`);
+              //@ts-expect-error
+              button.disabled = true;
+              const response = await fetch(`https://mon8n.fly.dev/webhook/6bb9f522-a78b-420d-9c2b-63d180b41fad?subdomain=${subdomainValue}&email=${getLocalEmail}`);
               const data = await response.json();
               if(Object.keys(data).length === 0 && data.constructor === Object){
+                  localStorage.setItem("site_id", "true")
                   window.alert(`Successfull created website ${subdomainValue}.frappecloud.com`);
               } else {
                   window.alert('Something went wrong');
