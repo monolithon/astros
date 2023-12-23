@@ -84,7 +84,7 @@ import Link from "@components/ui/link.astro";
 
 								const data = await response.json();
 
-								if(data?.body["home_page"] === "/helpdesk/login"){
+								if(data?.body["home_page"] === "/helpdesk/login" || data?.body["home_page"] === "/app"){
 										const responseCookie = data.headers["set-cookie"]
 										const getSidToken= responseCookie[0].split(";")
 
