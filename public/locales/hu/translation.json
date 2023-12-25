@@ -53,7 +53,7 @@
 		"knowledge": "Tudásbázis",
 		"partners": "Partnerek",
 		"status": "Státusz ",
-		"legal": "Jogok",
+		"privacy-policy": "Adatvédelem",
 		"details": "© Monolithon - Monolith Online - ERPNext, Frappe és Odoo magyarul - Az oldalon található információk ajánlatnak nem minősülnek."
 	},
 	"path_footer": {
@@ -64,7 +64,7 @@
 		"knowledge": "/tudasbazis",
 		"partners": "/partnerek",
 		"status": "https://status.monolithon.com/ ",
-		"legal": "/jogok"
+		"privacy-policy": "/privacy-policy"
 	},
 	"features": {
 		"learn_more": "További információk",

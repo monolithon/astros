@@ -50,7 +50,7 @@
 		"knowledge": "Knowledge",
 		"partners": "Partners",
 		"status": "Status ",
-		"legal": "Legal",
+		"privacy-policy": "Privacy Policy",
 		"details": "© Monolithon - Monolith Online - ERPNext, Frappe and Odoo support - Disclaimer: Public advertisements do not constitute an offer."
 	},
 	"path_footer": {
@@ -61,7 +61,7 @@
 		"knowledge": "/knowledge",
 		"status": "https://status.monolithon.com/",
 		"partners": "/partners",
-		"legal": "/legal"
+		"privacy-policy": "/privacy-policy"
 	},
 	"features": {
 		"learn_more": "Learn more",

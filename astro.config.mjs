@@ -28,13 +28,12 @@ export default defineConfig({
 		"/szoftverek": "/hu/szoftverek",
 		"/tudasbazis": "/hu/tudasbazis",
 		"/partnerek": "partnerek",
-		"/jogok": "/hu/jogok",
 	},
 	integrations: [
 		react(),
 		tailwind(),
 		sitemap({
-			filter: (page) => page !== "https://www.monolithon.com/hu/titok/" && page !== "https://www.monolithon.com/secret/" && page !== "https://www.monolithon.com/legal/" && page !== "https://www.monolithon.com/hu/jogok/",
+			filter: (page) => page !== "https://www.monolithon.com/hu/titok/" && page !== "https://www.monolithon.com/secret/" && page !== "https://www.monolithon.com/privacy-policy/" && page !== "https://www.monolithon.com/hu/privacy-policy/",
 		}),
 		robots({
 			sitemap: "https://www.monolithon.com/sitemap-0.xml",
@@ -42,7 +41,7 @@ export default defineConfig({
 				{
 					userAgent: ["*"],
 					allow: ["/"],
-					disallow: ["/titok", "/hu/titok", "/secret", "/hu/secret", "/hu/jogok", "/legal"],
+					disallow: ["/titok", "/hu/titok", "/secret", "/hu/secret", "/hu/privacy-policy", "/privacy-policy"],
 				},
 			],
 		}),
