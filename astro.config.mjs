@@ -33,7 +33,7 @@ export default defineConfig({
 		react(),
 		tailwind(),
 		sitemap({
-			filter: (page) => page !== "https://www.monolithon.com/hu/titok/" && page !== "https://www.monolithon.com/secret/" && page !== "https://www.monolithon.com/privacy-policy/" && page !== "https://www.monolithon.com/hu/privacy-policy/",
+			filter: (page) => page !== "https://www.monolithon.com/hu/titok/" && page !== "https://www.monolithon.com/secret/" && page !== "https://www.monolithon.com/privacy-policy/" && page !== "https://www.monolithon.com/refund-policy/" && page !== "https://www.monolithon.com/hu/refund-policy/" && page !== "https://www.monolithon.com/terms-conditions/" && page !== "https://www.monolithon.com/hu/terms-conditions/",
 		}),
 		robots({
 			sitemap: "https://www.monolithon.com/sitemap-0.xml",
