@@ -51,6 +51,8 @@
 		"partners": "Partners",
 		"status": "Status ",
 		"privacy-policy": "Privacy Policy",
+		"refund-policy": "Refund Policy",
+		"terms-conditions": "Terms and Conditions",
 		"details": "© Monolithon - Monolith Online - ERPNext, Frappe and Odoo support - Disclaimer: Public advertisements do not constitute an offer."
 	},
 	"path_footer": {
@@ -61,7 +63,9 @@
 		"knowledge": "/knowledge",
 		"status": "https://status.monolithon.com/",
 		"partners": "/partners",
-		"privacy-policy": "/privacy-policy"
+		"privacy-policy": "/privacy-policy",
+		"refund-policy": "/refund-policy",
+		"terms-conditions": "/terms-conditions"
 	},
 	"features": {
 		"learn_more": "Learn more",

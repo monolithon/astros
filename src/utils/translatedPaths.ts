@@ -149,6 +149,8 @@ export const links = {
 	partners: "partnerek",
 	erpnext: "erpnext",
 	"privacy-policy": "privacy-policy",
+	"refund-policy": "refund-policy",
+	"terms-conditions": "terms-conditions",
 	"odoo-erp": "odoo-magyarul",
 	"odoo-magyarul": "odoo-erp",
 	"vuestorefront-headless-ecommerce": "vuestorefront-headless-ecommerce",

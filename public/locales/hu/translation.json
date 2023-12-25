@@ -54,6 +54,8 @@
 		"partners": "Partnerek",
 		"status": "Státusz ",
 		"privacy-policy": "Adatvédelem",
+		"refund-policy": "Visszatérítés",
+		"terms-conditions": "ÁSzF",
 		"details": "© Monolithon - Monolith Online - ERPNext, Frappe és Odoo magyarul - Az oldalon található információk ajánlatnak nem minősülnek."
 	},
 	"path_footer": {
@@ -64,7 +66,9 @@
 		"knowledge": "/tudasbazis",
 		"partners": "/partnerek",
 		"status": "https://status.monolithon.com/ ",
-		"privacy-policy": "/privacy-policy"
+		"privacy-policy": "/privacy-policy",
+		"refund-policy": "/refund-policy",
+		"terms-conditions": "/terms-conditions"
 	},
 	"features": {
 		"learn_more": "További információk",
