@@ -15,6 +15,7 @@
 	"header": {
 		"erpnext": "Features",
 		"hosting": "Hosting",
+		"demo": "Demo",
 		"implementation": "Implementation",
 		"invoicing": "Invoicing",
 		"accounting": "Accounting",
@@ -27,6 +28,7 @@
 	"path_header": {
 		"erpnext": "/erpnext",
 		"hosting": "/erpnext-hosting",
+		"demo": "/erpnext-demo",
 		"implementation": "/implementation",
 		"invoicing": "/invoicing",
 		"accounting": "/accounting",

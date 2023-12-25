@@ -164,4 +164,5 @@ export const links = {
 	titok: "secret",
 	"frappe-framework": "frappe-framework",
 	gocardless: "gocardless",
+	"erpnext-demo": "erpnext-demo",
 };

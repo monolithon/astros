@@ -15,6 +15,7 @@
 	"header": {
 		"erpnext": "Jellemzők",
 		"hosting": "Tárhely",
+		"demo": "Demó",
 		"implementation": "Bevezetés",
 		"invoicing": "Számlázás",
 		"accounting": "Könyvelés",
@@ -29,6 +30,7 @@
 	"path_header": {
 		"erpnext": "/erpnext",
 		"hosting": "/uzemeltetes",
+		"demo": "/erpnext-demo",
 		"implementation": "/bevezetes",
 		"invoicing": "/szamlazas",
 		"accounting": "/konyveles",
