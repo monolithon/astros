@@ -50,36 +50,36 @@ const data = JSON.parse(responseFromPaddle).data.filter((item: PaddleProduct) =>
 
 const pricingData = [
   {
-    name: "Simple",
-    price: "€299",
+    name: "GoCardless For Existing Customers",
+    price: "€49",
     popular: false,
-    features: ["Monthly fee/location", "Unlimited user", "Unlimited guest", "Unlimited kiosk", "Unlimited display", "Unlimited traffic*"],
+    features: ["GoCardless Integration", "Only for Existing Customers", ],
     button: {
-      text: "Let's talk!",
+      text: "Order now!",
       link: "path_header.primary_button_text",
     },
     paddlePriceId: data[2].id,
     quantity: 1,
   },
   {
-    name: "Standard",
-    price: "€599",
+    name: "GoCardless + ERPNext 25",
+    price: "€79",
     popular: true,
-    features: ["Simple features plus:", "API access to integrate", "Push notification"],
+    features: ["CPU Time per day: 2 Hours", "Database: 1 GB", "Storage: 25 GB", "Automated backups", "Offsite backups", "GoCardless Integration",],
     button: {
-      text: "Let's talk!",
+      text: "Order now!",
       link: "path_header.primary_button_text",
     },
     paddlePriceId: data[1].id,
     quantity: 1,
   },
   {
-    name: "Premium",
-    price: "Custom",
+    name: "GoCardless + ERPNext 50",
+    price: "€99",
     popular: false,
-    features: ["Standard features plus:", "Extra resources", "Customization", "Priority support", "Local installation & offline access"],
+    features: ["CPU Time per day: 4 Hours", "Database: 2 GB", "Storage: 25 GB", "Automated backups", "Offsite backups", "GoCardless Integration","Frappe Support",],
     button: {
-      text: "Let's talk!",
+      text: "Order now!",
       link: "path_header.primary_button_text",
     },
     paddlePriceId: data[0].id,
@@ -96,14 +96,20 @@ const pricingData = [
 					<h1 class="text-4xl md:text-5xl leading-none font-semibold">ERPNext GoCardless Bank Integration</h1>
 					<h2 class="text-xl text-[#192734] dark:text-white my-4">Automatic synchronization of bank transactions.</h2>
 					<div>
-            <a href="#pricing" class="rounded-md text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 px-4 py-2.5 text-center bg-primaryBlue outline-2 dark:bg-gray-100 hover:opacity-80 dark:hover:bg-white focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 text-white dark:text-black border-transparent active:outline shadow-sm">Let's talk</a>
+            <a href="#pricing" class="rounded-md text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 px-4 py-2.5 text-center bg-primaryBlue outline-2 dark:bg-gray-100 hover:opacity-80 dark:hover:bg-white focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 text-white dark:text-black border-transparent active:outline shadow-sm">Plans</a>
 					</div>
 				</div>
         <div class="mt-10 md:mt-0 basis-1/2 overflow-hidden">
-					<img class="w-full" src="/images/Bucket-1-Illo-1.png" alt="ERPNext GoCardless Bank Integration" />
+					<img class="w-full" src="/images/erpnext-gocardless-01.png" alt="ERPNext GoCardless Bank Integration" />
 				</div>
 			</div>
 			<div class="flex flex-col items-center">
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">ERPNext GoCardless Bank Integration</h2>
+					<p class="list-disc text-lg leading-7 space-y-5]">
+            Introducing a seamless solution connecting your bank accounts with ERPNext. Effortlessly fetch transactions from over 2,500 banks in 30+ countries across the UK and Europe, all with just one integration. Directly integrate these transactions into your ERPNext system, eliminating manual data entry and time-consuming reconciliations. Experience automation for enhanced financial control - the ultimate banking integration app for ERPNext users. <br><br>Check country and bank coverage here: <br><a href="https://gocardless.com/bank-account-data/coverage/">https://gocardless.com/bank-account-data/coverage/</a>
+					</p>
+				</section>
 				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Save time with automatic bank transaction synchronization!</h2>
 					<p class="list-disc text-lg leading-7 space-y-5]">
@@ -133,10 +139,15 @@ const pricingData = [
 				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Only €49/month/server - unlimited companies</h2>
 					<p class="list-disc text-lg leading-7 space-y-5]">
-						Our solution is currently available for self-service with ERPNext version 14, which supports multi-company setup but does not yet have company-specific access. However, in the upcoming version 15, we will further enhance this. <br><br>
-						After the order below, we will automatically launch an ERPNext instance on the Frapp Cloud system, which can run custom code, and by providing administrator access, the system can be used immediately, and bank synchronization can be set up. <br><br>
-						With this solution, we ensure that the ERPNext GoCardless app is available on the ERPNext machine and can be used for bank synchronization as long as the subscription is active. However, we do not provide access to the source code, and transactions do not go through our servers. <br><br>
-						With this method, we do not restrict the submission of your own code, but we do not provide access to the Frappe Cloud account.
+						We initiated the development of this application on ERPNext v14, but have chosen to release it exclusively for v15. Should you require compatibility with v14, kindly inform us. Our application is made accessible in conjunction with ERPNext through self-service.
+            <br><br>
+Upon completing your order, we will automatically deploy an ERPNext instance on the Frapp Cloud system. This instance supports custom code execution, and in addition, our GoCardless solution will be installed automatically. Administrator access is provided not only for your ERPNext instance but also for the Frappe Cloud management site.
+<br><br>
+Through this comprehensive solution, we ensure the availability of the ERPNext GoCardless app on the ERPNext instance, facilitating bank synchronization for the duration of the active subscription. It is important to note that we do not grant access to the source code, and transactions do not pass through our servers. This approach allows flexibility for submitting your own code, but access to the Frappe Cloud account is not provided.
+<br><br>
+The system can be used immediately, and you can set up your bank synchronization and sync transactions quickly.
+<br><br>  
+If you require a larger plan, please inform us, as all the Frappe Cloud plans are available to you with the GoCardless extension through our services.
 					</p>
 				</section>				
 			</div>
