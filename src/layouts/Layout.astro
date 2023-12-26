@@ -118,5 +118,21 @@ const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext s
 			//@ts-expect-error
 			mt("send", "pageview");
 		</script>
+		<script src="https://cdn.paddle.com/paddle/v2/paddle.js" is:inline></script>
+		<script>
+    //@ts-expect-error
+    Paddle.Environment.set('sandbox');
+    //@ts-expect-error
+    Paddle.Setup({
+      token: 'test_748ec980e5b1b0f1b603b7d3310',
+      checkout: {
+        settings: {
+          displayMode: "overlay",
+          theme: "light",
+          locale: "en"
+        }
+      },
+    });
+		</script>
 	</body>
 </html>

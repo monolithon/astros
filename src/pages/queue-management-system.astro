@@ -8,6 +8,7 @@ import LetsTalk from "@components/LetsTalk.astro";
 import Button from "@components/ui/button.astro";
 
 changeLanguage("en");
+
 const pricingData = [
   {
     name: "Simple",
@@ -43,6 +44,7 @@ const pricingData = [
 ---
 
 <Layout title="Queue Management Kiosk, Customer Management System" lang="en">
+  <div class="checkout-container"></div>
   <Container>
     <div class="px-5 pt-10">
       <div class="flex justify-between items-center text-[#192734] dark:text-white h-auto md:flex-row flex-col pb-12 md:pb-1">
@@ -101,8 +103,13 @@ const pricingData = [
       <Fragment slot="desc">Simple, transparent, and fair pricing.</Fragment>
     </Sectionhead>
 
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing">
-      {pricingData.map((item) => <Pricing plan={item} />)}
+    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing" >
+      {pricingData.map((item, index) => (
+        <Pricing
+          key={index}
+          plan={item}
+        />
+      ))}
     </div>
 
     <section>
@@ -111,5 +118,6 @@ const pricingData = [
     </div>
     </section>
     <LetsTalk />
+
   </Container>
 </Layout>
