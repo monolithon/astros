@@ -67,7 +67,7 @@
 		"partners": "/partnerek",
 		"status": "https://status.monolithon.com/ ",
 		"privacy-policy": "/privacy-policy",
-		"refund-policy": "/refund-policy",
+		"refund-policy": "https://www.monolithon.com/refund-policy",
 		"terms-conditions": "https://www.monolithon.com/terms-conditions"
 	},
 	"features": {
