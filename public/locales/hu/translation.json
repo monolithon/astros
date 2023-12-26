@@ -68,7 +68,7 @@
 		"status": "https://status.monolithon.com/ ",
 		"privacy-policy": "/privacy-policy",
 		"refund-policy": "/refund-policy",
-		"terms-conditions": "/terms-conditions"
+		"terms-conditions": "https://www.monolithon.com/terms-conditions"
 	},
 	"features": {
 		"learn_more": "További információk",
