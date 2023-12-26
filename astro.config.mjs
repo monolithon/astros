@@ -28,6 +28,7 @@ export default defineConfig({
 		"/szoftverek": "/hu/szoftverek",
 		"/tudasbazis": "/hu/tudasbazis",
 		"/partnerek": "partnerek",
+		"/hu/terms-conditions": "/terms-conditions",
 	},
 	integrations: [
 		react(),
