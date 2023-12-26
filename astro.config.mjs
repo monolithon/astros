@@ -29,6 +29,7 @@ export default defineConfig({
 		"/tudasbazis": "/hu/tudasbazis",
 		"/partnerek": "partnerek",
 		"/hu/terms-conditions": "/terms-conditions",
+		"/hu/refund-policy": "/refund-policy",
 	},
 	integrations: [
 		react(),
