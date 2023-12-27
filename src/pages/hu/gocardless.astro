@@ -53,37 +53,37 @@ const data = JSON.parse(responseFromPaddle).data.filter((item: PaddleProduct) =>
 
 const pricingData = [
   {
-    name: "Simple",
-    price: "€299",
+    name: "GoCardless korábbi ügyfeleknek",
+    price: "€49",
     popular: false,
-    features: ["Havidíj/lokáció", "Korlátlan felhasználó", "Korlátlan vendég", "Korlátlan kiosk", "Korlátlan kijelző", "Korlátlan forgalom*"],
+    features: ["GoCardless integráció", "Csak korábbi/jelenlegi ügyfeleknek", ],
     button: {
-      text: "Beszéljünk!",
-      link: "/hu/kapcsolat",
+      text: "Megrendelés",
+      link: "path_header.primary_button_text",
     },
     paddlePriceId: data[2].id,
     quantity: 1,
   },
   {
-    name: "Standard",
-    price: "€599",
+    name: "GoCardless + ERPNext 25",
+    price: "€79",
     popular: true,
-    features: ["Minden a Simple csomagból, plusz:", "API hozzáférés integrációkhoz", "Leküldött értesítés (Push notification)"],
+    features: ["CPU használat: 2 óra naponta", "Adatbázis: 1 GB", "Tárhely: 25 GB", "Automatikus biztonsági mentés", "Offline mentés", "GoCardless Integráció",],
     button: {
-      text: "Beszéljünk!",
-      link: "/hu/kapcsolat",
+      text: "Megrendelés",
+      link: "path_header.primary_button_text",
     },
     paddlePriceId: data[1].id,
     quantity: 1,
   },
   {
-    name: "Premium",
-    price: "Custom",
+    name: "GoCardless + ERPNext 50",
+    price: "€99",
     popular: false,
-    features: ["Minden a Standard csomagból, plusz:", "Extra erőforrás", "Egyedi igények megvalósítása", "Extra támogatás", "Helyi telepítés & Offline hozzáférés"],
+    features: ["CPU használat: 4 óra naponta", "Adatbázis: 2 GB", "Tárhely: 25 GB", "Automatikus biztonsági mentés", "Offline mentés", "GoCardless Integráció", "Frappe támogatás",],
     button: {
-      text: "Beszéljünk!",
-      link: "/hu/kapcsolat",
+      text: "Megrendelés",
+      link: "path_header.primary_button_text",
     },
     paddlePriceId: data[0].id,
     quantity: 1,
@@ -99,14 +99,20 @@ const pricingData = [
 					<h1 class="text-4xl md:text-5xl leading-none font-semibold">ERPNext GoCardless bank integráció</h1>
 					<h2 class="text-xl text-[#192734] dark:text-white my-4">Bankszámlatranzakciók szinkronizációja automatikusan.</h2>
 				<div>
-            <a href="#pricing" class="rounded-md text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 px-4 py-2.5 text-center bg-primaryBlue outline-2 dark:bg-gray-100 hover:opacity-80 dark:hover:bg-white focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 text-white dark:text-black border-transparent active:outline shadow-sm">Beszéljünk!</a>
+            <a href="#pricing" class="rounded-md text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 px-4 py-2.5 text-center bg-primaryBlue outline-2 dark:bg-gray-100 hover:opacity-80 dark:hover:bg-white focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 text-white dark:text-black border-transparent active:outline shadow-sm">Csomagok</a>
 				</div>
 				</div>
         <div class="mt-10 md:mt-0 basis-1/2 overflow-hidden">
-					<img class="w-full" src="/images/Bucket-1-Illo-1.png" alt="ERPNext GoCardless bank integráció és szinkronizáció" />
+					<img class="w-full" src="/images/erpnext-gocardless-01.png" alt="ERPNext GoCardless bank integráció és szinkronizáció" />
 				</div>
 			</div>
 			<div class="flex flex-col items-center">
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">ERPNext GoCardless banktranzakciók szinkronizálása</h2>
+					<p class="list-disc text-lg leading-7 space-y-5]">
+            Bemutatunk egy egyszerű megoldást, amely összekapcsolja bankszámláit az ERPNext rendszerrel. A tranzakciókat könnyedén lekérheti több mint 2500 bankból, 30 országban, amely magában foglalja az Egyesült Királyságot és Európát is, mindössze egyetlen integráció segítségével. A tranzakciókat közvetlenül integrálhatja az ERPNext rendszerébe, megszüntetve ezzel a manuális adatbevitelt és az időigényes egyeztetéseket. Tapasztalja meg az automatizáció előnyeit a pénzügyi ellenőrzés fokozása érdekében és használja a GoCardless ERPNext integrációt. <br><br> Ellenőrizze az ország- és banklefedettséget itt: <br><a href="https://gocardless.com/bank-account-data/coverage/">https://gocardless.com/bank-account-data/coverage/</a>
+					</p>
+				</section>
 				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Spórolj az automatikus banktranzakciók szinkronizálásával!</h2>
 					<p class="list-disc text-lg leading-7 space-y-5]">
@@ -133,11 +139,13 @@ const pricingData = [
 				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">Csak havi 49 EUR/szerver/hónap - korlátlan cégre </h2>
 					<p class="list-disc text-lg leading-7 space-y-5]">
-						Megoldásunk jelenleg az ERPNext 14-es verziójához érhető el önkiszolgáló módon, amely ugyan támogatja a multicompany beállítást, de jelenleg még nincs cégenkénti hozzáférés. A hamarosan megjelenő 15-ös verzióban azonban ezt is továbbfejlesztjük. <br><br>
+						Megoldásunkat az ERPNext 14-es verziójához kezdtük el feljelszteni, de úgy döntöttünk, hogy inkább csak a legújabb v15 ERPNext verzióhoz tesszük elérhetővé. Korábbi verzió egyedi egyeztetés szerint érhető el. Az integráció önkiszolgáló módon egy ERPNext példánnyal együtt érhető el. <br><br>
 						A lenti megrendelést követően automatikusan elindítunk a Frapp Cloud rendszerén egy egyedi kódot is futtatni képes ERPNext példányt, amelynek az adminisztrátori hozzáférést átadva azonnal használható a rendszer és beállítható a bankszinkron is. <br><br>
 						Ezzel a megoldással tudjuk biztosítani, hogy amíg az előfizetés él, addig az ERPNext GoCardless app elérhető az adott ERPNext gépen és használható a bankszinkronizáció, de a forráskódhoz nem biztosítunk hozzáférést és a tranzakciók nem is a mennek keresztül a mi szervereinken. <br><br>
-						A GoCardless előfizetés lemondásával - az ERPNext előfizetés megtartása mellett - a rendszer tovább haszanálható és a korábbi tranzakciók is megmaradnak, csak új szinkronizálás nem indítható. Az ERPNext előfieztés lemondásával ugyan az ERPNext sem lesz elérhető, de a nyílt forráskódnak és a biztonsági mentésnek köszönhetően az akár szabadon elköltöztethető, így nincs kockázat. <br><br>
-						Ezzel módszerrel nem korlátozzuk a saját kód bejuttatását, viszont a Frappe Cloud fiókhoz nem adunk hozzáférést. 
+						A GoCardless előfizetés lemondásával - az ERPNext előfizetés megtartása mellett - a rendszer tovább haszanálható és a korábbi tranzakciók is megmaradnak, csak új szinkronizálás nem indítható. Az ERPNext előfieztés lemondásával ugyan az ERPNext sem lesz elérhető, de a nyílt forráskódnak és a biztonsági mentésnek köszönhetően az akár szabadon elköltöztethető, így nincs kockázat. 
+						Ezzel módszerrel nem korlátozzuk a saját kód bejuttatását úgy, hogy a Frappe Cloud fiókhoz is adunk (limitált) hozzáférést. 
+<br><br>
+Ha szüksége van egy nagyobb csomagra, kérjük jelezze, mert nálunk az összes Frappe Cloud csomag elérhető a GoCardless integrációval. 
 				</section>
 			</div>
 
@@ -151,6 +159,11 @@ const pricingData = [
 				))}
 			</div>
 		</section>
+    <section>
+      <div class="px-5 py-5">
+      <span class="dark:text-white text-black "><center>A fenti árak havidíjak, amelyek Áfát nem tartalmaznak.</center></span>
+    </div>
+    </section>
 		</div>
 	</Container>
 </Layout>
