@@ -50,6 +50,6 @@ category:
 
 <p>We don't know the details of the publication yet. The idea of a free open-source edition has come up several times, which is still a possibility, despite one of the solutions we created - <a href="https://www.monolithon.com/gocardless">bank account synchronization with GoCardless integration</a> - being offered as a monthly subscription SaaS, i.e., as a cloud service. We made it available in this way because another ERPNext partner developed a similar paid solution, and we didn't want to interfere with them by releasing a free competing solution. So, we consider this solution not as a source of income but rather as a feasibility study, which is still uncertain for Hungarian invoicing.</p>
 
-<p>We published the original post on the forum to make it easier to discuss:<br>
+<p>A copy of this post has been published on the forum to facilitate discussion:<br>
 <a href="#"></a></p>
 

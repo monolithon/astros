@@ -56,6 +56,6 @@ category:
 
 <p>A publikálás részleteit még nem tudjuk. Többször felmerült az ingyenes open source kiadás, ami még mindig lehetőség, annak ellenére, hogy az egyik általunk készített megoldást - <a href="https://www.monolithon.com/hu/gocardless">bankszámla szinkronizáicó GoCardless integrációval</a> - havidíjas SaaS, azaz felhőszolgáltatásként tettük elérhetővé, mert egy másik ERPNext partner is készített egy hasonló fizetős megoldást és nem szerettünk volna neki keresztbe tenni azzal, hogy ingyenes konkurens megoldást teszünk közzé. Arra a megoldásunkra tehát nem bevételre, hanem inkább egy megvalósíthatósági tanulmányként tekintünk, ami a magyar számlázás esetén még kérdéses.</p>
 
-<p> Ezt az eredeti posztot publikáltuk a fórumon, hogy egyszerűbb legyen megvitatni:<br>
+<p>Jelen bejegyzés másolatát publikáltuk a fórumon is, hogy egyszerűbb legyen megvitatni:<br>
 <a href="#"></a></p>
 </p>
