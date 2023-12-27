@@ -121,6 +121,8 @@ export const blog = {
 	"erpnext-15-release": "erpnext-15-megjelenes",
 	"odoo-17-release": "odoo-17-megjelenes",
 	"odoo-17-megjelenes": "odoo-17-release",
+	"erpnext-gocardless": "erpnext-bank-szinkronizalas",
+	"erpnext-bank-szinkronizalas": "erpnext-gocardless",
 };
 
 export const links = {
