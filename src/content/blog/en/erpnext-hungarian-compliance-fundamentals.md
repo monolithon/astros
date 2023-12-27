@@ -1,13 +1,13 @@
 ---
-title: The Monolithic Approach to ERPNext Hungarian Invoicing
+title: The Monolithon Approach to ERPNext Hungarian Invoicing
 draft: false
 author: Admin
 tags:
     - erpnext
 image:
     src: /monolithon-erpnext-logo.jpg
-    alt: The Monolithic Approach to ERPNext Hungarian Invoicing
-snippet: The Monolithic Approach to ERPNext Hungarian Invoicing
+    alt: The Monolithon Approach to ERPNext Hungarian Invoicing
+snippet: The Monolithon Approach to ERPNext Hungarian Invoicing
 publishDate: 2023-12-27 18:50
 category:
     - news
