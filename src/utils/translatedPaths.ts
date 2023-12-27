@@ -123,6 +123,8 @@ export const blog = {
 	"odoo-17-megjelenes": "odoo-17-release",
 	"erpnext-gocardless": "erpnext-bank-szinkronizalas",
 	"erpnext-bank-szinkronizalas": "erpnext-gocardless",
+	"erpnext-magyar-szamlazas-megkozelites": "erpnext-hungarian-compliance-fundamentals",
+	"erpnext-hungarian-compliance-fundamentals": "erpnext-magyar-szamlazas-megkozelites",
 };
 
 export const links = {
