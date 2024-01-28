@@ -45,8 +45,6 @@ const fetchUrl = (
     : "https://api.paddle.com/prices"
 ) as string;
 
-console.log("===> ~ fetchUrl:", fetchUrl);
-
 const response = await fetch(fetchUrl, {
   method: "GET",
   headers: headersList,

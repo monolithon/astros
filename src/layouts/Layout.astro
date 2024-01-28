@@ -138,7 +138,7 @@ const makeTitle = title
       Paddle.Environment.set("sandbox");
       //@ts-expect-error
       Paddle.Setup({
-        token: "test_748ec980e5b1b0f1b603b7d3310",
+        token: import.meta.env.PUBLIC_PADDLE_CLIENT_API_KEY,
         checkout: {
           settings: {
             displayMode: "overlay",
