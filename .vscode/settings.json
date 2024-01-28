@@ -1,0 +1,21 @@
+{
+  // cva
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  // format on save
+  "editor.formatOnSave": true,
+
+  // Sort imports and automatically remove
+  // unused imports when pressing CTRL + S
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+  }
+}
