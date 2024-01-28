@@ -5,7 +5,7 @@ interface ImportMetaEnv {
   readonly PRODUCT_ID_3: string;
   readonly PUBLIC_PADDLE_CLIENT_API_KEY: string;
   readonly PADDLE_CLIENT_API_KEY: string;
-  readonly ENVIRONMENT: string;
+  readonly PUBLIC_ENVIRONMENT: string;
 
   // more env variables...
 }

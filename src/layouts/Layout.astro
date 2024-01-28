@@ -134,8 +134,10 @@ const makeTitle = title
     </script>
     <script src="https://cdn.paddle.com/paddle/v2/paddle.js" is:inline></script>
     <script>
-      //@ts-expect-error
-      Paddle.Environment.set("sandbox");
+      if (import.meta.env.PUBLIC_ENVIRONMENT !== "production") {
+        //@ts-expect-error
+        Paddle.Environment.set("sandbox");
+      }
       //@ts-expect-error
       Paddle.Setup({
         token: import.meta.env.PUBLIC_PADDLE_CLIENT_API_KEY,
