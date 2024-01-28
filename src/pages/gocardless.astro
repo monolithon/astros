@@ -1,59 +1,64 @@
 ---
-import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
-import Layout from "@layouts/Layout.astro";
 import Pricing from "@components/gocardless-pricing.astro";
+import Layout from "@layouts/Layout.astro";
+import { changeLanguage } from "i18next";
 changeLanguage("en");
 
-const productID1 = "pro_01hg6hk98k3v31xs1b09mzae84"
-const productID2 = "pro_01hg6hcxvf56czc2kr4z7j1g0a"
-const productID3 = "pro_01hg12gak6ha3dhyzzjat6rcdm"
+const productID1 = import.meta.env.PRODUCT_ID_1;
+const productID2 = import.meta.env.PRODUCT_ID_2;
+const productID3 = import.meta.env.PRODUCT_ID_3;
+
 interface PaddleProduct {
-    "id": string,
-    "product_id":string,
-    "description": string,
-    "name": string,
-    "billing_cycle": {
-      "interval": string,
-      "frequency": number,
-    },
-    "trial_period": null | any,
-    "tax_mode": string,
-    "unit_price": {
-      "amount": string,
-      "currency_code": string,
-    },
-    "unit_price_overrides": any[],
-    "custom_data": null | any,
-    "status": string,
-    "quantity": {
-      "minimum": number,
-      "maximum": number,
-    },
-    "import_meta": null | any
+  id: string;
+  product_id: string;
+  description: string;
+  name: string;
+  billing_cycle: {
+    interval: string;
+    frequency: number;
+  };
+  trial_period: null | any;
+  tax_mode: string;
+  unit_price: {
+    amount: string;
+    currency_code: string;
+  };
+  unit_price_overrides: any[];
+  custom_data: null | any;
+  status: string;
+  quantity: {
+    minimum: number;
+    maximum: number;
+  };
+  import_meta: null | any;
 }
 
 const headersList = {
- "Accept": "*/*",
- "Authorization": "Bearer df292b82363ffc09d5df591e6d0ed824ce3b2bf4d6626b8b6a"
-}
+  Accept: "*/*",
+  Authorization: `Bearer ${import.meta.env.PADDLE_API_KEY}`,
+};
 
 const response = await fetch("https://sandbox-api.paddle.com/prices", {
   method: "GET",
-  headers: headersList
+  headers: headersList,
 });
 
 const responseFromPaddle = await response.text();
 
-const data = JSON.parse(responseFromPaddle).data.filter((item: PaddleProduct) => item.status === "active" && item.product_id === productID1 || productID2 || productID3) as PaddleProduct[];
-
+const data = JSON.parse(responseFromPaddle).data.filter(
+  (item: PaddleProduct) =>
+    (item.status === "active" && item.product_id === productID1) ||
+    productID2 ||
+    productID3,
+) as PaddleProduct[];
 
 const pricingData = [
   {
     name: "GoCardless For Existing Customers",
     price: "€49",
     popular: false,
-    features: ["GoCardless Integration", "Only for Existing Customers", ],
+    features: ["GoCardless Integration", "Only for Existing Customers"],
     button: {
       text: "Order now!",
       link: "path_header.primary_button_text",
@@ -65,7 +70,14 @@ const pricingData = [
     name: "GoCardless + ERPNext 25",
     price: "€79",
     popular: true,
-    features: ["CPU Time per day: 2 Hours", "Database: 1 GB", "Storage: 25 GB", "Automated backups", "Offsite backups", "GoCardless Integration",],
+    features: [
+      "CPU Time per day: 2 Hours",
+      "Database: 1 GB",
+      "Storage: 25 GB",
+      "Automated backups",
+      "Offsite backups",
+      "GoCardless Integration",
+    ],
     button: {
       text: "Order now!",
       link: "path_header.primary_button_text",
@@ -77,7 +89,15 @@ const pricingData = [
     name: "GoCardless + ERPNext 50",
     price: "€99",
     popular: false,
-    features: ["CPU Time per day: 4 Hours", "Database: 2 GB", "Storage: 25 GB", "Automated backups", "Offsite backups", "GoCardless Integration","Frappe Support",],
+    features: [
+      "CPU Time per day: 4 Hours",
+      "Database: 2 GB",
+      "Storage: 25 GB",
+      "Automated backups",
+      "Offsite backups",
+      "GoCardless Integration",
+      "Frappe Support",
+    ],
     button: {
       text: "Order now!",
       link: "path_header.primary_button_text",
@@ -89,83 +109,165 @@ const pricingData = [
 ---
 
 <Layout lang="en" title="ERPNext GoCardless Bank Integration">
-	<Container>
-		<div class="px-5 pt-10">
-      <div class="flex justify-between items-center text-[#192734] dark:text-white h-auto md:flex-row flex-col pb-12 md:pb-1">
-				<div class="flex flex-col h-full justify-center basis-3/5">
-					<h1 class="text-4xl md:text-5xl leading-none font-semibold">ERPNext GoCardless Bank Integration</h1>
-					<h2 class="text-xl text-[#192734] dark:text-white my-4">Automatic synchronization of bank transactions.</h2>
-					<div>
-            <a href="#pricing" class="rounded-md text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 px-4 py-2.5 text-center bg-primaryBlue outline-2 dark:bg-gray-100 hover:opacity-80 dark:hover:bg-white focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 text-white dark:text-black border-transparent active:outline shadow-sm">Plans</a>
-					</div>
-				</div>
+  <Container>
+    <div class="px-5 pt-10">
+      <div
+        class="flex justify-between items-center text-[#192734] dark:text-white h-auto md:flex-row flex-col pb-12 md:pb-1"
+      >
+        <div class="flex flex-col h-full justify-center basis-3/5">
+          <h1 class="text-4xl md:text-5xl leading-none font-semibold">
+            ERPNext GoCardless Bank Integration
+          </h1>
+          <h2 class="text-xl text-[#192734] dark:text-white my-4">
+            Automatic synchronization of bank transactions.
+          </h2>
+          <div>
+            <a
+              href="#pricing"
+              class="rounded-md text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 px-4 py-2.5 text-center bg-primaryBlue outline-2 dark:bg-gray-100 hover:opacity-80 dark:hover:bg-white focus-visible:bg-stone-500 dark:focus-visible:bg-gray-100 text-white dark:text-black border-transparent active:outline shadow-sm"
+              >Plans</a
+            >
+          </div>
+        </div>
         <div class="mt-10 md:mt-0 basis-1/2 overflow-hidden">
-					<img class="w-full" src="/images/erpnext-gocardless-01.png" alt="ERPNext GoCardless Bank Integration" />
-				</div>
-			</div>
-			<div class="flex flex-col items-center">
+          <img
+            class="w-full"
+            src="/images/erpnext-gocardless-01.png"
+            alt="ERPNext GoCardless Bank Integration"
+          />
+        </div>
+      </div>
+      <div class="flex flex-col items-center">
         <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-					<h2 class="font-bold text-3xl mb-10">ERPNext GoCardless Bank Integration</h2>
-					<p class="list-disc text-lg leading-7 space-y-5]">
-            Introducing a seamless solution connecting your bank accounts with ERPNext. Effortlessly fetch transactions from over 2,500 banks in 30+ countries across the UK and Europe, all with just one integration. Directly integrate these transactions into your ERPNext system, eliminating manual data entry and time-consuming reconciliations. Experience automation for enhanced financial control - the ultimate banking integration app for ERPNext users. <br><br>Check country and bank coverage here: <br><a href="https://gocardless.com/bank-account-data/coverage/">https://gocardless.com/bank-account-data/coverage/</a>
-					</p>
-				</section>
-				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-					<h2 class="font-bold text-3xl mb-10">Save time with automatic bank transaction synchronization!</h2>
-					<p class="list-disc text-lg leading-7 space-y-5]">
-						You can manually upload the bank statement to ERPNext if your bank provides it in a tabular form. <br><br>
-						In this case, you can either set up the import on the ERPNext interface or format the table received from the bank for ERPNext. <br><br>
-						Now you can import the bank statement and start the reconciliation, matching manually entered payment entries with the movements on the bank account.
-					</p>
-				</section>
-				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-					<h2 class="font-bold text-3xl mb-10">Less manual, boring tasks with automation</h2>
-					<p class="list-disc text-lg leading-7 space-y-5]">
-						Thanks to the European open banking directive, banks are required to provide access to banking data according to industry standards, with the appropriate permissions. <br><br>
-						Various services have been built for the "exchange" of such banking data, allowing easy access to bank data with the right permissions. <br><br>
-						Several providers exist in the market, such as Plaid, which is already integrated into ERPNext, but data from Hungarian banks is not accessible through this service. (However, Wise and Revolut can be accessed through some tricks and for an uncertain duration.) <br><br>
-						For those who want a more reliable solution and don't want to spend hours on reconciliation, they can use the GoCardless (Bank Account Data) synchronization solution developed by Monolith. <br><br>
-						Following our usual standards in development, we used the ERPNext Bank transaction doctype for the development, making our app compatible with both the built-in matching solution and other enhanced bank reconciliation apps. The latter is interesting because it can almost completely automate the process and make it much faster.
-					</p>
-				</section>
-				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-					<h2 class="font-bold text-3xl mb-10">Without limitations</h2>
-					<p class="list-disc text-lg leading-7 space-y-5]">
-						Calculate how much it costs in work hours to import and reconcile bank transactions for several hours. With our solution, you can request an unlimited number of transactions from almost any bank's own account. <br><br>
-						(Although access must be renewed every 90 days, and a bank account belonging to the same bank counts as one request, with the company! With up to 50 authentications per month, you can request transactions from up to 50 banks and an unlimited number of accounts associated with that bank.) <br><br>
-					</p>
-				</section>
+          <h2 class="font-bold text-3xl mb-10">
+            ERPNext GoCardless Bank Integration
+          </h2>
+          <p class="list-disc text-lg leading-7 space-y-5]">
+            Introducing a seamless solution connecting your bank accounts with
+            ERPNext. Effortlessly fetch transactions from over 2,500 banks in
+            30+ countries across the UK and Europe, all with just one
+            integration. Directly integrate these transactions into your ERPNext
+            system, eliminating manual data entry and time-consuming
+            reconciliations. Experience automation for enhanced financial
+            control - the ultimate banking integration app for ERPNext users. <br
+            /><br />Check country and bank coverage here: <br /><a
+              href="https://gocardless.com/bank-account-data/coverage/"
+              >https://gocardless.com/bank-account-data/coverage/</a
+            >
+          </p>
+        </section>
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">
+            Save time with automatic bank transaction synchronization!
+          </h2>
+          <p class="list-disc text-lg leading-7 space-y-5]">
+            You can manually upload the bank statement to ERPNext if your bank
+            provides it in a tabular form. <br /><br />
+             In this case, you can either set up the import on the ERPNext
+            interface or format the table received from the bank for ERPNext. <br
+            /><br />
+             Now you can import the bank statement and start the reconciliation,
+            matching manually entered payment entries with the movements on the
+            bank account.
+          </p>
+        </section>
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">
+            Less manual, boring tasks with automation
+          </h2>
+          <p class="list-disc text-lg leading-7 space-y-5]">
+            Thanks to the European open banking directive, banks are required to
+            provide access to banking data according to industry standards, with
+            the appropriate permissions. <br /><br />
+             Various services have been built for the "exchange" of such banking
+            data, allowing easy access to bank data with the right permissions. <br
+            /><br />
+             Several providers exist in the market, such as Plaid, which is
+            already integrated into ERPNext, but data from Hungarian banks is
+            not accessible through this service. (However, Wise and Revolut can
+            be accessed through some tricks and for an uncertain duration.) <br
+            /><br />
+             For those who want a more reliable solution and don't want to spend
+            hours on reconciliation, they can use the GoCardless (Bank Account
+            Data) synchronization solution developed by Monolith. <br /><br />
+             Following our usual standards in development, we used the ERPNext
+            Bank transaction doctype for the development, making our app
+            compatible with both the built-in matching solution and other
+            enhanced bank reconciliation apps. The latter is interesting because
+            it can almost completely automate the process and make it much
+            faster.
+          </p>
+        </section>
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">Without limitations</h2>
+          <p class="list-disc text-lg leading-7 space-y-5]">
+            Calculate how much it costs in work hours to import and reconcile
+            bank transactions for several hours. With our solution, you can
+            request an unlimited number of transactions from almost any bank's
+            own account. <br /><br />
+             (Although access must be renewed every 90 days, and a bank account
+            belonging to the same bank counts as one request, with the company!
+            With up to 50 authentications per month, you can request
+            transactions from up to 50 banks and an unlimited number of accounts
+            associated with that bank.) <br /><br />
+          </p>
+        </section>
 
-				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-					<h2 class="font-bold text-3xl mb-10">Only €49/month/server - unlimited companies</h2>
-					<p class="list-disc text-lg leading-7 space-y-5]">
-						We initiated the development of this application on ERPNext v14, but have chosen to release it exclusively for v15. Should you require compatibility with v14, kindly inform us. Our application is made accessible in conjunction with ERPNext through self-service.
-            <br><br>
-Upon completing your order, we will automatically deploy an ERPNext instance on the Frapp Cloud system. This instance supports custom code execution, and in addition, our GoCardless solution will be installed automatically. Administrator access is provided not only for your ERPNext instance but also for the Frappe Cloud management site.
-<br><br>
-Through this comprehensive solution, we ensure the availability of the ERPNext GoCardless app on the ERPNext instance, facilitating bank synchronization for the duration of the active subscription. It is important to note that we do not grant access to the source code, and transactions do not pass through our servers. This approach allows flexibility for submitting your own code, but access to the Frappe Cloud account is not provided.
-<br><br>
-The system can be used immediately, and you can set up your bank synchronization and sync transactions quickly.
-<br><br>  
-If you require a larger plan, please inform us, as all the Frappe Cloud plans are available to you with the GoCardless extension through our services.
-					</p>
-				</section>				
-			</div>
-		<section>
-			<div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20" id="pricing" >
-				{pricingData.map((item, index) => (
-					<Pricing
-						key={index}
-						plan={item}
-					/>
-				))}
-			</div>
-		</section>
-    <section>
-      <div class="px-5 py-5">
-      <span class="dark:text-white text-black "><center>The above-listed prices are monthly fees, exclusive of VAT.</center></span>
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">
+            Only €49/month/server - unlimited companies
+          </h2>
+          <p class="list-disc text-lg leading-7 space-y-5]">
+            We initiated the development of this application on ERPNext v14, but
+            have chosen to release it exclusively for v15. Should you require
+            compatibility with v14, kindly inform us. Our application is made
+            accessible in conjunction with ERPNext through self-service.
+            <br /><br />
+             Upon completing your order, we will automatically deploy an ERPNext
+            instance on the Frapp Cloud system. This instance supports custom
+            code execution, and in addition, our GoCardless solution will be
+            installed automatically. Administrator access is provided not only
+            for your ERPNext instance but also for the Frappe Cloud management
+            site.
+            <br /><br />
+             Through this comprehensive solution, we ensure the availability of
+            the ERPNext GoCardless app on the ERPNext instance, facilitating
+            bank synchronization for the duration of the active subscription. It
+            is important to note that we do not grant access to the source code,
+            and transactions do not pass through our servers. This approach
+            allows flexibility for submitting your own code, but access to the
+            Frappe Cloud account is not provided.
+            <br /><br />
+             The system can be used immediately, and you can set up your bank
+            synchronization and sync transactions quickly.
+            <br /><br />
+             If you require a larger plan, please inform us, as all the Frappe
+            Cloud plans are available to you with the GoCardless extension
+            through our services.
+          </p>
+        </section>
+      </div>
+      <section>
+        <div
+          class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20"
+          id="pricing"
+        >
+          {
+            pricingData.map((item, index) => (
+              <Pricing key={index} plan={item} />
+            ))
+          }
+        </div>
+      </section>
+      <section>
+        <div class="px-5 py-5">
+          <span class="dark:text-white text-black"
+            ><center
+              >The above-listed prices are monthly fees, exclusive of VAT.</center
+            ></span
+          >
+        </div>
+      </section>
     </div>
-    </section>
-		</div>
-	</Container>
+  </Container>
 </Layout>
