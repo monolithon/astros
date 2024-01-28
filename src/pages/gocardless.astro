@@ -40,7 +40,7 @@ const headersList = {
 };
 
 const fetchUrl = (
-  import.meta.env.MODE === "development"
+  import.meta.env.ENVIRONMENT === "development"
     ? "https://sandbox-api.paddle.com/prices"
     : "https://api.paddle.com/prices"
 ) as string;
