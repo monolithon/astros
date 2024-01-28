@@ -3,14 +3,14 @@ title: Odoo 17.0 release
 draft: false
 author: Admin
 tags:
-    - odoo
+  - odoo
 image:
-    src: /odoo-17.jpg
-    alt: ERPNext
+  src: /odoo-17.jpg
+  alt: ERPNext
 snippet: The latest version of Odoo, Odoo 17, has been released. Lots of novelties, huge opportunities, and important decisions.
 publishDate: 2023-11-11 13:39
 category:
-    - news
+  - news
 ---
 
 <p>The usual annual Odoo Experience conference this year, as well, introduced the upcoming, latest version of Odoo by Odoo S.A., which is Odoo 17.</p>

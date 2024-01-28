@@ -56,12 +56,15 @@ async function generateImage(prompt, imageName) {
 
   const file = fs.createWriteStream(`./public/images/${imageName}.png`);
 
-  const request = await http.get(openAiResponse.data.data[0].url, function (response) {
-    response.pipe(file);
-    file.on("finish", () => {
-      file.close();
-    });
-  });
+  const request = await http.get(
+    openAiResponse.data.data[0].url,
+    function (response) {
+      response.pipe(file);
+      file.on("finish", () => {
+        file.close();
+      });
+    },
+  );
 
   return file;
 }
@@ -124,9 +127,12 @@ function normalizeFeedItem(item) {
 function selectFeedItem(feedsItems) {
   const publishedArticles = getPublishedArticles();
 
-  const filteredFeedsItems = feedsItems.filter((item) => !publishedArticles.includes(item.guid));
+  const filteredFeedsItems = feedsItems.filter(
+    (item) => !publishedArticles.includes(item.guid),
+  );
 
-  var randomFeedItem = filteredFeedsItems[Math.floor(Math.random() * filteredFeedsItems.length)];
+  var randomFeedItem =
+    filteredFeedsItems[Math.floor(Math.random() * filteredFeedsItems.length)];
 
   return normalizeFeedItem(randomFeedItem);
 }
@@ -163,7 +169,14 @@ function getFilteredAndSanitezedText(text) {
 
 function getRandomAuthor() {
   // TODO: Get authors from content
-  const authors = ["Janette Lynch", "Jenny Wilson", "John Doe", "Jane Doe", "John Smith", "Jane Smith"];
+  const authors = [
+    "Janette Lynch",
+    "Jenny Wilson",
+    "John Doe",
+    "Jane Doe",
+    "John Smith",
+    "Jane Smith",
+  ];
 
   return authors[Math.floor(Math.random() * authors.length)];
 }
@@ -264,23 +277,37 @@ var item = selectFeedItem(feedsItems);
 
 addPublishedArticle(item.guid);
 
-const articleTitle = await generateText(`Rewrite this title "${item.title}"`, 100);
+const articleTitle = await generateText(
+  `Rewrite this title "${item.title}"`,
+  100,
+);
 
 item.title = getFilteredAndSanitezedText(articleTitle);
 item.content = getFilteredAndSanitezedText(item.content);
 
 const articleBody = await generateText(
-  `Create an article about "${item.title}" considering this content "${item.content.substring(0, 1024)}", format as markdown, exclude title`,
-  2048
+  `Create an article about "${
+    item.title
+  }" considering this content "${item.content.substring(
+    0,
+    1024,
+  )}", format as markdown, exclude title`,
+  2048,
 );
 
 item.body = articleBody;
 
-const articleSnippet = await generateText(`Create a synthetic version of this text: "${item.body}"`, 25);
+const articleSnippet = await generateText(
+  `Create a synthetic version of this text: "${item.body}"`,
+  25,
+);
 
 item.snippet = getSanitizedText(articleSnippet);
 
-const articleTags = await generateText(`Create a comma separated list of tags (single words) for this blog article: "${item.body}"`, 10);
+const articleTags = await generateText(
+  `Create a comma separated list of tags (single words) for this blog article: "${item.body}"`,
+  10,
+);
 
 let tags = articleTags.split(",");
 
@@ -296,9 +323,11 @@ if (tags && tags.length > 0) {
 
 let fileName = getSanitizedText(item.title, "-", true);
 
-generateImage(`Thumbnail photo image for the article "${item.title}", no text`, fileName);
+generateImage(
+  `Thumbnail photo image for the article "${item.title}", no text`,
+  fileName,
+);
 
 let frontMatter = getFrontmatter(item);
 
 generateMarkdownArticle(fileName, frontMatter, articleBody);
-

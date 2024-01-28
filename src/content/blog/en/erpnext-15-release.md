@@ -3,14 +3,14 @@ title: ERPNext 15.0 release
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-    src: /ERPNext-15-release.jpg
-    alt: ERPNext
+  src: /ERPNext-15-release.jpg
+  alt: ERPNext
 snippet: The release of ERPNext 15 was indeed preceded by this year's Frappeverse, the ERPNext conference, but largely, it was also about the new version.
 publishDate: 2023-11-11 12:39
 category:
-    - news
+  - news
 ---
 
 <p>The release of ERPNext 15 was indeed preceded by this year's Frappeverse, the ERPNext conference, but largely, it was also about the new version. Therefore, there won't be a separate report on this, unlike in previous years.</p>

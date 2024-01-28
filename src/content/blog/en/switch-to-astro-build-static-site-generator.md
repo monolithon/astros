@@ -3,14 +3,14 @@ title: Switch to astro.build SSG (Static Site Generator)
 draft: false
 author: Admin
 tags:
-    - astro.build
+  - astro.build
 image:
-    src: /astro-build-static-website.jpg
-    alt: ERPNext
+  src: /astro-build-static-website.jpg
+  alt: ERPNext
 snippet: A monolithon.com still runs on the ERPNext system, but we have separated the public website and now use astro.build for it.
 publishDate: 2023-11-11 11:39
 category:
-    - news
+  - news
 ---
 
 <p>The blog hasn't ceased to exist, but instead of publishing it in the usual manner, I decided to first announce the transformation of the monolithon.com website.</p>

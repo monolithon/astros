@@ -3,15 +3,16 @@ title: The Monolithon Approach to ERPNext Hungarian Invoicing
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-    src: /monolithon-erpnext-logo.jpg
-    alt: The Monolithon Approach to ERPNext Hungarian Invoicing
+  src: /monolithon-erpnext-logo.jpg
+  alt: The Monolithon Approach to ERPNext Hungarian Invoicing
 snippet: The Monolithon Approach to ERPNext Hungarian Invoicing
 publishDate: 2023-12-27 18:50
 category:
-    - news
+  - news
 ---
+
 <h2><p>Why hasn't the ERPNext Hungarian invoicing solution been completed yet?</p></h2>
 
 <p>Many laypeople often say that invoicing is straightforward because there is a lot of data available, and ERPNext is used in many countries along with other international solutions for invoicing. In such cases, the simplest way is to show the Hungarian VAT law, which regulates most of the invoicing-related questions. Yes, not only is the 27% VAT a world champion, and although we haven't compared, it is almost certain that our VAT law is the longest, which is not necessarily advantageous. Invoices have mandatory content elements, such as dates. However, the specific dates to be included in a date-type field in invoicing are determined by the kilometer-long VAT law. This can largely be said for other content elements of the invoice as well. And then we haven't even mentioned the mazes of exceptions and exemptions with their special conditions.</p>
@@ -52,4 +53,3 @@ category:
 
 <p>A copy of this post has been published on the forum to facilitate discussion:<br>
 <a href="https://discuss.frappe.io/t/hungarian-invoice-magyar-szamlazas/64970/15">https://discuss.frappe.io/t/hungarian-invoice-magyar-szamlazas/64970/15</a></p>
-

@@ -3,14 +3,14 @@ title: ERPNext 15.0 verzió megjelenése
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-    src: /ERPNext-15-release.jpg
-    alt: ERPNext
-snippet: Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az ERPNext konferencia, de nagyrészt az is az új verzióról szólt. 
+  src: /ERPNext-15-release.jpg
+  alt: ERPNext
+snippet: Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az ERPNext konferencia, de nagyrészt az is az új verzióról szólt.
 publishDate: 2023-11-11 12:39
 category:
-    - hír
+  - hír
 ---
 
 <p>Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az ERPNext konferencia, de nagyrészt az is az új verzióról szólt, ezért arról most a korábbi évektől eltérően nem lesz külön beszámoló</p></p>

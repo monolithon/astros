@@ -3,14 +3,14 @@ title: Form Building with ERPNext
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-      src: /űrlapkészítés-erpnexttel.jpg
-      alt: ERPNext
+  src: /űrlapkészítés-erpnexttel.jpg
+  alt: ERPNext
 snippet: Online and, let's face it, even offline businesses cannot operate without well-formulated questions. There are numerous options available for this purpose.
 publishDate: 2022-08-23 11:39
 category:
-    - news
+  - news
 ---
 
 <p>With ERPNext, you can create forms, and in fact, you can create forms for almost all the documents available in ERPNext, which you can even display on the ERPNext website. This is not too complicated, but it's not as straightforward as creating a solution with Google Forms, for example. If you are interested in the details of form building with ERPNext, you can find all the important information in the documentation at the following link:</p>

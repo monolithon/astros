@@ -9,130 +9,144 @@ import Cookie from "@components/cookie.astro";
 import { ViewTransitions } from "astro:transitions";
 
 export interface Props {
-	title: string;
-	lang: string;
+  title: string;
+  lang: string;
 }
-
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
-const resolvedImageWithDomain = new URL("/meta/opengraph.png", Astro.site).toString();
+const resolvedImageWithDomain = new URL(
+  "/meta/opengraph.png",
+  Astro.site,
+).toString();
 
 const { title, lang = null } = Astro.props;
 
-const makeTitle = title ? title + " | " + "Monolithon" : "Monolithon - ERPNext solutions";
+const makeTitle = title
+  ? title + " | " + "Monolithon"
+  : "Monolithon - ERPNext solutions";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={lang ?? i18next.language}>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/images/monolithon-fav.png" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="theme-color" content="#ffffff" />
-		<HeadHrefLangs />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/images/monolithon-fav.png" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#ffffff" />
+    <HeadHrefLangs />
 
-		<ViewTransitions />
-		<!-- Global CSS -->
-		<link rel="stylesheet" href="/index.css" />
+    <ViewTransitions />
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="/index.css" />
 
-		<SEO
-			title={makeTitle}
-			description="ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic"
-			canonical={canonicalURL}
-			openGraph={{
-				basic: {
-					url: canonicalURL,
-					type: "website",
-					title: `Monolithon`,
-					image: resolvedImageWithDomain,
-				},
-				image: {
-					alt: "Monolithon Homepage Screenshot",
-				},
-			}}
-		/>
+    <SEO
+      title={makeTitle}
+      description="ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic"
+      canonical={canonicalURL}
+      openGraph={{
+        basic: {
+          url: canonicalURL,
+          type: "website",
+          title: `Monolithon`,
+          image: resolvedImageWithDomain,
+        },
+        image: {
+          alt: "Monolithon Homepage Screenshot",
+        },
+      }}
+    />
+  </head>
+  <Cookie />
+  <body class="dark:bg-stone-950">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://service.monolithon.com/ns.html?id=GTM-P4LTKG3"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <Navbar />
+    <slot />
+    <Footer />
+    <style is:global>
+      /* Improve Page speed */
+      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
+      img {
+        content-visibility: auto;
+      }
+    </style>
 
-	</head>
-	<Cookie />
-	<body class="dark:bg-stone-950">
-	<!-- Google Tag Manager (noscript) -->
-	<noscript>
-		<iframe src="https://service.monolithon.com/ns.html?id=GTM-P4LTKG3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-	</noscript>
-	<!-- End Google Tag Manager (noscript) -->
-		<Navbar />
-		<slot />
-		<Footer />
-		<style is:global>
-			/* Improve Page speed */
-			/* https://css-tricks.com/almanac/properties/c/content-visibility/ */
-			img {
-				content-visibility: auto;
-			}
-		</style>
-
-		<script>
-			/** This section is only needed once per page if manually copying **/
-				//@ts-expect-error
-				if (typeof MauticSDKLoaded == "undefined") {
-					var MauticSDKLoaded = true;
-					var head = document.getElementsByTagName("head")[0];
-					var script = document.createElement("script");
-					script.type = "text/javascript";
-					script.src = "https://asset.monolithon.com/media/js/mautic-form.js?vea43f1e4";
-					script.onload = function () {
-						//@ts-expect-error
-						MauticSDK.onLoad();
-					};
-					head.appendChild(script);
-					var MauticDomain = "https://asset.monolithon.com";
-					var MauticLang = {
-						submittingMessage: "Please wait...",
-					};
-				//@ts-expect-error
-					} else if (typeof MauticSDK != "undefined") {
-				//@ts-expect-error
-						MauticSDK.onLoad();
-					}
-		</script>
-		<script>
-			(function (w, d, t, u, n, a, m) {
-				w["MauticTrackingObject"] = n;
-				(w[n] =
-					w[n] ||
-					function () {
-						(w[n].q = w[n].q || []).push(arguments);
-					}),
-			//@ts-expect-error
-					(a = d.createElement(t)),
-			//@ts-expect-error
-					(m = d.getElementsByTagName(t)[0]);
-			//@ts-expect-error
-				a.async = 1;
-			//@ts-expect-error
-				a.src = u;
-			//@ts-expect-error
-				m.parentNode.insertBefore(a, m);
-			})(window, document, "script", "https://asset.monolithon.com/mtc.js", "mt");
-			//@ts-expect-error
-			mt("send", "pageview");
-		</script>
-		<script src="https://cdn.paddle.com/paddle/v2/paddle.js" is:inline></script>
-		<script>
-    //@ts-expect-error
-    Paddle.Environment.set('sandbox');
-    //@ts-expect-error
-    Paddle.Setup({
-      token: 'test_748ec980e5b1b0f1b603b7d3310',
-      checkout: {
-        settings: {
-          displayMode: "overlay",
-          theme: "light",
-          locale: "en"
-        }
-      },
-    });
-		</script>
-	</body>
+    <script>
+      /** This section is only needed once per page if manually copying **/
+      //@ts-expect-error
+      if (typeof MauticSDKLoaded == "undefined") {
+        var MauticSDKLoaded = true;
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src =
+          "https://asset.monolithon.com/media/js/mautic-form.js?vea43f1e4";
+        script.onload = function () {
+          //@ts-expect-error
+          MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = "https://asset.monolithon.com";
+        var MauticLang = {
+          submittingMessage: "Please wait...",
+        };
+        //@ts-expect-error
+      } else if (typeof MauticSDK != "undefined") {
+        //@ts-expect-error
+        MauticSDK.onLoad();
+      }
+    </script>
+    <script>
+      (function (w, d, t, u, n, a, m) {
+        w["MauticTrackingObject"] = n;
+        (w[n] =
+          w[n] ||
+          function () {
+            (w[n].q = w[n].q || []).push(arguments);
+          }),
+          //@ts-expect-error
+          (a = d.createElement(t)),
+          //@ts-expect-error
+          (m = d.getElementsByTagName(t)[0]);
+        //@ts-expect-error
+        a.async = 1;
+        //@ts-expect-error
+        a.src = u;
+        //@ts-expect-error
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://asset.monolithon.com/mtc.js",
+        "mt",
+      );
+      //@ts-expect-error
+      mt("send", "pageview");
+    </script>
+    <script src="https://cdn.paddle.com/paddle/v2/paddle.js" is:inline></script>
+    <script>
+      //@ts-expect-error
+      Paddle.Environment.set("sandbox");
+      //@ts-expect-error
+      Paddle.Setup({
+        token: "test_748ec980e5b1b0f1b603b7d3310",
+        checkout: {
+          settings: {
+            displayMode: "overlay",
+            theme: "light",
+            locale: "en",
+          },
+        },
+      });
+    </script>
+  </body>
 </html>

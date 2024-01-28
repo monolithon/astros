@@ -13,7 +13,6 @@ category:
   - how-to
 ---
 
-
 During the use of ERPNext, a special scenario may occur, as follows:
 
 During the initial implementation of ERPNext, we entered a purchase order in a foreign currency (at a net price). Later, it turned out that we did not receive the goods, but they are still present in our warehouse. Additionally, before and after this, various products arrived at different prices, and the product's value should also include shipping and other costs, which ERPNext handles using the "Landing Cost" option.

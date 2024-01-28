@@ -3,14 +3,14 @@ title: Villámgyors statikus weboldal astro.build alapokon
 draft: false
 author: Admin
 tags:
-    - astro.build
+  - astro.build
 image:
-    src: /astro-build-static-website.jpg
-    alt: ERPNext
+  src: /astro-build-static-website.jpg
+  alt: ERPNext
 snippet: A monolithon.com továbbra is ERPNext rendszeren fut, de a publikus weboldalt leválasztottuk és már astro.build-et használunk hozzá.
 publishDate: 2023-11-11 11:39
 category:
-    - hír
+  - hír
 ---
 
 <p>A blog nem szűnt meg, de ahelyett, hogy a szokásos menetben publikáltam volna, úgy döntöttem előbb be kell fejelzni a monolithon.com weboldal átalalakítását. </p></p>Mi is ez az átalakítás? </p></p></p>Sok szempontot mérlegeltünk, például: az egyszerű elindulást/váltást, fejlesztőbarát műkődést, gyorsaságot, testreszabhatóságot, elérhető funkciókat. Végül arra jutottunk, hogy az ERPNext által kiszolgált monolithon.com ERPNext és Odoo blogot leválasztjuk a saját ERPNext rendszerünkről, mert ugyan jól tette a dolgát és nagyon megkönnyítette az életünket, és sokkal több mindent lehetett vele kódolás nélkül megoldani, mint amire nekünk szükségünk volt, de valójában egy vállaltirányítási rendszernek - amire úgy tekintünk, mint az "singe source of true" - nem feladata, hogy a publikus weboldalként is funkcionáljon. </p></p>

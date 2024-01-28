@@ -3,16 +3,15 @@ title: ERPNext GoCardless bank szinkronizálás
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-    src: /erpnext-gocardless-03.png
-    alt: ERPNext GoCardless
-snippet: Megjelent a bank szinkronizáló alkalmazásunk ERPNext-hez. 
+  src: /erpnext-gocardless-03.png
+  alt: ERPNext GoCardless
+snippet: Megjelent a bank szinkronizáló alkalmazásunk ERPNext-hez.
 publishDate: 2023-12-27 13:39
 category:
-    - hír
+  - hír
 ---
-
 
 <p>ERPNext magyar bank szinkronizáció GoCardless integrációval</p>
 

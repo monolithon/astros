@@ -3,15 +3,16 @@ title: ERPNext magyar számlázás Monolithon megközelítése
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-    src: /monolithon-erpnext-logo.jpg
-    alt: ERPNext magyar számlázás
+  src: /monolithon-erpnext-logo.jpg
+  alt: ERPNext magyar számlázás
 snippet: ERPNext magyar számlázás Monolithon megközelítések
 publishDate: 2023-12-27 18:50
 category:
-    - hír
+  - hír
 ---
+
 <h2><p>Miért nem készült már el az ERPNext magyar számlázási megoldás?</p></h2>
 
 <p>A laikusok sokszor mondják, hogy a számlázás milyen egyszerű, hiszen sok adatunk rendelkezésre áll és egy csomó országban használják az ERPNext-et és egyéb nemzetközi megoldásokat számlázásra. Ilyenkor a legegyszerűbb ha megmutatjuk a magyar Áfa törvényt, amely a számlázással kapcsolatos legtöbb kérdést szabályozza. Igen, nem csak a 27%-os áfa világbajnok, és ugyan nem hasonlítottuk össze, de szinte biztos, hogy az Áfa törvényünk is a leghosszabb, ami itt nem kifezetten előnyös. A számlának vannak kötelező tartalmi elemei, mint például dátumok. De az, hogy milyen dátumot lehet/kell szerepeltetni egy-egy dátum típusú mezőben a számlázás esetén az a kilóméter hosszú Áfa törvényből derül ki. Nagyrészt ugyanez elmondható a számla többi tartalmi eleméről is. És akkor a kivételek, mentesítések speciális feltételeinek útvesztőit még nem is említettük.</p>

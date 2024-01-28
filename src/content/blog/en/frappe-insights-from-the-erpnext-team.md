@@ -3,14 +3,14 @@ title: Frappe Insights from the ERPNext Team
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-      src: /frappe-insights-az-erpnext-csapattól.png
-      alt: ERPNext
+  src: /frappe-insights-az-erpnext-csapattól.png
+  alt: ERPNext
 snippet: In a previous blog post about ERPNext, BI, and Business Intelligence+Metabase, I intentionally didn't mention that the Frappe team also has a similar solution, which is why I planned this separate entry.
 publishDate: 2023-05-9 11:39
 category:
-    - news
+  - news
 ---
 
 <h2>What is Frappe Insights?</h2>
@@ -54,4 +54,3 @@ category:
 <p><br></p>
 <p>For those interested in the birth of Frappe Insights and wanting to learn some behind-the-scenes secrets, I recommend the interview with the developer:</p>
 <p><a href="https://frappe.io/blog/product-stories/the-journey-to-insights" rel="noopener noreferrer">https://frappe.io/blog/product-stories/the-journey-to-insights</a></p>
-

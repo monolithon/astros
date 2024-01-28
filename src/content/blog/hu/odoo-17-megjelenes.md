@@ -3,14 +3,14 @@ title: Odoo 17.0 megjelenés
 draft: false
 author: Admin
 tags:
-    - odoo
+  - odoo
 image:
-    src: /odoo-17.jpg
-    alt: ERPNext
-snippet: Megjelent az Odoo legújabb, Odoo 17-es verziója. Rengeteg újdonság, hatalmas lehetőségek és fontos döntések.  
+  src: /odoo-17.jpg
+  alt: ERPNext
+snippet: Megjelent az Odoo legújabb, Odoo 17-es verziója. Rengeteg újdonság, hatalmas lehetőségek és fontos döntések.
 publishDate: 2023-11-11 13:39
 category:
-    - hír
+  - hír
 ---
 
 <p>A szokásos éves Odoo Experience konferencián idén is bemutatta az Odoo S.A. a soronkövetkező, legújabb Odoo verziót, ami az Odoo 17. </p></p>

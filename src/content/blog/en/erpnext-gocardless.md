@@ -3,16 +3,15 @@ title: ERPNext GoCardless Module Now Available
 draft: false
 author: Admin
 tags:
-    - erpnext
+  - erpnext
 image:
-    src: /erpnext-gocardless-03.png
-    alt: ERPNext GoCardless
+  src: /erpnext-gocardless-03.png
+  alt: ERPNext GoCardless
 snippet: ERPNext GoCardless app arrived!
 publishDate: 2023-12-27 13:39
 category:
-    - news
+  - news
 ---
-
 
 <p>ERPNext Bank Synchronization with GoCardless Integration not just for Hungarian Banks</p>
 
