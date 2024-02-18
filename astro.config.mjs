@@ -1,15 +1,13 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
-import sitemap from "@astrojs/sitemap";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import { autolinkConfig } from "./plugins/rehype-autolink-config";
-import rehypeSlug from "rehype-slug";
-import astroI18next from "astro-i18next";
 import alpinejs from "@astrojs/alpinejs";
 import react from "@astrojs/react";
+import sitemap from "@astrojs/sitemap";
+import tailwind from "@astrojs/tailwind";
+import astroI18next from "astro-i18next";
 import robots from "astro-robots";
-
-import partytown from "@astrojs/partytown";
+import { defineConfig } from "astro/config";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeSlug from "rehype-slug";
+import { autolinkConfig } from "./plugins/rehype-autolink-config";
 
 // https://astro.build/config
 export default defineConfig({
@@ -68,7 +66,6 @@ export default defineConfig({
     }),
     astroI18next(),
     alpinejs(),
-    partytown(),
   ],
   markdown: {
     rehypePlugins: [
