@@ -13,4 +13,32 @@ category:
   - news
 ---
 
-<div class="ql-editor read-mode"><h2>Here are some screenshots of the new look debuting in ERPNext 13.0 version:</h2><p><img src="/images/új-kinézetet-kap-az-erpnext-130-verzió.png"></p><p><br></p><p><img src="/images/n8poozx.jpe"></p><p><img src="/images/rQEumsm.png"></p><p><img src="/images/Nkig4kq.png"></p><p><img src="/images/9zMH400.png"></p><p><img src="/images/FP2Awuh.png"></p><p><img src="/images/8UaySeQ.png"></p><p><img src="/images/6DHDi62.png"></p><p><img src="/images/Bh9PiHf.png"></p><p><img src="/images/TAabxTX.png"></p><p><img src="/images/akFwxF8.png"></p><p><img src="/images/UP26jaZ.png"></p><p><img src="/images/jtZR6dX.png"></p><p><img src="/images/h0gJyi2.png"></p></div>
+## Here are some screenshots of the new look debuting in ERPNext 13.0 version:
+
+<img src="/images/új-kinézetet-kap-az-erpnext-130-verzió.png">
+
+<img src="/images/n8poozx.jpe">
+
+<img src="/images/rQEumsm.png">
+
+<img src="/images/Nkig4kq.png">
+
+<img src="/images/9zMH400.png">
+
+<img src="/images/FP2Awuh.png">
+
+<img src="/images/8UaySeQ.png">
+
+<img src="/images/6DHDi62.png">
+
+<img src="/images/Bh9PiHf.png">
+
+<img src="/images/TAabxTX.png">
+
+<img src="/images/akFwxF8.png">
+
+<img src="/images/UP26jaZ.png">
+
+<img src="/images/jtZR6dX.png">
+
+<img src="/images/h0gJyi2.png">
