@@ -13,4 +13,40 @@ category:
   - hír
 ---
 
-<h2>Mi is az a Frappe Insights?</h2><p><br></p><p>A Frappe Insights GitHub tárolójában és a Frappe Marketplace-n az alábbi meghatározás található:</p><p>"Free and Open Source Data Analytics Tool for your Frappe Apps" - azaz ingyenes és nyílt forrású adatelemző eszköz a Frappe alkalmazásokhoz.</p><p><br></p><p>Oké, de mit is jelent ez pontosan? Aki ismeri az ERPNext-et, az bizonyára már találkozott a Frappe Framework-kel, amit néhány blogbejegyzésben már én is említettem. Ez a egy rugalmas keretrendszer, amin sokféle alkalmazást fel lehet építeni. Ilyen alkalmazás az ERPNext is. Gyakorlatilag az ERPNext is egy app, amit a Frappe Framework-re kell telepíteni, ha használni szeretnénk.</p><p><br></p><p>Ebből következik hogy ezt az Insigths appot is a Frappe Framework-re telepíthetjük és akár az ERPNextből, vagy vagy más Frappe-n futó alkalmazásunkból. (és akár más, külső adatforrásokból) is képes adatokat használni.</p><p><br></p><h2>Mire lehet használni a Frappe Insights-ot?</h2><p><br></p><p>A fő funkciók a következők:</p><ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Több adatforrás - Csatlakozz több adatforráshoz és kérdezd le azokat egy helyen.</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Komplex lekérdezések - Írj bonyolult lekérdezéseket és kapd meg az eredményeket táblázatos formátumban.</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Adatok megjelenítése - Jelenítsd meg az adataidat diagramok formájában. Irányítópultok -</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Hozz létre irányítópultokat az fontos mutatók automatikus nyomon követéséhez.</li></ol><p><br></p><p>Hogy mire lehet egy ilyen elemző eszközt használni most részletesen nem mennék bele, ezt a Metabase bejegyzésben már érintettük, nézzünk inkább további érdekességeket a Frappe Insights-ról a továbbiakban, de aki mégis gyakorlati tudásra szomjazik, annak ajánlom a Frappe konferencián elhangzott előadás videófelvételét, amely az alábbi témákból állt:</p><p><br></p><ol><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Telepítés</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Csatlakozás az adatbázishoz</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>ERPNext adatbázis</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Helyi SQLite adatbázis</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Távoli MySQL/MariaDB adatbázis</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Lekérdezések létrehozása</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Csatlakozások (JOIN)</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Szűrők</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Egyéni kifejezések</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Pivot transzformáció</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Diagramok készítése</li><li data-list="bullet"><span class="ql-ui" contenteditable="false"></span>Áttekintőképernyők létrehozása</li></ol><p><br></p><p>Forrás: <a href="https://frappe.io/events/frappe-insights" rel="noopener noreferrer">https://frappe.io/events/frappe-insights</a></p><p><br></p><p>Akit a Frappe Insights születése is érdekel és szeretne néhány műhelytitkot is, annak ajánlom a fejelsztővel készült interjút:</p><p><a href="https://frappe.io/blog/product-stories/the-journey-to-insights" rel="noopener noreferrer">https://frappe.io/blog/product-stories/the-journey-to-insights</a> </p>
+## Mi is az a Frappe Insights?
+
+A Frappe Insights GitHub tárolójában és a Frappe Marketplace-n az alábbi meghatározás található: "Free and Open Source Data Analytics Tool for your Frappe Apps" - azaz ingyenes és nyílt forrású adatelemző eszköz a Frappe alkalmazásokhoz.
+
+Oké, de mit is jelent ez pontosan? Aki ismeri az ERPNext-et, az bizonyára már találkozott a Frappe Framework-kel, amit néhány blogbejegyzésben már én is említettem. Ez a egy rugalmas keretrendszer, amin sokféle alkalmazást fel lehet építeni. Ilyen alkalmazás az ERPNext is. Gyakorlatilag az ERPNext is egy app, amit a Frappe Framework-re kell telepíteni, ha használni szeretnénk.
+
+Ebből következik hogy ezt az Insigths appot is a Frappe Framework-re telepíthetjük és akár az ERPNextből, vagy vagy más Frappe-n futó alkalmazásunkból. (és akár más, külső adatforrásokból) is képes adatokat használni.
+
+## Mire lehet használni a Frappe Insights-ot?
+
+A fő funkciók a következők:
+
+1. Több adatforrás - Csatlakozz több adatforráshoz és kérdezd le azokat egy helyen.
+2. Komplex lekérdezések - Írj bonyolult lekérdezéseket és kapd meg az eredményeket táblázatos formátumban.
+3. Adatok megjelenítése - Jelenítsd meg az adataidat diagramok formájában.
+4. Irányítópultok - Hozz létre irányítópultokat az fontos mutatók automatikus nyomon követéséhez.
+
+Hogy mire lehet egy ilyen elemző eszközt használni most részletesen nem mennék bele, ezt a Metabase bejegyzésben már érintettük, nézzünk inkább további érdekességeket a Frappe Insights-ról a továbbiakban, de aki mégis gyakorlati tudásra szomjazik, annak ajánlom a Frappe konferencián elhangzott előadás videófelvételét, amely az alábbi témákból állt:
+
+1. Telepítés
+2. Csatlakozás az adatbázishoz
+3. ERPNext adatbázis
+4. Helyi SQLite adatbázis
+5. Távoli MySQL/MariaDB adatbázis
+6. Lekérdezések létrehozása
+7. Csatlakozások (JOIN)
+8. Szűrők
+9. Egyéni kifejezések
+10. Pivot transzformáció
+11. Diagramok készítése
+12. Áttekintőképernyők létrehozása
+
+Forrás: [https://frappe.io/events/frappe-insights](https://frappe.io/events/frappe-insights)
+
+Akit a Frappe Insights születése is érdekel és szeretne néhány műhelytitkot is, annak ajánlom a fejelsztővel készült interjút:
+
+[https://frappe.io/blog/product-stories/the-journey-to-insights](https://frappe.io/blog/product-stories/the-journey-to-insights)

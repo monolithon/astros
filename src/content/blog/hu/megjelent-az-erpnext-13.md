@@ -13,4 +13,4 @@ category:
   - hír
 ---
 
-<div class="ql-editor read-mode"><p>Elég sok hibát jelentenek, ahogy az ilyenkor minden szoftvernél megszokott, de úgy tűnik, hogy a friss telepítésekkel nincs gond. Aki ERPNext 12-ről váltana, az várhat még egy kicsit, hogy a fórumon is jelzett hibákat kijavíthassák a fejlesztők. Persze a felhasználók, akár maguk is javíthatják és megoszthatják a kódot az ERPNext közösséggel.</p></div>
+Elég sok hibát jelentenek, ahogy az ilyenkor minden szoftvernél megszokott, de úgy tűnik, hogy a friss telepítésekkel nincs gond. Aki ERPNext 12-ről váltana, az várhat még egy kicsit, hogy a fórumon is jelzett hibákat kijavíthassák a fejlesztők. Persze a felhasználók, akár maguk is javíthatják és megoszthatják a kódot az ERPNext közösséggel.
