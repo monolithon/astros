@@ -139,7 +139,7 @@ const pricingData = [
           <img
             class="w-full"
             src="/images/erpnext-gocardless-01.png"
-            alt="ERPNext GoCardless bank integráció és szinkronizáció"
+            alt="ERPNext GoCardless Bank Integration"
           />
         </div>
       </div>
@@ -180,117 +180,109 @@ const pricingData = [
             fizetési bejegyzések és a bankszámlán lévő pénzmozgások
             összepárosítása.
           </p>
-          <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-            <h2 class="font-bold text-3xl mb-10">
-              Automatizálással kevesebb manuális, unalmas teendő
-            </h2>
-            <p class="list-disc text-lg leading-7 space-y-5]">
-              Az európai open banking direktívának köszönhetően a bankoknak
-              iparági sztenderdek szerint hozzáférést kell biztosítaniuk az
-              banki adatokhoz, természetesen a megfelelő jogosultság mellett. <br
-              />
-              <br />
-               Az ilyen jellegű banki adatok "cseréjére" különböző
-              szolgáltatások épültek, amelyek a megfelelő jogosultságok mellett
-              lehetővé teszik bank adatokhoz való egyzerű hozzáférést. <br /><br
-              />
-               Több ilyen szolgáltató is található a piacon, ilyen például a
-              Plaid is, ami alapból megtalálható az ERPNext-ben, viszont magyar
-              bankok adatai ezen a szolgáltatón keresztül nem érhetőek el.
-              (Kisebb trükközéssel és ki tudja meddig, a Wise és a Revolut
-              azonban igen.)<br /><br />
-               Aki viszont egy biztosabb megoldást szeretne és nem órákat
-              dolgozni az összepontozással az használhatja a Monolithon által
-              fejlesztett GoCcardless (Bank Account Data) korábban Nordigen
-              szinkronizációs megoldását. <br /><br />
-               Ahogy az fejlesztéseinknél már megszokott, itt is követtük az
-              sztenderdeket, így nem csak, hogy az ERPNext Bank transaction
-              doctype-ját használtuk fel a fejlesztéshez, így a beépített
-              összepárosító megoldással használható az appunk, hanem a
-              továbfejlesztett egyéb banki összepárosító app-pal is tökéletesen
-              működik. Ez utóbbi azért is érdekes, mert azzal szinte teljesen
-              automatizálni lehet a folyamatot, legalábbis bizonyosan sokkal
-              gyorsabbá tenni.
-            </p>
-            <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-              <h2 class="font-bold text-3xl mb-10">Limitációk nélkül</h2>
-              <p class="list-disc text-lg leading-7 space-y-5]">
-                Számold ki, hogy mennyibe kerül az a munkaidő, ha több órán
-                keresztül kell a banktranzakciókat importáni és összepárosítani.
-                Ezzel szemben az általunk elkészített megoldással korlátlan
-                számú trazakciót kérhetsz le, szinte bármelyik bankban
-                bevezetett saját bankszámláról. <br /><br />
-                 (A hozzáférést ugyan 90 naponta meg kell újítani, és azonos
-                bankhoz tartozó bankszámla egy lekérésnek számít, de a
-                cégenkénti! havi 50 authentikációval akár 50 banktól és az adott
-                bankhoz tartozó korlátlan számú bankszámla korlátlan számú
-                tranzakcióját lehet lekérni.)<br /><br />
-              </p>
+        </section>
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">
+            Automatizálással kevesebb manuális, unalmas teendő
+          </h2>
+          <p class="list-disc text-lg leading-7 space-y-5">
+            Az európai open banking direktívának köszönhetően a bankoknak
+            iparági sztenderdek szerint hozzáférést kell biztosítaniuk az banki
+            adatokhoz, természetesen a megfelelő jogosultság mellett. <br />
+            <br />
+             Az ilyen jellegű banki adatok "cseréjére" különböző szolgáltatások
+            épültek, amelyek a megfelelő jogosultságok mellett lehetővé teszik
+            bank adatokhoz való egyzerű hozzáférést. <br /><br />
+             Több ilyen szolgáltató is található a piacon, ilyen például a Plaid
+            is, ami alapból megtalálható az ERPNext-ben, viszont magyar bankok
+            adatai ezen a szolgáltatón keresztül nem érhetőek el. (Kisebb
+            trükközéssel és ki tudja meddig, a Wise és a Revolut azonban igen.)<br
+            /><br />
+             Aki viszont egy biztosabb megoldást szeretne és nem órákat dolgozni
+            az összepontozással az használhatja a Monolithon által fejlesztett
+            GoCcardless (Bank Account Data) korábban Nordigen szinkronizációs
+            megoldását. <br /><br />
+             Ahogy az fejlesztéseinknél már megszokott, itt is követtük az
+            sztenderdeket, így nem csak, hogy az ERPNext Bank transaction
+            doctype-ját használtuk fel a fejlesztéshez, így a beépített
+            összepárosító megoldással használható az appunk, hanem a
+            továbfejlesztett egyéb banki összepárosító app-pal is tökéletesen
+            működik. Ez utóbbi azért is érdekes, mert azzal szinte teljesen
+            automatizálni lehet a folyamatot, legalábbis bizonyosan sokkal
+            gyorsabbá tenni.
+          </p>
+        </section>
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">Limitációk nélkül</h2>
+          <p class="list-disc text-lg leading-7 space-y-5]">
+            Számold ki, hogy mennyibe kerül az a munkaidő, ha több órán
+            keresztül kell a banktranzakciókat importáni és összepárosítani.
+            Ezzel szemben az általunk elkészített megoldással korlátlan számú
+            trazakciót kérhetsz le, szinte bármelyik bankban bevezetett saját
+            bankszámláról. <br /><br />
+             (A hozzáférést ugyan 90 naponta meg kell újítani, és azonos bankhoz
+            tartozó bankszámla egy lekérésnek számít, de a cégenkénti! havi 50
+            authentikációval akár 50 banktól és az adott bankhoz tartozó
+            korlátlan számú bankszámla korlátlan számú tranzakcióját lehet
+            lekérni.)<br /><br />
+          </p>
+        </section>
 
-              <section
-                class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white"
-              >
-                <h2 class="font-bold text-3xl mb-10">
-                  Csak havi 49 EUR/szerver/hónap - korlátlan cégre
-                </h2>
-                <p class="list-disc text-lg leading-7 space-y-5]">
-                  Megoldásunkat az ERPNext 14-es verziójához kezdtük el
-                  feljelszteni, de úgy döntöttünk, hogy inkább csak a legújabb
-                  v15 ERPNext verzióhoz tesszük elérhetővé. Korábbi verzió
-                  egyedi egyeztetés szerint érhető el. Az integráció
-                  önkiszolgáló módon egy ERPNext példánnyal együtt érhető el. <br
-                  /><br />
-                   A lenti megrendelést követően automatikusan elindítunk a
-                  Frapp Cloud rendszerén egy egyedi kódot is futtatni képes
-                  ERPNext példányt, amelynek az adminisztrátori hozzáférést
-                  átadva azonnal használható a rendszer és beállítható a
-                  bankszinkron is. <br /><br />
-                   Ezzel a megoldással tudjuk biztosítani, hogy amíg az
-                  előfizetés él, addig az ERPNext GoCardless app elérhető az
-                  adott ERPNext gépen és használható a bankszinkronizáció, de a
-                  forráskódhoz nem biztosítunk hozzáférést és a tranzakciók nem
-                  is a mennek keresztül a mi szervereinken. <br /><br />
-                   A GoCardless előfizetés lemondásával - az ERPNext előfizetés
-                  megtartása mellett - a rendszer tovább haszanálható és a
-                  korábbi tranzakciók is megmaradnak, csak új szinkronizálás nem
-                  indítható. Az ERPNext előfieztés lemondásával ugyan az ERPNext
-                  sem lesz elérhető, de a nyílt forráskódnak és a biztonsági
-                  mentésnek köszönhetően az akár szabadon elköltöztethető, így
-                  nincs kockázat. Ezzel módszerrel nem korlátozzuk a saját kód
-                  bejuttatását úgy, hogy a Frappe Cloud fiókhoz is adunk
-                  (limitált) hozzáférést.
-                  <br /><br />
-                   Ha szüksége van egy nagyobb csomagra, kérjük jelezze, mert
-                  nálunk az összes Frappe Cloud csomag elérhető a GoCardless
-                  integrációval.
-                </p>
-              </section>
-
-              <section>
-                <div
-                  class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20"
-                  id="pricing"
-                >
-                  {
-                    pricingData.map((item, index) => (
-                      <Pricing key={index} plan={item} />
-                    ))
-                  }
-                </div>
-              </section>
-              <section>
-                <div class="px-5 py-5">
-                  <span class="dark:text-white text-black"
-                    ><center
-                      >A fenti árak havidíjak, amelyek Áfát nem tartalmaznak.</center
-                    ></span
-                  >
-                </div>
-              </section>
-            </section>
-          </section>
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">
+            Csak havi 49 EUR/szerver/hónap - korlátlan cégre
+          </h2>
+          <p class="list-disc text-lg leading-7 space-y-5]">
+            Megoldásunkat az ERPNext 14-es verziójához kezdtük el feljelszteni,
+            de úgy döntöttünk, hogy inkább csak a legújabb v15 ERPNext verzióhoz
+            tesszük elérhetővé. Korábbi verzió egyedi egyeztetés szerint érhető
+            el. Az integráció önkiszolgáló módon egy ERPNext példánnyal együtt
+            érhető el. <br /><br />
+             A lenti megrendelést követően automatikusan elindítunk a Frapp
+            Cloud rendszerén egy egyedi kódot is futtatni képes ERPNext
+            példányt, amelynek az adminisztrátori hozzáférést átadva azonnal
+            használható a rendszer és beállítható a bankszinkron is. <br /><br
+            />
+             Ezzel a megoldással tudjuk biztosítani, hogy amíg az előfizetés él,
+            addig az ERPNext GoCardless app elérhető az adott ERPNext gépen és
+            használható a bankszinkronizáció, de a forráskódhoz nem biztosítunk
+            hozzáférést és a tranzakciók nem is a mennek keresztül a mi
+            szervereinken. <br /><br />
+             A GoCardless előfizetés lemondásával - az ERPNext előfizetés
+            megtartása mellett - a rendszer tovább haszanálható és a korábbi
+            tranzakciók is megmaradnak, csak új szinkronizálás nem indítható. Az
+            ERPNext előfieztés lemondásával ugyan az ERPNext sem lesz elérhető,
+            de a nyílt forráskódnak és a biztonsági mentésnek köszönhetően az
+            akár szabadon elköltöztethető, így nincs kockázat. Ezzel módszerrel
+            nem korlátozzuk a saját kód bejuttatását úgy, hogy a Frappe Cloud
+            fiókhoz is adunk (limitált) hozzáférést.
+            <br /><br />
+             Ha szüksége van egy nagyobb csomagra, kérjük jelezze, mert nálunk
+            az összes Frappe Cloud csomag elérhető a GoCardless integrációval.
+          </p>
         </section>
       </div>
+      <section>
+        <div
+          class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20"
+          id="pricing"
+        >
+          {
+            pricingData.map((item, index) => (
+              <Pricing key={index} plan={item} />
+            ))
+          }
+        </div>
+      </section>
+      <section>
+        <div class="px-5 py-5">
+          <span class="dark:text-white text-black"
+            ><center
+              >A fenti árak havidíjak, amelyek Áfát nem tartalmaznak.</center
+            ></span
+          >
+        </div>
+      </section>
     </div>
   </Container>
 </Layout>
