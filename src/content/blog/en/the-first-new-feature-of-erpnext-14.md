@@ -19,11 +19,12 @@ This feature addresses the limitation of what information is displayed on a kanb
 
 With ERPNext's new feature, we can now choose what information we want to display on the cards. This can be especially useful, as in a previous project, it would have been beneficial to show identifiers received from an external system on ERPNext kanban cards, but unfortunately, this was not possible. Now, it is possible. I'll show you how to select new fields in the image below. Of course, there are limitations, as fields with long text or HTML content cannot fit on a card, so these types of fields cannot be selected for display on the card.
 
-<img src="/images/8UTvjIn.png">
+![Image 1](/images/8UTvjIn.png)
 
-<img src="/images/XSO3Ltr.png">
+![Image 2](/images/XSO3Ltr.png)
 
 The forum post:
-<a href="https://discuss.erpnext.com/t/improved-kanban-board/88414" rel="noopener noreferrer">https://discuss.erpnext.com/t/improved-kanban-board/88414</a>
+[https://discuss.erpnext.com/t/improved-kanban-board/88414](https://discuss.erpnext.com/t/improved-kanban-board/88414)
 
-and the GitHub issue link:</><><a href="https://github.com/frappe/frappe/pull/16257" rel="noopener noreferrer">https://github.com/frappe/frappe/pull/16257</a>
+and the GitHub issue link:
+[https://github.com/frappe/frappe/pull/16257](https://github.com/frappe/frappe/pull/16257)

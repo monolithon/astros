@@ -14,4 +14,6 @@ category:
   - hír
 ---
 
-<p>További részletek hamarosan :)</p><p>Addig is itt látható működés közben: </p><p><br></p><p style="text-align: center;"><img src="/images/jFrMpG9.gif"></p>
+További részletek hamarosan :) Addig is itt látható működés közben:
+
+<img src="/images/jFrMpG9.gif">
