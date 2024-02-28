@@ -13,4 +13,8 @@ category:
   - news
 ---
 
-<p>More details coming soon :)</p><p>In the meantime, you can see it in action here:</p><p><br></p><p style="text-align: center;"><img src="/images/jFrMpG9.gif"></p>
+More details coming soon :)
+
+In the meantime, you can see it in action here:
+
+<p style="text-align: center;"><img src="/images/jFrMpG9.gif"></p>

@@ -13,4 +13,32 @@ category:
   - hír
 ---
 
-<div class="ql-editor read-mode"><h2>Néhány kép a teljesség igénye nélkül az ERPNext 13.0 verzióban debütáló kinézetről</h2><p><img src="/images/új-kinézetet-kap-az-erpnext-130-verzió.png"></p><p><br></p><p><img src="/images/n8poozx.jpe"></p><p><img src="/images/rQEumsm.png"></p><p><img src="/images/Nkig4kq.png"></p><p><img src="/images/9zMH400.png"></p><p><img src="/images/FP2Awuh.png"></p><p><img src="/images/8UaySeQ.png"></p><p><img src="/images/6DHDi62.png"></p><p><img src="/images/Bh9PiHf.png"></p><p><img src="/images/TAabxTX.png"></p><p><img src="/images/akFwxF8.png"></p><p><img src="/images/UP26jaZ.png"></p><p><img src="/images/jtZR6dX.png"></p><p><img src="/images/h0gJyi2.png"></p></div>
+## Néhány kép a teljesség igénye nélkül az ERPNext 13.0 verzióban debütáló kinézetről
+
+![](/images/új-kinézetet-kap-az-erpnext-130-verzió.png)
+
+![](/images/n8poozx.jpe)
+
+![](/images/rQEumsm.png)
+
+![](/images/Nkig4kq.png)
+
+![](/images/9zMH400.png)
+
+![](/images/FP2Awuh.png)
+
+![](/images/8UaySeQ.png)
+
+![](/images/6DHDi62.png)
+
+![](/images/Bh9PiHf.png)
+
+![](/images/TAabxTX.png)
+
+![](/images/akFwxF8.png)
+
+![](/images/UP26jaZ.png)
+
+![](/images/jtZR6dX.png)
+
+![](/images/h0gJyi2.png)
