@@ -1,8 +1,8 @@
 ---
-import { changeLanguage } from "i18next";
-import Layout from "@layouts/Layout.astro";
-import Sectionhead from "@components/sectionhead.astro";
 import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Layout from "@layouts/Layout.astro";
+import { changeLanguage } from "i18next";
 
 changeLanguage("en");
 ---
@@ -288,8 +288,6 @@ changeLanguage("en");
 
 		</div>
 	</div>
-		<script>
-			if (typeof MauticSDKLoaded == "undefined") {
 				var MauticSDKLoaded = true;
 				var head = document.getElementsByTagName("head")[0];
 				var script = document.createElement("script");
