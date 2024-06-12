@@ -11,6 +11,7 @@ snippet: In a previous blog post about ERPNext, BI, and Business Intelligence+Me
 publishDate: 2023-05-9 11:39
 category:
   - news
+language: en-us
 ---
 
 ## What is Frappe Insights?

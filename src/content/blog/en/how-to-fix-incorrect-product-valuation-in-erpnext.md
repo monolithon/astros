@@ -11,6 +11,7 @@ snippet: During the initial implementation of ERPNext, we entered a purchase ord
 publishDate: 2022-06-30 11:39
 category:
   - how-to
+language: en-us
 ---
 
 During the use of ERPNext, a special scenario may occur, as follows:

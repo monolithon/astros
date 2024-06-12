@@ -11,6 +11,7 @@ snippet: Ahogy az egész ERPNext és IT egy folyamatos változási folyamat, úg
 publishDate: 2022-07-22 11:39
 category:
   - hír
+language: hu
 ---
 
 <img src="/images/6xo80eZ.png">

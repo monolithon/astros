@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - how-to
+language: en-us
 ---
 
 Disposal in ERPNext can be solved in several ways.

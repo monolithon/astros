@@ -11,6 +11,7 @@ snippet: ERPNext rendszer használata magyarul, a magyar szabályoknak való meg
 publishDate: 2022-09-4 11:39
 category:
   - hír
+language: hu
 ---
 
 ![Image](/images/mnb-árfolyamok-erpnext-rendszerben.png)

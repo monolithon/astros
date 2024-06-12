@@ -8,10 +8,10 @@ image:
   src: /erpnext-és-az-új-shopify-ecommerce-integráció-webáruházakhoz.png
   alt: ERPNext
 snippet: The ERPNext's own webshop solution was already available, but now the Shopify integration has reached a new level.
-publishDate: 2022-11-3
-  11:39
+publishDate: 2022-11-3 11:39
 category:
   - news
+language: en-us
 ---
 
 The version 13 of ERPNext brought many new features, including the previously introduced revamped user interface and mobile app. One of the new developments is the enhanced ERPNext - Shopify integration. Until now, it was available as part of the ERPNext's core features, but it seems that the development processes have been reconsidered and transformed at the Frappe team, which develops ERPNext. This integration, which was previously an integral part of ERPNext, is now available as a separate "Ecommerce Integration" app on <a href="https://github.com/frappe/ecommerce_integrations" rel="noopener noreferrer">GitHub</a> and the <a href="https://frappecloud.com/marketplace/apps/ecommerce-integrations" rel="noopener noreferrer">Frappé Cloud Marketplace</a>.

@@ -11,6 +11,7 @@ snippet: Egy ERP, ügyviteli rendszer esetén kritikus, hogy mindig elérhető l
 publishDate: 2022-09-10 11:39
 category:
   - hír
+language: hu
 ---
 
 ![Image](/images/zero-downtime.jpg)

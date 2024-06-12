@@ -11,6 +11,7 @@ snippet: Monolithon.com, the Hungarian ERPNext portal, also uses cookies, as mos
 publishDate: 2022-06-30 11:39
 category:
   - news
+language: en-us
 ---
 
 Handling cookies has not been the complicated part when it comes to informing visitors on our ERPNext website about their usage. The real challenge lies in ensuring that if a visitor does not accept the use of cookies, we genuinely do not use them, and as website operators, we do not have access to certain information. However, this also restricts the options for the visitor, for example, the site may forget products left in the cart, etc.

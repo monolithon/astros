@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - how-to
+language: en-us
 ---
 
 As a counterpart to the previous tip, there might be situations where you need to manufacture more products than originally planned. For example, this can happen when a certain subassembly arrives in packaging that you want to fully utilize. As a result, you need to produce more finished goods to avoid wasting any partially used materials.

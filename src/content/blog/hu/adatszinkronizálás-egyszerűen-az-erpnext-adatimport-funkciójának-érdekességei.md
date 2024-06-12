@@ -11,6 +11,7 @@ snippet: A legtöbb ERP bevezetés azt a célt szolgálja, hogy minimalizálja a
 publishDate: 2021-08-23 11:39
 category:
   - hír
+language: hu
 ---
 
 Miért is folytatása ez a bejegyzés az űrlap készítésről szólónak? Mert nem ajánlanék külső szoftver használatot az ERPNext mellett, ha az nem teljesítene két feltételt:

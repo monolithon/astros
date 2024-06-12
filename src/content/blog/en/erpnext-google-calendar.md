@@ -11,6 +11,7 @@ snippet: Synchronizing ERPNext with Google Calendar has been possible for a long
 publishDate: 2022-08-24 11:39
 category:
   - news
+language: en-us
 ---
 
 <img src="/images/erpnext-google-naptar.png"">

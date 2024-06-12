@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 Az általános import, export funkcióról készül egy részletes leírás, és egy kedvcsináló [blogbejegyzés](https://www.monolithon.com/blog/hirek/adatszinkroniz%C3%A1l%C3%A1s-egyszer%C5%B1en-az-erpnext-adatimport-funkci%C3%B3j%C3%A1nak-%C3%A9rdekess%C3%A9gei) is született már róla, de most itt egy érdekességet emelünk csak ki:

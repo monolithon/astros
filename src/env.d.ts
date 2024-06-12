@@ -6,6 +6,7 @@ interface ImportMetaEnv {
   readonly PUBLIC_PADDLE_CLIENT_API_KEY: string;
   readonly PADDLE_CLIENT_API_KEY: string;
   readonly PUBLIC_ENVIRONMENT: string;
+  readonly SITE: string;
 
   // more env variables...
 }

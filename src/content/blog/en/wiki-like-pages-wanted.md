@@ -11,6 +11,7 @@ snippet: The demand for creating wiki-like pages has come up multiple times. Whi
 publishDate: 2022-02-8 11:39
 category:
   - news
+language: en-us
 ---
 
 ![Image 1](/images/wiki-szerű-oldalakat-szeretnék.png)

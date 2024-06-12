@@ -11,6 +11,7 @@ snippet: I have already showcased the flexibility and feature-richness of ERPNex
 publishDate: 2023-02-25 11:39
 category:
   - news
+language: en-us
 ---
 
 The essence of VueStoreFront is that it's not a standalone e-commerce platform like Magento or WooCommerce, but it can function as an extension of any software, even non-e-commerce ones, where the necessary e-commerce data is available. This can include an ERP system, like ERPNext. This is very useful because it allows us to quickly build and customize our e-commerce store separately from other systems, gaining a competitive advantage in terms of speed and technology. At the same time, there's no need to interfere with our business processes as they continue to operate seamlessly in the background. This can also be reversed, as the newer generation of entrepreneurs might start with e-business and launch an online store before establishing a traditional physical store, and they can obtain a complete business software package for that purpose (free and open-source!). The trick is that they all form a unified system, and there's no synchronization between the two systems. Instead, VueStoreFront directly utilizes and interacts with the data from the backend systems, like product information, images, orders, etc.

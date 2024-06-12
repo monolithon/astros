@@ -11,6 +11,7 @@ snippet: Just as ERPNext and IT are in a continuous process of change, the ERPNe
 publishDate: 2022-07-22 11:39
 category:
   - news
+language: en-us
 ---
 
 <img src="/images/6xo80eZ.png">

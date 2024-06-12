@@ -11,6 +11,7 @@ snippet: Talán azt tudjátok, hogy az ERPNext alapból egy Woocommerce integrá
 publishDate: 2021-05-31 11:39
 category:
   - hír
+language: hu
 ---
 
 Nincs nagy titok, azért került bele a Woocommerce integráció az ERPNext-be, mert a Woocommerce az egyik legelterjedtebb blogmotorba integrált ecommerce, azaz webáruház megoldás a világon. De ez csak az egyik fele a dolognak. A másik az, hogy jelenleg az ERPNext-ben található beépített webáruház csak bizonyos korlátok között működik. B2B szolgáltatóknak már most megfelelő lehet, mert ott jellemzően olyan vevők vannak, akik előre regisztráltak, vagy mi magunk regisztráltuk őket és adtunk hozzáférést a webáruházhoz. B2C szektorban azonban zavaró lehet, hogy a vásárlási folyamatot megakasztja a kötelező regisztráció, ami nélkül nem lehet befejezni a vásárlást. És ez a kosár funkció hiányosságával együtt már nagyban rombolhatja a konverziót.

@@ -11,6 +11,7 @@ snippet: A tipikus felhő rendszerek, ahol az ERPNext-tel ellentétben nem a fel
 publishDate: 2022-11-17 11:39
 category:
   - hír
+language: hu
 ---
 
 A tipikus felhő rendszerek, ahol az ERPNext-tel ellentétben nem a felhasznált erőforrás alapján áraznak a szolgáltatók, hanem valami más alapján, valójában szintén használnak mindenféle erőfforást, csak ezek részleteit sok helyen elrejtik a felhasználók elől.

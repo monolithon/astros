@@ -11,6 +11,7 @@ snippet: A monolithon.com, a magyar ERPNext portál is használ sütiket, ahogy 
 publishDate: 2022-06-30 11:39
 category:
   - hír
+language: hu
 ---
 
 A sütik (cookie) kezelésben a korábbiakban sem az volt a bonyolult, hogy erről tájékoztatni kell az oldal látogatókat az ERPNext weboldalunkon, hanem az, hogy amennyiben a látogató nem fogadja el a sütik használatát, akkor tényleg nem használhatunk sütiket és így weboldal üzemeltetőként nem férünk hozzá bizonyos információkhoz. De persze ezzel a látogatónak is szűkülnek a lehetőségei, mert például a kosárban hagyott termékeket is elfelejti az oldal stb.

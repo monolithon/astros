@@ -11,6 +11,7 @@ snippet: Elindult a magyar ERPNext tudásbázis. Folyamatosan új tartalmakkal.
 publishDate: 2022-06-30 11:39
 category:
   - hír
+language: hu
 ---
 
 ![Screenshot](/images/Screenshot (73).png)

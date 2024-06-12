@@ -11,6 +11,7 @@ snippet: ERPNext GoCardless app arrived!
 publishDate: 2023-12-27 13:39
 category:
   - news
+language: en-us
 ---
 
 ERPNext Bank Synchronization with GoCardless Integration not just for Hungarian Banks

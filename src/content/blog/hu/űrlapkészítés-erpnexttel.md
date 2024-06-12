@@ -11,6 +11,7 @@ snippet: Az online és lássuk be az offline üzlet sem működtethető jó kér
 publishDate: 2021-08-23 11:39
 category:
   - hír
+language: hu
 ---
 
 Az ERPNext segítségével készíthetünk űrlapokat, sőt gyakorlatilag az összes ERPNext-ben elérhető dokumentumhoz készíthetünk űrlapot, amit akár az ERPNext weboldalán is megjeleníthetjük. Ez nem túl bonyolult, de nem is olyan egyszerű, mint például egy Google űrlappal készített megoldás. Ha valakit az ERPNexttel történő űrlapkészítés részletei érdekelnek, azok minden fontos információt megtalálnak a dokumentációban a következő címen:
