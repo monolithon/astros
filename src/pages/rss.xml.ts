@@ -15,8 +15,9 @@ export const get = async () => {
   const huBlogs = posts.filter((post) => post.slug.startsWith("hu/"));
 
   const enRss = await rss({
-    title: `Astros`,
-    description: "Astros - Starter Template for Astro with Tailwind CSS",
+    title: "Monolithon - ERPNext, Frappe, Odoo and more",
+    description:
+      "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
     site: import.meta.env.SITE,
     customData: `<language>en-us</language>`,
 
@@ -29,8 +30,9 @@ export const get = async () => {
   });
 
   const huRss = await rss({
-    title: `Astros`,
-    description: "Astros - Starter Template for Astro with Tailwind CSS",
+    title: "Monolithon - ERPNext, Frappe, Odoo and more",
+    description:
+      "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
     site: import.meta.env.SITE,
     customData: `<language>hu</language>`,
 
