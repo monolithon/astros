@@ -11,6 +11,7 @@ snippet: Mivel az ERPNext alapja a számlatükör, ezért arra a következtetés
 publishDate: 2022-10-23 11:39
 category:
   - hír
+language: hu
 ---
 
 Sziasztok!

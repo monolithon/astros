@@ -11,6 +11,7 @@ snippet: Türker TUNALI, our Turkish colleague, spotted the upcoming new Workflo
 publishDate: 2023-05-9 11:39
 category:
   - news
+language: en-us
 ---
 
 Türker TUNALI shared on Twitter the new Workflow Builder coming to ERPNext: [https://twitter.com/turker_tunali/status/1653703276842434560](https://twitter.com/turker_tunali/status/1653703276842434560)

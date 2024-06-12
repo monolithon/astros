@@ -11,6 +11,7 @@ snippet: Oldalunkat ugyan eddig is indexelte a Google, mert az nem volt letiltva
 publishDate: 2022-09-26 11:39
 category:
   - hír
+language: hu
 ---
 
 <img src="/images/erpnext-weboldal-google-indexelése.png">

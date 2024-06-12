@@ -11,6 +11,7 @@ snippet: The Hungarian ERPNext knowledge base has been launched. Constantly upda
 publishDate: 2022-06-30 11:39
 category:
   - news
+language: en-us
 ---
 
 <img src="/images/Screenshot (73).png">

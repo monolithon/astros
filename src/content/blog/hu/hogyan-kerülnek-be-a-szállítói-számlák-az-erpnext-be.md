@@ -11,6 +11,7 @@ snippet: Erre több megoldás is van. Az egyik legegyszerűbb ha van Purchase Or
 publishDate: 2022-10-16 11:39
 category:
   - hír
+language: hu
 ---
 
 A másik megoldás lehet, hogy ha a tételek már megérkeztek és a szállítólevél rögzítve lett a rendszerben, akkor abból kiindulva is készíthetünk egy szállítói számlát.

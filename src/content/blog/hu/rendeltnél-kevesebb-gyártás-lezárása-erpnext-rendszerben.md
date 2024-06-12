@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 Az ERPNextben a gyártás megrendelésénl el kell döntenünk, hogy mennyit szeretnénk gyártani. Hogy mennyit gyártsunk, ahhoz adhat az ERPNext segítséget, de most nem ezt vizsgáljuk.

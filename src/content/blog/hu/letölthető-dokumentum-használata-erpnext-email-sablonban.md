@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2023-05-9 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 Példa (Delivery Note-hoz):

@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-09-10 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 Ez csak egy rövid megjegyzés, mert gyakran visszatérő kérdés, hogyan lehet javítani a már beküldött dokumentumokon, jellmezően számlákon a nem, vagy rosszul beállított cost center mezőket.

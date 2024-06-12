@@ -11,6 +11,7 @@ snippet: Az ERPNext beveztésekor felvittünk egy idegen pénzneben lévő besze
 publishDate: 2022-06-30 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 Olyan speciális eset is előállhat az ERPNext használata közben, mint például a következő:

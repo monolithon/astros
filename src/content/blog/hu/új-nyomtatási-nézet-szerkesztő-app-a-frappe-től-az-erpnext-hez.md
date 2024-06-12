@@ -11,6 +11,7 @@ snippet: Más rendszerekhez képest eddig is egyszerűbb volt a nyomtatandó vag
 publishDate: 2023-07-3 11:39
 category:
   - hír
+language: hu
 ---
 
 A magyar ERPNext tudásbázisban, kézikönyvben adtunk néhány tippet a nyomtatandó vagy pdf dokumentumok elkészítéséhez, úgy látható volt, hogy egyszerűen gyorsan lehetett új dokumentumokat készíteni vagy meglévőket átalakítani, ezt emelte most a Frappe egy magasabb szintre. Itt már a korábban jelzett tippekre, trükköre sincs szükség.

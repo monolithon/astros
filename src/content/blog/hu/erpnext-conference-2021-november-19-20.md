@@ -11,6 +11,7 @@ snippet: A 2020-ban COVID miatt elmaradt ERPNext konferencia idén végre vissza
 publishDate: 2023-11-05 11:39
 category:
   - news
+language: hu
 ---
 
 A 2021-es ERPNext konferencia témáit a szervezők négy témakör köré csoportosították.

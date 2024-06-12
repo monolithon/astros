@@ -11,6 +11,7 @@ snippet: Az ERPNext egy üzleti szoftver, azonban az azt létrehozó emberek egy
 publishDate: 2022-10-01 11:39
 category:
   - hír
+language: hu
 ---
 
 Az ERPnext az ERPNext-et fejlesztő csapat által kialakított flexibilis "keretrendszerre" a Frappe keretrendszerre épül. Valójában appok, alkalmazások gyűjteménye az ERPNext, amit a Frappe keretrendszerre kell telepíteni. Az ERPNext fejlesztést Rushabh Mehta kezdte meg néhány társával és ahogy nőtt a cég, úgy hozták létre a Frappe szervezetet és a termékkel együtt nőtt és formálódott maga a szervezet is.

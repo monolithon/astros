@@ -11,6 +11,7 @@ snippet: The ERPNext conference, which was canceled in 2020 due to COVID, is fin
 publishDate: 2022-11-5 11:39
 category:
   - news
+language: en-us
 ---
 
 The themes of the 2021 ERPNext conference are grouped into four categories by the organizers.

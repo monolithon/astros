@@ -11,6 +11,7 @@ snippet: Megjelent az Odoo legújabb, Odoo 17-es verziója. Rengeteg újdonság,
 publishDate: 2023-11-11 13:39
 category:
   - hír
+language: hu
 ---
 
 A szokásos éves Odoo Experience konferencián idén is bemutatta az Odoo S.A. a soronkövetkező, legújabb Odoo verziót, ami az Odoo 17.

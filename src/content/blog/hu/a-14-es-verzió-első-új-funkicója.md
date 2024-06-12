@@ -11,6 +11,7 @@ snippet: A github-on követhető, hogy milyen új funkciók és javítások ker�
 publishDate: 2022-04-12 11:39
 category:
   - hír
+language: hu
 ---
 
 A kanban tábla eddig is nagyon hasznos volt, elég sok mindenre lehetett használni, de főleg a projektmenedzsmentben ismert. Egy új, sokszor kérdezett funkciót most egy ERPNext fejlesztő-partner az ERPNext/Frappe fejlesztők támogatásával megvalósított.</p><p><br></p><p>Ez nem más annak a limitációnak a feloldása, hogy mi jelenjen meg egy kanban kártyán. Eddig ugyanis ezek fixek voltak az ERPNext-ben. Azaz a minden kanban kártyán csak a kártya neve, Task/Feladat esetén annak neve szerepelt, illetve, hogy kihez van hozzárendelve, és persze a sürgősség.

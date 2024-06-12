@@ -11,6 +11,7 @@ snippet: For an ERP and business management system, it is critical to be always 
 publishDate: 2022-09-10 11:39
 category:
   - news
+language: en-us
 ---
 
 ![Image](/images/zero-downtime.jpg)

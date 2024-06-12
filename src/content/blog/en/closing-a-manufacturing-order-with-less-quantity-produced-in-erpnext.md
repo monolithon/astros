@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - how-to
+language: en-us
 ---
 
 In ERPNext, when creating a manufacturing order, we need to decide how much we want to produce. The system can help us with determining the quantity to produce, but that's not what we are looking at right now.

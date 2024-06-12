@@ -11,6 +11,7 @@ snippet: ERPNext magyar számlázás Monolithon megközelítések
 publishDate: 2023-12-27 18:50
 category:
   - hír
+language: hu
 ---
 
 ## Miért nem készült már el az ERPNext magyar számlázási megoldás?

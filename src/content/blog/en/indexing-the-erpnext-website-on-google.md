@@ -11,6 +11,7 @@ snippet: Our website has been indexed by Google so far, as it was not blocked. B
 publishDate: 2022-09-26 11:39
 category:
   - news
+language: en-us
 ---
 
 <img src="/images/erpnext-weboldal-google-indexelése.png">

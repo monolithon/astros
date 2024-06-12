@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 Előforudl az előző tippben jegyzett gyakorlat ellentétje is, ami azt jelenti, hogy nem kevesebbet, hanem többet gyártunk, mint eredetileg terveztük. Ez például olyankor fordulhat elő, ha valamelyik részegység olyan kiszerelésben érkezik, aminek minden darabját szeretnék felhasználni, ezért több készterméket is gyártunk, hogy ne maradjon bizonyos megbontott, de fel nem használt alapanyag.

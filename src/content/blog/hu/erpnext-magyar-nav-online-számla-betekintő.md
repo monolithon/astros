@@ -12,6 +12,7 @@ snippet: Így működik a vevők/szállítók gyors létrehozása az ERPNext-ben
 publishDate: 2022-10-1 11:39
 category:
   - hír
+language: hu
 ---
 
 További részletek hamarosan :) Addig is itt látható működés közben:

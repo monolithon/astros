@@ -11,6 +11,7 @@ snippet: There are several ways to do this. One of the simplest is to create a P
 publishDate: 2022-10-16 11:39
 category:
   - news
+language: en-us
 ---
 
 Another solution is to create a Supplier Invoice based on the received items and the registered Delivery Note in the system.

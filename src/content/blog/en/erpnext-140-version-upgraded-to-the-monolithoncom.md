@@ -11,6 +11,7 @@ snippet: The Hungarian ERPNext and Frappe portal is now running on version 14.
 publishDate: 2022-09-28 11:39
 category:
   - news
+language: en-us
 ---
 
 As usual, I followed the news and developments about ERPNext and Frappe version 14 even before its release, and I couldn't wait to try it out. After getting acquainted with the developer version, I also tested the official release, and although I didn't encounter any issues, as is advisable in such cases, we didn't immediately upgrade to the latest version. As I mentioned in the <a href="https://www.monolithon.com/blog/hirek/erpnext-14-megjelen%C3%A9s" rel="noopener noreferrer">previous post</a>, there were no issues with new installations, but a few bugs appeared during the upgrade from the previous version.

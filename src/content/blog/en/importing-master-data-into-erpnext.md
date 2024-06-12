@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - how-to
+language: en-us
 ---
 
 There is a detailed description of the general import and export functionality, and also a blog post about it as an appetizer (<a href="https://www.monolithon.com/blog/hirek/adatszinkroniz%C3%A1l%C3%A1s-egyszer%C5%B1en-az-erpnext-adatimport-funkci%C3%B3j%C3%A1nak-%C3%A9rdekess%C3%A9gei" rel="noopener noreferrer">link here</a>), but now we will focus on an interesting aspect:

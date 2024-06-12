@@ -11,6 +11,7 @@ snippet: Az Odoo nyomtatási nézet szerkesztője közel nem olyan felhasználó
 publishDate: 2023-07-17 11:39
 category:
   - hír
+language: hu
 ---
 
 Az Odoo nyomtatási nézet szerkesztője közel nem olyan felhasználóbarát, mint amit a Frappe kínál az ERPNext-hez, főleg az <a href="https://www.monolithon.com/blog/hirek/%C3%BAj-nyomtat%C3%A1si-n%C3%A9zet-szerkeszt%C5%91-app-a-frappe-t%C5%91l-az-erpnext-hez">előző posztban</a> bemutatott megújított változat. De nem is a versengés a lényeg és nem egy vagy-vagy szituációra szeretnénk kiélezni a helyzetet, hiszen a Monolithon az ERPNext és Frappe mellett, ahogy a blogon is többször beszámoltunk róla, más-más szoftvert is használ és támogat - köztük az Odoo-t és az n8n-et is, mert meggyőződésünk, hogy a megfelelő feladatra kell a megfelelő szoftvert megtalálni, és nem mindenkinek, nem mindenre ugyan az lesz a legjobb megoldás. (Mégha szeretnénk is, ha az ERPNext és a Frappe minél jobban elterjedjen.)

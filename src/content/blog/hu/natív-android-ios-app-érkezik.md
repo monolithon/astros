@@ -11,6 +11,7 @@ snippet: Az ERPNext eddig is jól állt a mobilos használat terén, Android és
 publishDate: 2021-02-24 11:39
 category:
   - hír
+language: hu
 ---
 
 A korábbi mobilappal ellentétben nem a responsive design képességeit használják ki, amely valójában egy becsomagolt weboldal volt, hanem az ERPNext API-jának köszönhetően natív appként kerül megújításra. Ez azt teszi lehetővé, hogy a mobilos felhasználhatóság még gördülékenyebb legyen és a mobil erőforrásait jobban kiaknázza, amely stabilabb, gyorsabb működést tesz lehetővé.

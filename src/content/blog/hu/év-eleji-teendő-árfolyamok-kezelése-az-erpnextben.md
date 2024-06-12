@@ -11,6 +11,7 @@ snippet: Az ERPNext korábban is képes volt az aktuális árfolyamokat kezelni,
 publishDate: 2022-01-9 11:39
 category:
   - hír
+language: hu
 ---
 
 A magyar szabályozás szerint a könyvelésünkben az árfolyamok kezelésére három lehetőség közül választhatunk:

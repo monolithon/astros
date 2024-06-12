@@ -11,6 +11,7 @@ snippet: Az ERPNext fejlesztéséről érdemes tudni néhány dolgot. Az ERPNext
 publishDate: 2023-02-18 11:39
 category:
   - hír
+language: hu
 ---
 
 Az ERPNext fejelsztésével kapcsolatban összeszedtem néhány információt és hasznos ERPNext specifikus fejlesztői eszközt, amelyek segíthetnek egy ERPNext fejlesztési projekt alapjainak megismerésében. De, hogy érdemes-e egyáltalán ERPNext fejlesztésben gondolkodni és ha igen, akkor milyen feltételek mellett azt a bejegyzés végére tartogatom. Lássuk az ERPNext fejlesztés néhány alappillérét:

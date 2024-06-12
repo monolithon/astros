@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-09-10 11:39
 category:
   - how-to
+language: en-us
 ---
 
 This is just a short note in response to a frequently asked question about how to correct the cost center fields on submitted documents, typically on invoices, when they are missing or set incorrectly.

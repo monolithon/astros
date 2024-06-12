@@ -11,6 +11,7 @@ snippet: This year, the ERPNext conference organized by Frappe emphasized in-per
 publishDate: 2022-09-26 11:39
 category:
   - news
+language: en-us
 ---
 
 <img src="/images/erpnext-konferencia-2022-a-frappe-csapat-szervezésében.jpg">

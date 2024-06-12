@@ -11,6 +11,7 @@ snippet: A monolithon.com továbbra is ERPNext rendszeren fut, de a publikus web
 publishDate: 2023-11-11 11:39
 category:
   - hír
+language: hu
 ---
 
 A blog nem szűnt meg, de ahelyett, hogy a szokásos menetben publikáltam volna, úgy döntöttem előbb be kell fejelzni a monolithon.com weboldal átalalakítását.

@@ -11,6 +11,7 @@ snippet: You might know that ERPNext comes with a built-in Woocommerce integrati
 publishDate: 2021-05-31 11:39
 category:
   - news
+language: en-us
 ---
 
 It's no big secret that the Woocommerce integration was included in ERPNext because Woocommerce is one of the most popular ecommerce solutions integrated into blogging platforms worldwide. But that's only one part of the story. The other part is that the built-in webshop in ERPNext works only under certain limitations. It might be suitable for B2B service providers because they typically have registered customers, or they manually registered them and granted access to the webshop. However, in the B2C sector, it can be annoying that the mandatory registration interrupts the purchase process, and without it, the purchase cannot be completed. Along with the shortcomings in the shopping cart function, this can significantly reduce the conversion rate.

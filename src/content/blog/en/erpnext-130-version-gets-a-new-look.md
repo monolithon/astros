@@ -11,6 +11,7 @@ snippet: The ERPNext interface has always been streamlined, but with further sim
 publishDate: 2021-02-23 11:39
 category:
   - news
+language: en-us
 ---
 
 ## Here are some screenshots of the new look debuting in ERPNext 13.0 version:

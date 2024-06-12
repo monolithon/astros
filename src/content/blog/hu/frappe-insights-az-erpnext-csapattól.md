@@ -11,6 +11,7 @@ snippet: Korábbi ERPNext, BI és üzleti intelligencia+Metabase című blogbeje
 publishDate: 2023-05-9 11:39
 category:
   - hír
+language: hu
 ---
 
 ## Mi is az a Frappe Insights?

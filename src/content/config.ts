@@ -1,5 +1,5 @@
 // 1. Import utilities from `astro:content`
-import { z, defineCollection } from "astro:content";
+import { defineCollection, z } from "astro:content";
 
 // 2. Define your collection(s)
 const blogCollection = defineCollection({
@@ -15,6 +15,7 @@ const blogCollection = defineCollection({
     author: z.string().default("YourCompany"),
     category: z.array(z.string()),
     tags: z.array(z.string()),
+    language: z.string().default("hu"),
   }),
 });
 
