@@ -25,6 +25,7 @@ export const get = async () => {
       link: post.slug,
       title: post.data.title,
       description: post.data.snippet,
+      content: post.body,
       pubDate: post.data.publishDate,
     })),
   });
@@ -40,6 +41,7 @@ export const get = async () => {
       link: post.slug,
       title: post.data.title,
       description: post.data.snippet,
+      content: post.body,
       pubDate: post.data.publishDate,
     })),
   });

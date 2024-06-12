@@ -1,1 +1,1039 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Astros</title><description>Astros - Starter Template for Astro with Tailwind CSS</description><link>https://www.monolithon.com/</link><language>hu</language><item><title>ERPNext magyar számlázás Monolithon megközelítése</title><link>https://www.monolithon.com/hu/blog/erpnext-magyar-szamlazas-megkozelites/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-magyar-szamlazas-megkozelites/</guid><description>ERPNext magyar számlázás Monolithon megközelítések</description><pubDate>Wed, 27 Dec 2023 13:20:00 GMT</pubDate></item><item><title>ERPNext GoCardless bank szinkronizálás</title><link>https://www.monolithon.com/hu/blog/erpnext-bank-szinkronizalas/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-bank-szinkronizalas/</guid><description>Megjelent a bank szinkronizáló alkalmazásunk ERPNext-hez.</description><pubDate>Wed, 27 Dec 2023 08:09:00 GMT</pubDate></item><item><title>Odoo 17.0 megjelenés</title><link>https://www.monolithon.com/hu/blog/odoo-17-megjelenes/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/odoo-17-megjelenes/</guid><description>Megjelent az Odoo legújabb, Odoo 17-es verziója. Rengeteg újdonság, hatalmas lehetőségek és fontos döntések.</description><pubDate>Sat, 11 Nov 2023 08:09:00 GMT</pubDate></item><item><title>ERPNext 15.0 verzió megjelenése</title><link>https://www.monolithon.com/hu/blog/erpnext-15-megjelenes/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-15-megjelenes/</guid><description>Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az ERPNext konferencia, de nagyrészt az is az új verzióról szólt.</description><pubDate>Sat, 11 Nov 2023 07:09:00 GMT</pubDate></item><item><title>Villámgyors statikus weboldal astro.build alapokon</title><link>https://www.monolithon.com/hu/blog/villamgyors-statikus-webolda-astro-build-alapokon/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/villamgyors-statikus-webolda-astro-build-alapokon/</guid><description>A monolithon.com továbbra is ERPNext rendszeren fut, de a publikus weboldalt leválasztottuk és már astro.build-et használunk hozzá.</description><pubDate>Sat, 11 Nov 2023 06:09:00 GMT</pubDate></item><item><title>ERPNext konferencia 2021. november 19-20.</title><link>https://www.monolithon.com/hu/blog/erpnext-conference-2021-november-19-20/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-conference-2021-november-19-20/</guid><description>A 2020-ban COVID miatt elmaradt ERPNext konferencia idén végre visszatér és újra megrendezésre kerül az ERPNext fejlesztői, a Frappe által.</description><pubDate>Sun, 05 Nov 2023 06:09:00 GMT</pubDate></item><item><title>monolithon.com - Odoo és ERPNext a Frappe-vel együtt</title><link>https://www.monolithon.com/hu/blog/odoo-%C3%A9s-erpnext-a-frappe-vel-egy%C3%BCtt/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/odoo-%C3%A9s-erpnext-a-frappe-vel-egy%C3%BCtt/</guid><description>Az Odoo nyomtatási nézet szerkesztője közel nem olyan felhasználóbarát, mint amit a Frappe kínál az ERPNext-hez, főleg az előző posztban bemutatott, megújított változat.</description><pubDate>Mon, 17 Jul 2023 06:09:00 GMT</pubDate></item><item><title>Új nyomtatási nézet szerkesztő app a Frappe-től az ERPNext-hez</title><link>https://www.monolithon.com/hu/blog/%C3%BAj-nyomtat%C3%A1si-n%C3%A9zet-szerkeszt%C5%91-app-a-frappe-t%C5%91l-az-erpnext-hez/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%BAj-nyomtat%C3%A1si-n%C3%A9zet-szerkeszt%C5%91-app-a-frappe-t%C5%91l-az-erpnext-hez/</guid><description>Más rendszerekhez képest eddig is egyszerűbb volt a nyomtatandó vagy pdf dokumentumok elkészítése az ERPNext-tel, de mostantól tényleg bárkinek gyerekjáték.</description><pubDate>Mon, 03 Jul 2023 06:09:00 GMT</pubDate></item><item><title>Frappe Insights az ERPNext csapattól</title><link>https://www.monolithon.com/hu/blog/frappe-insights-az-erpnext-csapatt%C3%B3l/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/frappe-insights-az-erpnext-csapatt%C3%B3l/</guid><description>Korábbi ERPNext, BI és üzleti intelligencia+Metabase című blogbejegyzésben direkt nem említettem, hogy a Frappe csapatnak is van hasonló megoldása, mert ezt a külön bejegyzést terveztem neki.</description><pubDate>Tue, 09 May 2023 06:09:00 GMT</pubDate></item><item><title>Letölthető dokumentum használata ERPNext email sablonban</title><link>https://www.monolithon.com/hu/blog/let%C3%B6lthet%C5%91-dokumentum-haszn%C3%A1lata-erpnext-email-sablonban/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/let%C3%B6lthet%C5%91-dokumentum-haszn%C3%A1lata-erpnext-email-sablonban/</guid><pubDate>Tue, 09 May 2023 06:09:00 GMT</pubDate></item><item><title>Új Workflow Builder érkezik az ERPNext-be</title><link>https://www.monolithon.com/hu/blog/%C3%BAj-workflow-builder-%C3%A9rkezik-az-erpnext-be/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%BAj-workflow-builder-%C3%A9rkezik-az-erpnext-be/</guid><description>Türker TUNALI török kolléga szúrta ki a GitHub tárolóban az új Workflow Buildert.</description><pubDate>Tue, 09 May 2023 06:09:00 GMT</pubDate></item><item><title>Könyvelés ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</guid><description>Az ERPNext rendszerben történő könyveléssel kapcsolatban régóta tartoztam egy cikkel, amiben összeszedtem néhány talán másoknak is hasznos szempontot.</description><pubDate>Fri, 07 Apr 2023 06:09:00 GMT</pubDate></item><item><title>Chromebook és az ERPNext</title><link>https://www.monolithon.com/hu/blog/chromebook-%C3%A9s-az-erpnext/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/chromebook-%C3%A9s-az-erpnext/</guid><description>Régóta készülök egy Chromebook ajánlóval, de most jött el az ideje, mert egy ideje tényleg mindkettő nagyon jó választás a mindennapi személyes és üzleti életben is.</description><pubDate>Tue, 21 Mar 2023 06:09:00 GMT</pubDate></item><item><title>VueStoreFront a webáruházak headless svájcibicskája - fejlesztői környezet kialakítása</title><link>https://www.monolithon.com/hu/blog/vuestorefront-a-web%C3%A1ruh%C3%A1zak-headless-sv%C3%A1jcibicsk%C3%A1ja-fejleszt%C5%91i-k%C3%B6rnyezet-kialak%C3%ADt%C3%A1sa/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/vuestorefront-a-web%C3%A1ruh%C3%A1zak-headless-sv%C3%A1jcibicsk%C3%A1ja-fejleszt%C5%91i-k%C3%B6rnyezet-kialak%C3%ADt%C3%A1sa/</guid><description>Az ERPNext rugalmasságát, funkciógazdagsát már bemutattam, de azt is többször megemlítettem hogy érdemes más szoftverekkel együtt használni. Ilyen a VueStoreFront headless webáruház megoldás is.</description><pubDate>Sat, 25 Feb 2023 06:09:00 GMT</pubDate></item><item><title>ERPNext fejlesztés és fejlesztői eszközök</title><link>https://www.monolithon.com/hu/blog/erpnext-fejleszt%C3%A9s-%C3%A9s-ejleszt%C5%91i-eszk%C3%B6z%C3%B6k/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-fejleszt%C3%A9s-%C3%A9s-ejleszt%C5%91i-eszk%C3%B6z%C3%B6k/</guid><description>Az ERPNext fejlesztéséről érdemes tudni néhány dolgot. Az ERPNext könnyen testre szabható és bővíthető, így a felhasználók személyre szabhatják a rendszert a vállalkozásuk egyedi igényei szerint.</description><pubDate>Sat, 18 Feb 2023 06:09:00 GMT</pubDate></item><item><title>ERPNext, BI és üzleti intelligencia+Metabase</title><link>https://www.monolithon.com/hu/blog/erpnext-bi-%C3%A9s-%C3%BCzleti-intelligencia-metabase/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-bi-%C3%A9s-%C3%BCzleti-intelligencia-metabase/</guid><description>Az ERPNext-re érdemes úgy tekintenünk, mint egy adattárházra és minden fontos üzleti adat központi tárolóegységére.</description><pubDate>Thu, 09 Feb 2023 06:09:00 GMT</pubDate></item><item><title>Mitől hízik az ERPNext adatbázis és mit tehetünk?</title><link>https://www.monolithon.com/hu/blog/mit%C5%91l-h%C3%ADzik-az-erpnext-adatb%C3%A1zis-%C3%A9s-mit-tehet%C3%BCnk/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/mit%C5%91l-h%C3%ADzik-az-erpnext-adatb%C3%A1zis-%C3%A9s-mit-tehet%C3%BCnk/</guid><description>A tipikus felhő rendszerek, ahol az ERPNext-tel ellentétben nem a felhasznált erőforrás alapján áraznak a szolgáltatók, hanem valami más alapján, valójában  szintén használnak mindenféle erőfforást...</description><pubDate>Thu, 17 Nov 2022 06:09:00 GMT</pubDate></item><item><title>Magyar mikrogazdálkodói számlatükör</title><link>https://www.monolithon.com/hu/blog/magyar-mikrogazd%C3%A1lkod%C3%B3i-sz%C3%A1mlat%C3%BCk%C3%B6r/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/magyar-mikrogazd%C3%A1lkod%C3%B3i-sz%C3%A1mlat%C3%BCk%C3%B6r/</guid><description>Mivel az ERPNext alapja a számlatükör, ezért arra a következtetésre jutottunk, hogy célszerű lenne a számlatükröt, számlatükröket, illetve azok alapján az alapértelmezett számlákat beállítani</description><pubDate>Sun, 23 Oct 2022 06:09:00 GMT</pubDate></item><item><title>Hogyan kerülnek be a szállítói számlák az ERPNext-be?</title><link>https://www.monolithon.com/hu/blog/hogyan-ker%C3%BClnek-be-a-sz%C3%A1ll%C3%ADt%C3%B3i-sz%C3%A1ml%C3%A1k-az-erpnext-be/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/hogyan-ker%C3%BClnek-be-a-sz%C3%A1ll%C3%ADt%C3%B3i-sz%C3%A1ml%C3%A1k-az-erpnext-be/</guid><description>Erre több megoldás is van. Az egyik legegyszerűbb ha van Purchase Order (Beszerzési megrendelés) a rendszerben, akkor abból tudunk generálni Szállítói számlát (Purchase Invoice).</description><pubDate>Sun, 16 Oct 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext EU adószám ellenőrzés</title><link>https://www.monolithon.com/hu/blog/erpnext-eu-ad%C3%B3sz%C3%A1m-ellen%C5%91rz%C3%A9s/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-eu-ad%C3%B3sz%C3%A1m-ellen%C5%91rz%C3%A9s/</guid><description>Az ERPNext magyar számlázásnak sok része van a téma komplexitásából adódóan. EU partner esetén az EU adószám ellenőrzése kulcskérdés.</description><pubDate>Tue, 11 Oct 2022 06:09:00 GMT</pubDate></item><item><title>Betekintés az ERPNext és Frappe szellemiségébe</title><link>https://www.monolithon.com/hu/blog/az-erpnext/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/az-erpnext/</guid><description>Az ERPNext egy üzleti szoftver, azonban az azt létrehozó emberek egy új szervezeti kultúrát megvalósítva dolgoznak nap, mint nap, hogy egyre jobb legyen az ERPNext.</description><pubDate>Sat, 01 Oct 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext magyar NAV online számla betekintő</title><link>https://www.monolithon.com/hu/blog/erpnext-magyar-nav-online-sz%C3%A1mla-betekint%C5%91/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-magyar-nav-online-sz%C3%A1mla-betekint%C5%91/</guid><description>Így működik a vevők/szállítók gyors létrehozása az ERPNext-ben. Ehhez a NAV online számla rendszeréből adószám alapján kapjuk az adatot. Ez az ERPNext magyar NAV kompatibilis számlázás alapja.</description><pubDate>Sat, 01 Oct 2022 06:09:00 GMT</pubDate></item><item><title>Számlakép és egyéb nyomtatási nézetek és fordítások ERPNext-ben</title><link>https://www.monolithon.com/hu/blog/sz%C3%A1mlak%C3%A9p-%C3%A9s-egy%C3%A9b-nyomtat%C3%A1si-n%C3%A9zetek-%C3%A9s-ford%C3%ADt%C3%A1sok-erpnext-ben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/sz%C3%A1mlak%C3%A9p-%C3%A9s-egy%C3%A9b-nyomtat%C3%A1si-n%C3%A9zetek-%C3%A9s-ford%C3%ADt%C3%A1sok-erpnext-ben/</guid><pubDate>Thu, 29 Sep 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext 14.0 verzióra frissítettük a monolithon.com-ot</title><link>https://www.monolithon.com/hu/blog/erpnext-140-verzi%C3%B3ra-friss%C3%ADtett%C3%BCk-a-monolithoncom-ot/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-140-verzi%C3%B3ra-friss%C3%ADtett%C3%BCk-a-monolithoncom-ot/</guid><description>A magyar ERPNext és Frappe portál már a rendszer 14-es verzióján fut.</description><pubDate>Wed, 28 Sep 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext konferencia 2022 a Frappe csapat szervezésében</title><link>https://www.monolithon.com/hu/blog/erpnext-konferencia-2022-a-frappe-csapat-szervez%C3%A9s%C3%A9ben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-konferencia-2022-a-frappe-csapat-szervez%C3%A9s%C3%A9ben/</guid><description>Idén újra megrendezésre került a Frappe által szervezett ERPNext konferencia.</description><pubDate>Mon, 26 Sep 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext weboldal Google indexelése</title><link>https://www.monolithon.com/hu/blog/erpnext-weboldal-google-indexel%C3%A9se/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-weboldal-google-indexel%C3%A9se/</guid><description>Oldalunkat ugyan eddig is indexelte a Google, mert az nem volt letiltva. De lehet ezt még jobban csinálni.</description><pubDate>Mon, 26 Sep 2022 06:09:00 GMT</pubDate></item><item><title>Analitikus könyvelés, költséghelyek és profitcenterek</title><link>https://www.monolithon.com/hu/blog/analitikus-k%C3%B6nyvel%C3%A9s-k%C3%B6lts%C3%A9ghelyek-%C3%A9s-profitcenterek/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/analitikus-k%C3%B6nyvel%C3%A9s-k%C3%B6lts%C3%A9ghelyek-%C3%A9s-profitcenterek/</guid><pubDate>Sat, 10 Sep 2022 06:09:00 GMT</pubDate></item><item><title>Új ERPNext funkció Üzemeltetés nulla leállással - zero downtime*</title><link>https://www.monolithon.com/hu/blog/zero-downtime/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/zero-downtime/</guid><description>Egy ERP, ügyviteli rendszer esetén kritikus, hogy mindig elérhető legyen és működjön, amikor szükség van rá. Hogy mikor van rá szükség az az üzlet sajátosságaitól függ.</description><pubDate>Sat, 10 Sep 2022 06:09:00 GMT</pubDate></item><item><title>MNB árfolyamok ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/mnb-%C3%A1rfolyamok-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/mnb-%C3%A1rfolyamok-erpnext-rendszerben/</guid><description>ERPNext rendszer használata magyarul, a magyar szabályoknak való megfeleltetés sok lokalizációs feladatot jelent. Egyik ilyen az MNB árfolyamok kezelése. Most ennek a megoldását mutatom be!</description><pubDate>Sun, 04 Sep 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext Google Naptár szinkronizáció</title><link>https://www.monolithon.com/hu/blog/erpnext-google-naptar/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-google-naptar/</guid><description>Az ERPNext és a Google Naptár szinkronizáció már régóta megoldott az ERPNext-ben, de ennek ellenére lehet még javítani rajta. Mutatom hogyan!</description><pubDate>Wed, 24 Aug 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext 14 megjelenés</title><link>https://www.monolithon.com/hu/blog/erpnext-14-megjelen%C3%A9s/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-14-megjelen%C3%A9s/</guid><description>Örömmel jelentem, hogy megjelent az ERPNext legújabb verziója, az ERPNext 14!</description><pubDate>Mon, 01 Aug 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext ticketing megoldások</title><link>https://www.monolithon.com/hu/blog/erpnext-ticketing-megold%C3%A1sok/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-ticketing-megold%C3%A1sok/</guid><description>Ahol ügyfelek vannak, ott ügyfélkapcsolatok is. És ez a teljes ügyfélélmény része, így sem az ügyfélnek, sem az ügyféllel foglalkozó munkatársaknak nem mindegy, hogyan zajlik az ügyféltámogatás.</description><pubDate>Sat, 23 Jul 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext chat megoldások</title><link>https://www.monolithon.com/hu/blog/erpnext-chat-megold%C3%A1sok/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-chat-megold%C3%A1sok/</guid><description>Ahogy az egész ERPNext és IT egy folyamatos változási folyamat, úgy az ERPNext chat alkalmazása is egy ilyen evolúciós fejlődésen ment át.</description><pubDate>Fri, 22 Jul 2022 06:09:00 GMT</pubDate></item><item><title>Alapadatok importálása ERPNext-be</title><link>https://www.monolithon.com/hu/blog/alapadatok-import%C3%A1l%C3%A1sa-erpnext-be/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/alapadatok-import%C3%A1l%C3%A1sa-erpnext-be/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext GDPR és cookie, azaz süti kezelés</title><link>https://www.monolithon.com/hu/blog/erpnext-gdrp-%C3%A9s-cookie-azaz-s%C3%BCti-kezel%C3%A9s/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-gdrp-%C3%A9s-cookie-azaz-s%C3%BCti-kezel%C3%A9s/</guid><description>A monolithon.com, a magyar ERPNext portál is használ sütiket, ahogy a legtöbb internetes weboldal és az EU-s irányelvek alapján erről tájékoztatni is kell az oldal látogatóit.</description><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext magyar tudásbázis</title><link>https://www.monolithon.com/hu/blog/erpnext-magyar-tud%C3%A1sb%C3%A1zis/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-magyar-tud%C3%A1sb%C3%A1zis/</guid><description>Elindult a magyar ERPNext tudásbázis. Folyamatosan új tartalmakkal.</description><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Készletértékelésről röviden az ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/k%C3%A9szlet%C3%A9rt%C3%A9kel%C3%A9sr%C5%91l-r%C3%B6viden-az-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/k%C3%A9szlet%C3%A9rt%C3%A9kel%C3%A9sr%C5%91l-r%C3%B6viden-az-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Periódikus vagy valós idejű készletérték könyvelés ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/peri%C3%B3dikus-vagy-val%C3%B3s-idej%C5%B1-k%C3%A9szlet%C3%A9rt%C3%A9k-k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/peri%C3%B3dikus-vagy-val%C3%B3s-idej%C5%B1-k%C3%A9szlet%C3%A9rt%C3%A9k-k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Raktárkészlet és termékérték javítása ERPNextben</title><link>https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa-erpnextben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa-erpnextben/</guid><description>Az ERPNext beveztésekor felvittünk egy idegen pénzneben lévő beszerzési megrendelést (nettó áron), majd később derült ki, hogy ezt mégsem kaptuk meg,</description><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Raktárkészlet és termékérték javítása ERPNextben</title><link>https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Rendeltnél kevesebb gyártás lezárása ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-kevesebb-gy%C3%A1rt%C3%A1s-lez%C3%A1r%C3%A1sa-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-kevesebb-gy%C3%A1rt%C3%A1s-lez%C3%A1r%C3%A1sa-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Rendeltnél több termék gyártása ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-t%C3%B6bb-term%C3%A9k-gy%C3%A1rt%C3%A1sa-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-t%C3%B6bb-term%C3%A9k-gy%C3%A1rt%C3%A1sa-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Selejtezés ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/selejtez%C3%A9s-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/selejtez%C3%A9s-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate></item><item><title>Az ERPNext 14-es verzió első új funkicója</title><link>https://www.monolithon.com/hu/blog/a-14-es-verzi%C3%B3-els%C5%91-%C3%BAj-funkic%C3%B3ja/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/a-14-es-verzi%C3%B3-els%C5%91-%C3%BAj-funkic%C3%B3ja/</guid><description>A github-on követhető, hogy milyen új funkciók és javítások kerülnek az új verziókba. Most a kanban kártyák limitációját szüntettékmeg.</description><pubDate>Tue, 12 Apr 2022 06:09:00 GMT</pubDate></item><item><title>Wiki szerű oldalakat szeretnék</title><link>https://www.monolithon.com/hu/blog/wiki-szer%C5%B1-oldalakat-szeretn%C3%A9k/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/wiki-szer%C5%B1-oldalakat-szeretn%C3%A9k/</guid><description>Többször felmerül az igény valamilyen wiki szerű oldal létrehozására. Erre eddig is volt lehetőség, de mostantól erre is van hivatalos megoldás.</description><pubDate>Tue, 08 Feb 2022 06:09:00 GMT</pubDate></item><item><title>Év eleji teendő - árfolyamok kezelése az ERPNextben</title><link>https://www.monolithon.com/hu/blog/%C3%A9v-eleji-teend%C5%91-%C3%A1rfolyamok-kezel%C3%A9se-az-erpnextben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%A9v-eleji-teend%C5%91-%C3%A1rfolyamok-kezel%C3%A9se-az-erpnextben/</guid><description>Az ERPNext korábban is képes volt az aktuális árfolyamokat kezelni, azonban az aktuális átváltási árfolyamok kezelésében történ egy kis változás, amivel érdemes tervezni.</description><pubDate>Sun, 09 Jan 2022 06:09:00 GMT</pubDate></item><item><title>ERPNext és az új Shopify eCommerce integráció webáruházakhoz</title><link>https://www.monolithon.com/hu/blog/erpnext-%C3%A9s-az-%C3%BAj-shopify-ecommerce-integr%C3%A1ci%C3%B3-web%C3%A1ruh%C3%A1zakhoz/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-%C3%A9s-az-%C3%BAj-shopify-ecommerce-integr%C3%A1ci%C3%B3-web%C3%A1ruh%C3%A1zakhoz/</guid><description>Az ERPNext saját webáruház megoldása mellett a Shopify integráció eddig is elérhető volt, de ez most új szintre lépett.</description><pubDate>Wed, 03 Nov 2021 06:09:00 GMT</pubDate></item><item><title>Adatszinkronizálás egyszerűen az ERPNext adatimport funkciójának érdekességei</title><link>https://www.monolithon.com/hu/blog/adatszinkroniz%C3%A1l%C3%A1s-egyszer%C5%B1en-az-erpnext-adatimport-funkci%C3%B3j%C3%A1nak-%C3%A9rdekess%C3%A9gei/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/adatszinkroniz%C3%A1l%C3%A1s-egyszer%C5%B1en-az-erpnext-adatimport-funkci%C3%B3j%C3%A1nak-%C3%A9rdekess%C3%A9gei/</guid><description>A legtöbb ERP bevezetés azt a célt szolgálja, hogy minimalizálja az excelek használatát és a sok manuális munkát automatizálja. De adatimport funkció nélkül nincs (jó) ERP.</description><pubDate>Mon, 23 Aug 2021 06:09:00 GMT</pubDate></item><item><title>Űrlapkészítés ERPNexttel</title><link>https://www.monolithon.com/hu/blog/%C5%B1rlapk%C3%A9sz%C3%ADt%C3%A9s-erpnexttel/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C5%B1rlapk%C3%A9sz%C3%ADt%C3%A9s-erpnexttel/</guid><description>Az online és lássuk be az offline üzlet sem működtethető jó kérdések megfogalmazása nélkül. Erre számtalan lehetőségünk van.</description><pubDate>Mon, 23 Aug 2021 06:09:00 GMT</pubDate></item><item><title>Woocommerce ERPNext integráció</title><link>https://www.monolithon.com/hu/blog/woocommerce-erpnext-integr%C3%A1ci%C3%B3/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/woocommerce-erpnext-integr%C3%A1ci%C3%B3/</guid><description>Talán azt tudjátok, hogy az ERPNext alapból egy Woocommerce integrációval érkezik. Ami nagyon jól hagzik, de az ördög itt is a részletekben rejlik.</description><pubDate>Mon, 31 May 2021 06:09:00 GMT</pubDate></item><item><title>Megjelent az ERPNext 13!</title><link>https://www.monolithon.com/hu/blog/megjelent-az-erpnext-13/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/megjelent-az-erpnext-13/</guid><description>Néhány napja megjelent az ERPNext 13 hivatalos kiadása. Nem aludtam át, csak mi már használjuk egy ideje.</description><pubDate>Fri, 09 Apr 2021 06:09:00 GMT</pubDate></item><item><title>Natív Android/IOS app érkezik az ERPNext 13.0-hoz</title><link>https://www.monolithon.com/hu/blog/nat%C3%ADv-android-ios-app-%C3%A9rkezik/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/nat%C3%ADv-android-ios-app-%C3%A9rkezik/</guid><description>Az ERPNext eddig is jól állt a mobilos használat terén, Android és IOS rendszereken is, de most ebben teljesen új korszak kezdődik.</description><pubDate>Wed, 24 Feb 2021 06:09:00 GMT</pubDate></item><item><title>Új kinézetet kap az ERPNext 13.0 verzió</title><link>https://www.monolithon.com/hu/blog/%C3%BAj-kin%C3%A9zetet-kap-az-erpnext-130-verzi%C3%B3/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%BAj-kin%C3%A9zetet-kap-az-erpnext-130-verzi%C3%B3/</guid><description>Az ERPNext felülete eddig is letisztult volt, de a további egyszerűsítés mellett most már talán szépnek is mondható. Persze ez ízlés kérdése, de a képek alapján mindenki döntse el magának.</description><pubDate>Tue, 23 Feb 2021 06:09:00 GMT</pubDate></item><item><title>Az első blogbejegyzésem a monolithon.com-on az ERPNext-ről</title><link>https://www.monolithon.com/hu/blog/h%C3%ADr/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/h%C3%ADr/</guid><description>Ezt a blogbejegyzést az ERPNext telepítése közben készítettem el, most pedig csak módosítom, hogy megőrizzem az utókor számára.</description><pubDate>Sun, 19 Apr 2020 06:09:00 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Monolithon - ERPNext, Frappe, Odoo and more</title><description>ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic</description><link>https://www.monolithon.com/</link><language>hu</language><item><title>ERPNext magyar számlázás Monolithon megközelítése</title><link>https://www.monolithon.com/hu/blog/erpnext-magyar-szamlazas-megkozelites/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-magyar-szamlazas-megkozelites/</guid><description>ERPNext magyar számlázás Monolithon megközelítések</description><pubDate>Wed, 27 Dec 2023 13:20:00 GMT</pubDate><content:encoded>
+## Miért nem készült már el az ERPNext magyar számlázási megoldás?
+
+A laikusok sokszor mondják, hogy a számlázás milyen egyszerű, hiszen sok adatunk rendelkezésre áll és egy csomó országban használják az ERPNext-et és egyéb nemzetközi megoldásokat számlázásra. Ilyenkor a legegyszerűbb ha megmutatjuk a magyar Áfa törvényt, amely a számlázással kapcsolatos legtöbb kérdést szabályozza. Igen, nem csak a 27%-os áfa világbajnok, és ugyan nem hasonlítottuk össze, de szinte biztos, hogy az Áfa törvényünk is a leghosszabb, ami itt nem kifezetten előnyös. A számlának vannak kötelező tartalmi elemei, mint például dátumok. De az, hogy milyen dátumot lehet/kell szerepeltetni egy-egy dátum típusú mezőben a számlázás esetén az a kilóméter hosszú Áfa törvényből derül ki. Nagyrészt ugyanez elmondható a számla többi tartalmi eleméről is. És akkor a kivételek, mentesítések speciális feltételeinek útvesztőit még nem is említettük
+
+&lt;img src=&quot;/images/ERPNext-hungarian-compliance.png&quot;&gt;
+
+Megállapíthatjuk, hogy a magyar számlázás a fentiek tükrében komplexebb annál, hogy gyorsan implementálható legyen egy nemzetközi rendszerbe. És itt a másik sarkalatos pont, hogy egy nemzetközi rendszerről beszélünk az ERPNext magyar számlázás kapcsán. A rendszer az általános dolgokra nyújt megoldásokat, de a legtöbb - országspecifikus - dologra nem. Ezt ki kell egészítenünk azzal, hogy olyan megoldást szeretnénk - mivel az ERPNext több szervezet/vállalkozás kezelésére képes, úgynevezett multicompany setuppal - ami több, más-más országban működő cég együttes működését is lehetővé teszi
+
+Mondhatnánk, hogy azért nincs kész a magyar számlázás, mert túl komplex, nem prioritás, stb. Ami mind igaz, azonban a valóság az, hogy korábban már készítettünk egy számlabeküldő megoldást az ERPNext 13-as verziójához a szamlazz.hu rendszer felé a make (akkor integromat) megoldásával, valamint Odoo számlázással kapcsolatban is van tapasztalatunk, de mindezek alapján szerettünk volna egy komplexebb megoldást nyújtani ügyfeleinknek, amihez még több tervezésre és döntésre van szükség
+
+Fontos szempont számunkra, hogy az ERPNext könyvelési rendszer alapvetően és ezt a funkcióját - szintén továbbfejlesztve/kiegészítve a magyar szabályoknak való megfeleléssel a későbiekkben - szeretnénk megtartani, így már nem csak számlázásról beszélünk. A számlázás integrálására is a fent említett szinkronizációs megoldás mellett natív NAV API alapú megoldás és közvetítő, például szamlazz.hu és billingo.hu alkalmazása esetén is rengeteg lehetőségünk van. Létrehozatunk egy saját számlázási modult, saját doctype-pal és workflow-val. Vagy kiegészíthetjük a meglévő invoicing/számlázási rendszert a magyar számlázáshoz szükséges funkciókkal, ami nem csak új mezőket és adatcserét, hamem alap funkciók felülírását is jelenti. Mindezt cégenkénti adminisztrációval és hosszútávon fentarthatóan, frissíthetőn. Korábban nem, vagy limitált más országoknak megfelelő ERPNext implementáció volt elérhető, így maga az alap ERPNext szoftver sem volt minden esetben megfelelő a magyar számlázás implementálásához, azaz túl sok nem létező funkciót kellett volna pótolni vagy meglévő logikát teljesen átírni tesztreszabhatóan, tehát nem csak lokalizálásról lett volna szó. Ennek egy része fennmaradt, például az előlegek, sztornók és módosító számlák esetében, de az új ERPNext verziók más számlázáshoz kapcsolódó dolgokban és főleg más országok megoldásai és az ahhoz szükséges fundamentumok módosításával nem csak csökkentették/egyszerűsítették a feladatunkat, hanem egyben utat is mutatnak bizonyos kérdésekben, de erről lentebb
+
+## Milyen szemlélettel fejlesztjük a magyar ERPNext számlázást?
+
+Sok, például a fentiekben ismertetett szempont mellett először egy NAV API alalpú közvetlen számlabeküldést terveztünk, ami mellett egy Chrome headless Online Számla beküldés is felmerült, de végül egy integárció mellett döntöttünk
+
+Milyen előnyökkel jár ez a megközelítés? Így nem az ERPNext lesz a számlázó program. És ugyan manapság már nem kell bejelenti a számlázóprogramot a NAV felé, bár kötelező adatexport funkcióra még mindig szükség van, egyszerűsödik a saját és ügyfeleink élete is, ha megoldásunk nem számlázó a szó hivatalos értelmében, hanem megmaradunk ügyviteli rendszernek, amely számlázó kapcsolattal rendelkezik. Annak ellenére, hogy a NAV onlineszamla API használatát nem kerülhetjük el ha ingyen szeretnénk magyar név és címadatokhoz jutni adószám alapján, továbbá a szállítói számákat betölteni a rendszerbe, ennek ellenére ezt nem az első lépésben kívánjuk megvalósítani, ahogy például a VIES-ből történő adózó és adózói státus letöltését sem. (Bár már mindkettőre elkészült a PoC). Mindebből azonban következik, hogy a megoldásunkat egyrészt ezzel kompatibilisan célszerű felépíteni - ami lehetővé teszi később akár a közvetlen NAV onlineszamla beküldést, vagy a választott számlázó API lecserélését másik partnerre - és ez még komplexebbé teszi a feladatot. Persze némi támponttal is szolgálnak az API-k, amikor az említett nagyon hosszú áfa törvény nem foglamaz elég pontosan. (Ilyenkor az API által befogadott adatokat kezelhetjük javaslatként, amit persze mérlegelnünk kell)
+
+Ugyan már utaltunk rá, de ezen a ponton kell megemlítetnünk, hogy ismernünk kell az alap ERPNext működést. Ezt azért kell kihangsúlyoznunk, mert az alap ERPNext is nagyon komplex, rengeteg számálzást is érintő kisebb-nagyobb funkcióval, amely részben, egészben valahogyan használható, használandó, legalábbis figyelembe veendő a magyar számlázás megvalósításakor. Például szeretnénk, ha minden funkció zavartalanul együttműködne a magyar lokalizáicóval együtt. Elsőre triválisnak tűnik, de például az automatikus számlakállítás és az előfizetések kezelése és azok kompatiblitása a folyamatos teljesítésű magyar számlákkal a valóságban egyáltalán nem az. Ezt a komplexitást teszi még nehezebbé, hogy néhány ország ERPNext számlázási lokalizáció már megjelent, amik szintén az alap ERPNext-re építkeznek szerencsére, és nem teljesen nulláról csak a Frappe Framework-re oldják meg az implementációt, és mivel ezekkel is szeretnénk kompatibilisek maradni multi company beállítás mellett, ez nem könnyű feladat, még ha ezekben az implementációkban és az ezekhez szükséges core (alap) rendszerben történ módosítások sokat segítenek a magyar számlázás kialakításában is
+
+Ilyen például a világszerte terjedő e-számlázás (2028-tól kötelező minden EU tagországban), amire van olasz példa implementáció, de GULF országok mellett indiai megoldás és az angol Make Tax Digital is elkészült már, így a magyar, a külföldi API és létező implementációkat is próbáljuk figyelembe venni, ami nem könnyű feladat
+
+## Hogyan csinálják mások?
+
+Szeretnénk még egy szempontot behozni: az iparági jógyakorlatokat, hiszen vannak más szoftverekhez is magyar megoldások, sok szakemberrel dolgoztunk együtt, akik hasonló projektekben döntéshozóként vittek végig implementálásokat, amelyek alapján gondolhatnánk, hogy könnyebben lehet az ERPNext magyar számlázást kialakítani. Ez egyrészt igaz, hiszen mi valószínűleg új hibákat fogunk elkövetni, mint akik korábban hasonló projekteket csináltak, de fontos kiemelni egy alapvető kérdést, amit a magyar számlázás kapcsán egyik szoftvernél sem tapasztaltunk. Ezt fent félig már érintettük: a számlázás implementálása nem könyvelési szempontból történt, csak a számlázási kérdéseket vették a legtöbb esetben figyelembe
+
+Két konkrét példát is ismerünk ahol például nagy figyelmet szenteltek annak, hogy hány és milyen dátumok használatára van szükség (például számla kelte, teljesítési dátum stb). Mégis az alaprendszer meglévő dátum funkcióit oly módon hasznosították újra, hogy nem képesek minden gazdasági eseményt megfelelően rögzíteni és különböző trükkökre van szükség. Mi is hajlottunk erre a megközelítésre, hogy például az áfa teljesítés dátuma legyen az alap ERPNext invoice date, de meglátásunk szerint ez zsákutca, (ahogy kiállítás dátumának sem megfelelő) mert nem ad annyi előnyt - értsd nem spórulunk meg vele más fejlesztést - mint amennyi fejfájást okoz. A példánál maradva, mi inkább felvállaljuk, hogy akár egy plusz dátummal több dátum mezőt használunk - bár ezek automatikus feltöltése esetén azok száma meglátásunk szerint mindegy - de minden gazdasági esemény rögzíthetővé válik a rendszerben
+
+A lényeg, hogy nem csak a számla kötelező adatainak rögzítését tesszük lehetővé, hanem annak könyveléséhez szükséges adatokat is. Ez ott lesz érdekes például, amikor nem csak a saját rendszerünkből kiállított számlákat szeretnénk könyvelni. Konkrétabban: Ha az alap dátum mezőt használjuk könyvelési vagy áfa dátumra, akkor sok alap ERPNext funkció alapból továbbra is elérhető maradna. Akkor mi ezzel a gond? Az, hogy például azok az alap ERPNext riportok, mint példul áfa riport a magyar szabályoknak még nem fog megfelelni, azt tovább kellene finomítani. És itt jött a felismerés, hogy ha mindenképpen saját riportokat kell készítenünk a magyar számlázás kialakítása miatt/után, akkor azt egyszerűbb a nulláról felépíteni úgy - ahogy az előbb jeleztem - hogy minden szükségs adat rendelkezésre áll. Azaz például több dátumot kezelünk
+
+Mire használjuk akkor tehát a meglévő dátumokat? Mindent arra, amire alapvetően való. Ezzel csökkentjük a bevezetendő dátum mezők számát például. És itt volt a legtöbb félreértés, hogy melyik mező valójában mire való. Az alap számla dátum mező az a dátum amikor a saját könyvelésünben szerepeltetni szeretnénk a számlát. Ez sokszor persze nem választás kérdése, de például lezárt adóév számláját később kapjuk meg, akkor azt az aktuális/folyó évre könyvelhetjük csak, annak ellenére, hogy a számla eredeti adattartalma mellett áfabevallási dátumra is szükség van és az elhatárolások kérdését hagyjuk. Továbbá nem említettük, a folyamatos teljesítésű számlákat, kezdő és végdátummal, ami periódusnak is felfogható, de számviteli teljesítési dátumként is funkcionálhat
+
+&lt;img src=&quot;/images/ERPNext-hungarian-compliance-02.png&quot;&gt;
+
+Az alaposan kivesézett komplexitásból adódóan próbáljuk a tárgyalt témákat figyelembe venni, azonban pont ezek miatt egy kisebb, megfoghatóbb egységek &quot;leszállításán&quot; dolgozunk, azaz a számlázás kapcsán a vevőszámlák mielőbbi kiállíthatósága a cél és csak utána bővítjük a scope-t, pedig - mivel például az indiai megoldás is használja a VTSZ számokat - jó lenne minél több dolgot belevenni, de azzal csak még tovább tolnánk a megjelenést amit nem szeretnénk.
+
+## Mit felejtettünk el?
+
+Azt, hogy olyan vevőszámla megoldást szeretnénk, ami megfeleltethető és könnyen alkalmazható szállítói számlák rögzítésére is, azaz a workflow, a mezők, a működés mindkét oldalon azonos tud lenni, megkönnyítve ezzel a felhasználók mindennapjait, ami szintén nem triviális. És ott van még az Áfa. Igen, ami 2024-től eÁfa, ami az eddig ismert kb 30 adókodót 236-ra bővíti és akkor még nem beszéltünk az egyéb valahogyan számlázáshoz kapcsolódó adókról, bevallásokról, mint csomagolási termékdíj vagy szállás, vendéglátás esetén az NTAK. Ezért is koncentrálunk a legkisebb egységre, ami a vevőszámla kiállítás. De megemlíthetjük a pénzforgalmi (pl: EV) és áfa esetét is, amiket jelenleg nem tervezünk megvalósítani, mert látunk rájuk kerülőutat például az említett saját riportok megvalósításával, de igyekszünk ezeket is figyelembe venni. Továbbá az is érdekes kérdés, hogyan célszerű kezelni a kézi és automatikus beküldéseket, a hibákat, az újraküldéseket, a visszavonásokat, javításokat.
+
+Érdekes kérdés volt még az app szervezése is. Itt korábban több kisebb appban gondolkodtunk, hogy egy-egy részei külön-kölön is használhatóak legyenek. De mivel ez szinte mindegyik magyar specifikus, itt viszont egy-egy elem nélkül nem igen használható, ezért inkább egy komplex megoldásban gondolkodunk. Például MNB árfolyamokra is szükség van a legtöbb esetben, ami PoC szintjén szintén elkészült már
+
+## Miért született ez a bejegyzés?
+
+Azon túl, hogy örömmel fogadjuk a visszajelzéseket, kérdéseket, ötleteket és javaslatokat és ezzel szeretnénk párbeszédet kezdeményezeni, ezeket mintegy vezérelv követjük, ha döntéseket kell hoznunk, és amúgy is segít a gondolatok összegzésében amiből célokat és feladatokat hozhatunk létre azok megvalósítása érdekében
+
+A publikálás részleteit még nem tudjuk. Többször felmerült az ingyenes open source kiadás, ami még mindig lehetőség, annak ellenére, hogy az egyik általunk készített megoldást - &lt;a href=&quot;https://www.monolithon.com/hu/gocardless&quot;&gt;bankszámla szinkronizáicó GoCardless integrációval&lt;/a&gt; - havidíjas SaaS, azaz felhőszolgáltatásként tettük elérhetővé, mert egy másik ERPNext partner is készített egy hasonló fizetős megoldást és nem szerettünk volna neki keresztbe tenni azzal, hogy ingyenes konkurens megoldást teszünk közzé. Arra a megoldásunkra tehát nem bevételre, hanem inkább egy megvalósíthatósági tanulmányként tekintünk, ami a magyar számlázás esetén még kérdéses
+
+Jelen bejegyzés másolatát publikáltuk a fórumon is, hogy egyszerűbb legyen megvitatni
+
+&lt;a href=&quot;https://discuss.frappe.io/t/hungarian-invoice-magyar-szamlazas/64970/15&quot;&gt;https://discuss.frappe.io/t/hungarian-invoice-magyar-szamlazas/64970/15&lt;/a&gt;
+</content:encoded></item><item><title>ERPNext GoCardless bank szinkronizálás</title><link>https://www.monolithon.com/hu/blog/erpnext-bank-szinkronizalas/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-bank-szinkronizalas/</guid><description>Megjelent a bank szinkronizáló alkalmazásunk ERPNext-hez.</description><pubDate>Wed, 27 Dec 2023 08:09:00 GMT</pubDate><content:encoded>
+ERPNext magyar bank szinkronizáció GoCardless integrációval
+
+Az ERPNext ERP/CRM rendszerbe a kezdetektől fogva lehet banktranzakciókat importálni, hogy a könyvelésünk megbízható legyen azáltal, hogy ezeket a bank trazakciókat összepárosítjuk a rendszerünkben általunk rögzített fizetési bejegyzéseinkkel.
+
+Amint a banki tranzakciók elérhetővé váltak különböző aggregátor oldalakon keresztül, mint például a Plaid, akkor az ERPNext ezt gyorsan implementálta, hogy az ERPNext felhasználók a Plaid rendszerén keresztül elérhető bankokból banki adatokat szinkronizálhassanak. Ez a mai napig működik is, de magyar felhasználóként be kellett látnunk, hogy hiába várunk arra, hogy a Plaid rendszerébe magyar bankok adatai is elérhetőek legyenek, hiszen egy amerikai vállalatról van szó, akinél már az nyugat-európai bankok is különlegesnek számítanak.
+
+Ugyan egyre több magyar vállalkozás tért át valamilyen alternatív bankra, mint például a Revolut, vagy a Wise és ugyan ezek - némi trükközéssel - elérhetőek a Plaid rendszerén keresztül, de a kényelmes megoldásra várni kellett amíg valamelyik aggregátor oldal elérhetővé tette az adatokat és egy ehhez szükséges ERPNext module elkészült.
+
+Itt tartunk most. A munka az aggregátor oldal kiválasztásával kezdődött. Sokat megnéztünk. Az egyik legnagyobb és a nagyobb szervezetek által preferált megoldás az &lt;a href=&quot;https://aggreg8.io/&quot;&gt;https://aggreg8.io/&lt;/a&gt;, de választhattuk volna a &lt;a href=&quot;https://docs.openbanking.klarna.com/&quot;&gt;https://docs.openbanking.klarna.com/&lt;/a&gt; megoldását is, de mi az akkor még Nordigen néven néven futó szolgáltatást választottuk, amit azóta a GoCardless felvásárolt és átnevezett. Nem bántuk meg meg, mert a szolgáltatás korábban is jó volt, de a GoCardless-nél is nagyon jó kezekbe került.
+
+Ahhoz, hogy az általunk készített GoCardless megoldás használható legyen GoCardless bankaccountdata fiókra is szükség van, az ingyenes elég, mert az is szinte korlátlan lekérdezést tesz lehetővé: &lt;a href=&quot;https://bankaccountdata.gocardless.com/&quot;&gt;https://bankaccountdata.gocardless.com/&lt;/a&gt;
+
+Ezt követően csak egy Secret ID és Secret key párost kell generálnunk a GoCardless felületen, amit már a saját ERPNext példányunkon telepített ERPNext Gocardless Settings alatt kell megadnunk. Utolsó lépésként pedig egy új GoCardless Bank-ot kell hozzáadnunk, ahol választhatunk a kiválasztott országnak megfelelő bankok listájából.
+
+Ezt természetesen összeköthetjük az ERPNext bankszámlával és kézzel vagy automatikusan szinkronizálhatjuk a banki tranzakciókat.
+További részletek és megrendelés a dedikált aloldalon: &lt;a href=&quot;https://www.monolithon.com/hu/gocardless&quot;&gt;https://www.monolithon.com/hu/gocardless&lt;/a&gt;
+</content:encoded></item><item><title>Odoo 17.0 megjelenés</title><link>https://www.monolithon.com/hu/blog/odoo-17-megjelenes/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/odoo-17-megjelenes/</guid><description>Megjelent az Odoo legújabb, Odoo 17-es verziója. Rengeteg újdonság, hatalmas lehetőségek és fontos döntések.</description><pubDate>Sat, 11 Nov 2023 08:09:00 GMT</pubDate><content:encoded>
+A szokásos éves Odoo Experience konferencián idén is bemutatta az Odoo S.A. a soronkövetkező, legújabb Odoo verziót, ami az Odoo 17.
+
+&lt;img src=&quot;/images/odoo-17.jpg&quot;&gt;
+
+A szemfülesek már láthatták, vagy azok akik indítottak ingyenes próbaváltozatot az Odoo Online felületén, hogy megváltozott a a teljes arculat. Egyrészt a színek, de ami picit nehezebbé teszi a navigációt az Odooban végzett feladatink között, hogy az ikonok is. A szépség szubjetív, így bizonyára valakinek nem tetszik, valakik pedig rajonganak az új designért. Az biztos, hogy frissebb lett, talán ezzel is a fiatalbb korosztályt célozva, ami talán merészség egy ERP szoftvertől, talán pedig a sokszor emlegetett cégvezetei generáció váltáshoz kapcsolódik és használa válik az Odoo-nak.&lt;
+
+Milyen újítások érkeztek az Odoo 17-es verziójába?
+
+A legátfogóbb kép az újdonságokról a &lt;a href=&quot;https://www.odoo.com/odoo-17-release-notes&quot;&gt;Relase Note &lt;/a&gt;oldalon érhető el, én is ebből szemezgetek a tesztelés és egyéb források mellett.
+
+Ha már egyéb források és kinézet, akkor meg kell említenem, hogy az Odoo fórum is frissült, mármint az app és a hivatalos Odoo fórum is már a legújabb változaton fut, így az is teljesen új kinézetet kapott. Ez eddig is hasonlított a discourse megoldására, és ezt csiszolták tovább. ahogy az lenni szokott, általában az iparági jógyakorlatot és sikeres szoftvereket követik és azokból inspirálódva építik fel saját hasonló Odoo appjukat.
+
+Még mindig a &quot;kinézetnél&quot; maradva folytathatjuk a weboldallal és a webáruházzazl, hiszen, ahogy a lenti összefoglaló videóból is látszik az Odoo ezt tovább folyamatosan fejleszti, és hiába hozza az elég jó szintet ezen a fronton az Odoo 17, az online értékesítésben kiélezett harcban (ellentétben más üzleti területekkel/appokkala, ahol ez nagyon is jól működő stratégia) ez sajnos valószínűleg még mindig nem lesz elegendő.
+
+De végülis kit érdekel a kinézet és az ikonok, ha mostantól a keresőt még gyorsabban tudjuk használni és egyből, gyorsan az nyílik meg amire szükségünk van? Ezzel a navigáció egy új szintre lép, amit ugyan tanulni/szokni kell, de ez biztosan gyorsan megy és növeli a hatékonyságunkat.
+
+Az előfizetések kezelését megint átalakították, de a jó hír az, hogy nem csak átalakították, hanem új funkciókat is kapott, így például a webáruházon keresztül történő előfizetések kezelése egyszerűsödött.
+
+Az ajánlatadás is egyszerűsödött az ajánlatba kerülő termékek kiválasztásával, de ez inkább csak látványosságnak tűnik, hiszen az ajánlatnak a temréken kívül rengeteg részlete van, amit végülis a korábbi hagyományos felületen tudunk beállítani. Az ajánlat egyéb tartalmakkal való és egyedi designban való elkészítését pdf formátumban tovább csiszolták, amit, ahogy eddig is az ügyfél online is el tud fogadni és előleget fizetni, valójában - néhány üzleti modelltől/iparágtól eltekintve - meglátásunk szerint az ilyen - hiába designos - egyedi ajánlatok egyre inkább kiszorulnak az online értékesítés mellett, hiszen nem csak fizikai terméket, hanem (akár komplex) szolgáltatást is online vásárolunk, nem pedig ajánlatokkal és pdf-ben fellelhető részletekkel szeretnek az ügyfelek ping-pongozni.
+
+Ahogy azt mi is többször leírtuk, továbbra is az integrált rendszerre esküszünk, ami mellett szükség lehet más szoftverekre és azokat szükséges/célszerű lehet integrálni. Az Odoo Studio-ba (amely csak az Enterprise változat része) bekerültek integrációs lehetőségek a webhooknak köszönhetően, ami akkor lehet nagyon érdekes, ha az Odoo Online változatában is elérhetőek ezek, ahol amúgy más API-k biztosan le vannak titlva, mert akkor akár appok telepítése nélkül is lehetne integrácót megvalósítani, de ezt még nem votl időnk kipróbálni. Az integrációkhoz kapcsolódik, hogy bekerült a Whatsapp támogatás, amely bizonyos országoban fontos lehet, de mivel ez egy _jelenleg_ ingyens üzenetküldő ami a Facebook tulajdona, így ennek használatára senkit nem biztatnánk, hiszen bármikor változhatnak a játékszabályok.
+
+Eddig vegyesek az érzelmeim az új Odoo kiadással kapcsolatban, azonban az új POS és önkiszolgáló rendszer minden kétséget kizárólag nagy dobás, mégha annak magyarítása/lokalizálása várat is magára. Ez főleg azért nagy dobás, mert a konkurencia nem csak az önkiszolgálás területén van lemaradva, hanem a &quot;hagyományos&quot; POS tekintetében is. A POS eddig is az étteremi rendszer köré épült, ahogy ez is, így nem csoda, hogy ez is kapott egy fontos, hiányzó funkciót, mégpedig a konyhai és vevő monitorok kezelését. És ezt még megfejelték a korábban is létező időpontfoglaló modul és étterem modul összekapcsolásával. Továbbá ne felejdük, hogy saját eszközről is lehet rendelni az általunk meglátogatott Odoo 17-et használó étteremben. Mindez így igazi pain/selling point lehet, persze az árat is figyelembe kell venni.
+
+A projektmenedzsmentet is tovább csiszolták, ez valójában már az előző verzióra nagyon sokat fejlődött, ezeket az egyszerűsítéseket vitték tovább a komplexebb feladatok lekezelhetőségévéel és automatizációkkal.
+
+A gyártás appon belül a shop floor-on használatos képernyők és funkckiót nagyot változtak, és ezek ugyan eddig sem voltak rosszak, mostantól még egyszerűbb, még profibb megoldást nyújtanak.
+
+Ezeken kívül rengeteg apróbb módosítás történt a különböző appokban és új appokat is kaptunk, mint például a tárgyalók foglalása vagy látogatók kezelése beléptetéssel együtt.
+
+Fontos tudni, hogy a fentiek mindegyike a licencsz díjért cserében használható Enterprise változatra vonatkoznak. Tehát az ingyenes Community változatokba jóval kevesebb fejelsztés ment, ahogy az lenni szokott az utóbbi időben.
+
+Korábban ugyan a Community változatot javasoltuk ügyfeleinknek, de az Odoo 16-os verzió megjelenésekor átszabott (csökkentett) árak óta mindenkinek az Odoo Enterprise változtatot ajánljuk, akinek az Odoo a megfelelő szoftver.
+
+Enterprise változat nélkül az Odoo Community sajnos egyre kevésbé használható, eddig jellemzően csak kényelmi funkciók hiányoztak belőle, de most már alapvető dolgokat is kezdenek kiszedni a Community változatból, a teljesség igénye nélkül pl:
+
+[https://twitter.com/kiketobella/status/1722718149940760671](https://twitter.com/kiketobella/status/1722718149940760671)
+
+[https://twitter.com/niyasraphy/status/1714155461857964431](https://twitter.com/niyasraphy/status/1714155461857964431)
+
+Így mostantól még határozottabban gondoljuk hogy valójában Odoo esetén nincs választás, csak Enterprise használható manapság és a Community változat egyre inkább csak a kirakatba való, hogy elmondhassák az Odoo open source, nyílt forrású szoftver.
+
+Ha azonban az Odoo Enterprise még a csökkentett licensz díjakkal is túl drága és a fentiek alapján a Community nem megfelelő, akkor célszerű lehet más, ingyenes, nyílt forráskódú ERP szoftvereket is megvizsgálni, mint például az [ERPNext](https://www.monolithon.com/hu/erpnext).
+</content:encoded></item><item><title>ERPNext 15.0 verzió megjelenése</title><link>https://www.monolithon.com/hu/blog/erpnext-15-megjelenes/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-15-megjelenes/</guid><description>Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az ERPNext konferencia, de nagyrészt az is az új verzióról szólt.</description><pubDate>Sat, 11 Nov 2023 07:09:00 GMT</pubDate><content:encoded>
+Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az ERPNext konferencia, de nagyrészt az is az új verzióról szólt, ezért arról most a korábbi évektől eltérően nem lesz külön beszámoló
+
+&lt;img src=&quot;/images/ERPNext-15-release.jpg&quot;&gt;
+Most azonban nem csak az ERPNext 15-ös verziójának megjelenéséről és a frissítésekről, újdonságokról tudok beszámolni, hanem örömmel jelentem, hogy mától az ERPNext 15-ös verziója a Frappe Cloud-on is elérhető, azaz mostantól bárki könnyedén kipróbálhatja.
+
+Az egyik szembetűnő dolog, ami a fenti ERPNext 15 képernyőképről is egyből látszik, hogy változott a megjelenés. Erről azonban már korábban is lehetett tudni, hiszen aki követte a Twitter/GitHub ERPNext/Frappe oldalakat, az láthatta, hogy gőzerőkkel dolgoztak az &lt;a href=&quot;https://frappeui.com/&quot;&gt;Espresso Design System&lt;/a&gt; komponenseken. Megérte a munkát a responsive design mobilion is gyorsan működik.
+
+A sebesség és a gyorsulás azonban nem csak ennek köszönhető, hanem annak több, mint 800+ commitnak ami a stabilitást és a sebességet javította. Ez úton is köszönet Ankush Menat!
+
+A teljesség igénye nélkül főleg a kiadás bejelentő posztból szemezgetek, ami itt található: &lt;a href=&quot;https://discuss.frappe.io/t/frappe-and-erpnext-v15-release/111702&quot;&gt;https://discuss.frappe.io/t/frappe-and-erpnext-v15-release/111702&lt;/a&gt;
+
+De aki a teljes jegyzékre kíváncsi, annak ajánlom a Github ERPNext és Frappe 15.0 kiadás áttekintését:
+
+[https://github.com/frappe/frappe/releases/tag/v15.0.0](https://github.com/frappe/frappe/releases/tag/v15.0.0)
+
+[https://github.com/frappe/erpnext/releases/tag/v15.0.0](https://github.com/frappe/erpnext/releases/tag/v15.0.0)
+
+Mit érdemes még kiemelni az új 15-ös ERPNext és Frappe verzióval kapcsolatban?
+
+- Mivel ez is a sebességet, skálázhatóságot érinti, ezért a főkönyvi számlák lezárhatóságát kell kiemelnem elsőként. Eddig is volt hasonló, amit főként évente használtunk, de de ezzel még egyszerűbb lesz a dolgunk a jövőben.
+- Kaptunk egy új előnézetet, hogy az adott tranzakció beküldésekor milyen könyvelési bejegyzés fog létrejönni. Ez az Odoo-ból ismerős lehet, hiszen egy ideje már ők is megmutatják ezt.
+- Mostantól már megrendelésnél van lehetőségünk termék/készlet foglalásra.
+- A több szintű gyártási anyagjegyzék kezelés egyszerűen az új szerkesztővel.
+- Az eddig döcögős egyedi szériaszámok kezelését is egységesítették és kivasalták.
+- Bekerült az általam is korábban megírt nyomtatási kép szerkesztő és workflow designer is.
+
+Fejlesztői szemmel érdekes lehet, hogy kivettek sok elavult csomagot és sok mindent frissítettek, például már támogatott a vue3. Mostantól a beküldhető doctype-ok háttérműveletként is beküldhetőek. Néhány ERPNext modul külön app-ként él tovább. (mint például a TaxJar, Lending és lokalizációk)
+
+Nem csak, hogy a már 14-es verzióval elindult app szeparációt tovább folytatták, például a webáruház/ecommerce terén, de új Frappe megoldások is születtek a FrappeDesk - helpdesk példájára:
+
+Ugyan még mindig van az ERPNext-ben CRM, de ahelyett, hogy azt toldoznák-foldoznák, a sok egyéb app mellett bejelentették az Frappe CRM-et is, amibe a VOIP telefonhívást és hívásrögzítést is integrálták.
+
+![Image](/images/Frappe-CRM.png)
+
+És még rengeteg újdonság, amikről részletesebben is beszámolok majd. &lt;/p&gt;&lt;/p&gt;
+</content:encoded></item><item><title>Villámgyors statikus weboldal astro.build alapokon</title><link>https://www.monolithon.com/hu/blog/villamgyors-statikus-webolda-astro-build-alapokon/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/villamgyors-statikus-webolda-astro-build-alapokon/</guid><description>A monolithon.com továbbra is ERPNext rendszeren fut, de a publikus weboldalt leválasztottuk és már astro.build-et használunk hozzá.</description><pubDate>Sat, 11 Nov 2023 06:09:00 GMT</pubDate><content:encoded>
+A blog nem szűnt meg, de ahelyett, hogy a szokásos menetben publikáltam volna, úgy döntöttem előbb be kell fejelzni a monolithon.com weboldal átalalakítását.
+
+Mi is ez az átalakítás?
+
+Sok szempontot mérlegeltünk, például: az egyszerű elindulást/váltást, fejlesztőbarát műkődést, gyorsaságot, testreszabhatóságot, elérhető funkciókat. Végül arra jutottunk, hogy az ERPNext által kiszolgált monolithon.com ERPNext és Odoo blogot leválasztjuk a saját ERPNext rendszerünkről, mert ugyan jól tette a dolgát és nagyon megkönnyítette az életünket, és sokkal több mindent lehetett vele kódolás nélkül megoldani, mint amire nekünk szükségünk volt, de valójában egy vállaltirányítási rendszernek - amire úgy tekintünk, mint az &quot;singe source of true&quot; - nem feladata, hogy a publikus weboldalként is funkcionáljon.
+
+Tartalomkezelő CMS-ként használhatnák ugyan, de a végül választott &lt;a href=&quot;https://www.monolithon.com/hu/static-site-generator&quot;&gt;astro.build&lt;/a&gt; megoldás Git-ben történő tartalomkezelése nagyon kényelmes, vagy akár a DecapCMS megoldással böngészőből és használható, így ha már leválasztás, akkor teljes függetlenítés és a tartalom sem jön API-n keresztül, mint egy Headless CMS esetében, hanem teljesen statikus oldalra technológiát valósíttunk meg.
+
+Miért?
+
+Mert ezzel tudjuk a leggyorsabb oldal élményt garantálni. Ez fontos a látogatóknak és a Google és egyéb rendszerek számára is. Hiszen senki sem szeret várni. Biztonsági szempontból is megnyugtatóbb, ha üzleti adataink és publikus weboldalunk külön életet él. Továbbra is hiszünk az integrált rendszerek használatában, mint az ERPNext vagy az Odoo, de látjuk, hogy minden esetben szükség van másik szoftverre is mellettük, így az a kérdés, hogy hol húzzuk meg a határt, hogy mit szeretnénk benne tartani és mire szeretnénk másik szoftvert használni.
+
+Ahhoz, hogy az üzleti adataink &quot;tiszták&quot; maradjanak, viszont legyen megfelelő értékesítést támogató adatunk is, jó döntés volt ez a szeparáció: a weboldalhoz kapcsolódó marketing és sales tevékenységet a Mautic rendszer astro.build-be történő integrálásával oldottuk meg.
+
+Ezzel lehetővé vált, hogy a lehető legtöbb - hozzájárulás vagy jogalap szerint - adatot gyűjthessük, elemezhessük, hogy ezzel még jobb szolgáltatást nyújthassunk és támogathassuk automatizált marketing tevékenységünket, és az ERPNextbe már csak az értékesítés következő fázisába kerüljenek adatok. Ezt meg tudjuk csináni az ERPNext és a Mautic között közvetlenül vagy az n8n használatával is.
+
+Az astro.build beváltotta a hozzáfűzött reményeket
+
+A fejlesztés gyorsan ment és az eredmények is szuperek, ezt a látogató is érzékelheti a gyors böngészés közepette. Az első &lt;a href=&quot;https://www.monolithon.com/hu/blog&quot;&gt;magyar ERPNext blogként&lt;/a&gt; elért Google helyezéseket sikerült tovább javítanunk, mert az oldalstruktúrát és link szerkezetet több lépésben emeltük át és csak kisebb módosításokat csináltunk, megtámogatva ezt egy megfelelő oldaltérképpel. De a másik célunk is teljesült, hogy az immár angol nyelvű tartalmaink is széles közönséghez juthassanak el.
+
+Meg kell elmlítenem, hogy az astro.build is folyamatosan és nagyon gyorsan fejlődik, így a már a kész astro.build oldalunkat második lépésben a legújabb verzióra frissítettük, ami szintén egyszerűen és gyorsan ment.
+
+A tartalmak angol nyelvre való fordítása és az új menü és tartalomstruktúrákhoz való tartalomkészítés elsőbbséget élvezett, de ahogy a bevezetőben írtam mostantól visszatérnek a blogbejegyzések és hírek az ERPNext, Odoo és egyéb szoftverek világából.
+</content:encoded></item><item><title>ERPNext konferencia 2021. november 19-20.</title><link>https://www.monolithon.com/hu/blog/erpnext-conference-2021-november-19-20/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-conference-2021-november-19-20/</guid><description>A 2020-ban COVID miatt elmaradt ERPNext konferencia idén végre visszatér és újra megrendezésre kerül az ERPNext fejlesztői, a Frappe által.</description><pubDate>Sun, 05 Nov 2023 06:09:00 GMT</pubDate><content:encoded>
+A 2021-es ERPNext konferencia témáit a szervezők négy témakör köré csoportosították.
+
+1. Frappe Framework, az ERPNext alapját adó rendszer, amely az ERPNext-től független appok üzemeltetésére is képes, például wiki tudásbázis.
+2. Frappe Cloud, ami minden Frappe Framework-öt használó szoftver számára használható felhő tárhely, erről is jön majd egy bejegyzés részletesen ide a magyar ERPNext blogba.
+3. ERPNext a Frappe fő terméke, amely talán a világ legismertebb, valóban teljesen nyílt forrású és ingyenes ERP rendszere.
+4. Közösség, amelynek a Frappé és az ERPNext köszönhető.
+
+Részletesen majd a konferencia után beszámolok, de előljáróban annyit érdemes megemlíteni, hogy különböző ERPNext fórum topikokban már jelentek meg az ERPNext fejlesztésének változását előrevetítő megjegyzések, amelyek remélhetőleg még minőségibb terméket fognak eredményezni. A konferencia témáiból is látszik hogy a közösség az első, így ez a professzionalizálódás, amely a korábban nem támogatott appok fejlesztését teszi lehetővé, nem érinti az üzleti modellt, amelyet az alapító már többször megerősített, hogy teljesen nyílt forrású és ingyenes marad a rendszer.
+
+Az online konferencia részletes programja az előadókkal együtt itt érhető el:
+
+[https://conference.erpnext.com/conference/2021/schedule](https://conference.erpnext.com/conference/2021/schedule)
+</content:encoded></item><item><title>monolithon.com - Odoo és ERPNext a Frappe-vel együtt</title><link>https://www.monolithon.com/hu/blog/odoo-%C3%A9s-erpnext-a-frappe-vel-egy%C3%BCtt/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/odoo-%C3%A9s-erpnext-a-frappe-vel-egy%C3%BCtt/</guid><description>Az Odoo nyomtatási nézet szerkesztője közel nem olyan felhasználóbarát, mint amit a Frappe kínál az ERPNext-hez, főleg az előző posztban bemutatott, megújított változat.</description><pubDate>Mon, 17 Jul 2023 06:09:00 GMT</pubDate><content:encoded>
+Az Odoo nyomtatási nézet szerkesztője közel nem olyan felhasználóbarát, mint amit a Frappe kínál az ERPNext-hez, főleg az &lt;a href=&quot;https://www.monolithon.com/blog/hirek/%C3%BAj-nyomtat%C3%A1si-n%C3%A9zet-szerkeszt%C5%91-app-a-frappe-t%C5%91l-az-erpnext-hez&quot;&gt;előző posztban&lt;/a&gt; bemutatott megújított változat. De nem is a versengés a lényeg és nem egy vagy-vagy szituációra szeretnénk kiélezni a helyzetet, hiszen a Monolithon az ERPNext és Frappe mellett, ahogy a blogon is többször beszámoltunk róla, más-más szoftvert is használ és támogat - köztük az Odoo-t és az n8n-et is, mert meggyőződésünk, hogy a megfelelő feladatra kell a megfelelő szoftvert megtalálni, és nem mindenkinek, nem mindenre ugyan az lesz a legjobb megoldás. (Mégha szeretnénk is, ha az ERPNext és a Frappe minél jobban elterjedjen.)
+
+Ezért ez a poszt inkább csak egy beszámoló egy viccess PoC - Proof of concept - azaz megvalósíthatóságról, amit egy Odoo-val és ERPNext-tel is foglalkozó kolléga hozott össze, a fent említett nyomtatási kép designolására.
+
+A megoldás lényege, hogy az Odoo-ban (az ingyenes Community kiadásban) nincs egyszerű megoldás a nyomtatási képek szerkesztésére, újak készítésére. (A fizetős Odoo Enterprise változatban már kínálnak rá megoldást, de az is különbözik a Frappe egyszerű működésétől).
+
+Erre a helyzetre készített &quot;megoldás&quot; annyit tesz, hogy az Odoo-ból egyszerűen egy app segítségével át lehet küldeni a nyomtatási képen megjeleníteni kívánt adatokat automatikusan, azaz csak egyszer kell &quot;összelinkelni&quot; a két rendszert. Majd a Frappe-ban az említett designer megoldással elkészített nyomtatási képet összeállíva és beállítva már lehetőség lesz az Odoo-ban lenyomott nyomtatáskor a Frappe által előállított szuper nyomtatási képet, pdf-et megkapni automatikusan a háttérből. (Tehát nem kell az Odoo-t elhagyni).
+
+Gyakorlati haszna kétséges a fejlesztésnek, de szerintünk érdekes, vicces megoldás, figyelembe véve annak egyszerűségét és hatékonyságát. Odoo-t is támogató csapatként többször volt már dolgunk nyomtatási képek, dokumentumok testreszabásával és ahogy eddig is, ezután is más utat fogunk választani, de jó tudni, hogy az Odoo mellett van alternatíva, nem csak a nyomtatási képre, hanem a teljes ügyvitelre.
+
+További részletek az Odoo modulról és Frappe megoldásról:
+
+https://ecosoft.frappe.cloud/blog/general/odoo-frappe-print-form
+</content:encoded></item><item><title>Új nyomtatási nézet szerkesztő app a Frappe-től az ERPNext-hez</title><link>https://www.monolithon.com/hu/blog/%C3%BAj-nyomtat%C3%A1si-n%C3%A9zet-szerkeszt%C5%91-app-a-frappe-t%C5%91l-az-erpnext-hez/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%BAj-nyomtat%C3%A1si-n%C3%A9zet-szerkeszt%C5%91-app-a-frappe-t%C5%91l-az-erpnext-hez/</guid><description>Más rendszerekhez képest eddig is egyszerűbb volt a nyomtatandó vagy pdf dokumentumok elkészítése az ERPNext-tel, de mostantól tényleg bárkinek gyerekjáték.</description><pubDate>Mon, 03 Jul 2023 06:09:00 GMT</pubDate><content:encoded>
+A magyar ERPNext tudásbázisban, kézikönyvben adtunk néhány tippet a nyomtatandó vagy pdf dokumentumok elkészítéséhez, úgy látható volt, hogy egyszerűen gyorsan lehetett új dokumentumokat készíteni vagy meglévőket átalakítani, ezt emelte most a Frappe egy magasabb szintre. Itt már a korábban jelzett tippekre, trükköre sincs szükség.
+
+A Print Designer egy új Frappe alkalmazás, amely lehetővé teszi a felhasználók számára, hogy testre szabják és tervezzenek gyönyörű nyomtatási formátumokat az intuitív drag-and-drop funkciók beépítésével. Az alkalmazás egy felhasználóbarát felületet biztosít, amellyel professzionális minőségű nyomtatási elrendezéseket lehet könnyedén létrehozni. A lehetőségek végtelenek azaz bármelyik ERPNext dokumentum nyomtatási nézetét kialakíthatjuk vele, a szállítólevéltől a beszerzési megrendeléseken át, akár az ERPNext számla pdf-ig. Ez utóbbi ugyan ettől nem válik NAV kompatibilissé, de a Monolithon által fejlesztett ERPNext magyar számlázási megoldásra, akár ezzel az appal elkészíthető egyedi számlasablon azonban az lehet.
+
+Az app az alábbi tárolóból érhető el:
+
+https://github.com/frappe/print_designer
+</content:encoded></item><item><title>Frappe Insights az ERPNext csapattól</title><link>https://www.monolithon.com/hu/blog/frappe-insights-az-erpnext-csapatt%C3%B3l/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/frappe-insights-az-erpnext-csapatt%C3%B3l/</guid><description>Korábbi ERPNext, BI és üzleti intelligencia+Metabase című blogbejegyzésben direkt nem említettem, hogy a Frappe csapatnak is van hasonló megoldása, mert ezt a külön bejegyzést terveztem neki.</description><pubDate>Tue, 09 May 2023 06:09:00 GMT</pubDate><content:encoded>
+## Mi is az a Frappe Insights?
+
+A Frappe Insights GitHub tárolójában és a Frappe Marketplace-n az alábbi meghatározás található: &quot;Free and Open Source Data Analytics Tool for your Frappe Apps&quot; - azaz ingyenes és nyílt forrású adatelemző eszköz a Frappe alkalmazásokhoz.
+
+Oké, de mit is jelent ez pontosan? Aki ismeri az ERPNext-et, az bizonyára már találkozott a Frappe Framework-kel, amit néhány blogbejegyzésben már én is említettem. Ez a egy rugalmas keretrendszer, amin sokféle alkalmazást fel lehet építeni. Ilyen alkalmazás az ERPNext is. Gyakorlatilag az ERPNext is egy app, amit a Frappe Framework-re kell telepíteni, ha használni szeretnénk.
+
+Ebből következik hogy ezt az Insigths appot is a Frappe Framework-re telepíthetjük és akár az ERPNextből, vagy vagy más Frappe-n futó alkalmazásunkból. (és akár más, külső adatforrásokból) is képes adatokat használni.
+
+## Mire lehet használni a Frappe Insights-ot?
+
+A fő funkciók a következők:
+
+1. Több adatforrás - Csatlakozz több adatforráshoz és kérdezd le azokat egy helyen.
+2. Komplex lekérdezések - Írj bonyolult lekérdezéseket és kapd meg az eredményeket táblázatos formátumban.
+3. Adatok megjelenítése - Jelenítsd meg az adataidat diagramok formájában.
+4. Irányítópultok - Hozz létre irányítópultokat az fontos mutatók automatikus nyomon követéséhez.
+
+Hogy mire lehet egy ilyen elemző eszközt használni most részletesen nem mennék bele, ezt a Metabase bejegyzésben már érintettük, nézzünk inkább további érdekességeket a Frappe Insights-ról a továbbiakban, de aki mégis gyakorlati tudásra szomjazik, annak ajánlom a Frappe konferencián elhangzott előadás videófelvételét, amely az alábbi témákból állt:
+
+1. Telepítés
+2. Csatlakozás az adatbázishoz
+3. ERPNext adatbázis
+4. Helyi SQLite adatbázis
+5. Távoli MySQL/MariaDB adatbázis
+6. Lekérdezések létrehozása
+7. Csatlakozások (JOIN)
+8. Szűrők
+9. Egyéni kifejezések
+10. Pivot transzformáció
+11. Diagramok készítése
+12. Áttekintőképernyők létrehozása
+
+Forrás: [https://frappe.io/events/frappe-insights](https://frappe.io/events/frappe-insights)
+
+Akit a Frappe Insights születése is érdekel és szeretne néhány műhelytitkot is, annak ajánlom a fejelsztővel készült interjút:
+
+[https://frappe.io/blog/product-stories/the-journey-to-insights](https://frappe.io/blog/product-stories/the-journey-to-insights)
+</content:encoded></item><item><title>Letölthető dokumentum használata ERPNext email sablonban</title><link>https://www.monolithon.com/hu/blog/let%C3%B6lthet%C5%91-dokumentum-haszn%C3%A1lata-erpnext-email-sablonban/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/let%C3%B6lthet%C5%91-dokumentum-haszn%C3%A1lata-erpnext-email-sablonban/</guid><pubDate>Tue, 09 May 2023 06:09:00 GMT</pubDate><content:encoded>
+Példa (Delivery Note-hoz):
+
+```python
+{{frappe.get_url()}}/delivery_note/{{doc.name}}?key={{frappe.get_doc(doc.doctype, doc.name).get_signature()}}
+```
+
+Forrás:
+
+[https://discuss.frappe.io/t/how-to-add-document-link-in-email-template/47853/6](https://discuss.frappe.io/t/how-to-add-document-link-in-email-template/47853/6)
+</content:encoded></item><item><title>Új Workflow Builder érkezik az ERPNext-be</title><link>https://www.monolithon.com/hu/blog/%C3%BAj-workflow-builder-%C3%A9rkezik-az-erpnext-be/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%BAj-workflow-builder-%C3%A9rkezik-az-erpnext-be/</guid><description>Türker TUNALI török kolléga szúrta ki a GitHub tárolóban az új Workflow Buildert.</description><pubDate>Tue, 09 May 2023 06:09:00 GMT</pubDate><content:encoded>
+A twitteren tette közé Türker TUNALI az ERPNext-be hamarosan érkező új Workflow Buildert: [https://twitter.com/turker_tunali/status/1653703276842434560](https://twitter.com/turker_tunali/status/1653703276842434560)
+
+## Miért nagyszám ez az újdonság?
+
+Eddig is volt Workflow építésre lehetőség az ERPNext-ben, de ezzel az újítással sokkal egyszerűbbé válik a munka. Egyszerűbbé teszi a tervezést és átláthatóbbá teszi a működést, hiszen mostantól vizuális Workflow tervezésre is van lehetőség, nem csak mezők és táblázatok formájában, mint korábban. Természetesen azzal sok mindent meg lehetett valósítani, annak részletei a dokumentácóban itt találhatóak: [https://docs.erpnext.com/docs/v13/user/manual/en/setting-up/workflows](https://docs.erpnext.com/docs/v13/user/manual/en/setting-up/workflows)
+
+De az új vizuális Workflow Builderrel az alábbi képen láthatóan már vizuálisan tervezhetjük meg a működést:
+
+![ERPNext new workflow builder](/images/files/ERPNext-new-workflow-builder-01.jpg)
+
+Akit részletesebben érdekel a dolog, annak a GitHub Issue-n látható videót ajánljuk:
+
+[https://github.com/frappe/frappe/pull/20880](https://github.com/frappe/frappe/pull/20880)
+</content:encoded></item><item><title>Könyvelés ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</guid><description>Az ERPNext rendszerben történő könyveléssel kapcsolatban régóta tartoztam egy cikkel, amiben összeszedtem néhány talán másoknak is hasznos szempontot.</description><pubDate>Fri, 07 Apr 2023 06:09:00 GMT</pubDate><content:encoded>
+Időtálló szempontokat próbáltam összegyűjteni, ezért nem blogposztként tettem itt közé ezt a cikket, hanem a főmenüből is elérhető [ERPNext könyvelés](https://www.monolithon.com/konyveles) statikus oldalként olvasható a tartalom.
+</content:encoded></item><item><title>Chromebook és az ERPNext</title><link>https://www.monolithon.com/hu/blog/chromebook-%C3%A9s-az-erpnext/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/chromebook-%C3%A9s-az-erpnext/</guid><description>Régóta készülök egy Chromebook ajánlóval, de most jött el az ideje, mert egy ideje tényleg mindkettő nagyon jó választás a mindennapi személyes és üzleti életben is.</description><pubDate>Tue, 21 Mar 2023 06:09:00 GMT</pubDate><content:encoded>
+Mielőtt megosztom a Chromebook-kal kapcsolatos információimat először arra szeretnék választ adni, hogyan kapcsolódik a Chromebook és az ERPNext. Számomra több kapcsolódási pont van, ezért az elején kezdem
+
+### Az egyik, az a használhatóság amihez a Linuxon keresztül jutottam el
+
+Számomra is sokáig sajnos csak a Windows létezett és meg kell mondjam, sosem voltam érte oda. A 3.1-el kezdtem és követtem a kiadásokat, egészen addig amíg egy barátnőm megkért, hogy nézzem már meg a netbookját, mert szeretne feltenni valamit rá és sehogy sem akar sikerülni. Ekkor találkoztam először a SUSE linux rendszerével, először meggyűlt vele a bajom, de amikor elengedtem a Windows-os gondolkodást, nagyon megszerettem és hiába győzködött, hogy windowst szeretne rá, végül maradt a SUSE, mert azon is mindent meg lehetett oldani, ráaudásul jellemzően biztonságosabban, stabilabban és gyorsabban, bár valós mérések nélkül ez inkább csak benyomás. Ezt követően magyar UHU Linux felhasználó lettem, mert a játékok, amikhez Windows kellett volna már nem érdekeltek és utána jött az Ubuntu és társai, de főleg grafikusan, néha persze parancssorral. Amikor azonban mediacentert szerettem volna, vagy saját cloud tárolást, akkor a Raspberry Pi került a képbe és a VPS-ek, különböző feladatokra. (Az csak most ugrik be, hogy egy szerkesztőségben gyakornokként szintén meglepett a Linux, de csak azt követően lett folytatás). A Windows után mindig hatalmas nyugalom volt a Linux használata, viszont akadt néhány probléma. Az egyik a grafikuskártya nehézség, a másik a laptopok esetén az energia gazdálkodás.
+
+### Hogy lett a Linuxból Chromebook?
+
+Amikor hűtőventillátor nélküli, teljesen néma működésű laptopot kerestem, akkor nem igen volt más választásom. A mozgóalkatrész hiányából adódoan zajmentes, kevésbé melegedő, kevesebb energiát használó és talán strapabíróbb, hiszen pormentes is egyben. Ez mind kellett nekem, de a Chromebook még újdonság volt számomra, de azt tudtam, hogy Linuxra épül ezért Linux is futtatható rajta. Amikor az így futtatott Linux teljesítményét összehasonlítottam az akkor saját setupommal kiderült, hogy ugyan nem gyorsabb, de hozza a szintet, ami nekem elég volt, így váltottam. És azóta sem bántam meg. Ekkortájt érdekes módon megvoltam a Chrome operációs rendszerrel és a limitált crosh shell-lel és nem is kellett rá Linuxot telepítenem, így még gyorsabb volt a gép.
+
+### Ami miatt korábban nem került a látókörömbe, és amit nem, vagy rosszul tudtam a Chromebookról
+
+Mindenhol azt írták, hogy ez csak internetezésre akalmas. Ezt, illetve a többi internettel kapcsolatos információt úgy értettem, hogy internet nélkül nem is használható. Annak ellenére, hogy a régi mondással értek egyet, miszerint: &quot;Minek áram, ha nincs internet?&quot; mégis azt gondoltam, ez így nem lesz jó mindennapi használatra. Mint kiderült tévedtem. Annak ellenére hogy például a Google Drive integrálva van tehát nagyon könnyen elérhetjük az ott tárolt fájlokat és tölthetjük fel oda őket, nem csak hogy azok helyi tárolására is van lehetőség és akár a dokumentumok offline szerkeszthetőségére is, hanem természesen van saját mappánk a gépen ahol akár a Drive-tól független fájlainkat tárolhatjuk és dolgozhatunk velük.&lt;/p&gt;
+
+A Google még tovább ment, mert ma már nem csak a fent említett hack-kel lehet Linuxot használni a Chromebook-on, hanem direkt beépítették a fejlesztőknek szánt Linux konténert is, amit egy kattintással el lehet indítani, amiben jelenleg alapból egy Debian 11-es fut. És ha ez nem lenne elég, akkor már az Android vilából ismer appokat is használhatjuk a Chromebookon.&lt;/p&gt;
+
+Mi az ami nincs? Excel. Ez valakinek lehet, hogy nagyobb problémát jelent, de érdemes megvizsgálni, hogy valójában az-e! Korábban a Linuxos gépekimen Open/Libre Office-t használtam, ez jelenleg a fejelsztői Linux gépen is futtatható. Korábban elérhető volt Androidra az Excel, ami Chromebook-on is tökéletesen működött, nagyon széles funkcionalitással, aminek a jelenlegi státuszát nem ismerem, mert a Microsoft is az online világba megy és a Google Sheet/Táblázathoz (ez is lehet elegendő alternatíva bizonyos esetekben) hasonló megoldása az Online Excel is egyre több dolgot tud. De megértem, hogy valakinek egy igazi teljes funkcionalitású Excelre van szüksége, akkor én egy a távoli asztal klienssel elérhető akár virtuális Windows-t ajánlok, mert az Excel úgyis azon a leggyorsabb, amit akár használat alapon is bérelhetünk pl az Amazontól, de még ennél is olcsóbban megoldható akár folyamatos használat mellett is, hiszen nem kellett drágább számítógépet, sem Windows sem Office előfizetést vásárolnunk.
+
+### Elérkeztünk az ERPNext és a Chromebook egyik kapcsolódási ponjához
+
+Az infromatikai fejlődésnek azon szakaszában járunk, hogy minden a felhőbe költözött, legyen az publikus vagy privát és valójában egy böngészőre van csupán szükségünk, amik között sajnos nincs nagy verseny, mert a Chrome böngésző egyeduralkodó. Viszont mi tud annál gyorsabb lenni, mint egy böngészőre optimalizált számítógép? Ez a Chromebook és az ERPNext egy olyan felhőben futó alkalmazás amihez valóban csak egy böngészőre van szükségünk. Nem kell helyileg telepítenünk semmit, így valóban tökéletes a kettő együtt.&lt;/p&gt;
+
+A másik kapcsolódási pont az az ár-érték arány. A minőség mellett a megfizethetőség és ár-érték arány is nagyon fontos számomra és ezt az ERPNext és a Chromebook tekintetében is megkapom, hiszen mindkettő nagyon jól van árazva.
+
+Van még egy érdekes sztori hogyan kapcsolódik nálam a kettő: az egy ERPNext partnerhez kötődik, akinek az oldalát sokszor olvasgattam és ott vettem észre, hogy ő is Chromebook rajongó és ő is a használhatóság és költséghatákonyság miatt ajánlja együtt az ERPNext-tet és a Chromebook-ot.
+
+Korábbi cikkekből kiderül, hogy nyílt forrású megoldásokat keresem, amik lehetőleg ingyenesek, de semmiféleképpen nem felhasználó szám alapján kell fizetni, a Chromebook pedig a Google online infrastruktúrájára épül, mint például a fentebb említett Googel Drive. Hogy is van ez akkor? Valóban felemásnak tűnhet a dolog, de annak ellenére, hogy Chromebookot használok, a Google szolgáltatásokat kerülöm, mindenre van alternatíva, mint például a Drive-ra a Nextcloud etc. Igaz ez nincs olyan mértékben integrálva, de talán nem is kell. Illetve akinek nincs adatvédelmi aggálya, csupán ha szükséges akkor inkább a Google helyett más fejlesztőt támogatna pénzzel, ahogy én is, akkor a lehetőség van az ingyenes Google termékek használatára azoknak a használati korlátjain belül maradva és amikor az kevés, akkor lehet pl archiválni a Drive-&amp;gt;Nextcloud irányba.
+
+Az Android telefonnal való együttműködése is példás, mert minden egyéb szoftver nélkül megy az aktuális böngésző fülek szinkronizálása, vagy a laptop feloldása a telefon ujjlenyomatolvasójának segítségével. Vagy akár az értesítések, médiatartalmak és SMS-ek megosztása stb...
+
+És utoljára a kedvencem: a biztonság, itt nincs vírus, sem kártevő. Jelez, ha lejött a frissítés hamar telepíti. Nincs olyan, hogy egy nem várt frissítés miatt órákra használhatatlan a gép amíg azt feltelepíti a legkevésbé alkalmas időpontban. Csak teszi a dolgát, ahogy az ERPNext is.
+
+A hátrány? Itthon hivatalosan nem forgalmazzák, de azért hozzá lehet jutni, akár garanciával is.
+</content:encoded></item><item><title>VueStoreFront a webáruházak headless svájcibicskája - fejlesztői környezet kialakítása</title><link>https://www.monolithon.com/hu/blog/vuestorefront-a-web%C3%A1ruh%C3%A1zak-headless-sv%C3%A1jcibicsk%C3%A1ja-fejleszt%C5%91i-k%C3%B6rnyezet-kialak%C3%ADt%C3%A1sa/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/vuestorefront-a-web%C3%A1ruh%C3%A1zak-headless-sv%C3%A1jcibicsk%C3%A1ja-fejleszt%C5%91i-k%C3%B6rnyezet-kialak%C3%ADt%C3%A1sa/</guid><description>Az ERPNext rugalmasságát, funkciógazdagsát már bemutattam, de azt is többször megemlítettem hogy érdemes más szoftverekkel együtt használni. Ilyen a VueStoreFront headless webáruház megoldás is.</description><pubDate>Sat, 25 Feb 2023 06:09:00 GMT</pubDate><content:encoded>
+A VueStoreFront webáruház lényege, hogy nem önálló webáruház, mint a Magento, vagy a Woocommerce, hanem mintegy bármilyen, akár nem webáruház-szoftverek kiterjesztéseként tud működni, ahol a webáruházhoz szükséges adatok rendelkezésre állnak. Ilyen lehet egy ügyviteli rendszer, vagy akár egy ERP, mint az ERPNext. Ez azért nagyon hasznos, mert innentől külön tudjuk a webáruházunk megjelenését leválasztva egyéb rendszereinkről gyorsan felépíteni, testreszabni, új technológiákkal, például sebesség terén üzleti versenyelőnyre szert tenni. Ezzel egy időben nem szükséges az üzleti folyamatainkba belenyúlni, hiszen azok zavartalanul, megszokottan működnek a háttérben. Ezt akár meg is fordíthatjuk, hiszen az újabb vállalkozói generáció hamarabb kezd e-business-be és indít webáruházat, mint hagyományos üzletet, ami itt is megoldható, de egyből egy teljes üzleti szoftvercsomagot kaphat. (ingyenes és nyílt forráskódút!) De a nagy trükk az egészben az, hogy együtt egy közös rendszert alkotnak és nem szinkronziáció történik a két rendszer között például, termékek, képek, megrendelések stb tekintetében, hanem a VueStoreFront webáruház közvetlenül használja ezeket a háttérendszerből és oda is dolgozik, pl rendelések leadásával.
+
+Talán ebből még nem derült ki teljesen hogy kerül ide a magyar ERPNext és Frappe blogra a VueStoreFront headless webáruház rendszer. Azért írok róla, mert nem csak nagyon jó megoldásnak látom az egész headless technológiát, hanem mert úgy tűnik, hogy ahogy korábbi bejegyzésekben is említettem az ERPNext és Frappe fejlesztők is kedvelik, és ők is ebbe az irányban gondolkodnak. Ennyit a VueStoreFront és headless webáruház működéséről, az általunk előnynek ítélt megoldásáról, lássuk hogyan lehet egy VueStoreFront fejlesztői környezetet összeállítani Debian 11 virtuális gépben. (Disclaimer: bizonyára vannak ennél alkalmasabb rendszerek is fejlesztésre, de az általam használt Chromebook ezzel a rendszerrel érkezik, ezzel is egyszerűsítve az életmet. A Chromebook majd megérdemel egy újabb bejegyzést, akár többet is, amivel szintén készülök, de most vissza a VueStoreFront fejelsztői környezet kialakításához.)
+
+Mivel a Debian 11 tárolóiból a használandó szoftverek nem megfelelő verziói érhetőek el, így le kell töltenünk párat.
+
+nvm telepítése:
+
+```bash
+sudo curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.bashrc
+nvm install node
+nvm install --lts / nvm install 18.14.2 / nvm install 16.13.0
+```
+
+Az utolsó sor hármasából egy elég, az aktuális teszt projekthez a 18.x-et használjuk, ezért azt állítjuk be:
+
+```bash
+nvm use 18.14.2
+```
+
+```bash
+npm install --global yarn
+```
+
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+```bash
+yarn
+yarn dev
+```
+
+Ezután a böngészőben alapesetben az alábbi címen elérhető a VueStoreFront webáruház weblapja:
+
+```bash
+http://localhost:3000/
+```
+
+Erre a két parancsra is szükségünk lehet, ha a verziókból adódóan valami nem működne:
+
+```bash
+node -v
+npm rebuild node-sass
+rm -rf node_modules/
+```
+</content:encoded></item><item><title>ERPNext fejlesztés és fejlesztői eszközök</title><link>https://www.monolithon.com/hu/blog/erpnext-fejleszt%C3%A9s-%C3%A9s-ejleszt%C5%91i-eszk%C3%B6z%C3%B6k/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-fejleszt%C3%A9s-%C3%A9s-ejleszt%C5%91i-eszk%C3%B6z%C3%B6k/</guid><description>Az ERPNext fejlesztéséről érdemes tudni néhány dolgot. Az ERPNext könnyen testre szabható és bővíthető, így a felhasználók személyre szabhatják a rendszert a vállalkozásuk egyedi igényei szerint.</description><pubDate>Sat, 18 Feb 2023 06:09:00 GMT</pubDate><content:encoded>
+Az ERPNext fejelsztésével kapcsolatban összeszedtem néhány információt és hasznos ERPNext specifikus fejlesztői eszközt, amelyek segíthetnek egy ERPNext fejlesztési projekt alapjainak megismerésében. De, hogy érdemes-e egyáltalán ERPNext fejlesztésben gondolkodni és ha igen, akkor milyen feltételek mellett azt a bejegyzés végére tartogatom. Lássuk az ERPNext fejlesztés néhány alappillérét:
+
+1. Python és Frappé Framework: Az ERPNext Pythonban íródott, és a Frappé Framework segítségével épül fel. A Frappé Framework egy könnyen tanulható keretrendszer, amely lehetővé teszi az üzleti alkalmazások gyors és hatékony fejlesztését. Az ERPNext fejlesztői számára fontos, hogy alaposan ismerjék a Python és a Frappé Framework működését és használatát.
+1. Adatbázis-motor: Az ERPNext alapértelmezett adatbázis-motorja a MariaDB, amelyet a MySQL fork-jának tekintenek. Az MariaDB egy nyílt forráskódú relációs adatbázis-motor, amely lehetővé teszi a hatékony adatkezelést. Ezen belül a jól kialakított adatbázis-séma, adattáblák, indexek, kapcsolatok is hozzájárulnak a jó működéshez, amit fejlesztésnlé szintén ismerni kell és figyelembe kell venni.
+1. Modulok: Az ERPNext különféle modulokból épül fel, amelyek különböző üzleti folyamatokat kezelnek. A modulok közé tartoznak például a pénzügyi, a beszerzési, az értékesítési és a CRM modulok. Ha szeretne az ERPNext-hez új modulokat hozzáadni, vagy meglévő modulokat módosítani, alapos ismeretekkel kell rendelkeznie az adott folyamatokról, valamint az ERPNext modularchitektúrájáról.
+1. Integrációk: Az ERPNext integrálható más üzleti alkalmazásokkal, például pénzügyi alkalmazásokkal, webáruházakkal, CRM-rendszerekkel és még sok mással. Az integrációk kialakítása a Frappé Framework segítségével történik, amely lehetővé teszi az alkalmazások közötti adatkapcsolatok egyszerű és hatékony kezelését.
+1. UI fejlesztés: Az ERPNext felhasználói felülete különböző modulokból áll, amelyekhez különféle funkciók tartoznak. Az ERPNext UI fejlesztése a Frappé Framework és a JavaScript keretrendszerek, például a Vue.js segítségével történik. Az UI fejlesztőknek alaposan ismerniük kell az adott keretrendszereket, valamint a felhasználói élmény tervezésének alapelveit.
+1. Verziókövetés: Az ERPNext fejlesztése a verziókövetési rendszer használatát igényli. A verziókövetési rendszer lehetővé teszi a fejlesztők számára, hogy nyomon kövessék a kódbázis változásait, javítsák a hibákat, teszteljék az új funkciókat és összehasonlítsák a különböző verziókat. Az ERPNext fejlesztésében a Git a leggyakrabban használt verziókövető rendszer.
+1. Dokumentáció: Az ERPNext fejlesztésekor fontos az alapos dokumentáció vezetése, amely lehetővé teszi a fejlesztők számára, hogy könnyen megértsék a kód működését és hogyan kell módosítani azt. Az ERPNext dokumentációja az adott verzióhoz tartozó fejlesztési útmutatók, API dokumentációk, adatmodell-leírók és még sok más tartalom.
+1. Tesztelés: Az ERPNext fejlesztése során fontos a rendszer alapos tesztelése. A tesztelésnek két fő típusa van: manuális és automatizált. A manuális tesztelés során az emberi tesztelők a rendszeren belül tesztelik az egyes funkciókat és adatbázisokat, hogy meggyőződjenek róla, hogy azok megfelelnek-e az elvárásoknak. Az automatizált tesztelés során a tesztelők automatizált tesztelési eszközöket használnak, amelyek lehetővé teszik a tesztek hatékonyabb végrehajtását és a hibák gyorsabb azonosítását. Az ERPNext fejlesztésekor fontos a folyamatos integrációs tesztelés is. A folyamatos integrációs tesztelés a kódbázis változásait automatikusan ellenőrzi, és azonnal értesíti a fejlesztőket, ha valamilyen hibát észlel. Ez segít a hibák gyorsabb azonosításában és megoldásában. A megfelelő tesztelés biztosítja, hogy az ERPNext rendszer megbízható és stabil legyen, és a végfelhasználók elégedettek legyenek az alkalmazás használatával.
+
+Az ERPNext fejlesztése izgalmas kihívás, amely lehetővé teszi a fejlesztők számára, hogy testre szabják a rendszert az adott üzleti igényeknek megfelelően. Az ERPNext fejlesztésekor azonban fontos az alapos ismeretekkel és az erős dokumentációval rendelkező csapat, amely összehangoltan dolgozik a rendszer kialakításán és karbantartásán. Mindehhez azonban nem csak magasszintű ERPNext és programozási ismeretekre van szükség, hanem a fejlesztendő területektől függően például pénzügyi, számviteli ismeretekre a könyvelés terén, vagy akár logisztikai ismeretekre raktározás esetén, továbbá a rendszer komplexitásából adódóan a rendszerszemlélet is elengedhetetlen. Itt még meg kell azt említeni, hogy core (alap) programkódot érintő fejlesztés és fork (leágazás, eltérés) a fő kódbázistól a hosszútávú karbantarthatóság miatt szinte soha sem ajánlott. A jógyakorlat a saját modulokkal való felülírás, ami persze szintén nagy körültekintést igényel. Ha megfelelően végrehajtják, az ERPNext alkalmazás még inkább testre szabható az ügyfél igényeinek megfelelően, és ezáltal javíthatja az üzleti folyamatok hatékonyságát.
+
+ERPNext fejlesztés, azaz programozás és kódolás helyett/mellett azonban az ERPNext más utat is kínál nekünk a testreszabáshoz amelyet a felületről elvégezhetünk. Például alapesetben a beszerzési megrendelésen (Purchase Order) be tudjuk állítani, hogy az milyen költséghelyhez, vagy projekthez kapcsolódik a teljes megrendelés, vagy annak sorai szintjék. De nincs lehetőség feladatokhoz (Task) kapcsolni, ami sokszor hasznos lehet, mégha az ERPNext errre az egyéb költségeket (Expenses) javasolja bizonyos feltételek mellett.
+
+### Ne fejlesszünk, szabjunk testre!
+
+De ekkor nem kell kétségbe esni, ugyanis saját kód nélkül, az új mezőket a felületen hozzáadhatjuk a rendszerünkhöz és saját kód hiányában a gyári főverziók követése és verzióváltások is könnyűek maradnak, hiszen rendszerünk továbbra is &quot;vanilla&quot; ERPNext, azaz módosításoktól mentes.&lt;/p&gt;
+
+A következő képernyőképen ez az extra mező hozzáadás látható. Persze ha szeretnénk egyéb automatizációkat, akkor szükségünk lehet kliens vagy szerveroldali szkriptekre is, de még mindig nem kell saját modult fejlesztenünk.
+
+&lt;img src=&quot;/images/files/5cYQcrj.png&quot;&gt;
+
+Ha azonban mégis a teljes saját fejlesztés mellett döntenénk, akkor használhatjuk az alábbi Frappe és ERPNext fejelsztéshez hasznos eszközöket:
+
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/frappeerpnext-tools/mfpfeokebfgddkaemagjigbjkmohmpab&quot; rel=&quot;noopener noreferrer&quot;&gt;https://chrome.google.com/webstore/detail/frappeerpnext-tools/mfpfeokebfgddkaemagjigbjkmohmpab&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ElasticRun/barista&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/ElasticRun/barista&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ankush/frappe-test-runner&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/ankush/frappe-test-runner&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/barredterra/frappe_server_performance&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/barredterra/frappe_server_performance&lt;/a&gt;&lt;/p&gt;
+</content:encoded></item><item><title>ERPNext, BI és üzleti intelligencia+Metabase</title><link>https://www.monolithon.com/hu/blog/erpnext-bi-%C3%A9s-%C3%BCzleti-intelligencia-metabase/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-bi-%C3%A9s-%C3%BCzleti-intelligencia-metabase/</guid><description>Az ERPNext-re érdemes úgy tekintenünk, mint egy adattárházra és minden fontos üzleti adat központi tárolóegységére.</description><pubDate>Thu, 09 Feb 2023 06:09:00 GMT</pubDate><content:encoded>
+Azt már több bejegyzésben megemlítettem, hogy ahhoz, hogy üzleti folyamatainkat jól szervezhessük, átláthassunk a káoszon, vagy éppen uraljuk, vagy legalábbis meglovagoljuk a hullámokat a vállalkozás tengerén, ahhoz kell egy jó szoftver. Ezzel kapcsoaltban több iskola létezik. Én azt vallom, hogy a sok sziget jellegű megoldás helyett célszerű egy integrált rendszert választani. Erre kiválóan alkalmas az ERPNext rendszer főleg azért, mert nem úszhatjuk meg bizonyos külső rendszerek integrálását és ezt az ERPNext egyszerűen lehetővé teszi. És ez mégis könnyebb, mint ha minden egyes elemet kellene összekapcsolni és nem lenne egy központi felületünk, hanem minden adat más-más rendszerben lenne.
+
+Ebbe az adattárház felfogásba illeszkedik, hogy hamár minden üzleti adatot az ERPNext rendszerben tárolunk, akkor szeretnénk is hozzáférni. És nem csak hozzáférni, hanem riportokat kapni. Az ERPNext jelentéskészítő funkciója lehetővé teszi, hogy a felhasználók (megfelelő jogosultság mellett, bár ez az ERPNext esetén egy külön téma lehetne) széleskörű adatokat gyűjtsenek össze és elemezzenek, hogy jobb döntéseket hozhassanak.
+
+Az ERPNext riport funkciója lehetővé teszi, hogy dinamikusan létrehozzunk jelentéseket, adatokat rendezzünk, például szűrőkkel és összehasonlítsunk. Mindezt persze csak akkor tudjuk megtennie ha az adatok benne vannak az ERPNext-ben, ezért javaslom ezt elsődleges adattárháznak. Az ERPNext jelentéskészítője alapból elérhető és van pár beépített fontos riport is a rendszerben, De a különböző alap nézetek, mint a Lista, KanBan, Dashboard mellett ott a Riport nézet amivel saját riportokat állíthatunk össze és el is menthetjük őket. Sők akár ezekről email-es értesítéseket is kaphatunk. Még akár úgyis, hogy csak bizonyos változásokról küldjön a rendszer.
+
+Az ERPNext az üzleti elemzés területén még eggyel továbbment az eddig bemutatott riportokat vizualizációval is kiegészítette, ahogy az a fenti képen is látható. Különböző diagramokkat állíthatunk össze a szükgséges információk és adatok alapján. A világ azonban változik és az igények is. Ahogy az előző bejegyzésben tettünk egy kis kitekintést az egyik legmodernebb technológia az &lt;a href=&quot;https://www.monolithon.com/blog/hirek/erpnext-%C3%A9s-a-chatgpt&quot; rel=&quot;noopener noreferrer&quot;&gt;OpenAI, ChatGPT&lt;/a&gt; világába, úgy most a riportok jövőjét szeretném megmutatni:
+
+### BI - Business Intelligence - üzleti intelligencia szoftverek
+
+Manapság az elemzők a riportok helyett inkább kérdéseket szeretnek megfogalmazni és arra egyből választ kapni. Ezt a felfogást követi a legtöbbi üzleti intelligencia szoftver, mint például a legismertebb PowerBI is, de mivel jobban szeretem az ingyenes, nyílt forrású szoftvermegoldásokat, ezért inkább a Metabase-t ajánlom erre a célra. Azért is, mert ezt nagyon könnyű az ERPNexttel összekapcsolni és könnyen választ kaphatunk kérdéseinkre, vagy még talán az ERPNext-nél egyszerűbben is készíthetünk vele riportokat.
+
+Sőt, ami szintén nagyon hasznos, hogy nem csak adatok használatára használhatjuk a Metabase szoftvert az ERPNext-tel összekötve, például ezen leírás alapján: &lt;a href=&quot;https://discuss.frappe.io/t/guide-how-to-install-metabase-dashboard-along-with-erpnext-on-ubuntu-18-04-server/53075&quot; rel=&quot;noopener noreferrer&quot;&gt;https://discuss.frappe.io/t/guide-how-to-install-metabase-dashboard-along-with-erpnext-on-ubuntu-18-04-server/53075&lt;/a&gt;
+
+Hanem akár arra is van mód, hogy a Metabase-ben összeállított riportokat, adatokat, stb-t, az ERPNext-ten belül jelenítsük meg, így ugyan használunk egy nagy tudású üzleti intelligencia BI szoftvert, de még el sem kell hagynunk az ERPNextet. A megoldás részletei itt találhatóak: &lt;a href=&quot;https://github.com/pipech/frappe-metabase&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/pipech/frappe-metabase&lt;/a&gt;
+
+&lt;img src=&quot;/jF7FETk.jpg&quot;&gt;
+
+Mivel tényleg néhány kattintás volt összekapcsolni az ERPNextet és a Metabase-t ezért ideteszek egy képernyőt ahol a demó rendszerben található Sales Invoice - Értékesítési számlák listáját lehet látni az Metabase-en belül, ami az ERPNext-ből származik, valós időben. Amiért még nagyon izgalmas a Metabase az az, hogy akár több adatforrásból jövő adatokkal is dolgozhatunk benne egyszerre. Ez akár a szigetes rendszerek esetében is segítségünkre lehet, vagy az ERPNext integrált rendszerhez nem kapcsolódó, például külső hirdetési rendszerekből érkező adatok elemzését is nagyban megkönnyítheti. És akkor abba még nem is gondoltunk bele, hogy ha ezekre engedjük rá a mesterséges inteligenciát akkor mi mindenre leszünk képesek. Mert például már arra is van példa az egyik legújabb termék esetében, hogy adatbázison belül használjuk a mesterséges inteligenciát: &lt;a href=&quot;https://mindsdb.com/natural-language-processing-in-databases&quot; rel=&quot;noopener noreferrer&quot;&gt;https://mindsdb.com/natural-language-processing-in-databases&lt;/a&gt;
+
+Mielőtt bárki belevág, azt még talán fontos megemlíteni, hogy a Metabase közvetlenül a Mysql adatbázishoz csatlakozik, ezért célszerű a tesztrendszerhez kapcsolódni és nem az éleshez.
+</content:encoded></item><item><title>Mitől hízik az ERPNext adatbázis és mit tehetünk?</title><link>https://www.monolithon.com/hu/blog/mit%C5%91l-h%C3%ADzik-az-erpnext-adatb%C3%A1zis-%C3%A9s-mit-tehet%C3%BCnk/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/mit%C5%91l-h%C3%ADzik-az-erpnext-adatb%C3%A1zis-%C3%A9s-mit-tehet%C3%BCnk/</guid><description>A tipikus felhő rendszerek, ahol az ERPNext-tel ellentétben nem a felhasznált erőforrás alapján áraznak a szolgáltatók, hanem valami más alapján, valójában  szintén használnak mindenféle erőfforást...</description><pubDate>Thu, 17 Nov 2022 06:09:00 GMT</pubDate><content:encoded>
+A tipikus felhő rendszerek, ahol az ERPNext-tel ellentétben nem a felhasznált erőforrás alapján áraznak a szolgáltatók, hanem valami más alapján, valójában szintén használnak mindenféle erőfforást, csak ezek részleteit sok helyen elrejtik a felhasználók elől.
+
+Az ERPNext nem csak a FrappeCloud platformját alakította ki transzparensen, ahol látható, hogy mekkora erőforrást is használ az ERPNext szoftver, hanem magát az ERPNextet is felvértezte egy riport funkcióval, hogy megnézhessük valójában mi mennyit foglal az adatbázisban.
+
+A következő URL-t kell a saját ERPNext példány domainje után illeszteni a riporthoz: [/app/query-report/Database%20Storage%20Usage%20By%20Tables](/app/query-report/Database%20Storage%20Usage%20By%20Tables)
+
+Ez azért jó, mert egyszerű, és ha megtaláltuk az esetlegesen indokolatlanul sok erőforrást használó tényezőt, könnyen változtathatunk rajta, mert minél kisebb az adatbázis, annál könnyebb dolgunk van vele például biztonsági mentések készítésénél vagy frissítésnél, ami mindkettő esetben kíméli a pénztárcánkat. Például törölhetjük a felesleges verziókat és a verziókezelést például ki is kapcsolhatjuk bizonyos dokumentumokon.
+
+És ami a legjobb, hogy bizonyos esetekben még adatbázis műveletekre sincs szükségünk, hiszen ahogy a mém is mondja az ERPNext-ben minden doctype, így könnyedén a felületről is törölhetjük például amire nincs szükségünk.
+
+![Image](/images/cqblbkY.jpg)
+
+Forrás:
+
+[https://twitter.com/FrappeCloud/status/1582922893968564224](https://twitter.com/FrappeCloud/status/1582922893968564224)
+</content:encoded></item><item><title>Magyar mikrogazdálkodói számlatükör</title><link>https://www.monolithon.com/hu/blog/magyar-mikrogazd%C3%A1lkod%C3%B3i-sz%C3%A1mlat%C3%BCk%C3%B6r/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/magyar-mikrogazd%C3%A1lkod%C3%B3i-sz%C3%A1mlat%C3%BCk%C3%B6r/</guid><description>Mivel az ERPNext alapja a számlatükör, ezért arra a következtetésre jutottunk, hogy célszerű lenne a számlatükröt, számlatükröket, illetve azok alapján az alapértelmezett számlákat beállítani</description><pubDate>Sun, 23 Oct 2022 06:09:00 GMT</pubDate><content:encoded>
+Sziasztok!
+
+Mivel az ERPNext alapja a számlatükör, ezért arra a következtetésre jutottunk, hogy célszerű lenne a számlatükröt, számlatükröket, illetve azok alapján az alapértelmezett számlákat beállítani az ERPNext lokalizáláshoz, hogy utána arra felépíthessük a számlázást és ami ahhoz szükséges és esetleg továbbiakat is.
+
+Láttuk a @krnkris által javított számlatükröt, ezúton is köszönjük, szép munka volt, hogy elindult a dolog és be is került egy magyar számlatükör az ERPNextbe:
+
+&lt;a href=&quot;https://github.com/frappe/erpnext/issues/7866&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/frappe/erpnext/issues/7866&lt;/a&gt;
+
+&lt;a href=&quot;https://discuss.erpnext.com/t/numbering-of-accounts-in-chart-of-accounts/11101/36&quot; rel=&quot;noopener noreferrer&quot;&gt;https://discuss.erpnext.com/t/numbering-of-accounts-in-chart-of-accounts/11101/36&lt;/a&gt;
+
+Ezt a munkát szeretnénk folytatni a közösséggel együtt.
+
+Körbejárva a témát arra jutottunk, hogy talán az lenne a legcélszerűbb, ha hozzáadnánk egy opcionálisan kiválasztható, új számlatükröt a rendszerhez, mégpedig a mikrogazdálkodói számlatükröt, ami a 398/2012. (XII. 20.) Korm. rendelet a mikrogazdálkodói egyszerűsített éves beszámolóról melléklete, mert a mikrogazdálkodói beszámoló választása esetén ezt köteles használni a vállalkozás.
+
+&lt;a href=&quot;https://net.jogtar.hu/jogszabaly?docid=a1200398.kor&quot; rel=&quot;noopener noreferrer&quot;&gt;https://net.jogtar.hu/jogszabaly?docid=a1200398.kor&lt;/a&gt;
+
+Ezt azonban a rendelet alapján nem igazán lehet módosítani, kivéve:&quot;Nem minősül eltérésnek a 3. melléklet szerinti főkönyvi számlák továbbrészletezése.&quot;
+
+Így ennél a mikrogazdálkodói számlatükörnél nem a teljeskörű könyvelés automatizálást tűztük ki célul, hanem azt, hogy a számlázáshoz szükséges főkönyvi számlák meglegyenek, hogy azokat alapértelmezett számlákként is beállíthassuk a rendszerbe és amint elkészül a NAV kompatibilis magyar számlázás akkor out-of-the box használható legyen a rendszer. Tehát csupán néhány számlával fogjuk kibővíteni, de hogy követhető legyen, ezért menni fog egy eredeti commit az eredeti mikrogzadálkodói számlatükörrel és pull-requesttel, és utána annak a kibővítése is így fog megtörténni.
+
+Ez a számlatükör-készítés elég nagy meló volt, ezért úgy csináltuk, hogy változás esetén a szükséges JSON file egy táblázatból automatizáltan előállítható legyen. Ezt fogjuk használni a második, teljeskörű számlatükör elkészítéséhez, mert meglátásunk szerint sokkal könnyebb egy táblázatban szerkeszteni, mint az átkódolt, tehát nehezen olvasható forráskódban.
+
+Természetesen a chart of account importer használható marad és felületről is lehet bizonyos keretek között módosítani ha valakinek szüksége lenne rá, ennek hogyanjánt is megosztjuk majd.
+
+Jöhetnek a kérdések, ötletek, javaslatok. Köszi szépen.
+
+ui: Ezt a topikot hagyjuk meg a mikrogazdálkodói számlatükörnek, a &quot;teljeskörű&quot; általános számlatükörnek, alapértelmezett számláknak, NAV számlázásnak stb-nek használjunk dedikáltat.
+
+ui2: Ezt az eredeti posztot publikáltuk a fórumon, hogy egyszerűbb legyen megvitatni:
+
+&lt;a href=&quot;https://discuss.erpnext.com/t/magyar-mikrogazdalkodoi-szamlatukor/96364&quot; rel=&quot;noopener noreferrer&quot;&gt;https://discuss.erpnext.com/t/magyar-mikrogazdalkodoi-szamlatukor/96364&lt;/a&gt;
+</content:encoded></item><item><title>Hogyan kerülnek be a szállítói számlák az ERPNext-be?</title><link>https://www.monolithon.com/hu/blog/hogyan-ker%C3%BClnek-be-a-sz%C3%A1ll%C3%ADt%C3%B3i-sz%C3%A1ml%C3%A1k-az-erpnext-be/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/hogyan-ker%C3%BClnek-be-a-sz%C3%A1ll%C3%ADt%C3%B3i-sz%C3%A1ml%C3%A1k-az-erpnext-be/</guid><description>Erre több megoldás is van. Az egyik legegyszerűbb ha van Purchase Order (Beszerzési megrendelés) a rendszerben, akkor abból tudunk generálni Szállítói számlát (Purchase Invoice).</description><pubDate>Sun, 16 Oct 2022 06:09:00 GMT</pubDate><content:encoded>
+A másik megoldás lehet, hogy ha a tételek már megérkeztek és a szállítólevél rögzítve lett a rendszerben, akkor abból kiindulva is készíthetünk egy szállítói számlát.
+
+Ezt a bejegyzést azonban azért írom, hogy megmutassam milyen folyamatot dolgoztunk ki a Monolithon magyar ERPNext rendszerben, amihez ugyan több másik szoftvert is használunk, de attól még nagyon egyszerű, stabil és hatékony megoldás lett:
+
+Androidon a &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&amp;amp;hl=en&amp;amp;gl=US&quot; rel=&quot;noopener noreferrer&quot;&gt;Microsoft Lens - PDF Scanner&lt;/a&gt; alkalmazással készítünk egyszerűen és gyorsan szuper minőségű, de jól tömörített képeket az akár több oldalas számlákról, amit pdf formátumban mentünk el a telefonunkon. Rengeteg hasonló programot kipróbáltunk, de ez a legfelhasználó-barátabb, mégha hihetetlen is, pedig a Microsoft készíti.
+
+Innentől nincs sok dolgunk, mert a &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&amp;amp;hl=en&amp;amp;gl=US&quot; rel=&quot;noopener noreferrer&quot;&gt;FolderSync&lt;/a&gt; Android app a háttérben szinkronizálja a &lt;a href=&quot;https://nextcloud.com/&quot; rel=&quot;noopener noreferrer&quot;&gt;Nextcloud&lt;/a&gt; rendszerbe a számlákat, ahonnan az &lt;a href=&quot;https://n8n.io/cloud?ref=monolithon&amp;amp;utm_source=affiliate&quot; rel=&quot;noopener noreferrer&quot;&gt;n8n&lt;/a&gt; elküldi a bejövő számlák fogadására fenntartott email fiókba, amit az ERPNext beolvas.
+
+Így már kézzel hozzá tudjuk csatolni a megkapott számlaképet az ERPNext szállítói számlához. Ez akkor érdekes, ha például tömegesen töltjük le automatikusan a NAV-ból a szállítói számlákat, azaz azok már benne vannak a rendszerben és már csak hozzá akarjuk csatolni az így szinkronizált számlaképeket.
+
+Vagy kisebb számlaforgalom esetén fordított is lehet a folyamat, azaz használhatjuk a hamarosan elkészülő megoldást, ami lehetővé teszi, hogy a számla fogadására fenntartott email fiókba érkezett levélből az ERPNext automatikusan előkészítsen egy szállítói számlát és az így előkészített dokumentumon kézzel kiválasztjuk/létrehozzuk a szállítót és a beérkezett pdf dokumentumból kimásoljuk a szállítónként egyedi számla (sor)számot -&amp;nbsp;például ezzel a &lt;a href=&quot;https://chrome.google.com/webstore/detail/copyfish-%F0%9F%90%9F-free-ocr-soft/eenjdnjldapjajjofmldgmkjaienebbj&quot; rel=&quot;noopener noreferrer&quot;&gt;chrome kiegészítővel&lt;/a&gt; és a frissítés gombbal a számla adatait automatikusan letöltjük a NAV rendszeréből.
+
+Leírva talán kicsit hosszú, de majd a videón látszani fog, hogy a gyakorlatban milyen kényelmes, mert ezzel ötvöztük a közvetlenül a szállítóktól email-ben érkező pdf-ek feldolgozását az általunk fotózott dokumentumok automatikus feltöltésével és még a drága OCR-t is kihagyhattuk, mert arra valójában nincs szükség, mégha amúgy az n8n-be vagy az ERPNext-be is könnyedén integrálhatnánk.
+
+Frissítés:A legtöbb esetben az Office Lens Android app az OCR funkciót is betölti egyben, mert a pdf-be való mentések nagy részében kereshető pdf jön létre. Kivéve rossz minőségű képek esetén nem dolgozza fel a szöveget az app. ;)
+</content:encoded></item><item><title>ERPNext EU adószám ellenőrzés</title><link>https://www.monolithon.com/hu/blog/erpnext-eu-ad%C3%B3sz%C3%A1m-ellen%C5%91rz%C3%A9s/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-eu-ad%C3%B3sz%C3%A1m-ellen%C5%91rz%C3%A9s/</guid><description>Az ERPNext magyar számlázásnak sok része van a téma komplexitásából adódóan. EU partner esetén az EU adószám ellenőrzése kulcskérdés.</description><pubDate>Tue, 11 Oct 2022 06:09:00 GMT</pubDate><content:encoded>
+Ahogy a korábbi posztban mutattam az érkező ERPNext magyar számlázási megoldás NAV kapcsolat működéséből egy kicsi részletet, most ennek a párját mutatom meg, hogyan tudunk EU adószám alapján EU cégadatokat könnyedén rögzíteni és EU adószámot ellenőrizni, azaz validálni a VIES rendszer segítségével. (Technikailag ez egy lehetőség csupán, jogilag azonban szállítóként kötelesek vagyunk a vevőinket ellenőrizni). Még nem tökéletes a dolog, mert ugyan nem minden tagállam, például Magyarország sem biztosít a VIES rendszer felé külön irányítószámot és várost, de van ahol ez külön elérhető, ezért ezt a részt még finomítjuk. De az ERPNext magyar számlázási megoldásának NAV-ból történő cégadatok lekéréséhez hasonlóan mostantól az EU-s partnerek adatai is lekérhetőek, ellenőrizhetőek, így még kevesebb kattintásra vagy manuális munkára van szükség, ezzel a hibázás lehetőségét is csökkentjük.
+
+&lt;img src=&quot;/images/GaTn0ke.gif&quot;&gt;
+</content:encoded></item><item><title>Betekintés az ERPNext és Frappe szellemiségébe</title><link>https://www.monolithon.com/hu/blog/az-erpnext/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/az-erpnext/</guid><description>Az ERPNext egy üzleti szoftver, azonban az azt létrehozó emberek egy új szervezeti kultúrát megvalósítva dolgoznak nap, mint nap, hogy egyre jobb legyen az ERPNext.</description><pubDate>Sat, 01 Oct 2022 06:09:00 GMT</pubDate><content:encoded>
+Az ERPnext az ERPNext-et fejlesztő csapat által kialakított flexibilis &quot;keretrendszerre&quot; a Frappe keretrendszerre épül. Valójában appok, alkalmazások gyűjteménye az ERPNext, amit a Frappe keretrendszerre kell telepíteni. Az ERPNext fejlesztést Rushabh Mehta kezdte meg néhány társával és ahogy nőtt a cég, úgy hozták létre a Frappe szervezetet és a termékkel együtt nőtt és formálódott maga a szervezet is.
+
+Milyen ez a szervezet? Erről talán egy másik posztban beszámolok, mert nagyon érdekes ahogyan az életről és a munkáról gondolkodnak és ezt szervezeti szinten a közös értékek mentén implementálni tudták a mindennapokba, de a mostani posztnak egy konkrét aktualitása van:
+
+Az ERPNext-nek egyetlen alapítója, foundere van, akit fentebb már említettem, Rushabh Mehta, aki úgy döntött, hogy néhány kiemelkedő teljesítményt nyújtó kollégájának, akik a viszonylag régóta&amp;nbsp;részt vettek az ERPNext fejlesztésben co-founder, azaz társalapító címet adományoz.
+
+Ezért is szeretjük az ERPNext-et!
+
+A többi értékről, amit képviselnek és kísérletezve próbálnak jobb terméket és együttműködést építeni, majd később. Az azonban tisztán látható, hogy nem a részvényesek kiszolgálása az elsődleges céljuk és függetlenségüket bebiztosítva meg tudják őrizni az ERPNext szoftvert ingyenes és nyílt rendszernek, amit ma már nem sokan mondhatnak el a termékükről. Ha már a részvényesek szóba kerültek, akkor egy kis technikai információt is becsempészek ebbe a hírbe, hiszen kevesen tudják, hogy ERPNext-tel a vállalkozás tulajdonosait, részvényeseit és üzletrész/részvény mozgásait is lehet rögzíteni, hogy azokról mindig naprakész információ álljon rendelkezésre a többi ERPNext-ben tárolt üzleti információ mellett.
+
+![Image](https://docs.erpnext.com/files/shareholder.png)
+
+Ezzel párhuzamosan történt néhány érdekes és ésszerű változtatás a termék fejlesztésével kapcsolatban, amiről szintén hamarosan beszámolok.
+
+Gratulálok Nabin Hait!
+
+Forrás:
+[https://erpnext.com/blog/accounting/the-journey-from-an-accountant-to-a-co-founder](https://erpnext.com/blog/accounting/the-journey-from-an-accountant-to-a-co-founder)
+</content:encoded></item><item><title>ERPNext magyar NAV online számla betekintő</title><link>https://www.monolithon.com/hu/blog/erpnext-magyar-nav-online-sz%C3%A1mla-betekint%C5%91/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-magyar-nav-online-sz%C3%A1mla-betekint%C5%91/</guid><description>Így működik a vevők/szállítók gyors létrehozása az ERPNext-ben. Ehhez a NAV online számla rendszeréből adószám alapján kapjuk az adatot. Ez az ERPNext magyar NAV kompatibilis számlázás alapja.</description><pubDate>Sat, 01 Oct 2022 06:09:00 GMT</pubDate><content:encoded>
+További részletek hamarosan :) Addig is itt látható működés közben:
+
+&lt;img src=&quot;/images/jFrMpG9.gif&quot;&gt;
+</content:encoded></item><item><title>Számlakép és egyéb nyomtatási nézetek és fordítások ERPNext-ben</title><link>https://www.monolithon.com/hu/blog/sz%C3%A1mlak%C3%A9p-%C3%A9s-egy%C3%A9b-nyomtat%C3%A1si-n%C3%A9zetek-%C3%A9s-ford%C3%ADt%C3%A1sok-erpnext-ben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/sz%C3%A1mlak%C3%A9p-%C3%A9s-egy%C3%A9b-nyomtat%C3%A1si-n%C3%A9zetek-%C3%A9s-ford%C3%ADt%C3%A1sok-erpnext-ben/</guid><pubDate>Thu, 29 Sep 2022 06:09:00 GMT</pubDate><content:encoded>
+Jó tudni, hogy az ERPNext-ben egyedi nyomtatási formátumoknál nem jelenik meg automatikusan a fejléc és lábléc. A fejlécet így lehet beállítani:
+
+```jinja
+{% if letter_head and not no_letterhead -%}
+{% if print_settings.repeat_header_footer %}
+  &amp;nbsp; &amp;lt;br&amp;gt; &amp;nbsp;&amp;lt;div class=&quot;letter-head&quot;&amp;gt;{{ letter_head }}&amp;lt;/div&amp;gt;
+{%- endif %}
+{%- endif %}
+```
+
+Hasonlóan kell eljárni a lábléccel is.
+
+Ami viszotn még csalóka, hogy a rendszer alapból csak a gyári (Standard) nyomtatási képekhez kínál fordítást. Így ha saját, egyedi nyomtatási képet készítünk (akár egy meglévő alapján), akkor a címkéket az alábbi módon kell megadnunk angolul:
+
+```jinja
+{{ _(&quot;Field Label Text in English&quot;) }}
+Majd az ERPNextbe beépített fordítási varázslóval lefordítnai a kívánt nyelvre.
+```
+</content:encoded></item><item><title>ERPNext 14.0 verzióra frissítettük a monolithon.com-ot</title><link>https://www.monolithon.com/hu/blog/erpnext-140-verzi%C3%B3ra-friss%C3%ADtett%C3%BCk-a-monolithoncom-ot/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-140-verzi%C3%B3ra-friss%C3%ADtett%C3%BCk-a-monolithoncom-ot/</guid><description>A magyar ERPNext és Frappe portál már a rendszer 14-es verzióján fut.</description><pubDate>Wed, 28 Sep 2022 06:09:00 GMT</pubDate><content:encoded>
+Természetesen ahogy szoktam, már a megjelenés előtt is követtem a híreket és a fejlesztéseket az ERPNext és Frappe 14-es változatával kapcsolatban, és alig vártam, hogy kipróbálhassam. A fejlesztői változattal való ismerkedés után a hivatalos megjelenéskor szintén kipróbáltam és ugyan már akkor sem találkoztam semmilyen hibával mégis, ahogy ilyenkor ajánlatos, még nem frissítettünk azonnal a legújabb rendszerre. Ahogy erről akkor is &lt;a href=&quot;https://www.monolithon.com/blog/hirek/erpnext-14-megjelen%C3%A9s&quot; rel=&quot;noopener noreferrer&quot;&gt;beszámoltam&lt;/a&gt;, az új telepítéseknél semmi gond nem volt, de pár bug előjött a korábbi verzióról való frissítés esetén.
+
+Most már úgy tűnt, hogy elég időt hagytunk az esetleges hibák javítására, ezért a mai napon belevágtunk a frissítésbe. Alapesetben a &lt;a href=&quot;https://frappecloud.com/dashboard/signup?referrer=b411e290&quot; rel=&quot;noopener noreferrer&quot;&gt;Frappe Cloud&lt;/a&gt; ezt megoldja helyettünk, amit korábban egy hibajegyben kellett kérni tőlük, mára azonban már ezt is automatizálták. Konkrétan meg lehet adni, hogy mikorra ütemezze be a rendszer az ERPNext/Frappe frissítését.
+
+Én is így tettem, de sajnos nem jártam sikerrel. Mégpedig azért, mert egy bizonyos testreszabás miatt nem sikerült az automatikus új verzióra frissítés. A másik dolog, ami miatt a jelenlegi 13-ról 14-re való frissítés speciális, az az, hogy eddig az ERPNext tartalmazott minden csomagot, modult, mint például a HR appot, ami most már különálló, de kapcsolódó csomag. Szóval ez a két kis dolog olyannyira megnehezítette a verzióváltást, hogy két óra alatt végeztünk is vele :)
+
+Más rendszereknél ennyi idő alatt is túlzással még a backup sem készü el, hogy a költségeket ne is említsem. És várhatóan a 15-re való frissítés még ennél is egyszerűbb és gyorsabb lesz.
+
+Annak ellenére, hogy a korábbi cikkben említett [zero-downtime](https://www.monolithon.com/blog/hirek/zero-downtime) funkció csak a 14-es verzióban jelent meg, tehát mostantól a monolithon.com számára is használató lesz, ennél az upgrade-nél nem volt kiesés, mert az átállás két órájában nem volt tranzakció, így például a weboldal is végig elérhető volt, csupán a domain rekordot kellett az új rendszerhez frissíteni, ami a [Cloudflare](https://www.cloudflare.com/)-nek hála, konkrétan 1 perc alatt megtörtént.
+
+Ahogy ez az infrastruktúránkat figyelő rendszer oldalunkon is látszik: [https://status.monolithon.com](https://status.monolithon.com)
+</content:encoded></item><item><title>ERPNext konferencia 2022 a Frappe csapat szervezésében</title><link>https://www.monolithon.com/hu/blog/erpnext-konferencia-2022-a-frappe-csapat-szervez%C3%A9s%C3%A9ben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-konferencia-2022-a-frappe-csapat-szervez%C3%A9s%C3%A9ben/</guid><description>Idén újra megrendezésre került a Frappe által szervezett ERPNext konferencia.</description><pubDate>Mon, 26 Sep 2022 06:09:00 GMT</pubDate><content:encoded>
+![ERPNext Konferencia 2022](/images/erpnext-konferencia-2022-a-frappe-csapat-szervezésében.jpg)
+
+Ebben az évben a személyes jelenlétre helyezték a hangsúlyt, így online közvetítés nem volt, azonban a jobbnál jobb előadásokat rögzítették és azokat szerkesztés után publikálni fogják. Amint elérhetőek lesznek én is beszámolok róla. Most a [twitter](https://twitter.com/hashtag/erpnextconference2022?src=hashtag_click) segítségével szemezgethettünk az előadásokból amik sok témát éríntettek ahogy az a konferencia programjából látható: [https://conference.erpnext.com](https://conference.erpnext.com)
+
+Az egyik dolog amit kiemelnék, hogy több headless előadás is volt a különböző bevezetések és funkciók bemutatása mellett. A másik fontos dolog, hogy a 14-es verzió ugyan szakított a monolitikus fejlesztési elvvel, ahogy arról már beszámoltam, de mégis egy másik koncepció mentén léptek a modul alapú fejlesztés irányába: Nem csak, hogy megtartják azt a koncepciót, hogy az ERPNext valóban egy teljes értékű ingyenes, nyílt forrású ERP legyen, hanem úgy alakítják a modulokat, hogy azok önállóan is használhatóak legyenek. Jó példa erre a konferencián bemutatott HR app, ami önállóan is elérhető, de jól integrált az ERPNext-tel, vagy a Desk (helpdesk, ticketing) rendszer. A harmadik fontos dolog a Frappe Cloud gyors fejlődése és az azzal kapcsolatos infók, mint például, hogy [havi 350 millió kérést szolgálnak ki](https://twitter.com/UmairsTWT/status/1573257350076858368/photo/1) és hogy új önálló szerver elérhetősége is érkezik. Talán már ebből a kettőből is látható, hogy mennyire megbízható a szolgáltatás és érdemes a Frappe, ERPNext mellett a Frappe Cloud-dal is tervezni. Természetesen további új terméket is bemutattak, mint például a Gameplan, ami egy belső kommunikációs megoldás, de én egyelőre maradok a Discordnál, ahogy az [ERPNext-Discord](https://www.monolithon.com/blog/hirek/erpnext-chat-megold%C3%A1sok) közös használatról korábban írtam.
+
+Jövőre remélhetőleg személyes élményekről is be tudok majd számolni.
+</content:encoded></item><item><title>ERPNext weboldal Google indexelése</title><link>https://www.monolithon.com/hu/blog/erpnext-weboldal-google-indexel%C3%A9se/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-weboldal-google-indexel%C3%A9se/</guid><description>Oldalunkat ugyan eddig is indexelte a Google, mert az nem volt letiltva. De lehet ezt még jobban csinálni.</description><pubDate>Mon, 26 Sep 2022 06:09:00 GMT</pubDate><content:encoded>
+&lt;img src=&quot;/images/erpnext-weboldal-google-indexelése.png&quot;&gt;
+
+Egy kollégának az ERPNext weboldalának indexelésével akadtak nehézségei, ezért megnéztem, hogy mi a helyzet és láttam, hogy oldalunkat ugyan eddig is indexelte a Google, mert az nem volt letiltva. De lehet ezt még jobban csinálni. Azaz van egy opció, hogy konkrétan minden egyes új tartalom megjelenítésekor értesítsük a Google-t az oldal publikálásáról, hogy ő azt feltérképezhesse és a kereső oldalán találatként megjeleníthesse. Azért született ez a cikk, mert ez a funkció ugyan létezik, de a dokumentáció hiányos. Ha ezt az indexelést be akarjuk kapcsolni, akkor egyrészt be kell állítanunk a Google szolgáltatásokat az ERPNext rendszerünkön belül, amihez a Google Developer Console rendszerében is be kell állítanunk bizonyos dolgokat, ez jól van dokumentálva. Azonban a címtár, naptár, map, drive API és Google Oauth használata mellett ehhez a Indexing API bekapcsolására van szükség. Ha ez megtörtént, akkor jön a lényeg, hogy a használt Credentials-on belüli OAuth 2.0 Client IDs-ben Authorized redirect URIs-nek adjuk meg a következőt:
+
+```plain
+https://www.monolithon.com/api/method/frappe.integrations.google_oauth.callback
+```
+
+Ezután a Google Search Console-ban is be kell állítani a következőket:
+
+```plain
+https://www.monolithon.com/api/method/frappe.integrations.google_oauth.callback
+```
+
+Természetesen a [www.monolithon.com](http://www.monolithon.com) domain helyett a sajátunkat használva.
+</content:encoded></item><item><title>Analitikus könyvelés, költséghelyek és profitcenterek</title><link>https://www.monolithon.com/hu/blog/analitikus-k%C3%B6nyvel%C3%A9s-k%C3%B6lts%C3%A9ghelyek-%C3%A9s-profitcenterek/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/analitikus-k%C3%B6nyvel%C3%A9s-k%C3%B6lts%C3%A9ghelyek-%C3%A9s-profitcenterek/</guid><pubDate>Sat, 10 Sep 2022 06:09:00 GMT</pubDate><content:encoded>
+Ez csak egy rövid megjegyzés, mert gyakran visszatérő kérdés, hogyan lehet javítani a már beküldött dokumentumokon, jellmezően számlákon a nem, vagy rosszul beállított cost center mezőket.
+
+Az általános válasz erre az, hogy nem lehet. Mégpedig azért mert az ERPNext alapja egy kettőskönyviteli rendszer, amelynek szavatolnia kell az adatok érintetlenségét. Illetve ezeket a dokumentumokat gondos ellenőrzés után lehetőleg az adott terület ismerőjének kell beküldeni, hogy azok lehetőleg hibátlanok legyenek, vagy az automatizmusokat előre megfelelően beállítani, hogy ilyen jellegű tudással nem rendelkező személy is beküldhessen olyan dokumentumokat amire van jogosultsága. Tehát az eredeti tranzakció cost center beállítsa ilyen módon nem javítható.
+
+Milyen lehetőségeink vannak akkor ennek sajátosságnak a kezelésére?
+
+Természetesen leronthatjuk azt a dokumentumot és újként felvihetjük az eredeti dátumra az eredeti információkkal, persze a cost centert már (helyesen) beállítva. Ezt persze csak akkor tehetjük meg szabályosan, ha még egy le nem zárt periódusban kívánunk így javítani.
+
+A másik lehetőségünk, hogy könyvelési tétel rögzítünk, ami az adott hibát kijavítja.
+
+Tipp: A harmadik lehetőség, ami miatt ez a rövid ERPNext magyar tudásbázis cikk megszületett, hogy alternatívaként használhatjuk az ún. Accounting Dimensions funkciót, amit viszont van lehetőségünk már beküldött dokumentumokon is utólag módosítani. Ez azért sem rossz megoldás, mert amúgy a cost center is egy ilyen accounting dimension, csak egy speciális változata, tehát a kívánt célt könnyedén elérhetjük, de ehhez a cost centereken túl előre a szervezetünknek megfelő Accounting Dimensions kialakítása is szükséges.
+</content:encoded></item><item><title>Új ERPNext funkció Üzemeltetés nulla leállással - zero downtime*</title><link>https://www.monolithon.com/hu/blog/zero-downtime/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/zero-downtime/</guid><description>Egy ERP, ügyviteli rendszer esetén kritikus, hogy mindig elérhető legyen és működjön, amikor szükség van rá. Hogy mikor van rá szükség az az üzlet sajátosságaitól függ.</description><pubDate>Sat, 10 Sep 2022 06:09:00 GMT</pubDate><content:encoded>
+![Image](/images/zero-downtime.jpg)
+
+Egy ERP, ügyviteli rendszer esetén kritikus, hogy mindig elérhető legyen és működjön, amikor szükség van rá. Hogy mikor van rá szükség az az üzlet sajátosságaitól függ. Az iparágban már régóta 7/24-ről beszélünk, de akkor mikor lehetséges a folyton fejlődő rendszer naprakészen tartása, hogy a megjelenő és számunkra hasznos fuknciókról nem maradjunk le?
+
+Erre kínál megoldást a Frappe keretrendszerbe integrált megoldás, amit az ERPNext is használ, mégpedig úgy, hogy bevezeti a karbantartási módba kapcsolt rendszerek olvashatóságát.
+
+MIt jelent ez?
+
+Alapvetően frissítések, karbantartások idejére az ERPNext és Frappe a felhasználók számára korábban nem volt hozzáférhető. Ezt oldja fel most ezzel az új funkcióval, hogy lehetővé teszi a rendszer limitált használatát. Azaz karbantarátsi módban is be lehet jelentkezni és hozzáférni az adatokhoz. Megnézhetünk benne bármilyen dokumentumot.
+
+Mi a trükk?
+
+A trükk az, hogy írni ilyenkor nem lehet bele, azaz új tranzakciókat, adatokat nem lehet benne rögzíteni, hogy az adatok konzisztenciája ne sérülhessen.
+
+Akkor ez mégsem nulla leállását lehetővé tevő megoldás?
+
+Valóban nem teljesen az, de azért említjük így, mert korábban a nagyobb weboldalak esetén akár egy biztonsági mentés is hosszabb időbe telhetett, amíg az oldal egyáltalán nem volt elérhető. Viszont az ilyen jellegű problémákat kezeli ez az új megoldás. És ez a biztonsági mentés készítését is biztonságosabbá teszi például, mert nem fordulhat elő olyan eset, hogy éppen valamilyen adat rögzítése és biztonsági mentés történik egyidőben, aminek akár egy hibás biztonsági mentés is lehet az eredménye, ami megnehezíti annak esetleges használatát ha szükség lenne rá.
+
+Az új megoldástól függetlenül tehát továbbra is célszerű jól ütemeznünk a frissítéseket, karbantartásokat és persze először tesztrendszeren kísérletezni és csak működő biztonsági mentés esetén végrehajtani az éles rendszeren a változtatásokat.
+</content:encoded></item><item><title>MNB árfolyamok ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/mnb-%C3%A1rfolyamok-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/mnb-%C3%A1rfolyamok-erpnext-rendszerben/</guid><description>ERPNext rendszer használata magyarul, a magyar szabályoknak való megfeleltetés sok lokalizációs feladatot jelent. Egyik ilyen az MNB árfolyamok kezelése. Most ennek a megoldását mutatom be!</description><pubDate>Sun, 04 Sep 2022 06:09:00 GMT</pubDate><content:encoded>
+![Image](/images/mnb-árfolyamok-erpnext-rendszerben.png)
+
+Volt már egy bejegyzés az árfolyamokról, ahol az alap ERPNext árfolyam API kapcsolatokat mutattam be, és az főleg azoknak volt hasznos, akik az Európai Központi Bank árfolyamait szeretnék használni, mert a számviteli politikájukban és a NAV felé ezt jelentették be. Ennek lehet több előnye, hátránya, ahogy a saját banki árfolyamok használatának is. A lényeg, hogy mindenre van lehetőség az ERPNext-ben, mert kézzel bármilyen árfolyam felvihető, de ki akarja kézzel töltögetni az árfolyamokat, ha azok automatikusan is lekérdezhetőek a megfelelő forrásból, mint például az MNB webservice szolgáltatásból, ráadásul ingyen?
+
+Mivel a cégek többsége MNB árfolyamot használ, mondhatni ez a sztenderd, ezért hiába ajánlottam az egyszerűbb EKB megoldást, nem kerülhetjük meg az MNB árfolyamokat, ezért az ERPNext magyar számlázást lehetővé tevő funkcióinak implementálásában az egyik első lépés, az MNB integráció kialakítása volt. Ahogy az oldalon olvasható, hamarosan elérhető lesz az ERPNext magyar számlázási megoldásom és ennek az egyik eleme, az MNB árfolyamok kezelése. Azért született ez a bejegyzés, hogy közzétegyem, ez a funkció már működik. Igaz jelenleg SI/PI (Sales Invoice/Purchase Invoice, azaz vevő és értékesítési számlán, viszont a felépített API kapcsolat a lényeg, mert ezzel még a többi helyre is könnyedén integrálni tudjuk, pl a payment (ki/befizetések) rögzítéséhez stb.) Ez is inkább egy proof of concept-nek, azaz megvalósíthatósági tanulmánynak indult, nehogy a teljes számlázási szolgáltatást blokkolja, ha valamiért nem valósítható meg. De elkészült, működik meg lehet csinálni. És ami még jobb, hogy ezt cég szinten opcionálissá tettem, azaz akinek több cége van, belföldi, vagy akár külföldi, ott a két cég két külön árfolyamszolgáltatóval is dolgozhat.
+
+Íme a beállítás, ahol mostantól ki lehet majd választani hogy a gyári árfolyamszolgáltató helyett milyen sajátot szeretnénk használni:
+
+![Image](/images/5qr71Fp.jpg)
+</content:encoded></item><item><title>ERPNext Google Naptár szinkronizáció</title><link>https://www.monolithon.com/hu/blog/erpnext-google-naptar/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-google-naptar/</guid><description>Az ERPNext és a Google Naptár szinkronizáció már régóta megoldott az ERPNext-ben, de ennek ellenére lehet még javítani rajta. Mutatom hogyan!</description><pubDate>Wed, 24 Aug 2022 06:09:00 GMT</pubDate><content:encoded>
+&lt;img src=&quot;/images/erpnext-google-naptar.png&quot;&gt;
+
+Az üzleti és személyes életünkben a legtöbben használunk naptárat. Sőt, általában többet is. Függetlenül attól, hogy a vállalkozásunkat, vagy személyes pénzügyeinket milyen rendszerben vezetjük ezekben a szoftverekben általában van saját naptár. Így van ez az ERPNext esetében is, ezért az ERPNext-et fejelsztő Frappe csapat már a kezdeteknél gondolt arra, hogy az ERPNext és a Google Naptár között megoldják a szinkronizáció lehetőségét.
+
+Jellemezően azért használjuk a különböző szoftverek mellett Google Naptárat is, mert az egy remek hely, hogy az összes naptárunkból érkező bejegyzéseket egy helyen lássuk, vagy akár kezeljük is.
+
+Hogyan lehetséges ez az ERPNext esetében?
+
+A dokumentáció alapján könnyedén elkészíthető, hogy az ERPNext naptárjában létrehozott eseményeket a Google Naptárunkba küldje a rendszer, illetve ennek fordítottjára is van lehetőség. Részletek a dokumentációban, ha valakinek segítség kell, szívesen készítek egy magyar bemutatót, vagy akár segítek is a beállításban:&lt;a href=&quot;https://docs.erpnext.com/docs/v14/user/manual/en/erpnext_integration/google_calendar&quot; rel=&quot;noopener noreferrer&quot;&gt;https://docs.erpnext.com/docs/v14/user/manual/en/erpnext_integration/google_calendar&lt;/a&gt;
+
+Ha ez ilyen egyszerű, akkor miért született róla ez a bejegyzés?
+
+A szemfüles olvasóknak feltűnhetett, hogy naptár szinkronizációról írok fentebb, és az ERPNext-ben rengeteg DocType/ERPNext dokumentumnak van valamilyen (beállítható) dátuma. Ilyen lehet egy tennivaló (ToDo), vagy egy projekt, vagy akár egy feladat (task) stb. Sőt ezek némelyikén több dátum mező is megtalálható, mint például intervallumok megjelölése esetén. De ezek nem naptár bejegyzések az ERPNext-ben, még ha a naptár nézetben meg is lehet őket tekinteni. Mit lehet ezzel tenni? Alapból az ERPNext nem kínál lehetőséget ezen bejegyzések ERPNext saját naptárában való megjelenítésére, így ezeket sem onnan, sem az önálló naptárnézetből nem lehet külső naptárral szinkronizálni.
+
+Viszont erre sokaknak szüksége lehet, ahogy nekem is, ezért leírom hogyan célszerű ezt megoldani. Azt az alap feltevést, ami miatt ERPNext evangélistának vallom magam, hogy válasszunk egy megfelelő rendszert, amiben a legtöbb dolgot tárolni/kezelni tudjuk, de ez a rendszer legyen könnyen integrálható egyéb programokkal mert, egyrészt sok mindenre célszoftvert érdemes használni, másrészt vannak elkerülhetetlen integrációk, mint például Magyarországon a &lt;a href=&quot;https://www.monolithon.com/szamlazas&quot; rel=&quot;noopener noreferrer&quot;&gt;NAV online számlázás ERPNextből&lt;/a&gt;, azzal kell, hogy kiegészítsem, hogy szükségünk van egy integrációt _egyszerűen_ támogató szoftverre is. (és a minimum, hogy legyen ezek mellett még jelszókezelő és egy kommunikációs platform, mint pl. a &lt;a href=&quot;https://www.monolithon.com/blog/hirek/erpnext-chat-megold%C3%A1sok&quot; rel=&quot;noopener noreferrer&quot;&gt;discord, amiről egy korábbi bejegyzésben írtam&lt;/a&gt;, hogy bármilyen feladat flottul mehessen, de ezekről majd később).
+
+Oké, de miért jó egy integrációs szoftver használata? Ezzel megspóroljuk, hogy ne kelljen mindent az ERPNext-be fejleszteni ha már van egy szuper API-ja, plusz ezzel is megőrízhetjük a könnyű frissítés és verzióváltás előnyét. Direkt integrációs szoftvert és nem platformot írok, mert az ERPNext-hez hasonló ingyenes és nyílt forrású szoftvert ajánlok az elérhető fizetős platformok, mint az Integromat vagy a Zapier helyett.
+
+**Türelmetleneknek itt kezdődik a lényeg: Hogyan állítsd be az ERPNext és a Google Naptár szinkronizációt pl: ToDo ERPNext dokumentumra az n8n szinkronizációs szoftver segítségével?**
+
+Az alapokat, miszerint kell egy &lt;a href=&quot;https://n8n.io/cloud?ref=monolithon&amp;amp;utm_source=affiliate&quot; rel=&quot;noopener noreferrer&quot;&gt;n8n rendszer&lt;/a&gt; és egy ERPNext, és az ERPNext-en belül a usernek kell generálni egy tokent (api key&amp;amp;secret párost) most kihagyom, de szívesen segítek benne.
+
+A lényeg, hogy amint ez mind megvan, már csak a beépített ERPNext és Google Calendar és egy Function node-ra lesz szükséged, ahogy ebben a példa dokumentációban láthatod: &lt;a href=&quot;https://blog.n8n.io/creating-triggers-for-n8n-workflows-using-polling/&quot; rel=&quot;noopener noreferrer&quot;&gt;https://blog.n8n.io/creating-triggers-for-n8n-workflows-using-polling/&lt;/a&gt;
+
+Így néz ki, ennyi az egész:
+
+![ERPNext Google Naptár](/images/R998Mfa.png)
+
+Beállíthatsz neki egy időzítőt, hogy X időnként fusson, vagy akár pontos időpontokat is, de mivel az ERPNext-be létrehozott ToDo bejegyzésre simán lehet egy ERPNext webhook-ot készíteni, ahogy egy korábbi posztban a discord esetében tettük, ezért én ezt javaslom, hogy ne terheljük felesleges futással az n8n-et, hanem töltse le az új teendőt az ERPNext-ből, amikor azt létrehoztuk.
+
+Fontos, hogy a fenti példa dokumentációban lévő function (polling) kód nem működött megfelelően, ezért publikálom az alábbit, amivel minden új ToDo-t berak a Google Naptárba, és következő futásnál csak azokat az újakat, amiket korábban még nem tett be, hogy elkerüljük a multiplikálást/floodolást.
+
+```plain
+const new_items = [];
+
+// Get static data stored with the workflow
+const data = this.getWorkflowStaticData(&quot;node&quot;);
+
+data.ids = data.ids || [];
+
+for (let i = 0 ; i &lt;  items.length; i++) {
+
+ // Check if data is already present
+ if (data.ids.includes(items[i].json.name)) {
+  continue;
+ } else {
+
+  // if new data then add it to an array
+  new_items.push({
+   json: {
+    name: items[i].json.name,
+    date: items[i].json.date,
+    reference_name: items[i].json.reference_name,
+    description: items[i].json.description
+   },
+  });
+ }
+}
+
+data.ids = items.map((item) =&gt; item.json.name);
+
+// return new items
+return new_items;
+```
+
+Legyél te és a naptárad mindig naprakész az ERPNext-tel!
+</content:encoded></item><item><title>ERPNext 14 megjelenés</title><link>https://www.monolithon.com/hu/blog/erpnext-14-megjelen%C3%A9s/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-14-megjelen%C3%A9s/</guid><description>Örömmel jelentem, hogy megjelent az ERPNext legújabb verziója, az ERPNext 14!</description><pubDate>Mon, 01 Aug 2022 06:09:00 GMT</pubDate><content:encoded>
+![Image](/files/Screenshot 2022-08-01 at 4.34.44 PM.png)
+
+Az ERPNext újdonságait eddig is követtük, mert ingyenes, nyílt forrású rendszer lévén a megjelenés előtt is volt lehetőség az ERPNext tesztelésére, így már a mai bejelentés előtt több mindent kipróbáltunk, de élesben még nem használjuk. Hamarosan még több tapaszlatunk lesz a 14-es verzióval kapcsolatban amiről majd beszámolunk.
+
+Addig is néhány kiemelt új vagy továbbfejlesztett terület:
+
+A munkaasztal/képernyők még könnyebben testreszabhatóak a fogd és vidd dragndrop módszerrel. Így mindenki a saját munkastílusához alakíthatja a kinézetet, hogy minden még jobban kézre álljon.
+
+Tovább fejlesztették a pdf nyomtatandó dokumentumok testreszabását, mostantól még könnyebb új mezőket feltenni, levenni, átmozgatni a nyomtatandó üzleti dokumentumokon.
+
+A főleg gyártáshoz kapcsolódó alvállalkozói modul, ami eddig igen korlátozott volt, mostantól sokkal használhatóbb.
+
+A szervezeti struktúra immár könnyedén felvihető, átlátható, akár exportálható.
+
+Tovább finomodott a készletértékelések lehetősége azzal, hogy a batch/lot/sarzs külön értékelhető.
+
+Továbbá javult a riportolástól kezdve a selejtezés, a rendelkezésre állás követése és egy csomó minden, de fontos kiemelni a BOM/anyagjegyzék frissítésének új, egyszerűbb megoldását is.
+
+A személyes kedvencem a tab view, ami egy igazi újítás. Mivel nagyon sok adat és mező lehet egy-egy képernyőn és ezek csoportosítása és közöttük való navigáció nem mindig egyszerű, ezért ezek a fülek nagyon hasznosak lesznek a jövőben. (Ez látható a fenti képen is). Gratulálok az új funkciókhoz!
+
+A frissítés menetéről is hamarosan beszámolok, mert itt kell megemlíteni, hogy amiről már korábban írtam, a különböző egységek, külön modulokba/appokba való költöztetése ezzel a verzióval indul el igazán, amit a frissítésnél figyelembe kell venni.
+
+A 14-es verzió bemutatása itt található: [https://erpnext.com/version-14](https://erpnext.com/version-14)
+
+A hivatalos kiadás részletei itt: [https://erpnext.com/version-14/release-notes](https://erpnext.com/version-14/release-notes)
+
+Az összes bekerült újítás, javítás pedig itt: [https://github.com/frappe/erpnext/releases/tag/v14.0.0](https://github.com/frappe/erpnext/releases/tag/v14.0.0)
+</content:encoded></item><item><title>ERPNext ticketing megoldások</title><link>https://www.monolithon.com/hu/blog/erpnext-ticketing-megold%C3%A1sok/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-ticketing-megold%C3%A1sok/</guid><description>Ahol ügyfelek vannak, ott ügyfélkapcsolatok is. És ez a teljes ügyfélélmény része, így sem az ügyfélnek, sem az ügyféllel foglalkozó munkatársaknak nem mindegy, hogyan zajlik az ügyféltámogatás.</description><pubDate>Sat, 23 Jul 2022 06:09:00 GMT</pubDate><content:encoded>
+Mit kínál erre az ERPNext-et is fejlesztő Frappe csapat? Szokás szerint felforgatják az állóvizet, ahogy tették ezt az első és azóta is egyetlen ingyenes, és nyílt forrású ERP rendszerrel. A jegykezelő, support, támogató vagy ticketing rendszer az egyik olyan terület ami az internet, dotcom-robbanás, webshop-láz után, vagy talán ezekkel együtt durrant be. Az egyik nyertes a ZenDesk lett, akit nagyon nehéz volt megközelíteni, de a FreshDesk nagyon szépen feljött.
+
+![What is HD](/images/what-is-hd.png)
+
+Mi újság a Frappe és ERPNext vonalon?
+
+Az ERPNext-ben eddig is volt lehetőség ügyféligények kezelésére. Erre az Ügyek (Issue) felület szolgált. Ez jellemzően meglévő ügyfelektől érkező megkeresések kezelésére szolgált. Ebből lehetett belső használatú feladatot (Taskot) készíteni, ami összekapcsolásra került az ügyfélhez, ügyfélmenedzserhez rendelni. Az alábbi képen látszik hogyan is működött, azaz működik most is, az aktuális 13-as verzióban. Természetesen az ERPNext rugalmasságának és testreszabhatóságának köszönhetően nagyon könnyen lehetett új mezőkkel, akár linkeket más ERPNext tartalmakkal, vagy akár workflow-val bővíteni az alap lehetőségeket.
+
+Oké, ez tök jó, de semmi új nincs benne. Miért aktuális most mégis ez a téma?
+
+A Frappe különös módját választott az ünneplésnek. A most 14 éves Frappe nem csak, hogy az általuk felépített és üzemeltetett Frappe Cloud teljes üzemeltetési infrastruktúrájának kódját nyitotta meg, részletek itt:
+
+[https://github.com/frappe/press](https://github.com/frappe/press) és [https://github.com/frappe/agent](https://github.com/frappe/agent)
+
+(AGPL v3.0)
+
+Hanem, mivel az ERPNext és a Frappe Cloud üzemeltetése miatt szükségük volt egy megfelelő ticketing rendszerre, ezért Frappe alapon nem csak elkészítették maguk számára, hanem bárki által használhatóvá tették a [https://frappedesk.com/](https://frappedesk.com/) oldalon.
+
+Jelenleg ez a Frappe Cloud-on még nem érhető el, de várhatóan hamarosan ott is megjelenik, hiszen ezt is publikálták: [https://github.com/frappe/desk](https://github.com/frappe/desk)
+
+Az ERPNext és a Frappe megállíthatatlan.
+
+![Hero Image](/images/hero-image.png)
+</content:encoded></item><item><title>ERPNext chat megoldások</title><link>https://www.monolithon.com/hu/blog/erpnext-chat-megold%C3%A1sok/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-chat-megold%C3%A1sok/</guid><description>Ahogy az egész ERPNext és IT egy folyamatos változási folyamat, úgy az ERPNext chat alkalmazása is egy ilyen evolúciós fejlődésen ment át.</description><pubDate>Fri, 22 Jul 2022 06:09:00 GMT</pubDate><content:encoded>
+&lt;img src=&quot;/images/6xo80eZ.png&quot;&gt;
+
+Sokan kérték, hogy legyen az ERPNext-be chat integrálva és ezek a szavak meghallgatásra találtak és a Frappe csapat leszállította a 12-es verzióra az integrált chatet. Nem volt tökéletes, de valamilyen chat alkalmazás végre elérhetővé vált az ERPNext-en belül. Ez valakinek kellett, valakinek nem igazán hiányzott még egy chat platform ami megzavarhatja az elmélyült munkát.
+
+&lt;img src=&quot;https://github.com/frappe/chat/raw/main/.github/images/guest-form-fill.gif&quot; alt=&quot;Form View&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Aztán ami most a 14-es verzióra nagyon bedurrant, az valójában a chat appal kezdődött.&amp;nbsp;Azaz a 13-as verzióra a chat alkalmazás már nem volt az ERPNext rendszer része, hanem az egy külön appként került megvalósításra. Újra is írták, kicsit javult, de azért még mindig akadtak hiányosságai. Itt érhető el, ha valaki szeretné használni: &lt;a href=&quot;https://github.com/frappe/chat&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/frappe/chat&lt;/a&gt; De a korrektség jegyében azt is meg kell, hogy említsem, hogy amiért mások elég sok pénzt elkérnek, hogy a weboldalon a látogató chaten keresztül beszélhessen az értékesítőkkel azt ez a verzió már alapból tudta, szóval azért nem volt olyan rossz. Akinek ez a legfontosabb, és egy vállalkozás esetén az értékesítésnek azért elég fontosnak kell lenni egy fontossági skálán, annak az nagyon jól jött.
+
+&lt;img src=&quot;https://a.slack-edge.com/37877b/marketing/img/features/hero/v3/hero-full-ui.jpg&quot; alt=&quot;Slack the product user interface on desktop&quot;&gt;
+
+Viszont sok cégnél inkább egy Slack jellegű megoldásra van szükség és ez eddig bemutatott ERPNext chat megoldások ettől nagyon messze vannak, ezért nem csoda, hogy sokan pont a Slack rendszerrel kapcsolták össze az ERPNext szoftverüket. Tehették ezt könnyedén, mert ha megnézzük az aktuális kiadást, akkor az értesítések (Notification) lehetséges csatornái között alapból megjelenik a Slack opció. (Működéshez még néhány dolgot még be kellett állítani, amit most nem fejtek ki, mert egyrészt egyszerű, másrészt a Slack ingyenes változatát érintő változás miatt ezt már egyáltalán nem ajánljuk. Korábban az ingyenes változattal is jól el lehetett lenni egy kisebb szervezetnél, mert csupán annyi korlátozással kellett számolni, hogy max 10.000 üzenetben kereshettünk vissza infókat, ha valamire szükség lett volna. Ezzel együtt lehetett élni, főleg hogy attól még a többi üzenet is elérhető volt, görgetéssel, csillagozással, szálakkal stb. Most viszont az utolsó három hónap üzeneteit láthatjuk a Slack ingyenes rendszerében, ezért itt volt az ideje, hogy új megoldás után nézzünk.
+
+&lt;img src=&quot;images/NwliPMB.png&quot;&gt;
+
+Dobpergés, sok Slack alternatíva van a piacon, ingyenesek, fizetősek, nyílt forrásúak, decentralizáltak stb, viszont a legegyszerűbb és legkényelmesebb megoldást keresve a &lt;a href=&quot;https://discord.com/register&quot; rel=&quot;noopener noreferrer&quot;&gt;Discord rendszere&lt;/a&gt; mellett döntöttünk, mert a szálak kezelése a Slackhez hasonlóan nagyon jól megoldott és limitációmentesen ingyenes, stabil és gyors minden platformon.
+
+Ez szép és jó, de hogyan lehet összekötni az ERPNext-tel?
+
+Az ERPNext és Discord képes webhook-kal kommunikálni, de amiért megszületett ez a bejegyzés az az, hogy ennek a pontos beállítását megosszam, mert erre elvileg több mód is lenne, de ezek közül csak az egyik megoldás működött.
+
+Mire van szükség?
+
+Generálni kell egy webhookot a Discordon az adott csatornán ahol szeretnénk, hogy értesítések jelenjenek meg az ERPNext rendszerünkből. Létrehozzuk és ne felejtsük elmenteni:
+
+&lt;img src=&quot;/images/1FceOy6.png&quot;&gt;
+
+Majd jön az ERPNext oldali beállítás. Az első trükk, hogy ugyan értesítést írtam fentebb, de valójában Webhook beállításra van szükség az alábbiak szerint:
+
+&lt;img src=&quot;/images/uGa4xWC.png&quot;&gt;
+
+Tehát ezen a képernyőn megadjuk, hogy milyen feltétel teljesülése esetén küldje az ERPNext az üzenetet a Discord-ra. Itt az látható, hogy egy Feladat (Task) létrehozásakor, ha az a task az ERP &amp;amp; IT support projekten belül van, akkor küldje az üzenetet. Az előző pontban generált URL-t beillesztjük a Request URL mezőbe, beállítjuk, hogy JSON és POST típus és a Webhook Data részben megadjuk az alábbit:
+
+```json
+{
+  &quot;content&quot;: &quot;{{ doc.subject }} - {{frappe.utils.get_url_to_form(doc.doctype, doc.name)}}&quot;
+}
+```
+
+Ez az elküldendő üzenetet állítja össze. Itt az történik, hogy a feladat címét - feladat ERPNext linkjét küldi a Discord csatornájára:
+
+&lt;img src=&quot;/images/R4HbKxx.png&quot;&gt;
+
+Ezzel el is készült az új automatikus értesítés a Discordra. Megérte várni és nem beköltözni a Slack-re, ezzel megspóróltunk egy költözést. Viszont azt mindenkinek magának kell mérlegelnie, hogy bízhatja-e másra az adatait, jelen esetben a Discord-ra. Főleg annak tudatában, hogy nincs hivatalos Export, mint például Slack esetén. Szerintünk ez nem gond, mert egyrészt valamennyire megoldható felületről, illetve a privacy lehetőségeken belül a Google data take out szolgáltatáshoz hasonlóan, és elérhető egy külső alkalmazás is erre a feladatra:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Tyrrrz/DiscordChatExporter&quot; rel=&quot;noopener noreferrer&quot;&gt;https://github.com/Tyrrrz/DiscordChatExporter&lt;/a&gt;
+
+Jó chatelést mindenkinek! (Plusz a Discord hang és videó hívást és képernyő megosztást is tud elvileg alapból, hiszen a játékos közösség számára lett fejlesztve).
+</content:encoded></item><item><title>Alapadatok importálása ERPNext-be</title><link>https://www.monolithon.com/hu/blog/alapadatok-import%C3%A1l%C3%A1sa-erpnext-be/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/alapadatok-import%C3%A1l%C3%A1sa-erpnext-be/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+Az általános import, export funkcióról készül egy részletes leírás, és egy kedvcsináló [blogbejegyzés](https://www.monolithon.com/blog/hirek/adatszinkroniz%C3%A1l%C3%A1s-egyszer%C5%B1en-az-erpnext-adatimport-funkci%C3%B3j%C3%A1nak-%C3%A9rdekess%C3%A9gei) is született már róla, de most itt egy érdekességet emelünk csak ki:
+
+Nézzük például a vevők importálását! Az ERPNextben a Vevő, ami lehet magánszemély vagy szervezet, egy olyan gyűtjő entitás, amihez tartozhat több cím (address), több kapcsolat (személy) is például. Mivel ezek külön entitások az ERPNextben, ezért ezeket külön külön kell importálni, és ezt tovább nehezíti, hogy össze is kell őket kapcsolni, amit csak akkor lehet megtenni, ha az amivel össze akarjuk kapcsolni már létezik a rendszerben, azaz előbb az került létrehozásra/importálásra.
+
+Van egy kivétel, ami szintén egy hasznos tipp, hogy vagy egy elsődleges kapcsolat, és cím is, amit a vevő importnál egyből fel lehet tölteni és akkor nem három különböző táblázatot kell importálni csak egyet.
+
+Viszont, ha egy vevőhöz több személy és/vagy cím tartozik, akkor fontos, hogy az alábbi sorrendben járjunk el:
+
+A &quot;Link Name&quot; oszlop, amin keresztül összeköthetjük ezeket az entitásokat. Az nem lesz beleírva a példaként letölthető táblázatban amit érdemes használni importáláskor, de az kézzel kitölthető.
+
+Először hozzuk létre a kapcsolatokat és a vevőket. Majd a táblázatkezelővel kell varázsolnunk, hogy címek importálásakor ez a Link Name oszlop kerüljön feltöltésre, ezzel az ekkor importált cím hozzákapcsolódik a vevőhöz. (Ebben az oszlopban a vevőt adjuk meg).
+
+Tehát először a vevőt importáljuk, majd a címeket.
+
+Szerencsére az importáló eszköz hiba esetén elég jól megmondja mi a gond, így van lehetőségünk javítani és újrapróbálni.
+</content:encoded></item><item><title>ERPNext GDPR és cookie, azaz süti kezelés</title><link>https://www.monolithon.com/hu/blog/erpnext-gdrp-%C3%A9s-cookie-azaz-s%C3%BCti-kezel%C3%A9s/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-gdrp-%C3%A9s-cookie-azaz-s%C3%BCti-kezel%C3%A9s/</guid><description>A monolithon.com, a magyar ERPNext portál is használ sütiket, ahogy a legtöbb internetes weboldal és az EU-s irányelvek alapján erről tájékoztatni is kell az oldal látogatóit.</description><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+A sütik (cookie) kezelésben a korábbiakban sem az volt a bonyolult, hogy erről tájékoztatni kell az oldal látogatókat az ERPNext weboldalunkon, hanem az, hogy amennyiben a látogató nem fogadja el a sütik használatát, akkor tényleg nem használhatunk sütiket és így weboldal üzemeltetőként nem férünk hozzá bizonyos információkhoz. De persze ezzel a látogatónak is szűkülnek a lehetőségei, mert például a kosárban hagyott termékeket is elfelejti az oldal stb.
+
+![ERPNext GDPR és Cookie kezelés](/images/erpnext-gdrp-és-cookie-azaz-süti-kezelés.png)
+
+Ezek együttes kezelésére kell tehát egy megoldás, ahol az ERPNext weboldal üzemeltetőként elérjük, hogy engedélyezze a látogató a sütik használatát, de addig ne töltsük be ezeket a programkódokat, hogy ezzel szabályosan járjunk el. Sőt, tovább bonyolítja a helyzetet, hogy lehetőséget kell biztosítani, hogy bizonyos sütiket engedélyezhessen a látogató, bizonyosakat pedig letilthasson. Ez eddig nem volt egyszerű, de szerencsére akad jónéhány olyan szolgáltató, akik megoldják nekünk ezeket és bármilyen weboldalba, így az ERPNext magyar weboldalába is sikeresen integrálható.
+
+Az alábbi listán szereplő süti kezelő megoldásokat vizsgáltam meg, de a részletes elemzés helyett térjünk egyből a lényegre:
+
+A leggyorsabban, legegyszerűbben a [https://cookiebot.com/](https://cookiebot.com) megoldását integrálhatjuk az ERPNext weboldalunkba. Ugyan csupán néhány kattintás az egész, de mégis rengeteg beállítás közül választhatunk, még az ingyenes változatban is, ami 100 lapnál kisebb weboldalak számára használható, de növekedés után is ez tűnik a legolcsóbbnak a többihez képest.
+
+Ezzel nem kell a Google Tag Manager-en keresztül a cookie jóváhagyások programozásával tölteni az időnket, valamint az ügyes felhasználói felületnek hála, a megoldás vezeti az ügyfelet, hogy mit &quot;kell&quot; tennie, hiszen az elfogadás nélkül nem éri el például az ERPNext magyarul weboldal tartalmait, de közben mégis megfelelünk az előírásoknak.
+
+FRISSÍTÉS:
+
+Lecseréltem a cookiebot-ot a [https://www.enzuzo.com](https://www.enzuzo.com) megoldására, mert bizonyos mérések nem működtek megfelelően.
+
+[https://cookiebot.com](https://cookiebot.com)
+
+[https://cookiefirst.com/#pricing](https://cookiefirst.com/#pricing)
+
+[https://www.cookiehub.com/pricing](https://www.cookiehub.com/pricing)
+
+[https://www.osano.com/plans](https://www.osano.com/plans)
+
+[https://app.termly.io/user/products](https://app.termly.io/user/products)
+
+[https://usercentrics.com/pricing](https://usercentrics.com/pricing)
+
+[https://www.onetrust.com/products/cookie-consent](https://www.onetrust.com/products/cookie-consent)k
+</content:encoded></item><item><title>ERPNext magyar tudásbázis</title><link>https://www.monolithon.com/hu/blog/erpnext-magyar-tud%C3%A1sb%C3%A1zis/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-magyar-tud%C3%A1sb%C3%A1zis/</guid><description>Elindult a magyar ERPNext tudásbázis. Folyamatosan új tartalmakkal.</description><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+![Screenshot](/images/Screenshot (73).png)
+
+Minden ami az ERPNext napi használatához vagy a kezdéshez szükséges. A tudásbázist folyamatosan frissítem. Stay tuned!
+
+[A tudásbázis itt érthető el &gt;&gt;](https://www.monolithon.com/kb/erpnext-beállítások-magyarul)
+</content:encoded></item><item><title>Készletértékelésről röviden az ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/k%C3%A9szlet%C3%A9rt%C3%A9kel%C3%A9sr%C5%91l-r%C3%B6viden-az-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/k%C3%A9szlet%C3%A9rt%C3%A9kel%C3%A9sr%C5%91l-r%C3%B6viden-az-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+Az ERPNext a köteg/batch/sarzs kezelésére is lehetőséget nyújt. Alapvetően minden kötegnek azonos az értéke, de készletértékeléssel ez módosítható. Ez FIFO/LIFO esetén működhet, azonban átlag használata esetén ez nem lesz jó még akkor sem ha minden köteget érint egy ilyen készletérétkelés keretében, mert az ERPNext egyszerre egyet frissít, ami rossz végeredményre vezet.
+
+Ezt a cikket hamarosan tovább bővítjük.
+</content:encoded></item><item><title>Periódikus vagy valós idejű készletérték könyvelés ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/peri%C3%B3dikus-vagy-val%C3%B3s-idej%C5%B1-k%C3%A9szlet%C3%A9rt%C3%A9k-k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/peri%C3%B3dikus-vagy-val%C3%B3s-idej%C5%B1-k%C3%A9szlet%C3%A9rt%C3%A9k-k%C3%B6nyvel%C3%A9s-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+A két opció közül döntenünk kell. Az ERPNext használatakor ezt ki kell válaszolnunk és nem célszerű menet közben váltotzatni, de mik is ezek valójában?
+
+A valós idejű készletértékelés könyvelés a (perpetual inventory), ahogy a neve is mutatja valós időben a rögzített gazdasági események (beszerzés, raktárba érkezés, értékcsökkenési leírás, értékesítés stb) alapján a készletünk értékét folyamatosan változtatja. Néhol szükség lehet ennyire pontos kimutatásra, de a legtöbb cégnél elegendő ha ezeket az értékeléseket csupán néhány alkalommal teszik meg.
+
+Ez a periodikus készletértékelés, amit bármikor megtehetünk, persze van, amikor kötelező, amikor például az éves záráshoz szükséges ismernünk az adott időponton az aktuális készletünk értékét. De persze ezt negyedévente, vagy havonta is megtehetjük.
+
+Hogyan is néz ki ez a gyakorlatban?
+
+A peridikus készletértékelés esetén a végleges készletértéket a kézi leltározás után vezetjük be a könyvekbe. Aminek az a következménye, hogy a következő leltárig a leltárértéknek a korábbi leltárkor felvezetett értékét látjuk, nem pedig az éppen aktuálisat.
+
+Ezzel szemben a valós idejű használatával a következő történi:
+
+Minden beszerzés értékét (szállítással és egyéb díjakkal - landing cost) a beszerzés és raktár értékre is könyvelünk automatikusan. Amikor a raktárkészlet változott, akkor a beszerzési számlán nyilvántartott érték átkerül a raktárkészletre ami így módosulva egyezni fog a záró (aktuális) készletértékkel.
+
+A számítás nagyjából a következőképp zajlik a periódikus készletérték esetén:
+
+Nyitó készlet + beszerzések = készletérték, ami értékesíthető.
+
+Értékesíthető készlet - záró készlet = az eladott áruk értéke.
+</content:encoded></item><item><title>Raktárkészlet és termékérték javítása ERPNextben</title><link>https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa-erpnextben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa-erpnextben/</guid><description>Az ERPNext beveztésekor felvittünk egy idegen pénzneben lévő beszerzési megrendelést (nettó áron), majd később derült ki, hogy ezt mégsem kaptuk meg,</description><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+Olyan speciális eset is előállhat az ERPNext használata közben, mint például a következő:
+
+Az ERPNext beveztésekor felvittünk egy idegen pénzneben lévő beszerzési megrendelést (nettó áron), majd később derült ki, hogy ezt mégsem kaptuk meg, de a raktárunkban is szerepel. Persze amúgy ebből előtte és utána is jött kölönböző árakon termék, plusz a termék értékébe a szállítás és egyéb költségek is beleszámítandóak amit az ERPNext a &quot;Landing Cost&quot; opcióval old meg.
+
+Ekkor ha simán egy készletkigazítást tennénk, akkor az elrontaná a termék értékét, mert ekkor az ERPNext nem enged egyedi értéket megadni, hanem automatikusan a kalkuláltat használná. (Mivel a könyvelésnek mindig két lába van, itt a készlet érték és a szállító, de ebben az esetben a kalkulált készletérték nem egyezne meg, nem &quot;nullázná&quot; ki a szállítói lábat, mert az még másik értékkel került rögzítésre).
+
+Erre lehet megoldás, hogy egy anyagfelhasználást (Material Issue) készítünk a raktáron belül (Stock) és ezzel kivezetjük a raktárunkból úgy, hogy a különbözeti számlaként a szállítói számlát használjuk, de egy technikai számlát is használhatunk, és onnan tovább a szállítóira. És itt jön a képbe a lényeg, hogy egyedi átváltási árfolyammal a különbözet eltüntethető. (ezt persze szintén nem a szokásos árfolyamveszteség/nyereség számlára könyveljük. És ez talán még a raktárkiigazításnál is működhet. :)
+</content:encoded></item><item><title>Raktárkészlet és termékérték javítása ERPNextben</title><link>https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rakt%C3%A1rk%C3%A9szlet-%C3%A9s-term%C3%A9k%C3%A9rt%C3%A9k-jav%C3%ADt%C3%A1sa/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+Olyan speciális eset is előállhat az ERPNext használata közben, mint például a következő:
+
+Az ERPNext beveztésekor felvittünk egy idegen pénzneben lévő beszerzési megrendelést (nettó áron), majd később derült ki, hogy ezt mégsem kaptuk meg, de a raktárunkban is szerepel. Persze amúgy ebből előtte és utána is jött kölönböző árakon termék, plusz a termék értékébe a szállítás és egyéb költségek is beleszámítandóak amit az ERPNext a &quot;Landing Cost&quot; opcióval old meg.
+
+Ekkor ha simán egy készletkigazítást tennénk, akkor az elrontaná a termék értékét, mert ekkor az ERPNext nem enged egyedi értéket megadni, hanem automatikusan a kalkuláltat használná. (Mivel a könyvelésnek mindig két lába van, itt a készlet érték és a szállító, de ebben az esetben a kalkulált készletérték nem egyezne meg, nem &quot;nullázná&quot; ki a szállítói lábat, mert az még másik értékkel került rögzítésre).
+
+Erre lehet megoldás, hogy egy anyagfelhasználást (Material Issue) készítünk a raktáron belül (Stock) és ezzel kivezetjük a raktárunkból úgy, hogy a különbözeti számlaként a szállítói számlát használjuk, de egy technikai számlát is használhatunk, és onnan tovább a szállítóira. És itt jön a képbe a lényeg, hogy egyedi átváltási árfolyammal a különbözet eltüntethető. (ezt persze szintén nem a szokásos árfolyamveszteség/nyereség számlára könyveljük. És ez talán még a raktárkiigazításnál is működhet. :)
+</content:encoded></item><item><title>Rendeltnél kevesebb gyártás lezárása ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-kevesebb-gy%C3%A1rt%C3%A1s-lez%C3%A1r%C3%A1sa-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-kevesebb-gy%C3%A1rt%C3%A1s-lez%C3%A1r%C3%A1sa-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+Az ERPNextben a gyártás megrendelésénl el kell döntenünk, hogy mennyit szeretnénk gyártani. Hogy mennyit gyártsunk, ahhoz adhat az ERPNext segítséget, de most nem ezt vizsgáljuk.
+
+Feltétlezzük, hogy valamiből 100 darabot szeretnénk gyártani, mert kb ennyit szoktunk. De napközben csak 90-et sikerül legyártani és a maradék 10-et már nem szeretnénk legyártani. Ekkor ugyan a 90 lezárása után Mégsem gombbal le tudjuk zárni a rendelést, de a legtöbben nem Mégsem státuszban szeretnénk látni ezt a gyártást, hiszen 90-et legyártottunk, ez gyakorlatilag kész van, ezért kész státusszal kellene a rendszerbne lennie.
+
+Ennek elérésére lehet egy jó trükk, hogy több raktárat használunk a gyártás folyamán. Használunk egy késztermék és egy lemondott raktárat és a gyártási rendelésben a 90-et a készbe mozgatjuk, a 10-et pedig a lemondottba. &amp;nbsp;Ebben az esetben valószínűleg a készletértéket még korrigálni kell.
+</content:encoded></item><item><title>Rendeltnél több termék gyártása ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-t%C3%B6bb-term%C3%A9k-gy%C3%A1rt%C3%A1sa-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/rendeltn%C3%A9l-t%C3%B6bb-term%C3%A9k-gy%C3%A1rt%C3%A1sa-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+Előforudl az előző tippben jegyzett gyakorlat ellentétje is, ami azt jelenti, hogy nem kevesebbet, hanem többet gyártunk, mint eredetileg terveztük. Ez például olyankor fordulhat elő, ha valamelyik részegység olyan kiszerelésben érkezik, aminek minden darabját szeretnék felhasználni, ezért több készterméket is gyártunk, hogy ne maradjon bizonyos megbontott, de fel nem használt alapanyag.
+
+A gyártási megrendelésnél több gyártást ebben az esetben két lépésre bonthatjuk:
+
+1. Készként lezárjuk a gyártási rendelést az abban foglalt darabszámmal.
+2. Készítünk egy raktármozgást aminek a típusa a gyártás, ahol kiválasztjuk, hogy a felhasznált anyagokat a BOM listából olvassuk be. (amit az előző lépésben is használtunk, hogy ne legyen eltérés). De arra figyeljünk, hogy ne kössük gyártási megrendeléshez.
+
+Ezzel elérjük, hogy ugyanabból többet gyártottunk, és minden pontosan van dokumentálva, esetleg a gyártási rendelést és raktárrendelésre a komment szekcióban hivatkozhatunk.
+</content:encoded></item><item><title>Selejtezés ERPNext rendszerben</title><link>https://www.monolithon.com/hu/blog/selejtez%C3%A9s-erpnext-rendszerben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/selejtez%C3%A9s-erpnext-rendszerben/</guid><pubDate>Thu, 30 Jun 2022 06:09:00 GMT</pubDate><content:encoded>
+A selejtezés az ERPNextben többéleképpen megoldható.
+
+Az egyik legegyszerűbb a gyártás során történő selejtezés, mert ezt alapból kezeli az ERPNext. De ehhez előtte egy selejt raktárat létre kell hozni ahova a selejtezésre kerülő árukat át lehet a gyártás közben mozgatni.
+
+A másik megoldás a leltározás, készletkiigazítás, de ilyenkor nem lesznek meg a leselejtezett áruk a selejt raktárban, csak kikerülnek az eredeti helyükről és az értékükkel is módosításra kerül a készletérték.
+
+A harmadik megoldás, ami miatt ezt a trükköt írjuk a következő:
+
+Ahogy az első esetben, itt is szükségünk van egy selejt raktárra, de itt nem leltár, sem gyártást nem alkalmazunk, hanem egy értkesítést csinálunk egy alacsonyabb vagy nulla értéken. :)
+</content:encoded></item><item><title>Az ERPNext 14-es verzió első új funkicója</title><link>https://www.monolithon.com/hu/blog/a-14-es-verzi%C3%B3-els%C5%91-%C3%BAj-funkic%C3%B3ja/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/a-14-es-verzi%C3%B3-els%C5%91-%C3%BAj-funkic%C3%B3ja/</guid><description>A github-on követhető, hogy milyen új funkciók és javítások kerülnek az új verziókba. Most a kanban kártyák limitációját szüntettékmeg.</description><pubDate>Tue, 12 Apr 2022 06:09:00 GMT</pubDate><content:encoded>
+A kanban tábla eddig is nagyon hasznos volt, elég sok mindenre lehetett használni, de főleg a projektmenedzsmentben ismert. Egy új, sokszor kérdezett funkciót most egy ERPNext fejlesztő-partner az ERPNext/Frappe fejlesztők támogatásával megvalósított.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Ez nem más annak a limitációnak a feloldása, hogy mi jelenjen meg egy kanban kártyán. Eddig ugyanis ezek fixek voltak az ERPNext-ben. Azaz a minden kanban kártyán csak a kártya neve, Task/Feladat esetén annak neve szerepelt, illetve, hogy kihez van hozzárendelve, és persze a sürgősség.
+
+Ezen változtat az ERPNext új funkciója, ahol már mi választhatjuk ki, hogy miket akarunk megjeleníteni a kártyákon. Ez azért is hasznos lehet, mert egy korábbi projektnél hasznos lett volna például külső rendszerből kapott azonosítók feltüntetése az ERPNext kanban kártyákon, de erre sajnos nem volt lehetőség. Mostantól van. Mutatom hogyan lehet új mezőket választani a lenti képen. Persze limitáció van, mert egy hosszú szöveges vagy html mező tartalma nem fér el egy kártyán, így az ilyen típusú mezőket nem lehet kiválasztani megjelenítésre a kártyán.
+
+![Image 1](/images/8UTvjIn.png)
+
+![Image 2](/images/XSO3Ltr.png)
+
+A fórumbejegyzés:
+[https://discuss.erpnext.com/t/improved-kanban-board/88414](https://discuss.erpnext.com/t/improved-kanban-board/88414)
+
+és a github issue link:
+[https://github.com/frappe/frappe/pull/16257](https://github.com/frappe/frappe/pull/16257)
+</content:encoded></item><item><title>Wiki szerű oldalakat szeretnék</title><link>https://www.monolithon.com/hu/blog/wiki-szer%C5%B1-oldalakat-szeretn%C3%A9k/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/wiki-szer%C5%B1-oldalakat-szeretn%C3%A9k/</guid><description>Többször felmerül az igény valamilyen wiki szerű oldal létrehozására. Erre eddig is volt lehetőség, de mostantól erre is van hivatalos megoldás.</description><pubDate>Tue, 08 Feb 2022 06:09:00 GMT</pubDate><content:encoded>
+![Image](/images/wiki-szerű-oldalakat-szeretnék.png)
+
+Az ERPNext a Frappe keretrendszerre épül, ahol az ERPNext végső soron &quot;csupán&quot; a Frappe keretrendszerre írt appok összessége. Ahogy az ERPNext és a Frappe folyamatoasn fejlődött megjelentek más más appok, természetesen mind a Frappe keretrendszerre. Ezek egy része önálló alkalmazás, de van ami például az ERPNext-hez az hozzá további funkciókat.
+
+Egy ilyen önálló alkalmazás a Frappe Wiki: [https://frappe.io/wiki](https://frappe.io/wiki) ami természetesen a telepített ERPNext-tel együtt is képes működni. Az erőssége az egyszerűségében rejlik, amit maga a Frappe keretrendszer biztosít. Aki kipróbálja biztosan megszereti. Természetesen van mód nyilvános dokumentumok kezelésére, vagy csak belső oldalak létrehozására is. Folyamatosan fejlesztés alatt áll, így várhatóan a hiányzó funkciók, mint például a teljes jogosultság kezelés is hamarosan megjelenhet benne.
+
+Mit lehet használni Wiki-szerű megoldásnak, ha valaki vanilla ERPNext-et szeretne használni, azaz nem szeretne további appokat feltelepíteni a rendszerére. Erre is több megoldás adódik. Az egyik legkézenfekvőbb a knowledebase menüpont használata, amivel publikus Wiki-szerű oldalakat készíthetünk az ERPNext oldalainkon, ami nem más mint a website help article opciója:
+
+![Image](/images/M39Wp5r.png)
+
+Mit lehet tenni, ha nem publikus tartalmakat gyártanánk, de még mindig nem szeretnénk a Frappe Wikit használni? Akkor használhatjuk az ERPNext Tools menüjében elérhető Note funkciót, amivel saját, vagy megosztott, de nem publikus tartalmakat készíthetünk.
+
+![Image](/images/TEBNJj1.png)
+
+Pro tipp, hogy bármelyik megoldást is választjuk, használhatunk akár markdown szerkesztőt is :)
+</content:encoded></item><item><title>Év eleji teendő - árfolyamok kezelése az ERPNextben</title><link>https://www.monolithon.com/hu/blog/%C3%A9v-eleji-teend%C5%91-%C3%A1rfolyamok-kezel%C3%A9se-az-erpnextben/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%A9v-eleji-teend%C5%91-%C3%A1rfolyamok-kezel%C3%A9se-az-erpnextben/</guid><description>Az ERPNext korábban is képes volt az aktuális árfolyamokat kezelni, azonban az aktuális átváltási árfolyamok kezelésében történ egy kis változás, amivel érdemes tervezni.</description><pubDate>Sun, 09 Jan 2022 06:09:00 GMT</pubDate><content:encoded>
+A magyar szabályozás szerint a könyvelésünkben az árfolyamok kezelésére három lehetőség közül választhatunk:
+
+1. MNB szerinti árfolyamot használunk.
+2. A saját bankunk árfolyamait használjuk.
+3. Az Európai Központi Bank árfolyama alapján számolunk el.
+
+Mivel az ERPNext automatikusan a [exchangerate.host](https://exchangerate.host) rendszeréből tölti le az árfolyamot, ahol szerencsére elérhető az Európai Központi Bank (ECB) árfolyama (a korábban [frankfurter.app](https://frankfurter.app)-ból kapott adatokkal szemben), ezért célszerű erre váltani, de erre csak évente egyszer van lehetőség, ezért most írok róla.
+
+Ezzel még azonban nem vagyunk teljesen kész, mert az ECB árfolyama ugyan elérhető a [https://api.exchangerate.host/latest?source=ecb](https://api.exchangerate.host/latest?source=ecb) API-n, de mivel az ERPNext nem azt hívja alapértelmezettként, ezért ezt még módosítani kell. Illetve az aznapi árfolyamot hívja, amit szintén finomítani kell, mert a teljesítési dátum az nem biztos, hogy aznapi.
+
+Természetesen kézzel bármikor, bármilyen árfolyam rögzíthető a rendszerbe, de ha ezt is szeretnénk automatizálni, akkor ahhoz, hogy szabályosak legyünk, célszerű a fenti módszert alkalmaznunk.
+
+Az exchangerate.host-ra való váltás részletei:
+
+[https://github.com/frappe/erpnext/pull/26237](https://github.com/frappe/erpnext/pull/26237)
+</content:encoded></item><item><title>ERPNext és az új Shopify eCommerce integráció webáruházakhoz</title><link>https://www.monolithon.com/hu/blog/erpnext-%C3%A9s-az-%C3%BAj-shopify-ecommerce-integr%C3%A1ci%C3%B3-web%C3%A1ruh%C3%A1zakhoz/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/erpnext-%C3%A9s-az-%C3%BAj-shopify-ecommerce-integr%C3%A1ci%C3%B3-web%C3%A1ruh%C3%A1zakhoz/</guid><description>Az ERPNext saját webáruház megoldása mellett a Shopify integráció eddig is elérhető volt, de ez most új szintre lépett.</description><pubDate>Wed, 03 Nov 2021 06:09:00 GMT</pubDate><content:encoded>
+A 13-as főverziójú ERPNext sok újdonságot hozott a már eddig is bemutatott megújult külső és mobilapp mellett. Az egyik ilyen, hogy továbbfejlesztették az ERPNext - Shopify integrációt. Eddig az ERPNext alapfunkciói között volt elérhető, azonban úgy tűnik, hogy a fejlesztési folyamataikat is átgondolták és átalakították az ERPNext-et fejlesztő Frappe csapatnál, mert ez az egyik első olyan app, ami eddig az ERPNext szerves részét képezte, most azonban már egy Ecommerce Integration app néven tették elérhetővé a [GitHub-on](https://github.com/frappe/ecommerce_integrations) és a [Frappé Cloud Marketplace](https://frappecloud.com/marketplace/apps/ecommerce-integrations)-n is.
+
+Ez az új app, a Shopify mellett a Zenoti nevű rendszert is támogatja, de az Magyarországon nem igazán elterjedt, így nézzük inkább a Shopify integrációban elérhető főbb funkciókat:
+
+1. Megrendelések szinkronizálása a Shopify-ból az ERPNext-be.
+2. Ügyfél/vásárlóadatok szinkronizálása, a rendelése szinkronizálásával egyszerre.
+3. [Opcionális] Értékesítési számla és szállítólevél szinkronizáció.
+4. [Opcionális] Ütemezett raktárkészlet szinkronizálás a két rendszer között.
+5. [Opcionális] ERPNext-ben létrehozott termék létrehozása Shopify rendszerben és a kettő összekapcsolása.
+6. Shopify oldalon történő rendelés státuszának töröltre változtatása az ERPNext oldalon is átállítja a megrendelés státuszát töröltre.
+
+Egyenlőre ennyit az új Shopify ERPNext integrációról. Hasonló történt a sokak által kedvelt Woocommerce ERPNext integrációval arról és, hogy ezek az appok milyen jövőt vetítenek előre egy másik bejegyzésben számolok be.
+
+Az angol nyelvű Shopify ERPNext integráció beállításainak részleteit itt találjátok:
+
+[https://docs.erpnext.com/docs/v13/user/manual/en/erpnext_integration/shopify_integration](https://docs.erpnext.com/docs/v13/user/manual/en/erpnext_integration/shopify_integration)
+</content:encoded></item><item><title>Adatszinkronizálás egyszerűen az ERPNext adatimport funkciójának érdekességei</title><link>https://www.monolithon.com/hu/blog/adatszinkroniz%C3%A1l%C3%A1s-egyszer%C5%B1en-az-erpnext-adatimport-funkci%C3%B3j%C3%A1nak-%C3%A9rdekess%C3%A9gei/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/adatszinkroniz%C3%A1l%C3%A1s-egyszer%C5%B1en-az-erpnext-adatimport-funkci%C3%B3j%C3%A1nak-%C3%A9rdekess%C3%A9gei/</guid><description>A legtöbb ERP bevezetés azt a célt szolgálja, hogy minimalizálja az excelek használatát és a sok manuális munkát automatizálja. De adatimport funkció nélkül nincs (jó) ERP.</description><pubDate>Mon, 23 Aug 2021 06:09:00 GMT</pubDate><content:encoded>
+Miért is folytatása ez a bejegyzés az űrlap készítésről szólónak? Mert nem ajánlanék külső szoftver használatot az ERPNext mellett, ha az nem teljesítene két feltételt:
+
+1. Nyújtson minőségi megoldást, mégpedig a jelenleg elérhető legjobbat
+2. Legyen megoldás az egyszerű összekapcsolásra, ha az szükséges
+
+A bemutatott űrlapkészítő ingyenes változatában is lehetőség van arra, hogy az űrlapon beérkezett válaszokat automatikusan egy Google Sheet táblázatba mentsük.
+
+Miért érdekes ez és hogy jön ide?
+
+Úgy, hogy mint minden (valamire való) ERP/Üzleti/Ügyviteli szoftver lehetővé teszi az adatok könnyű importálását és exportálását. Így van ez az ERPNext esetében is, azonban itt egy lépéssel továbbmentek a fejlesztők, ugyanis, nem csak feltölthetünk egy táblázatot, mint a konkurenseknél, hanem egy merőben újszerű megoldással is szolgál a rendszer.
+
+Persze maradhatunk a klasszikus, jól bevált módszernél, ahol előbb az ERP felületén létrehozunk egy példa adatokat tartalmazó adathalmazt, például egy leadet a CRM modulban, majd ezt exportáljuk, hogy ezt a utána import sablonként használhassuk.
+
+De mi ez az extra? Dobpergés:
+
+Az ERPNext-ben lehetőség van arra, hogy egy Google Sheet táblázat online elérhető URL-jét megadva, az online táblázatból importáljunk adatot az ERPNext-be.
+
+Igen, a [Tally.so](https://tally.so/?ref=monolithon) példánál maradva, ahol például egy olyan űrlapot készítünk, aminek kitöltésével akár valami hasznos tartalomhoz, pl. a válaszok automatikus feldolgozása alapján értékelést kap a látogató, valamint számunkra is megtörténik az ügyfélminősítés azzal a bizonyos leadscore technikával és lead jön létre az említett Google Sheet táblázatban, onnan egy kattintással behúzhatjuk ezt az új leadet az ERPNext rendszerünkbe, pontosabban tömegesen az összes kitöltő adataival együtt, ahonnan már az értékesítő kollégák az ERPNext-en belül vihetik tovább a folyamatot.
+
+A hagyományos adat import folyamat mellett a Google Sheet táblázat import is részletesen dokumentálva van a következő címen:
+[https://docs.erpnext.com/docs/v13/user/manual/en/setting-up/data/data-import](https://docs.erpnext.com/docs/v13/user/manual/en/setting-up/data/data-import)
+</content:encoded></item><item><title>Űrlapkészítés ERPNexttel</title><link>https://www.monolithon.com/hu/blog/%C5%B1rlapk%C3%A9sz%C3%ADt%C3%A9s-erpnexttel/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C5%B1rlapk%C3%A9sz%C3%ADt%C3%A9s-erpnexttel/</guid><description>Az online és lássuk be az offline üzlet sem működtethető jó kérdések megfogalmazása nélkül. Erre számtalan lehetőségünk van.</description><pubDate>Mon, 23 Aug 2021 06:09:00 GMT</pubDate><content:encoded>
+Az ERPNext segítségével készíthetünk űrlapokat, sőt gyakorlatilag az összes ERPNext-ben elérhető dokumentumhoz készíthetünk űrlapot, amit akár az ERPNext weboldalán is megjeleníthetjük. Ez nem túl bonyolult, de nem is olyan egyszerű, mint például egy Google űrlappal készített megoldás. Ha valakit az ERPNexttel történő űrlapkészítés részletei érdekelnek, azok minden fontos információt megtalálnak a dokumentációban a következő címen:
+
+&lt;a href=&quot;https://docs.erpnext.com/docs/v12/user/manual/en/website/web-form&quot;&gt;https://docs.erpnext.com/docs/v12/user/manual/en/website/web-form&lt;/a&gt;
+
+&lt;p&gt;Az ERPNext mellett a UX design iránt is érdeklődöm, és bár ebben is folyamatosan fejlődik az ERPNext, az a tapasztalatom, hogy egy mindenre jó eszköz sosem tud bizonyos részterületeken olyan jól teljesíteni, mint egy céleszköz. Így kerül képbe sokaknál a TypeFrom nevű űrlapkészítő online szoftver, amit rengetegen használnak, mert itt minden egyes részlet arra van optimalizálva, hogy a legtöbben töltsék ki a vele készített űrlapokat. Ezt a küldetést ügyesen megfogalmazza a szlogenjében, miszerint &quot;számít, hogyan kérdezel&quot;. Ezzel nagyon tudok azonosulni, azonban a TypeForm nem olcsó, és az ingyenes megoldásával nagyon korlátok közé van szorítva a felhasználó. Ezért kerestem egy szintén mobilra és konverzióra (ami itt a kitöltés) optimalizált űrlapkészítő megoldást, amit szinte korlátozások nélkül használhatunk és a TypeFormhoz hasonló ügyfélélményt nyújt. Ez nem más, mint a&lt;/p&gt;
+
+&lt;a href=&quot;https://tally.so/?ref=monolithon&quot;&gt;Tally.so űrlapkészítő&lt;/a&gt;, amit ráadásul bármilyen weboldalba is beilleszthetsz, ahogy a lenti űrlapon láthatod.
+
+Próbáljátok ki, ha egyik említett megoldást sem használtátok még űrlapkészítésre, de egyből rá fogtok jönni, hogy az ilyen típusú kérdőívet, űrlapot ti is szívesen töltitek ki, hiszen az opciók választása után nem kell tovább gombot nyomni, hanem minden megy gyorsan és flottul. Amiért ezt a témát hoztam, az a következő blogbejegyzés, mert abban már valóban egy ERPNext funkciót fogok bemutatni, és kitaláltátok, az akár az űrlapkészítéshez is kapcsolódhat. Zárójelben még egy érv a külső szoftverek mellett, hogy az ERPNext egy valóban biztos alap, amibe minden adatot, bármilyen forrásból betölthetünk és érdemes is megtenni, viszont ahány felhasználás, annyi felhasználó és nekik viszont nem biztos, hogy az ERPNext felülete a legtökéletesebb kapcsolódási pont. Ilyen lehet még egy headless webáruház, ami gyorsaságával és keresőoptimalizálásával kitűnik a versenytársak webáruházai közül, viszont azt az ERPNextre építve a teljes ügyviteli folyamat továbbra is egy kézben van, ahol a munkatársaiddal valójában az ERPNext-et használod, csak a headless webáruházat használó ügyfeled találkozik egy másik arcával gyakorlatilag ugyanazon adatok másik interpretációjával, de úgy, hogy az neki még jobb ügyfélélményt adjon, neked pedig több konverziót/bevételt/profitot. De erről majd máskor, most lássuk az űrlapkészítéshez is kapcsolódó ERPNext funkciót a következő bejegyzésben...
+
+&lt;iframe src=&quot;https://tally.so/embed/nPAj5m?hideTitle=1&quot; width=&quot;100%&quot; height=&quot;500&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; title=&quot;ERPNext kérdőív&quot;&gt;&lt;/iframe&gt;
+</content:encoded></item><item><title>Woocommerce ERPNext integráció</title><link>https://www.monolithon.com/hu/blog/woocommerce-erpnext-integr%C3%A1ci%C3%B3/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/woocommerce-erpnext-integr%C3%A1ci%C3%B3/</guid><description>Talán azt tudjátok, hogy az ERPNext alapból egy Woocommerce integrációval érkezik. Ami nagyon jól hagzik, de az ördög itt is a részletekben rejlik.</description><pubDate>Mon, 31 May 2021 06:09:00 GMT</pubDate><content:encoded>
+Nincs nagy titok, azért került bele a Woocommerce integráció az ERPNext-be, mert a Woocommerce az egyik legelterjedtebb blogmotorba integrált ecommerce, azaz webáruház megoldás a világon. De ez csak az egyik fele a dolognak. A másik az, hogy jelenleg az ERPNext-ben található beépített webáruház csak bizonyos korlátok között működik. B2B szolgáltatóknak már most megfelelő lehet, mert ott jellemzően olyan vevők vannak, akik előre regisztráltak, vagy mi magunk regisztráltuk őket és adtunk hozzáférést a webáruházhoz. B2C szektorban azonban zavaró lehet, hogy a vásárlási folyamatot megakasztja a kötelező regisztráció, ami nélkül nem lehet befejezni a vásárlást. És ez a kosár funkció hiányosságával együtt már nagyban rombolhatja a konverziót.
+
+Tudják ezt az ERPNext fejlesztők is, ezért is került be az aktuális roadmapbe és már vannak is fejlesztések a témában, részletek itt: [https://discuss.erpnext.com/t/erpnext-roadmap-for-april-2021/73126/3](https://discuss.erpnext.com/t/erpnext-roadmap-for-april-2021/73126/3)
+
+A gyári Woocommerce integráció az alap igényeket bizonyára kielégíti és mint az alaprendszer része, valószínűleg ez egy hosszútávon támogatott funkció és együttműködés lesz, így üzleti szoftverek választásakor ez egy fontos szempont lehet. Azonban azt is érdemes mérlegelni, hogy ez csupán egy alap integráció, amely a termékeket és a rendeléseket szinkronizálja. Így aki komolyabb dolgokra vágyik annak más megoldás után kell néznie.
+
+Az egyik lehetőség az ERPNext Shopify konnektora, de mivel a Shopify fizetős platform, így nem biztos, hogy mindenkinek elnyeri a tetszését, ezért inkább egy külső fejlesztő által készített bővített Woocomerce integrációt ajánlanék. Ez már a termékvariációk és raktárkészlet szinkronizálásra is képes és a tapasztalat azt mutatja, hogy a legújabb v13 ERPNext-tel is használható.
+
+[https://github.com/Muzzy73/WooCommerceConnector](https://github.com/Muzzy73/WooCommerceConnector)
+
+ui: Van még néhány módszer webáruházak és ERPNext szinkronizálásra, de azokról majd egy külön bejegyzés készül.
+</content:encoded></item><item><title>Megjelent az ERPNext 13!</title><link>https://www.monolithon.com/hu/blog/megjelent-az-erpnext-13/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/megjelent-az-erpnext-13/</guid><description>Néhány napja megjelent az ERPNext 13 hivatalos kiadása. Nem aludtam át, csak mi már használjuk egy ideje.</description><pubDate>Fri, 09 Apr 2021 06:09:00 GMT</pubDate><content:encoded>
+Elég sok hibát jelentenek, ahogy az ilyenkor minden szoftvernél megszokott, de úgy tűnik, hogy a friss telepítésekkel nincs gond. Aki ERPNext 12-ről váltana, az várhat még egy kicsit, hogy a fórumon is jelzett hibákat kijavíthassák a fejlesztők. Persze a felhasználók, akár maguk is javíthatják és megoszthatják a kódot az ERPNext közösséggel.
+</content:encoded></item><item><title>Natív Android/IOS app érkezik az ERPNext 13.0-hoz</title><link>https://www.monolithon.com/hu/blog/nat%C3%ADv-android-ios-app-%C3%A9rkezik/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/nat%C3%ADv-android-ios-app-%C3%A9rkezik/</guid><description>Az ERPNext eddig is jól állt a mobilos használat terén, Android és IOS rendszereken is, de most ebben teljesen új korszak kezdődik.</description><pubDate>Wed, 24 Feb 2021 06:09:00 GMT</pubDate><content:encoded>
+A korábbi mobilappal ellentétben nem a responsive design képességeit használják ki, amely valójában egy becsomagolt weboldal volt, hanem az ERPNext API-jának köszönhetően natív appként kerül megújításra. Ez azt teszi lehetővé, hogy a mobilos felhasználhatóság még gördülékenyebb legyen és a mobil erőforrásait jobban kiaknázza, amely stabilabb, gyorsabb működést tesz lehetővé.
+
+És van még valami. Offline, azaz gyenge, vagy akár teljes internet kapcsolat hiányában is működni fog, mert a szinkronizációt megoldja a háttérben, amikor van elérhető internetkapcsolat.
+
+De, hogy egy negatívumot is megemlítsek, ami egyrészt várhatóan csak ideiglenes, másrészt valószínűleg kevesen tudják, hogy miről is szól, de a lényeg hogy a kliens oldali szkripteket egyelőre nem implementálták ebbe az új ERPNext mobilappba, de ami késik, reméljük nem múlik.
+
+Itt van néhány kép az új ERPNext natív mobilalkalmazásról (Android).
+
+## Menü
+
+![Image](/images/natív-android-ios-app-érkezik.jpg)
+
+## Projektek
+
+![Image](/images/W60474r.jpe)
+
+## Taskok
+
+![Image](/images/hKAHTNX.jpe)
+
+## Szállítók
+
+![Image](/images/KPmve8C.jpe)
+</content:encoded></item><item><title>Új kinézetet kap az ERPNext 13.0 verzió</title><link>https://www.monolithon.com/hu/blog/%C3%BAj-kin%C3%A9zetet-kap-az-erpnext-130-verzi%C3%B3/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/%C3%BAj-kin%C3%A9zetet-kap-az-erpnext-130-verzi%C3%B3/</guid><description>Az ERPNext felülete eddig is letisztult volt, de a további egyszerűsítés mellett most már talán szépnek is mondható. Persze ez ízlés kérdése, de a képek alapján mindenki döntse el magának.</description><pubDate>Tue, 23 Feb 2021 06:09:00 GMT</pubDate><content:encoded>
+## Néhány kép a teljesség igénye nélkül az ERPNext 13.0 verzióban debütáló kinézetről
+
+![](/images/új-kinézetet-kap-az-erpnext-130-verzió.png)
+
+![](/images/n8poozx.jpe)
+
+![](/images/rQEumsm.png)
+
+![](/images/Nkig4kq.png)
+
+![](/images/9zMH400.png)
+
+![](/images/FP2Awuh.png)
+
+![](/images/8UaySeQ.png)
+
+![](/images/6DHDi62.png)
+
+![](/images/Bh9PiHf.png)
+
+![](/images/TAabxTX.png)
+
+![](/images/akFwxF8.png)
+
+![](/images/UP26jaZ.png)
+
+![](/images/jtZR6dX.png)
+
+![](/images/h0gJyi2.png)
+</content:encoded></item><item><title>Az első blogbejegyzésem a monolithon.com-on az ERPNext-ről</title><link>https://www.monolithon.com/hu/blog/h%C3%ADr/</link><guid isPermaLink="true">https://www.monolithon.com/hu/blog/h%C3%ADr/</guid><description>Ezt a blogbejegyzést az ERPNext telepítése közben készítettem el, most pedig csak módosítom, hogy megőrizzem az utókor számára.</description><pubDate>Sun, 19 Apr 2020 06:09:00 GMT</pubDate><content:encoded>
+Ezt a blogbejegyzést az ERPNext telepítése közben készítettem el, most pedig csak módosítom, hogy megőrizzem az utókor számára. Igen, 2020. április 19-én indítottam el a monolithon.com-ot és azóta személyes használatra használom az ERPNext-ot. Akkoriban élő környezetben kezdtem használni egy másik domain alatt, miután áttértem egy másik rendszerről. Azelőtt már volt tapasztalatom több saját telepítéssel és felhőalapú ERPNext példányokkal, de ebben az időszakban formálódott a végleges elképzelésem. És egy pillanatig sem bántam meg!
+</content:encoded></item></channel></rss>
