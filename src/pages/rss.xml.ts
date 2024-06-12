@@ -51,6 +51,15 @@ export const get = async () => {
     `./public/rss/blogs.en.xml`,
     Buffer.from(await enRss.arrayBuffer()),
   );
+
+  return rss({
+    title: `Astros`,
+    description: "Astros - Starter Template for Astro with Tailwind CSS",
+    site: import.meta.env.SITE,
+    customData: `<language>en-us</language>`,
+
+    items: [],
+  });
 };
 
 function refactorURl(posts) {
