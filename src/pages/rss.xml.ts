@@ -2,11 +2,11 @@ import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 
 export const get = async () => {
-  const posts = await getCollection("blog", ({ data }) => {
+  const blogPosts = await getCollection("blog", ({ data }) => {
     return !data.draft && data.publishDate < new Date();
   });
   // Sort content entries by publication date
-  posts.sort(function (a, b) {
+  const posts = structuredClone(blogPosts).sort(function (a, b) {
     return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
   });
 
