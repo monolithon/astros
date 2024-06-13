@@ -1,6 +1,5 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
-import fs from "fs";
 
 export const get = async () => {
   const posts = await getCollection("blog", ({ data }) => {
@@ -46,15 +45,15 @@ export const get = async () => {
     })),
   });
 
-  fs.mkdirSync("./public/rss", { recursive: true });
-  fs.writeFileSync(
-    "./public/rss/blogs.hu.xml",
-    Buffer.from(await huRss.arrayBuffer()),
-  );
-  fs.writeFileSync(
-    `./public/rss/blogs.en.xml`,
-    Buffer.from(await enRss.arrayBuffer()),
-  );
+  // fs.mkdirSync("./public/rss", { recursive: true });
+  // fs.writeFileSync(
+  //   "./public/rss/blogs.hu.xml",
+  //   Buffer.from(await huRss.arrayBuffer()),
+  // );
+  // fs.writeFileSync(
+  //   `./public/rss/blogs.en.xml`,
+  //   Buffer.from(await enRss.arrayBuffer()),
+  // );
 
   return rss({
     title: `Astros`,
