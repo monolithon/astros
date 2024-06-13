@@ -11,6 +11,7 @@ snippet: Typical cloud systems, unlike ERPNext, where providers do not price bas
 publishDate: 2022-11-17 11:39
 category:
   - news
+language: en-us
 ---
 
 Typical cloud systems, unlike ERPNext, where providers do not price based on the resources used but on other criteria, also utilize various resources. The details of these resource usages are often hidden from users.

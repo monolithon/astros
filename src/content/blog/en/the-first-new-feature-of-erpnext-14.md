@@ -11,6 +11,7 @@ snippet: You can track on GitHub the new features and improvements that are incl
 publishDate: 2022-04-12 11:39
 category:
   - news
+language: en-us
 ---
 
 The kanban board has been very useful, as it could be used for various purposes, especially in project management. A new, frequently requested feature has now been implemented by an ERPNext development partner with the support of ERPNext/Frappe developers.

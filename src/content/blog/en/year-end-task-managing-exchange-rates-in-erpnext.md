@@ -11,6 +11,7 @@ snippet: ERPNext was already capable of managing current exchange rates, but the
 publishDate: 2022-01-9 11:39
 category:
   - news
+language: en-us
 ---
 
 According to Hungarian regulations, there are three options for managing exchange rates in our accounting:

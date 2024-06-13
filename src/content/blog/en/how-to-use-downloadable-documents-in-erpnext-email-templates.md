@@ -12,6 +12,7 @@ snippet: In this example (for Delivery Note), you can use the following code to 
 publishDate: 2023-05-9 11:39
 category:
   - how-to
+language: en-us
 ---
 
 Example (for Delivery Note):

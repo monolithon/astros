@@ -11,6 +11,7 @@ snippet: Most ERP implementations aim to minimize the use of Excel and automate 
 publishDate: 2021-08-23 11:39
 category:
   - news
+language: en-us
 ---
 
 Why is this post a continuation of the one about form creation? Because I wouldn't recommend using external software alongside ERPNext if it doesn't meet two requirements:

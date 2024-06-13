@@ -11,6 +11,7 @@ snippet: The release of ERPNext 15 was indeed preceded by this year's Frappevers
 publishDate: 2023-11-11 12:39
 category:
   - news
+language: en-us
 ---
 
 The release of ERPNext 15 was indeed preceded by this year's Frappeverse, the ERPNext conference, but largely, it was also about the new version. Therefore, there won't be a separate report on this, unlike in previous years.

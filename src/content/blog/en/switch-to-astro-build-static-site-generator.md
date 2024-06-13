@@ -11,6 +11,7 @@ snippet: A monolithon.com still runs on the ERPNext system, but we have separate
 publishDate: 2023-11-11 11:39
 category:
   - news
+language: en-us
 ---
 
 The blog hasn't ceased to exist, but instead of publishing it in the usual manner, I decided to first announce the transformation of the monolithon.com website.

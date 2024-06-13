@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 A két opció közül döntenünk kell. Az ERPNext használatakor ezt ki kell válaszolnunk és nem célszerű menet közben váltotzatni, de mik is ezek valójában?

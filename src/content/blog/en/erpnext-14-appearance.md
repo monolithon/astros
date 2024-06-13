@@ -11,6 +11,7 @@ snippet: I am delighted to announce that the latest version of ERPNext, ERPNext 
 publishDate: 2022-08-1 11:39
 category:
   - news
+language: en-us
 ---
 
 <img src="/images/files/Screenshot 2022-08-01 at 4.34.44 PM.png">

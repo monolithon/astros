@@ -11,6 +11,7 @@ snippet: Az ERPNext felülete eddig is letisztult volt, de a további egyszerűs
 publishDate: 2021-02-23 11:39
 category:
   - hír
+language: hu
 ---
 
 ## Néhány kép a teljesség igénye nélkül az ERPNext 13.0 verzióban debütáló kinézetről

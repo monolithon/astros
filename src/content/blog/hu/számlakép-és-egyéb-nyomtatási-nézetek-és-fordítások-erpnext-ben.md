@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-09-29 11:39
 category:
   - telepítés-és-beállítás
+language: hu
 ---
 
 Jó tudni, hogy az ERPNext-ben egyedi nyomtatási formátumoknál nem jelenik meg automatikusan a fejléc és lábléc. A fejlécet így lehet beállítani:

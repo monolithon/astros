@@ -11,6 +11,7 @@ snippet: The latest version of Odoo, Odoo 17, has been released. Lots of novelti
 publishDate: 2023-11-11 13:39
 category:
   - news
+language: en-us
 ---
 
 The usual annual Odoo Experience conference this year, as well, introduced the upcoming, latest version of Odoo by Odoo S.A., which is Odoo 17.

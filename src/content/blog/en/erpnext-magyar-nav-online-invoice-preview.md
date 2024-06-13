@@ -11,6 +11,7 @@ snippet: This is how creating customers/suppliers works in ERPNext. We retrieve 
 publishDate: 2022-10-1 11:39
 category:
   - news
+language: en-us
 ---
 
 More details coming soon :)

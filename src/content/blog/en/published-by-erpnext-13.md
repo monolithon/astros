@@ -11,6 +11,7 @@ snippet: ERPNext 13 was officially released a few days ago. We didn't sleep on i
 publishDate: 2021-04-9 11:39
 category:
   - news
+language: en-us
 ---
 
 As with any software release, there are quite a few bugs reported, but it seems that there are no issues with fresh installations. Those who are planning to upgrade from ERPNext 12 might want to wait a bit until the reported bugs are fixed by the developers. Of course, users can also fix and share the code with the ERPNext community.

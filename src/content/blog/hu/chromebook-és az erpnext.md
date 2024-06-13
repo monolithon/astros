@@ -11,6 +11,7 @@ snippet: Régóta készülök egy Chromebook ajánlóval, de most jött el az id
 publishDate: 2023-03-21 11:39
 category:
   - hír
+language: hu
 ---
 
 Mielőtt megosztom a Chromebook-kal kapcsolatos információimat először arra szeretnék választ adni, hogyan kapcsolódik a Chromebook és az ERPNext. Számomra több kapcsolódási pont van, ezért az elején kezdem

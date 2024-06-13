@@ -11,6 +11,7 @@ snippet: There are some important things to know about ERPNext development. ERPN
 publishDate: 2023-02-18 11:39
 category:
   - news
+language: en-us
 ---
 
 I have gathered some information about ERPNext development and useful ERPNext-specific developer tools that can help in understanding the fundamentals of an ERPNext development project. However, whether ERPNext development is worth considering and the conditions for it will be revealed towards the end of this post. Let's explore some key pillars of ERPNext development:

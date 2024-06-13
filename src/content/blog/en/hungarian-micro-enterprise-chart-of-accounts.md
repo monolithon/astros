@@ -11,6 +11,7 @@ snippet: Since ERPNext's foundation is the chart of accounts, we concluded that 
 publishDate: 2022-10-23 11:39
 category:
   - news
+language: en-us
 ---
 
 Hi everyone!

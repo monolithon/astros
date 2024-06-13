@@ -11,6 +11,7 @@ snippet: Az ERPNext-re érdemes úgy tekintenünk, mint egy adattárházra és m
 publishDate: 2023-02-9 11:39
 category:
   - hír
+language: hu
 ---
 
 Azt már több bejegyzésben megemlítettem, hogy ahhoz, hogy üzleti folyamatainkat jól szervezhessük, átláthassunk a káoszon, vagy éppen uraljuk, vagy legalábbis meglovagoljuk a hullámokat a vállalkozás tengerén, ahhoz kell egy jó szoftver. Ezzel kapcsoaltban több iskola létezik. Én azt vallom, hogy a sok sziget jellegű megoldás helyett célszerű egy integrált rendszert választani. Erre kiválóan alkalmas az ERPNext rendszer főleg azért, mert nem úszhatjuk meg bizonyos külső rendszerek integrálását és ezt az ERPNext egyszerűen lehetővé teszi. És ez mégis könnyebb, mint ha minden egyes elemet kellene összekapcsolni és nem lenne egy központi felületünk, hanem minden adat más-más rendszerben lenne.

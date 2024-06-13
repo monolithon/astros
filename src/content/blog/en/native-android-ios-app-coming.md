@@ -11,6 +11,7 @@ snippet: ERPNext has been doing well in terms of mobile usage on both Android an
 publishDate: 2021-02-24 11:39
 category:
   - news
+language: en-us
 ---
 
 Unlike the previous mobile app that merely utilized responsive design, which was essentially a wrapped web page, this time it will be renewed as a native app thanks to the ERPNext API. This will enable smoother mobile usability and better utilization of mobile resources, resulting in a more stable and faster performance.

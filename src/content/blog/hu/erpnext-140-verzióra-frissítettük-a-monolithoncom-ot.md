@@ -11,6 +11,7 @@ snippet: A magyar ERPNext és Frappe portál már a rendszer 14-es verzióján f
 publishDate: 2022-09-28 11:39
 category:
   - hír
+language: hu
 ---
 
 Természetesen ahogy szoktam, már a megjelenés előtt is követtem a híreket és a fejlesztéseket az ERPNext és Frappe 14-es változatával kapcsolatban, és alig vártam, hogy kipróbálhassam. A fejlesztői változattal való ismerkedés után a hivatalos megjelenéskor szintén kipróbáltam és ugyan már akkor sem találkoztam semmilyen hibával mégis, ahogy ilyenkor ajánlatos, még nem frissítettünk azonnal a legújabb rendszerre. Ahogy erről akkor is <a href="https://www.monolithon.com/blog/hirek/erpnext-14-megjelen%C3%A9s" rel="noopener noreferrer">beszámoltam</a>, az új telepítéseknél semmi gond nem volt, de pár bug előjött a korábbi verzióról való frissítés esetén.

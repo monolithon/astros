@@ -11,6 +11,7 @@ snippet: Az ERPNext rendszerben történő könyveléssel kapcsolatban régóta 
 publishDate: 2023-04-07 11:39
 category:
   - hír
+language: hu
 ---
 
 Időtálló szempontokat próbáltam összegyűjteni, ezért nem blogposztként tettem itt közé ezt a cikket, hanem a főmenüből is elérhető [ERPNext könyvelés](https://www.monolithon.com/konyveles) statikus oldalként olvasható a tartalom.

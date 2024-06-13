@@ -11,6 +11,7 @@ snippet: Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az E
 publishDate: 2023-11-11 12:39
 category:
   - hír
+language: hu
 ---
 
 Az ERPNext 15 megjelenését ugyan megelőzte az idei Frappeverse, az ERPNext konferencia, de nagyrészt az is az új verzióról szólt, ezért arról most a korábbi évektől eltérően nem lesz külön beszámoló

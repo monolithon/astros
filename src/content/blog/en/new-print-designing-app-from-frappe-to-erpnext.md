@@ -11,6 +11,7 @@ snippet: Compared to other systems, creating printable or PDF documents with ERP
 publishDate: 2023-07-3 11:39
 category:
   - news
+language: en-us
 ---
 
 In the Hungarian ERPNext knowledge base and manual, we provided some tips for creating printable or PDF documents, and it was clear that creating new documents or converting existing ones was quick and straightforward. Now, Frappe has taken it to a higher level. The previously mentioned tips and tricks are no longer necessary.

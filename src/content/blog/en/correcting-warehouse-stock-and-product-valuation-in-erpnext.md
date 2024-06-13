@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-07-17 11:39
 category:
   - how-to
+language: en-us
 ---
 
 During the use of ERPNext, you may encounter special cases like the following:

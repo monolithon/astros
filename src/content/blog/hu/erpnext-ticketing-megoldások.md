@@ -11,6 +11,7 @@ snippet: Ahol ügyfelek vannak, ott ügyfélkapcsolatok is. És ez a teljes ügy
 publishDate: 2022-07-23 11:39
 category:
   - hír
+language: hu
 ---
 
 Mit kínál erre az ERPNext-et is fejlesztő Frappe csapat? Szokás szerint felforgatják az állóvizet, ahogy tették ezt az első és azóta is egyetlen ingyenes, és nyílt forrású ERP rendszerrel. A jegykezelő, support, támogató vagy ticketing rendszer az egyik olyan terület ami az internet, dotcom-robbanás, webshop-láz után, vagy talán ezekkel együtt durrant be. Az egyik nyertes a ZenDesk lett, akit nagyon nehéz volt megközelíteni, de a FreshDesk nagyon szépen feljött.

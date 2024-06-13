@@ -11,6 +11,7 @@ snippet: I've been planning to write a Chromebook review for a while, and now is
 publishDate: 2023-03-17 11:39
 category:
   - news
+language: en-us
 ---
 
 Before I share my insights on Chromebook, let me first address how Chromebook relates to ERPNext. For me, there are several connections, so let's start from the beginning.

@@ -11,6 +11,7 @@ snippet: Türker TUNALI török kolléga szúrta ki a GitHub tárolóban az új 
 publishDate: 2023-05-9 11:39
 category:
   - hír
+language: hu
 ---
 
 A twitteren tette közé Türker TUNALI az ERPNext-be hamarosan érkező új Workflow Buildert: [https://twitter.com/turker_tunali/status/1653703276842434560](https://twitter.com/turker_tunali/status/1653703276842434560)

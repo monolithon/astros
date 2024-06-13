@@ -11,6 +11,7 @@ snippet: The use of ERPNext system in Hungarian and compliance with Hungarian re
 publishDate: 2022-09-4 11:39
 category:
   - news
+language: en-us
 ---
 
 <img src="/images/mnb-árfolyamok-erpnext-rendszerben.png">

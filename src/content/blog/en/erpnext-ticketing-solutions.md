@@ -11,6 +11,7 @@ snippet: Where there are customers, there are also customer relationships. And t
 publishDate: 2022-07-23 11:39
 category:
   - news
+language: en-us
 ---
 
 What does the team behind ERPNext and Frappe offer for this? As usual, they disrupt the status quo, as they did with the first and only free and open-source ERP system. Ticketing systems, support systems, or customer support systems are one of those areas that exploded with the advent of the internet, the dotcom boom, and perhaps together with the e-commerce frenzy. One of the winners was Zendesk, which was very hard to approach, but FreshDesk also gained significant popularity.

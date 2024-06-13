@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-06-30 11:39
 category:
   - how-to
+language: en-us
 ---
 
 When using ERPNext, we need to choose between two options: Periodic or Real-Time Inventory Valuation. It is not recommended to switch between these options during operation, so let's understand what these mean:

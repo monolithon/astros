@@ -11,6 +11,7 @@ snippet: The Odoo print view editor is not nearly as user-friendly as what Frapp
 publishDate: 2023-07-17 11:39
 category:
   - news
+language: en-us
 ---
 
 The Odoo print view editor is not nearly as user-friendly as what Frappe offers for ERPNext, especially the revamped version showcased in the previous post. However, we don't intend to foster competition, and it's not an either-or situation. As we have mentioned on the blog several times, Monolithon uses and supports various software, including Odoo and n8n, alongside ERPNext and Frappe. We believe in finding the right software for the right task, as there is no one-size-fits-all solution.

@@ -11,6 +11,7 @@ snippet: The Monolithon Approach to ERPNext Hungarian Invoicing
 publishDate: 2023-12-27 18:50
 category:
   - news
+language: en-us
 ---
 
 Why hasn't the ERPNext Hungarian invoicing solution been completed yet?

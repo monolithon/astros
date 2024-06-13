@@ -11,6 +11,7 @@ snippet: Többször felmerül az igény valamilyen wiki szerű oldal létrehozá
 publishDate: 2022-02-8 11:39
 category:
   - hír
+language: hu
 ---
 
 ![Image](/images/wiki-szerű-oldalakat-szeretnék.png)

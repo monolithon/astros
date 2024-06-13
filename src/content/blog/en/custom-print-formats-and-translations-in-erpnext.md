@@ -12,6 +12,7 @@ snippet: ""
 publishDate: 2022-09-29 11:39
 category:
   - how-to
+language: en-us
 ---
 
 It is good to know that in ERPNext, custom print formats do not automatically display the header and footer. You can set the header as follows:

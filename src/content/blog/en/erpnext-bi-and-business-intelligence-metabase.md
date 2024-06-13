@@ -11,6 +11,7 @@ snippet: We should consider ERPNext as a data warehouse and the central storage 
 publishDate: 2023-02-8 11:39
 category:
   - news
+language: en-us
 ---
 
 In several previous posts, I mentioned that to organize and understand our business processes effectively, we need good software. There are several schools of thought on this matter. I believe that instead of using many isolated solutions, it is more beneficial to choose an integrated system. ERPNext is an excellent choice for this purpose, especially because certain external systems need to be integrated anyway, and ERPNext simplifies this process. This is much easier than trying to connect each element individually and not having a central interface, with data scattered across different systems.

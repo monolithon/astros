@@ -11,6 +11,7 @@ snippet: Megjelent a bank szinkronizáló alkalmazásunk ERPNext-hez.
 publishDate: 2023-12-27 13:39
 category:
   - hír
+language: hu
 ---
 
 ERPNext magyar bank szinkronizáció GoCardless integrációval

@@ -11,6 +11,7 @@ snippet: Az ERPNext rugalmasságát, funkciógazdagsát már bemutattam, de azt 
 publishDate: 2023-02-25 11:39
 category:
   - hír
+language: hu
 ---
 
 A VueStoreFront webáruház lényege, hogy nem önálló webáruház, mint a Magento, vagy a Woocommerce, hanem mintegy bármilyen, akár nem webáruház-szoftverek kiterjesztéseként tud működni, ahol a webáruházhoz szükséges adatok rendelkezésre állnak. Ilyen lehet egy ügyviteli rendszer, vagy akár egy ERP, mint az ERPNext. Ez azért nagyon hasznos, mert innentől külön tudjuk a webáruházunk megjelenését leválasztva egyéb rendszereinkről gyorsan felépíteni, testreszabni, új technológiákkal, például sebesség terén üzleti versenyelőnyre szert tenni. Ezzel egy időben nem szükséges az üzleti folyamatainkba belenyúlni, hiszen azok zavartalanul, megszokottan működnek a háttérben. Ezt akár meg is fordíthatjuk, hiszen az újabb vállalkozói generáció hamarabb kezd e-business-be és indít webáruházat, mint hagyományos üzletet, ami itt is megoldható, de egyből egy teljes üzleti szoftvercsomagot kaphat. (ingyenes és nyílt forráskódút!) De a nagy trükk az egészben az, hogy együtt egy közös rendszert alkotnak és nem szinkronziáció történik a két rendszer között például, termékek, képek, megrendelések stb tekintetében, hanem a VueStoreFront webáruház közvetlenül használja ezeket a háttérendszerből és oda is dolgozik, pl rendelések leadásával.

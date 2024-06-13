@@ -11,6 +11,7 @@ snippet: Örömmel jelentem, hogy megjelent az ERPNext legújabb verziója, az E
 publishDate: 2022-08-1 11:39
 category:
   - hír
+language: hu
 ---
 
 ![Image](/files/Screenshot 2022-08-01 at 4.34.44 PM.png)
