@@ -12,8 +12,8 @@ export const get = async () => {
     return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
   });
 
-  const englishBlogs = cloneDeep(posts).filter((post) =>
-    post.slug.startsWith("en/"),
+  const huBlogs = cloneDeep(posts).filter((post) =>
+    post.slug.startsWith("hu/"),
   );
 
   return await rss({
@@ -21,8 +21,8 @@ export const get = async () => {
     description:
       "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
     site: import.meta.env.SITE,
-    customData: "<language>en-us</language>",
-    items: refactorURl(englishBlogs).map((post) => ({
+    customData: "<language>hu</language>",
+    items: refactorURl(huBlogs).map((post) => ({
       title: post.data.title,
       description: post.data.snippet,
       link: post.slug,
