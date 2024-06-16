@@ -24,4 +24,6 @@ pnpm-debug.log*
 
 # for rss
 public/rss/
+public/rss.en.xml
+public/rss.hu.xml
 
