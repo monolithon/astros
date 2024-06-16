@@ -56,7 +56,7 @@ export const get = async () => {
     description:
       "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
     site: import.meta.env.SITE,
-    customData: "<language>hu-hu</language>",
+    customData: "<language>hu</language>",
     items: refactorURl(huBlogs).map((post) => ({
       title: post.data.title,
       description: post.data.snippet,
@@ -82,23 +82,23 @@ export const get = async () => {
   //   pubDate: post.data.publishDate,
   // })),
 
-  fs.mkdirSync("./public/rss", { recursive: true });
   fs.writeFileSync(
-    "./public/rss/blogs.hu.xml",
+    "./public/rss.hu.xml",
     Buffer.from(await huFeed.arrayBuffer()),
   );
   fs.writeFileSync(
-    `./public/rss/blogs.en.xml`,
+    "./public/rss.en.xml",
     Buffer.from(await enFeed.arrayBuffer()),
   );
 
   return rss({
-    title: `Astros`,
-    description: "Astros - Starter Template for Astro with Tailwind CSS",
+    title: "Monolithon - ERPNext, Frappe, Odoo and more",
+    description:
+      "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
     site: import.meta.env.SITE,
-    customData: `<language>en-us</language>`,
+    customData: "<language>en-us</language>",
 
-    items: posts.map((post) => ({
+    items: refactorURl(huBlogs).map((post) => ({
       title: post.data.title,
       description: post.data.snippet,
       link: post.slug,
