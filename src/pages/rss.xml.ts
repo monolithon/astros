@@ -1,59 +1,84 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
+import { Feed } from "feed";
+import fs from "fs";
+import pkg from "lodash";
+const { cloneDeep } = pkg;
 
 export const get = async () => {
   const blogPosts = await getCollection("blog", ({ data }) => {
     return !data.draft && data.publishDate < new Date();
   });
   // Sort content entries by publication date
-  const posts = structuredClone(blogPosts).sort(function (a, b) {
+  const posts = blogPosts.sort(function (a, b) {
     return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
   });
 
-  const englishBlogs = posts.filter((post) => post.slug.startsWith("en/"));
-  const huBlogs = posts.filter((post) => post.slug.startsWith("hu/"));
+  const englishBlogs = cloneDeep(posts).filter((post) =>
+    post.slug.startsWith("en/"),
+  );
+  const huBlogs = cloneDeep(posts).filter((post) =>
+    post.slug.startsWith("hu/"),
+  );
 
-  const enRss = await rss({
+  const enFeed = new Feed({
     title: "Monolithon - ERPNext, Frappe, Odoo and more",
     description:
       "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
-    site: import.meta.env.SITE,
-    customData: `<language>en-us</language>`,
+    id: import.meta.env.SITE,
+    link: import.meta.env.SITE,
+    language: "us-en",
+    copyright: "Monolithon",
+  });
 
-    items: refactorURl(englishBlogs).map((post) => ({
+  refactorURl(englishBlogs).forEach((post) => {
+    enFeed.addItem({
       link: post.slug,
       title: post.data.title,
       description: post.data.snippet,
       content: post.body,
-      pubDate: post.data.publishDate,
-    })),
+      date: post.data.publishDate,
+    });
   });
 
-  const huRss = await rss({
+  // items: refactorURl(englishBlogs).map((post) => ({
+  //   link: post.slug,
+  //   title: post.data.title,
+  //   description: post.data.snippet,
+  //   content: post.body,
+  //   pubDate: post.data.publishDate,
+  // })),
+  const huFeed = new Feed({
     title: "Monolithon - ERPNext, Frappe, Odoo and more",
     description:
       "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
-    site: import.meta.env.SITE,
-    customData: `<language>hu</language>`,
+    // site: import.meta.env.SITE,
+    language: "hu",
+    id: import.meta.env.SITE,
+    link: import.meta.env.SITE,
+    copyright: "Monolithon",
+  });
 
-    items: refactorURl(huBlogs).map((post) => ({
+  refactorURl(huBlogs).forEach((post) => {
+    huFeed.addItem({
       link: post.slug,
       title: post.data.title,
       description: post.data.snippet,
       content: post.body,
-      pubDate: post.data.publishDate,
-    })),
+      date: post.data.publishDate,
+    });
   });
+  // items: refactorURl(huBlogs).map((post) => ({
+  //   link: post.slug,
+  //   title: post.data.title,
+  //   description: post.data.snippet,
+  //   content: post.body,
+  //   pubDate: post.data.publishDate,
+  // })),
 
-  // fs.mkdirSync("./public/rss", { recursive: true });
-  // fs.writeFileSync(
-  //   "./public/rss/blogs.hu.xml",
-  //   Buffer.from(await huRss.arrayBuffer()),
-  // );
-  // fs.writeFileSync(
-  //   `./public/rss/blogs.en.xml`,
-  //   Buffer.from(await enRss.arrayBuffer()),
-  // );
+  fs.mkdirSync("./public/rss", { recursive: true });
+  fs.writeFileSync("./public/rss/blogs.hu.xml", huFeed.rss2());
+  fs.writeFileSync(`./public/rss/blogs.en.xml`, enFeed.rss2());
 
   return rss({
     title: `Astros`,
@@ -61,11 +86,16 @@ export const get = async () => {
     site: import.meta.env.SITE,
     customData: `<language>en-us</language>`,
 
-    items: [],
+    items: posts.map((post) => ({
+      title: post.data.title,
+      description: post.data.snippet,
+      link: post.slug,
+      pubDate: post.data.publishDate,
+    })),
   });
 };
 
-function refactorURl(posts) {
+function refactorURl(posts: any[]): any[] {
   // remove all "hu/ and en/ from the slug"
   return posts.map((post) => {
     post.slug = post.slug.replace("hu/", "hu/blog/");
