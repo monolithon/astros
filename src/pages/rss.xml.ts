@@ -1,6 +1,5 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
-import { Feed } from "feed";
 import fs from "fs";
 import pkg from "lodash";
 const { cloneDeep } = pkg;
@@ -21,25 +20,29 @@ export const get = async () => {
     post.slug.startsWith("hu/"),
   );
 
-  const enFeed = new Feed({
+  const enFeed = await rss({
     title: "Monolithon - ERPNext, Frappe, Odoo and more",
     description:
       "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
-    id: import.meta.env.SITE,
-    link: import.meta.env.SITE,
-    language: "us-en",
-    copyright: "Monolithon",
-  });
-
-  refactorURl(englishBlogs).forEach((post) => {
-    enFeed.addItem({
-      link: post.slug,
+    site: import.meta.env.SITE,
+    customData: "<language>en-us</language>",
+    items: refactorURl(englishBlogs).map((post) => ({
       title: post.data.title,
       description: post.data.snippet,
-      content: post.body,
-      date: post.data.publishDate,
-    });
+      link: post.slug,
+      pubDate: post.data.publishDate,
+    })),
   });
+
+  // refactorURl(englishBlogs).forEach((post) => {
+  //   enFeed.addItem({
+  //     link: post.slug,
+  //     title: post.data.title,
+  //     description: post.data.snippet,
+  //     content: post.body,
+  //     date: post.data.publishDate,
+  //   });
+  // });
 
   // items: refactorURl(englishBlogs).map((post) => ({
   //   link: post.slug,
@@ -48,26 +51,29 @@ export const get = async () => {
   //   content: post.body,
   //   pubDate: post.data.publishDate,
   // })),
-  const huFeed = new Feed({
+  const huFeed = await rss({
     title: "Monolithon - ERPNext, Frappe, Odoo and more",
     description:
       "ERPNext, Odoo, eCommerce, Shopify, Static Site Generator, astro.build, Queue Management System, Frappe, n8n, Mautic",
-    // site: import.meta.env.SITE,
-    language: "hu",
-    id: import.meta.env.SITE,
-    link: import.meta.env.SITE,
-    copyright: "Monolithon",
-  });
-
-  refactorURl(huBlogs).forEach((post) => {
-    huFeed.addItem({
-      link: post.slug,
+    site: import.meta.env.SITE,
+    customData: "<language>hu-hu</language>",
+    items: refactorURl(huBlogs).map((post) => ({
       title: post.data.title,
       description: post.data.snippet,
-      content: post.body,
-      date: post.data.publishDate,
-    });
+      link: post.slug,
+      pubDate: post.data.publishDate,
+    })),
   });
+
+  // refactorURl(huBlogs).forEach((post) => {
+  //   huFeed.addItem({
+  //     link: post.slug,
+  //     title: post.data.title,
+  //     description: post.data.snippet,
+  //     content: post.body,
+  //     date: post.data.publishDate,
+  //   });
+  // });
   // items: refactorURl(huBlogs).map((post) => ({
   //   link: post.slug,
   //   title: post.data.title,
@@ -77,8 +83,14 @@ export const get = async () => {
   // })),
 
   fs.mkdirSync("./public/rss", { recursive: true });
-  fs.writeFileSync("./public/rss/blogs.hu.xml", huFeed.rss2());
-  fs.writeFileSync(`./public/rss/blogs.en.xml`, enFeed.rss2());
+  fs.writeFileSync(
+    "./public/rss/blogs.hu.xml",
+    Buffer.from(await huFeed.arrayBuffer()),
+  );
+  fs.writeFileSync(
+    `./public/rss/blogs.en.xml`,
+    Buffer.from(await enFeed.arrayBuffer()),
+  );
 
   return rss({
     title: `Astros`,
