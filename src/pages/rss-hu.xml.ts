@@ -26,6 +26,7 @@ export const get = async () => {
       title: post.data.title,
       description: post.data.snippet,
       link: post.slug,
+      content: post.body,
       pubDate: post.data.publishDate,
     })),
   });
