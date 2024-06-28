@@ -101,6 +101,7 @@ const makeTitle = title
       data-service="Google Analytics"
       is:inline
     >
+      console.log("triggered by cookie chimp");
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -110,6 +111,7 @@ const makeTitle = title
       gtag("config", "P4LTKG3");
     </script>
     <script type="text/plain" data-category="analytics" is:inline>
+      console.log("triggered by cookie chimp v2");
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
