@@ -187,30 +187,29 @@ const makeTitle = title
     </script>
     <script src="https://www.googletagmanager.com/gtag/js?id=P4LTKG3" is:inline
     ></script>
-    <script is:inline>
-      window.addEventListener("cc:onConsent", function (event) {
-        if (CookieConsent.acceptedService("analytics")) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-          gtag("js", new Date());
+    <script
+      type="text/plain"
+      data-category="analytics"
+      data-service="Google Analytics"
+    >
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-          gtag("config", "P4LTKG3");
-        }
-
-        if (CookieConsent.acceptedService("Google Analytics", "analytics")) {
-          console.log("got mailchimp cookie consent");
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-          gtag("js", new Date());
-
-          gtag("config", "P4LTKG3");
-        }
-      });
+      gtag("config", "P4LTKG3");
     </script>
+    <script type="text/plain" data-category="analytics" is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "P4LTKG3");
+    </script>
+
     <Footer />
   </body>
 </html>
