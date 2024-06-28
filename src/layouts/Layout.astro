@@ -185,20 +185,19 @@ const makeTitle = title
         },
       });
     </script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=P4LTKG3"
-      is:inline></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=P4LTKG3" is:inline
+    ></script>
     <script is:inline>
       window.addEventListener("cc:onConsent", function (event) {
         if (CookieConsent.acceptedService("Google Analytics", "analytics")) {
+          console.log("got mailchimp cookie consent");
           window.dataLayer = window.dataLayer || [];
           function gtag() {
             dataLayer.push(arguments);
           }
           gtag("js", new Date());
 
-          gtag("config", "TAG_ID");
+          gtag("config", "P4LTKG3");
         }
       });
     </script>
