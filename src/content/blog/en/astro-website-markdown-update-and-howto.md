@@ -1,5 +1,5 @@
 ---
-title: Státusz és Astro Markdown frissítése és használata
+title: Status and updating/using Astro with Markdown
 draft: false
 author: Admin
 tags:
