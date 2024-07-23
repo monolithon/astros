@@ -185,6 +185,8 @@ export const blog = {
     "erpnext-hungarian-compliance-fundamentals",
   "erpnext-hungarian-compliance-fundamentals":
     "erpnext-magyar-szamlazas-megkozelites",
+  "astro-website-markdown-update-and-howto":
+    "astro-weboldal-markdown-frissites-es-hasznalat",
 };
 
 export const links = {
