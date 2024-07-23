@@ -187,6 +187,8 @@ export const blog = {
     "erpnext-magyar-szamlazas-megkozelites",
   "astro-website-markdown-update-and-howto":
     "astro-weboldal-markdown-frissites-es-hasznalat",
+  "astro-weboldal-markdown-frissites-es-hasznalat":
+    "astro-website-markdown-update-and-howto",
 };
 
 export const links = {
