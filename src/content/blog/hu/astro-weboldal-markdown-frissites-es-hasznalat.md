@@ -5,10 +5,10 @@ author: Admin
 tags:
   - Astro
 image:
-  src: /a-14-es-verzió-első-új-funkicója.png
+  src: /Astro-Markdown.webp
   alt: ERPNext
 snippet: A kulcs a tartalmak átalakítása Markdown formátummá! Így nem kell bajlódnunk a formázásokkal és HTML kódok írásával,
-publishDate: 2022-04-12 11:39
+publishDate: 2024-07-23 20:00
 category:
   - hír
 language: hu
