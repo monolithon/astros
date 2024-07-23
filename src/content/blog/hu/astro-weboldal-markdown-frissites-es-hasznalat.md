@@ -6,7 +6,7 @@ tags:
   - Astro
 image:
   src: /Astro-Markdown.webp
-  alt: ERPNext
+  alt: Astro Markdown
 snippet: A kulcs a tartalmak átalakítása Markdown formátummá! Így nem kell bajlódnunk a formázásokkal és HTML kódok írásával,
 publishDate: 2024-07-23 20:00
 category:
