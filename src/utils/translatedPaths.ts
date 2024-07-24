@@ -220,6 +220,7 @@ export const links = {
   support: "ügyfélszolgálat",
   partners: "partnerek",
   erpnext: "erpnext",
+  Other: "Egyéb",
   "privacy-policy": "privacy-policy",
   "refund-policy": "refund-policy",
   "terms-conditions": "terms-conditions",
