@@ -2,8 +2,6 @@
 title: Hogyan figyelhetjük üzleti partnereinket automatikusan drága cégadatbázis előfizetés nélkül?
 draft: false
 author: Admin
-tags:
-  - Egyéb
 image:
   src: /ingyenes-cegfigyeles.webp
   alt: Partnerfigyelés ingyen

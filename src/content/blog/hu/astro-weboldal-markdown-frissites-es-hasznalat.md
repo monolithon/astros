@@ -21,3 +21,7 @@ A háttérben keményen dolgoztunk az oldalon is, ami miatt toltuk az új tartal
 Ha te is belevágnál az Astro használatába és nem kérsz segítséget tőlünk, azt javasoljuk, hogy a Markdown formátummal kezdd el az írást, és arra építsd a weboldalad vagy blogod. Ez hosszútávon nagyon megkönnyíti az életed. Például, sokkal egyszerűbb lesz a tartalmak szerkesztése VSCode-dal, mivel több szuper Markdown beépülő modul elérhető. Vagy akár használhatod a GitHubot is az íráshoz, így teljesen online is szerkesztheted a tartalmakat, ami még kényelmesebb.
 
 ![Image 1](/images/Astro-Markdown.webp)
+
+A [stackedit.io](https://stackedit.io/) használatát ajánljuk, mert stabil, kényelmes és egyszerű. Zavaró tényezőktől mentes Markdown szerkesztést kínál felhasználóbarát felülettel, amely böngészőből elérhető. 
+
+[![StackEdit MarkDown Editor](/images/StackEdit-Astro-MarkDown-Editor.webp 'Partnerfigyelés ingyen - Videó')](https://stackedit.io/)
