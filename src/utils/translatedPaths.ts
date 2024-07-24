@@ -9,6 +9,8 @@ export const tag = {
   news: "hír",
   "telepítés-és-beállítás": "how-to",
   "how-to": "telepítés-és-beállítás",
+  "Other": "Egyéb",
+  "Egyéb": "Other",
 };
 export const blog = {
   kapcsolat: "contact",
