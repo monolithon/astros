@@ -21,3 +21,7 @@ In the background, we've been working hard on the site, which has delayed the pu
 If you want to start using Astro and don't need our help, we recommend starting with writing in Markdown format and building your website or blog around it. This will make your life much easier in the long run. For example, editing content with VSCode will be much simpler since there are many great Markdown plugins available. Or you can even use GitHub for writing, allowing you to edit content entirely online, which is even more convenient.
 
 ![Image 1](/images/Astro-Markdown.webp)
+
+We recommend [stackedit.io](https://stackedit.io/) for its powerful, distraction-free Markdown editing with a user-friendly interface.
+
+[![StackEdit MarkDown Editor](/images/StackEdit-Astro-MarkDown-Editor.webp 'Partnerfigyelés ingyen - Videó')](https://stackedit.io/)
