@@ -1,5 +1,5 @@
 ---
-title: Hogyan figyelhetjük üzleti partnereinket automatikusan ingyenesen drága cégadatbázis előfizetések nélkül?
+title: Hogyan figyelhetjük üzleti partnereinket automatikusan drága cégadatbázis előfizetés nélkül?
 draft: true
 author: Admin
 tags:
@@ -55,4 +55,4 @@ Az üzleti partnerek információinak rendszeres nyomon követése elengedhetetl
 
 ## Videó az ingyenes cégadatbázisból nyert cég információk automatizációjáról
 
-![Image 1](/images/Astro-Markdown.webp)
+[![Partnerfigyelés ingyen](/images/ingyenes-cegfigyeles.webp 'Partnerfigyelés ingyen - Videó')](https://youtu.be/aI_N2VflwRg)
