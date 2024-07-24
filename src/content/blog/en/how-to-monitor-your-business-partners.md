@@ -2,6 +2,8 @@
 title: How to monitor your business partners automatically without expensive company database subscriptions?
 draft: false
 author: Admin
+tags:
+  - Other
 image:
   src: /ingyenes-cegfigyeles.webp
   alt: Partner Monitoring for free
