@@ -189,6 +189,10 @@ export const blog = {
     "astro-weboldal-markdown-frissites-es-hasznalat",
   "astro-weboldal-markdown-frissites-es-hasznalat":
     "astro-website-markdown-update-and-howto",
+  "hogyan-figyelhetjuk-uzleti-partnereinket":
+    "how-to-monitor-your-business-partners",
+  "how-to-monitor-your-business-partners":
+    "hogyan-figyelhetjuk-uzleti-partnereinket",
 };
 
 export const links = {
