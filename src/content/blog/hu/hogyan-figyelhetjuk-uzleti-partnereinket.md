@@ -1,6 +1,6 @@
 ---
 title: Hogyan figyelhetjük üzleti partnereinket automatikusan drága cégadatbázis előfizetés nélkül?
-draft: true
+draft: false
 author: Admin
 tags:
   - Astro
