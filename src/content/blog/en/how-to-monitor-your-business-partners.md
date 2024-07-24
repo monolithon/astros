@@ -3,14 +3,14 @@ title: How to monitor your business partners automatically without expensive com
 draft: false
 author: Admin
 tags:
-  - Üzlet
+  - 
 image:
   src: /ingyenes-cegfigyeles.webp
   alt: Partner Monitoring for free
 snippet: How to automatically monitor your business partners for free without expensive company database subscriptions.
 publishDate: 2024-07-24 11:41
 category:
-  - News
+  - news
 language: en
 ---
 
