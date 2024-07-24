@@ -14,7 +14,6 @@ category:
 language: hu
 ---
 
-
 ## Az üzleti partnerek nyomonkövetése: alapvető információk és automatikus értesítések
 
 Az üzleti világban az aktuális információk ismerete kulcsfontosságú lehet, különösen, ha partnereink és ügyfeleink megbízhatóságáról van szó. Bár a napi munka során nem mindig jut idő minden egyes cég részletes nyomon követésére, léteznek megoldások, amelyek segíthetnek a legfontosabb információkhoz való hozzáférésben, méghozzá automatikus értesítések révén.
@@ -22,11 +21,8 @@ Az üzleti világban az aktuális információk ismerete kulcsfontosságú lehet
 ## Miért fontos az üzleti partnerek követése?
 
 1.  **Pénzügyi stabilitás felmérése**: Az üzleti partnerek pénzügyi helyzete közvetlenül befolyásolhatja a velük való együttműködés sikerességét. A felszámolási eljárások vagy egyéb jogi problémák időben történő felismerése segíthet megelőzni a lehetséges veszteségeket.
-    
 2.  **Jogszabályi követelmények betartása**: Az éves üzleti beszámolók közzététele jogszabályi kötelezettség, és ennek elmulasztása jelezheti a cég problémáit vagy nemtörődömségét.
-    
 3.  **Bizalmi viszony erősítése**: Az üzleti partnerekről szóló információk rendszeres követése növeli a bizalmat, hiszen mutatja az elkötelezettséget a transzparens és megbízható üzleti gyakorlatok iránt.
-    
 
 ## Hogyan követhetjük nyomon a partnereinket?
 
@@ -42,8 +38,8 @@ A trackly.io egy olyan változásfigyelő eszköz, amely ingyenes verziójában 
 
 Figyelhetjük a teljes oldalon történő változásokat, vagy kiválaszthatjuk csak a számunkra fontos részeket. Alapvetően két dolog érdekel bennünket:
 
--   Van-e eljárás vagy felszámolás a cég ellen?
--   Közzétette-e már a cég az előző évi üzleti beszámolóját?
+- Van-e eljárás vagy felszámolás a cég ellen?
+- Közzétette-e már a cég az előző évi üzleti beszámolóját?
 
 Mivel ez a bejegyzés részben technikai és üzleti témát is érint, érdemes megemlíteni, hogy ha egy magyar cég beszámolóját szeretnénk megnézni, azt a [e-beszamolo.im.gov.hu](https://e-beszamolo.im.gov.hu/oldal/kezdolap) oldalon találjuk.
 
@@ -55,4 +51,4 @@ Az üzleti partnerek információinak rendszeres nyomon követése elengedhetetl
 
 ## Videó az ingyenes cégadatbázisból nyert cég információk automatizációjáról
 
-[![Partnerfigyelés ingyen](/images/ingyenes-cegfigyeles.webp 'Partnerfigyelés ingyen - Videó')](https://youtu.be/aI_N2VflwRg)
+[![Partnerfigyelés ingyen](/images/ingyenes-cegfigyeles.webp "Partnerfigyelés ingyen - Videó")](https://youtu.be/aI_N2VflwRg)
