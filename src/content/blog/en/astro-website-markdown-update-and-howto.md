@@ -24,4 +24,4 @@ If you want to start using Astro and don't need our help, we recommend starting 
 
 We recommend [stackedit.io](https://stackedit.io/) for its powerful, distraction-free Markdown editing with a user-friendly interface.
 
-[![StackEdit MarkDown Editor](/images/StackEdit-Astro-MarkDown-Editor.webp 'Partnerfigyelés ingyen - Videó')](https://stackedit.io/)
+[![StackEdit MarkDown Editor for Astro](/images/StackEdit-Astro-MarkDown-Editor.webp 'StackEdit MarkDown Editor for Astro')](https://stackedit.io/)

@@ -24,4 +24,4 @@ Ha te is belevágnál az Astro használatába és nem kérsz segítséget tőlü
 
 A [stackedit.io](https://stackedit.io/) használatát ajánljuk, mert stabil, kényelmes és egyszerű. Zavaró tényezőktől mentes Markdown szerkesztést kínál felhasználóbarát felülettel, amely böngészőből elérhető. 
 
-[![StackEdit MarkDown Editor](/images/StackEdit-Astro-MarkDown-Editor.webp 'Partnerfigyelés ingyen - Videó')](https://stackedit.io/)
+[![StackEdit MarkDown Editor for Astro](/images/StackEdit-Astro-MarkDown-Editor.webp 'StackEdit MarkDown Editor for Astro')](https://stackedit.io/)
