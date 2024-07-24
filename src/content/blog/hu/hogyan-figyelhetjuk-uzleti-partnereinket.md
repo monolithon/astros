@@ -3,7 +3,7 @@ title: Hogyan figyelhetjük üzleti partnereinket automatikusan drága cégadatb
 draft: false
 author: Admin
 tags:
-  - Egyéb
+  - Other
 image:
   src: /ingyenes-cegfigyeles.webp
   alt: Partnerfigyelés ingyen
