@@ -1,6 +1,5 @@
 ---
 import Container from "@components/container.astro";
-import Newsletter from "@components/EmailForm.astro";
 import Layout from "@layouts/Layout.astro";
 import { getArticleReadingTime } from "@utils/blog";
 import { localizePath } from "astro-i18next";
@@ -44,7 +43,7 @@ const htmlString = `{
 }`
 ---
 
-<script type="application/ld+json" set:html={htmlString}>
+<script type="application/ld+json" set:html={JSON.stringify(htmlString)}>
 </script>
 <Layout title={post.data.title} lang={lang}>
   <Container>
@@ -92,13 +91,13 @@ const htmlString = `{
       </div>
     </div>
 
-    <Newsletter />
+    <!-- <Newsletter /> -->
     <div
       class="mx-auto prose prose-lg dark:prose-invert mt-6 dark:text-gray-200"
     >
       <Content />
     </div>
-    <Newsletter />
+    <!-- <Newsletter /> -->
     <div class="mx-auto mt-20">
       <a href={localizePath("/blog")}>
         <div
