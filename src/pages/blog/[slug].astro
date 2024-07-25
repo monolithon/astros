@@ -1,5 +1,6 @@
 ---
 import Container from "@components/container.astro";
+import Newsletter from "@components/EmailForm.astro";
 import Layout from "@layouts/Layout.astro";
 import { getArticleReadingTime } from "@utils/blog";
 import { localizePath } from "astro-i18next";
@@ -35,15 +36,15 @@ const readTime = getArticleReadingTime(post.body);
 const htmlString = `{
     "@context": "https://schema.org",
     "@type": "VideoObject",
-    "name": ${post.data.title},
-    "description": ${post.data.snippet.slice(0, 150)},
+    "name": "${post.data.title}",
+    "description": "${post.data.snippet.slice(0, 150)}",
     "thumbnailUrl": "https://www.monolithon.com/images/ingyenes-cegfigyeles.webp",
     "uploadDate": "2024-07-24",
     "duration": "PT11M30S"
 }`
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(htmlString)}>
+<script type="application/ld+json" set:html={htmlString}>
 </script>
 <Layout title={post.data.title} lang={lang}>
   <Container>
@@ -91,13 +92,13 @@ const htmlString = `{
       </div>
     </div>
 
-    <!-- <Newsletter /> -->
+    <Newsletter />
     <div
       class="mx-auto prose prose-lg dark:prose-invert mt-6 dark:text-gray-200"
     >
       <Content />
     </div>
-    <!-- <Newsletter /> -->
+    <Newsletter />
     <div class="mx-auto mt-20">
       <a href={localizePath("/blog")}>
         <div
