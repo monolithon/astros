@@ -16,6 +16,10 @@ const blogCollection = defineCollection({
     category: z.array(z.string()),
     tags: z.array(z.string()),
     language: z.string().default("hu"),
+    video: z.boolean().default(false),
+    videoThumbnail: z.string().optional(),
+  }).refine((data) => !data.video || data.videoThumbnail, {
+    message: "videoThumbnail is required if video is true",
   }),
 });
 

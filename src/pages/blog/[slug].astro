@@ -1,6 +1,7 @@
 ---
 import Container from "@components/container.astro";
 import Newsletter from "@components/EmailForm.astro";
+import JsonLdSchema from "@components/jsonLdSchema.astro";
 import Layout from "@layouts/Layout.astro";
 import { getArticleReadingTime } from "@utils/blog";
 import { localizePath } from "astro-i18next";
@@ -28,25 +29,14 @@ export async function getStaticPaths() {
   });
 }
 // Get the post directly from the prop on render
-const { post, lang } = Astro.props;
+const { post } = Astro.props;
 const { data, render } = post;
 const { Content } = await render();
 const readTime = getArticleReadingTime(post.body);
-
-const htmlString = `{
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": "${post.data.title}",
-    "description": "${post.data.snippet.slice(0, 150)}",
-    "thumbnailUrl": "https://www.monolithon.com/images/ingyenes-cegfigyeles.webp",
-    "uploadDate": "2024-07-24",
-    "duration": "PT11M30S"
-}`
 ---
 
-<script type="application/ld+json" set:html={htmlString}>
-</script>
-<Layout title={post.data.title} lang={lang}>
+<Layout title={post.data.title} lang={post.data.language}>
+  {post.data.video && <JsonLdSchema slot="rich-text-schema" {...data} />}
   <Container>
     <div class="mx-auto prose prose-lg dark:prose-invert mt-14">
       <a
