@@ -36,7 +36,11 @@ const readTime = getArticleReadingTime(post.body);
 ---
 
 <Layout title={post.data.title} lang={post.data.language}>
-  {post.data.video && <JsonLdSchema slot="rich-text-schema" {...data} />}
+  {
+    post.data.videoThumbnail && (
+      <JsonLdSchema slot="rich-text-schema" {...data} />
+    )
+  }
   <Container>
     <div class="mx-auto prose prose-lg dark:prose-invert mt-14">
       <a

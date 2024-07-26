@@ -12,7 +12,6 @@ publishDate: 2024-07-24 11:41
 category:
   - hír
 language: hu
-video: true
 videoThumbnail: https://www.monolithon.com/images/ingyenes-cegfigyeles.webp
 ---
 
