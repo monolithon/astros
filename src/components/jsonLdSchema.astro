@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type Props = CollectionEntry<"blog">["data"];
+const { title, publishDate, snippet, videoThumbnail } = Astro.props;
+
+const htmlString = `{
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "${title}",
+    "description": "${snippet.slice(0, 568)}",
+    "thumbnailUrl": "${videoThumbnail}",
+    "uploadDate": "${publishDate.toISOString().substring(0, 10)}",
+    "duration": "PT11M30S"
+}`;
+---
+
+<script type="application/ld+json" set:html={htmlString} />

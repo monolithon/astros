@@ -16,7 +16,8 @@ const blogCollection = defineCollection({
     category: z.array(z.string()),
     tags: z.array(z.string()),
     language: z.string().default("hu"),
-  }),
+    videoThumbnail: z.string().optional(),
+  })
 });
 
 const teamCollection = defineCollection({

@@ -1,9 +1,9 @@
 ---
-import i18next, { changeLanguage } from "i18next";
-import { getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import LandingBody from "@components/landingBody.astro";
+import Layout from "@layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import i18next, { changeLanguage } from "i18next";
 
 changeLanguage("en");
 
@@ -26,7 +26,9 @@ const allPosts = async () => {
     };
   });
   // Filter posts based on the current language
-  const localizedPosts = processedPosts.filter((post) => post.lang === i18next.language);
+  const localizedPosts = processedPosts.filter(
+    (post) => post.lang === i18next.language,
+  );
   localizedPosts.sort(function (a, b) {
     return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
   });
@@ -38,11 +40,13 @@ export async function getStaticPaths({ paginate }) {
     params: { blog: "blog" || undefined },
   });
 }
-const page = localizedPosts.filter((post) => post.data.category.includes("news"));
+const page = localizedPosts.filter((post) =>
+  post.data.category.includes("news"),
+);
 ---
 
 <Layout title="ERPNext, Frappe, Odoo and more" lang="en">
-	<Container>
-		<LandingBody page={page}/>
-	</Container>
+  <Container>
+    <LandingBody page={page} />
+  </Container>
 </Layout>

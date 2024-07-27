@@ -12,8 +12,8 @@ publishDate: 2024-07-24 11:41
 category:
   - news
 language: en
+videoThumbnail: https://www.monolithon.com/images/ingyenes-cegfigyeles.webp
 ---
-
 
 ## Tracking Business Partners: Essential Information and Automated Notifications
 
@@ -22,11 +22,8 @@ In the business world, staying informed about the latest developments, especiall
 ## Why is Tracking Business Partners Important?
 
 1.  **Assessing Financial Stability**: The financial status of business partners can directly impact the success of our collaboration. Identifying liquidation procedures or other legal issues early can help prevent potential losses.
-    
 2.  **Compliance with Legal Requirements**: Publishing annual business reports is a legal obligation, and failure to do so can indicate issues or negligence within the company.
-    
 3.  **Building Trust**: Regularly monitoring information about business partners increases trust, as it demonstrates a commitment to transparent and reliable business practices.
-    
 
 ## How Can We Track Our Partners?
 
@@ -44,8 +41,8 @@ Trackly.io is a change monitoring tool that allows tracking of up to three pages
 
 We can track changes across the entire page or select only the sections that are important to us. Essentially, we are interested in two main things:
 
--   Are there any proceedings or liquidation actions against the company?
--   Has the company published its previous year's business report?
+- Are there any proceedings or liquidation actions against the company?
+- Has the company published its previous year's business report?
 
 As this post touches on both technical and business topics, it's worth noting that if we want to view a Hungarian company's report, we can find it on [e-beszamolo.im.gov.hu](https://e-beszamolo.im.gov.hu/oldal/kezdolap).
 
@@ -57,4 +54,4 @@ Regularly tracking information about business partners is essential for maintain
 
 ## Video on Automating Company Information Extraction from Free Company Databases
 
-[![Partnerfigyelés ingyen](/images/ingyenes-cegfigyeles.webp 'Partnerfigyelés ingyen - Videó')](https://youtu.be/aI_N2VflwRg)
+[![Partnerfigyelés ingyen](/images/ingyenes-cegfigyeles.webp "Partnerfigyelés ingyen - Videó")](https://youtu.be/aI_N2VflwRg)
