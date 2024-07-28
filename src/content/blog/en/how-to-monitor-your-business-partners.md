@@ -13,6 +13,7 @@ category:
   - news
 language: en
 videoThumbnail: https://www.monolithon.com/images/ingyenes-cegfigyeles.webp
+videoContentUrl: https://youtu.be/aI_N2VflwRg
 ---
 
 ## Tracking Business Partners: Essential Information and Automated Notifications

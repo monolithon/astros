@@ -17,6 +17,7 @@ const blogCollection = defineCollection({
     tags: z.array(z.string()),
     language: z.string().default("hu"),
     videoThumbnail: z.string().optional(),
+    videoContentUrl: z.string().optional(),
   })
 });
 

@@ -13,6 +13,7 @@ category:
   - hír
 language: hu
 videoThumbnail: https://www.monolithon.com/images/ingyenes-cegfigyeles.webp
+videoContentUrl: https://youtu.be/aI_N2VflwRg
 ---
 
 ## Az üzleti partnerek nyomonkövetése: alapvető információk és automatikus értesítések
