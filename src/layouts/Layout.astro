@@ -34,20 +34,18 @@ const makeTitle = title
 
     <meta name="googlebot" content="index, follow" />
     <slot name="rich-text-schema" />
-
-    <script>
-      document.addEventListener("astro:page-load", loadChimp);
-      function loadChimp() {
-        let scripEle = document.createElement("script");
-        scripEle.setAttribute(
-          "src",
-          "https://cookiechimp.com/widget/N8ptMm.js",
-        );
-        scripEle.setAttribute("data-astro-exec", "");
-        document.head.appendChild(scripEle);
+    <script is:inline>
+      function runCookieChimp() {
+        var script = document.createElement("script");
+        script.src = "https://cookiechimp.com/widget/N8ptMm.js";
+        script.id = "cookiechimp-js";
+        document.head.appendChild(script);
       }
+
+      // for Astro JS.
+      // listen for other events for different frameworks.
+      document.addEventListener("astro:page-load", runCookieChimp);
     </script>
-    <script src="https://cookiechimp.com/widget/N8ptMm.js" is:inline></script>
     <link
       rel="icon"
       type="image/svg+xml"
