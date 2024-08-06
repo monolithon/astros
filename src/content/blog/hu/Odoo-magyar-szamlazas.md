@@ -20,7 +20,7 @@ Ebben a magyar nyelvű Odoo dokumentációban bemutatjuk, hogyan állíthatod be
 
 [![Odoo magyar számlázás](/images/odoo-magyar-szamlazas.webp "Odoo magyar számlázás - Videó")](https://youtu.be/TbdS810s68U)
 
-Nézd meg a videót amelyet néhány extra információval is kiegészítettünk, vagy kövesd lépésről lépésre az Odoo magyar számlázás beállítását. 
+Nézd meg a videót amelyet néhány extra információval is kiegészítettünk, vagy kövesd lépésről lépésre az Odoo magyar számlázás beállítását: 
 
 ### 1\. Kattints a bal felső Odoo főmenüre
 
@@ -126,7 +126,7 @@ Nézd meg a videót amelyet néhány extra információval is kiegészítettünk
 
 ![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/d7ea47d4-0838-4d90-92f6-d337b33e25ab/2.5/11.145833134651/33.515260365088?1)
 
-### 27\. Állítsd át Individual típusra, ha magánszemélyről van szó és add meg a cím datokat
+### 27\. Állítsd át Individual típusra, ha magánszemélyről van szó és add meg a cím adatokat
 
 ![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/45508046-eea2-44ab-8963-a1d3e929a306/2.5/2.1354166169961/15.59272372107?1)
 
