@@ -1,9 +1,9 @@
 ---
-import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
-import Layout from "@layouts/Layout.astro";
 import NewsLetter from "@components/EmailFormhu.astro";
 import Link from "@components/ui/link.astro";
+import Layout from "@layouts/Layout.astro";
+import { changeLanguage } from "i18next";
 changeLanguage("hu");
 ---
 
@@ -25,6 +25,13 @@ changeLanguage("hu");
 				</div>
 			</div>
 			<div class="flex flex-col items-center">
+				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+					<h2 class="font-bold text-3xl mb-10">Odoo magyar számlázás</h2>
+					<p class="list-disc text-lg leading-7 space-y-5]">
+						Az Odoo magyar számlázás aktuális, naprakész információit a következő oldalon találod:</br>
+						<a href="https://www.monolithon.com/hu/blog/odoo-magyar-szamlazas/">https://www.monolithon.com/hu/blog/odoo-magyar-szamlazas/</a>
+					</p>
+				</section>
 				<section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
 					<h2 class="font-bold text-3xl mb-10">TinyERP-től az OpenERP-n át az Odoo-ig</h2>
 					<p class="list-disc text-lg leading-7 space-y-5]">
