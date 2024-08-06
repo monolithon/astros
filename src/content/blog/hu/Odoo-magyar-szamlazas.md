@@ -10,7 +10,7 @@ image:
 snippet: Odoo magyar számlázás ingyen és NAV bekötés és beállítás leírás és videó segédlet.
 publishDate: 2024-08-06 20:40
 category:
-  - hír
+  - telepítés-és-beállítás
 language: hu
 videoThumbnail: https://www.monolithon.com/images/odoo-magyar-szamlazas.webp
 videoContentUrl: https://youtu.be/TbdS810s68U
