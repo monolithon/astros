@@ -1,5 +1,5 @@
 ---
-title: Odoo magyar számlázás ingyen és NAV bekötés és beállítás
+title: Odoo magyar számlázás ingyen és NAV bekötés, beállítás
 draft: false
 author: Admin
 tags:
