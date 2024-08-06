@@ -24,11 +24,11 @@ Nézd meg a videót amelyet néhány extra információval is kiegészítettünk
 
 ### 1\. Kattints a bal felső Odoo főmenüre
 
-![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/6c5a37f6-36f0-4220-bf62-6d6d8659792b/2.5/0/0?1)
+![](/images/01.webp)
 
 ### 2\. Válaszd ki a Setttings menüpontot
 
-![](https://d3q7ie80jbiqey.cloudfront.net/media/image/zoom/b5d1f754-20f2-4ef2-a524-bfcce68b074a/2.5/0.052083334109435/71.267607066553?1)
+![](/images/02.webp)
 
 ### 3\. Lentebb görgetve láthatod az Odoo verzióját
 
