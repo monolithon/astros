@@ -18,7 +18,7 @@ videoContentUrl: https://youtu.be/TbdS810s68U
 
 Ebben a magyar nyelvű Odoo dokumentációban bemutatjuk, hogyan állíthatod be az Odoo rendszerben a magyar számlázást és a NAV adatszolgáltatást. Kövesd lépésről lépésre az útmutatót, és tanuld meg, hogyan használd ingyenesen az Odoo-t a hazai követelményeknek megfelelően. 
 
-[![Odoo magyar számlázás](/images/ingyenes-cegfigyeles.webp "Odoo magyar számlázás - Videó")](https://youtu.be/TbdS810s68U)
+[![Odoo magyar számlázás](/images/odoo-magyar-szamlazas.webp "Odoo magyar számlázás - Videó")](https://youtu.be/TbdS810s68U)
 
 Nézd meg a videót amelyet néhány extra információval is kiegészítettünk, vagy kövesd lépésről lépésre az Odoo magyar számlázás beállítását. 
 
