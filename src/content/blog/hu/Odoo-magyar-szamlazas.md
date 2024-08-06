@@ -3,7 +3,7 @@ title: Odoo magyar számlázás ingyen és NAV bekötés és beállítás
 draft: false
 author: Admin
 tags:
-  - Other
+  - odoo
 image:
   src: /odoo-magyar-szamlazas.webp
   alt: Odoo magyar számlázás
