@@ -8,7 +8,7 @@ image:
   src: /odoo-magyar-szamlazas.webp
   alt: Odoo magyar számlázás
 snippet: Odoo magyar számlázás ingyen és NAV bekötés és beállítás leírás és videó segédlet.
-publishDate: 2024-08-05 18:15
+publishDate: 2024-08-06 20:40
 category:
   - hír
 language: hu
@@ -68,7 +68,7 @@ Nézd meg a videót amelyet néhány extra információval is kiegészítettünk
 
 ### 12\. Majd a megjelenő listából az újonnan létrejott HU Company-t válaszd ki
 
-![](/images/02.webp)
+![](/images/12.webp)
 
 ### 13\. A HU Company-ba átlépve válaszd a Users & Company menüpontot a Settings-en belül
 
