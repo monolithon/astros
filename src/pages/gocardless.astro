@@ -50,13 +50,14 @@ const response = await fetch(fetchUrl, {
   headers: headersList,
 });
 
-const responseFromPaddle = await response.text();
+const responseFromPaddle = await response.json();
 
-const data = JSON.parse(responseFromPaddle).data.filter(
+const data = responseFromPaddle.data.filter(
   (item: PaddleProduct) =>
-    (item.status === "active" && item.product_id === productID1) ||
-    productID2 ||
-    productID3,
+    item.status === "active" &&
+    (item.product_id === productID1 ||
+      item.product_id === productID2 ||
+      item.product_id === productID3),
 ) as PaddleProduct[];
 
 const pricingData = [
