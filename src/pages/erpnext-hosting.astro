@@ -1,45 +1,116 @@
 ---
-import { changeLanguage } from "i18next";
 import Container from "@components/container.astro";
-import Layout from "@layouts/Layout.astro";
 import NewsLetter from "@components/EmailForm.astro";
-import Link from "@components/ui/link.astro";
+import Pricing from "@components/pricing.astro";
+import Layout from "@layouts/Layout.astro";
+import { changeLanguage } from "i18next";
+import type { PaddleProduct } from "./gocardless.astro";
 changeLanguage("en");
+
+const productID1 = import.meta.env.PRODUCT_ID_4;
+const productID2 = import.meta.env.PRODUCT_ID_5;
+
+const headersList = {
+  Accept: "*/*",
+  Authorization: `Bearer ${import.meta.env.PADDLE_API_KEY}`,
+};
+
+const fetchUrl = (
+  import.meta.env.PUBLIC_ENVIRONMENT === "development"
+    ? "https://sandbox-api.paddle.com/prices"
+    : "https://api.paddle.com/prices"
+) as string;
+
+const response = await fetch(fetchUrl, {
+  method: "GET",
+  headers: headersList,
+});
+
+const responseFromPaddle = await response.text();
+
+const data = JSON.parse(responseFromPaddle).data.filter(
+  (item: PaddleProduct) =>
+    item.status === "active" && item.product_id === productID1,
+) as PaddleProduct[];
+
+const pricingData = [
+  {
+    name: "ERPNext 25",
+    price: "€10",
+    popular: true,
+    features: [
+      "CPU Time per day: 2 Hours",
+      "Database: 1 GB",
+      "Storage: 25 GB",
+      "Automated backups",
+      "Offsite backups",
+      "GoCardless Integration",
+    ],
+    button: {
+      text: "Order now!",
+      link: "path_header.primary_button_text",
+    },
+    paddlePriceId: data[0].id,
+    quantity: 1,
+  },
+];
 ---
 
 <Layout lang="en" title="ERPNext Hosting">
-	<Container>
-		<div class="px-5 pt-10">
-      <div class="flex justify-between items-center text-[#192734] dark:text-white h-auto md:flex-row flex-col pb-12 md:pb-1">
-				<div class="flex flex-col h-full justify-center basis-3/5">
-					<h1 class="text-4xl md:text-5xl leading-none font-semibold">ERPNext & Frappe Hosting</h1>
-					<h2 class="text-xl text-[#192734] dark:text-white my-4">ERPNext hosting in the Cloud</h2>
-				<div>
-					<Link href="/contact/">
-						Lets Talk!
-					</Link>
-				</div>
-				</div>
+  <Container>
+    <div class="px-5 pt-10">
+      <div
+        class="flex justify-between items-center text-[#192734] dark:text-white h-auto md:flex-row flex-col pb-12 md:pb-1"
+      >
+        <div class="flex flex-col h-full justify-center basis-3/5">
+          <h1 class="text-4xl md:text-5xl leading-none font-semibold">
+            ERPNext & Frappe Hosting
+          </h1>
+          <h2 class="text-xl text-[#192734] dark:text-white my-4">
+            ERPNext hosting in the Cloud
+          </h2>
+        </div>
         <div class="mt-10 md:mt-0 basis-1/2 overflow-hidden">
-					<img class="w-full" src="/images/erpnext-hosting.png" alt="" />
-				</div>
-			</div>
-<div class="flex flex-col items-center">
-    <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
-        <h2 class="font-bold text-3xl mb-10">Convinient ERPNext & Frappe managed or self-service hosting</h2>
-        <p class="text-lg mt-20 dark:text-white text-[#1F2634]">
-            ERPNext hosting requires expertise and specific technical conditions. After years of collaboration with various partners,
-            we have found an ERPNext provider we happily recommend. ERPNext cannot be hosted on shared hosting, and managed VPS and server
-            services usually belong to higher price categories. Therefore, we are pleased to introduce the ERPNext cloud service, where
-            monolithon.com, the popular Hungarian ERPNext promotion site, is also hosted.
-            <br><br>
-                The Frappe Cloud, developed, operated, and optimized by ERPNext developers, is, in our opinion, the best ERPNext hosting
-                service, and that's why we recommend and use it. 
-    </section>
-    <section id="contact-form-2">
-        <NewsLetter />
-    </section>
-</div>
-		</div>
-	</Container>
+          <img class="w-full" src="/images/erpnext-hosting.png" alt="" />
+        </div>
+      </div>
+
+      <section>
+        <div
+          class="grid md:grid-cols-1 gap-10 mx-auto place-items-center max-w-4xl mt-20"
+          id="pricing"
+        >
+          {
+            pricingData.map((item, index) => (
+              <Pricing key={index} plan={item} />
+            ))
+          }
+        </div>
+      </section>
+
+      <div class="flex flex-col items-center">
+        <section class="py-8 px-4 md:w-2/3 text-[#192734] dark:text-white">
+          <h2 class="font-bold text-3xl mb-10">
+            Convinient ERPNext & Frappe managed or self-service hosting
+          </h2>
+          <p class="text-lg mt-20 dark:text-white text-[#1F2634]">
+            ERPNext hosting requires expertise and specific technical
+            conditions. After years of collaboration with various partners, we
+            have found an ERPNext provider we happily recommend. ERPNext cannot
+            be hosted on shared hosting, and managed VPS and server services
+            usually belong to higher price categories. Therefore, we are pleased
+            to introduce the ERPNext cloud service, where monolithon.com, the
+            popular Hungarian ERPNext promotion site, is also hosted.
+            <br /><br />
+             The Frappe Cloud, developed, operated, and optimized by ERPNext
+            developers, is, in our opinion, the best ERPNext hosting service,
+            and that's why we recommend and use it.
+          </p>
+          <section id="contact-form-2">
+            <NewsLetter />
+          </section>
+        </section>
+      </div>
+    </div>
+  </Container>
 </Layout>
